@@ -26,45 +26,59 @@ As telas do site são apresentadas em detalhes nos itens que se seguem e apresen
 ## Tela - Home-Page
 Com base na estrutura padrão, o Contéudo apresenta o botão "Ver Vagas", um resumo das últimas vagas postadas, empresas parceiras e depoimentos de usuário.
 
-![home page tela 4](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t4-oportunidades-de-trabalho/blob/10e00c8631e6c15f67916f8ee2476c48f6f2bbee/docs/img/tela_4.png)
+![home page tela 4](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t4-oportunidades-de-trabalho/blob/10e00c8631e6c15f67916f8ee2476c48f6f2bbee/docs/img/tela_4.png)Tela 4
 
 ## Tela - Login
 Na tela de login o usuário poderá acessar sua área privada informando seu login e senha ou/se preferir entrar pelo Google ou Linkedin. Além disso empresas que não possuem cadastro poderão se cadastrar.
 
-![login tela 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t4-oportunidades-de-trabalho/blob/b6d092049056171c72bea86f90868eb9dc4ffb40/docs/img/tela_1.png)
+![login tela 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t4-oportunidades-de-trabalho/blob/b6d092049056171c72bea86f90868eb9dc4ffb40/docs/img/tela_1.png)Tela 1
 
 ## Tela - Cadastro
 
 Empresas poderão informar seus dados para efetuar cadastro no site.
 
-![cadastro tela 2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t4-oportunidades-de-trabalho/blob/b6d092049056171c72bea86f90868eb9dc4ffb40/docs/img/tela_2.png)
+![cadastro tela 2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t4-oportunidades-de-trabalho/blob/b6d092049056171c72bea86f90868eb9dc4ffb40/docs/img/tela_2.png)Tela 2
+
+## Tela - Sobre Empresa
+
+Apresenta determinada empresa e suas últimas vagas postadas
+
+![Sobre Empresa tela 3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t4-oportunidades-de-trabalho/blob/b6d092049056171c72bea86f90868eb9dc4ffb40/docs/img/tela_3.png)Tela 3
 
 ## Tela - Lista de Vagas
 Apresenta uma lista de vagas com um resumo da descrição e habilidades requeridas
 
-![lista de vagas tela 5](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t4-oportunidades-de-trabalho/blob/9770190531526104165977ece998ef7f06cc82f6/docs/img/tela_5.png)
+![lista de vagas tela 5](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t4-oportunidades-de-trabalho/blob/9770190531526104165977ece998ef7f06cc82f6/docs/img/tela_5.png)Tela 5
 
 ## Tela - Detalhes de Vaga
 Apresenta uma descrição completa da vaga em questão, habilidades requeridas/diferenciais e um meio de se candidatar a vaga.
 
-![tela_6 vaga X](https://user-images.githubusercontent.com/111669748/194727852-4e0d4fb2-a0a0-48bc-af36-0fa97bf8257e.png)
+![tela_6 vaga X](https://user-images.githubusercontent.com/111669748/194727852-4e0d4fb2-a0a0-48bc-af36-0fa97bf8257e.png)Tela 6
 
 ## Tela - Resumo Geral
  Apresenta os cargos e habilidades mais requisitas pelas empresas cadastradas no site.
  
- ![resumo geral tela 7](https://user-images.githubusercontent.com/111669748/194728451-e9775217-6f79-46b9-a999-9986d7916bfe.png)
+ ![resumo geral tela 7](https://user-images.githubusercontent.com/111669748/194728451-e9775217-6f79-46b9-a999-9986d7916bfe.png)Tela 7
 
 ## Tela - Descrição de Skill
 
 Apresenta detalhes da habilidade em questão, além de mostrar quais vagas a solicitaram e uma sugestão de onde se especializar nessa habilidade.
 
-![Descrição de Skill tela 8](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t4-oportunidades-de-trabalho/blob/b6d092049056171c72bea86f90868eb9dc4ffb40/docs/img/tela_8.png)
+![Descrição de Skill tela 8](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t4-oportunidades-de-trabalho/blob/b6d092049056171c72bea86f90868eb9dc4ffb40/docs/img/tela_8.png)Tela 8
 
 ## Tela - Descrição de Cargo
 
 Apresenta detalhes do cargo em questão, além de mostrar quais habilidades são essenciais, vagas em aberto e empresas que procuram esse cargo.
 
-![descrição de cargo tela 9](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t4-oportunidades-de-trabalho/blob/b6d092049056171c72bea86f90868eb9dc4ffb40/docs/img/tela_9.png)
+![descrição de cargo tela 9](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t4-oportunidades-de-trabalho/blob/b6d092049056171c72bea86f90868eb9dc4ffb40/docs/img/tela_9.png)Tela 9
+
+## Tela - Perfil de Empresa
+
+Apresenta descrição da empresa, valores e últimas contratações.
+
+![perfil da empresa tela 10](https://user-images.githubusercontent.com/111669748/194728757-d8420727-90bf-421f-9009-df3e7a399744.png)Tela 10
+
+
 
 
 
