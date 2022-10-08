@@ -25,5 +25,6 @@ As telas do site são apresentadas em detalhes nos itens que se seguem e apresen
 
 ## Tela - Home-Page
 Com base na estrutura padrão, o Contéudo apresenta o botão "Ver Vagas", um resumo das últimas vagas postadas, empresas parceiras e depoimentos de usuário.
+
 ![home page](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t4-oportunidades-de-trabalho/blob/10e00c8631e6c15f67916f8ee2476c48f6f2bbee/docs/img/tela_4.png)
 
