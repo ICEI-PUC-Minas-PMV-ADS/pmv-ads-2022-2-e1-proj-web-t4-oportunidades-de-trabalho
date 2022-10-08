@@ -28,6 +28,17 @@ Com base na estrutura padrão, o Contéudo apresenta o botão "Ver Vagas", um re
 
 ![home page tela 4](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t4-oportunidades-de-trabalho/blob/10e00c8631e6c15f67916f8ee2476c48f6f2bbee/docs/img/tela_4.png)
 
+## Tela - Login
+Na tela de login o usuário poderá acessar sua área privada informando seu login e senha ou/se preferir entrar pelo Google ou Linkedin. Além disso empresas que não possuem cadastro poderão se cadastrar.
+
+![login tela 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t4-oportunidades-de-trabalho/blob/b6d092049056171c72bea86f90868eb9dc4ffb40/docs/img/tela_1.png)
+
+## Tela - Cadastro
+
+Empresas poderão informar seus dados para efetuar cadastro no site.
+
+![cadastro tela 2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t4-oportunidades-de-trabalho/blob/b6d092049056171c72bea86f90868eb9dc4ffb40/docs/img/tela_2.png)
+
 ## Tela - Lista de Vagas
 Apresenta uma lista de vagas com um resumo da descrição e habilidades requeridas
 
