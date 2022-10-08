@@ -2,72 +2,111 @@
 
 <span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
 
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
+Aqui abordaremos como o software é estruturado em termos dos componentes que fazem parte da solução.
 
 ## Diagrama de componentes
 
-Diagrama que permite a modelagem física de um sistema, através da visão dos seus componentes e relacionamentos entre os mesmos.
+O Diagrama permite a modelagem física de um sistema, através da visão dos seus componentes e relacionamentos entre os mesmos, assim definindo componentes que serão utilizados durante o desenvolvimento da solução.
 
-Exemplo: 
 
-Os componentes que fazem parte da solução são apresentados na Figura XX.
+Os componentes que fazem parte da solução são apresentados na Figura diagramaDeComponentes.
 
-![Diagrama de Componentes](img/componentes.png)
-<center>Figura XX - Arquitetura da Solução</center>
+![Diagrama DeC omponentes](img/diagramaDeComponentes.png)
+<center>Figura diagramaDeComponentes - Arquitetura da Solução</center>
 
 A solução implementada conta com os seguintes módulos:
 - **Navegador** - Interface básica do sistema  
   - **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
-   - **Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles: 
-     - **Canais** - seções de notícias apresentadas 
-     - **Comentários** - registro de opiniões dos usuários sobre as notícias
-     - **Preferidas** - lista de notícias mantidas para leitura e acesso posterior
- - **News API** - plataforma que permite o acesso às notícias exibidas no site.
- - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
+   - **Local Storage** - Armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles: 
+     - **Empresas** - Informações de registro, descritivos da empresa e lista de vagas.
+     - **Vagas** - Lista de vagas contendo informações pertinentes a vaga como salario, cargos etc.
+     - **Habilidades** - Lista de habilidades para informar os usuários sobre as habilidades mais valorizadas dentre as com ofertas de vagas no site.  
+     - **Cargos** - Lista de cargos para informar os usuários sobre os cargos mais valorizados dentre as ofertas de vaga no site
+ - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador (Heroku). 
+ - **Bootstrap** - CSS framework gratuito open-source com o objetivo de gerar designs responsivos entre mobile/web 
 
-> **Links Úteis**:
->
-> - [Whimsical](https://whimsical.com/)
 
-Inclua um diagrama da solução e descreva os módulos e as tecnologias que fazem parte da solução. Discorra sobre o diagrama.
+## Tecnologias utilizadas
+
+Uma breve descrição das tecnologias utilizadas em nossa solução.
+
+- `HTML`: É uma linguagem de marcação utilizada na construção e estruturação de páginas na Web.
+
+- `CSS`: É a sigla para o termo em inglês Cascading Style Sheets, e é utilizada para estilizar paginas Web.
+
+- `JavaScript`: É uma linguagem de programação comumente utilizada com HTML e CSS para controlar e definir funcionalidades.
+
+- `AutoCAD`: Ferramenta de desenhos de projetos 2d/3d precisos.
+
+- `Lucid`: Ferramenta para criação de diagramas.
+
+- `MarvelApp`: Ferramenta para criar protótipos com maior estilização e facilidade.
+
+- `Trello`: Ferramenta para organização de tarefas e distribuição de atividades.
+
+- `WhatsApp`: Ferramenta para comunicação da equipe e acompanhamento de tarefas.
+
+- `Discord`: Ferramenta para video conferencias e reuniões da equipe.
+
+- `Git, GitHub, GitHub Desktop`: Ferramenta para organização e versionamento do projeto.
+
+- `Visual Studio Code`: (IDE) Editor de código para agilizar o trabalho e aumentar produtividade.
+
+- `Heroku`: Plataforma em nuvem para hospedagem da aplicação.
+
+
+## Fluxo de usuário
+
+A seguir será introduzido um fluxo de usuário simplificado para melhor entendimento
+de nossa solução, e por ultimo uma imagem com o fluxo completo.
 
 A imagem a seguir ilustra a o fluxo do usuário em nossa solução. Assim
 que o usuário entra na plataforma, ele é apresentado à tela inicial
-(Tela 1) onde ele é confrontado com as opões de editar seu perfil ou
-então visualizar sua galeria.
+(Tela 4) onde ele vê um breve resumo das ultimas vagas postadas alguns
+depoimentos de usuários e é confrontado com as opções de ver vagas,
+ver resumo ou se identificar como empresa.
 
-Caso ele opte por seguir pelo primeiro caminho (Editar Perfil), ele é
-redirecionado para a tela de edição de perfil (Tela 2), onde pode
-atualizar seus dados cadastrais. Nessa tela, o usuário também pode
-escolher para editar sua foto de perfil. Ao selecionar essa opção, ele é
-redirecionado para a Tela 3, onde ele a imagem expandida do perfil do
-usuário é mostrado. Ao selecionar a opção para atualizar a imagem, uma
-nova janela abre pedindo para o usuário fazer o upload da nova foto.
-Assim que o processo termina um pop-up exibe o status para o usuário
-(Tela 4) e o usuário é redirecionado para a Tela 2.
+Caso ele opte por seguir como empresa (Sou empresa), ele é
+redirecionado para a tela de login (Tela 1), onde pode
+efetuar login e será redirecionado para o perfil da empresa (Tela 3)
+ou optar por se registrar 
 
-Caso o usuário opte seguir pelo segundo caminho (Visualizar Galeria) ele
-é redirecionado para a Tela 5 com todas as fotos que o usuário possui. O
-usuário pode clicar em um post qualquer para visualizar os detalhes do
-post (Tela 6). Nessa tela, ele pode então escolher editar o post, sendo
-redirecionado para a Tela 7. Ao editar as informações, o usuário pode
-escolher salvar ou deletar o post. Em ambos os casos o status é
-notificado para o usuário (Tela 8) e em seguida ele é redirecionado
-para a Tela 2.
+Caso ele opte por se registrar ele sera redirecionado para a tela (Tela 2),
+onde preencherá suas informações e ao fim será redirecionado
+para o perfil da empresa (Tela 3)
 
-![Exemplo de UserFlow](img/userflow.jpg)
+Caso ele opte por ver resumo, ele será redirecionado para a tela
+de resumo do mês onde poderá ver um resumo das habilidades
+e cargos mais requisitados (Tela 7) e terá as opções de 
+clicar em uma habilidade ou cargo
 
+Caso ele opte por ver um cargo especifico, será redirecionado para
+a visualização desse cargo com informações sobre salario, descrição
+e até mesmo links de estudo (Tela 9)
 
-## Tecnologias Utilizadas
+Caso opte por ver uma habilidade em especifico, será redirecionado para
+a visualização dessa habilidade com informações sobre salario, descrição
+e até mesmo links de estudo (Tela 8)
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+Caso ele opte por seguir em ver vagas, ele é redirecionado para a 
+visualização de vagas em lista (Tela 5), aqui ele possui a liberdade
+de realizar filtros e em seguida escolher uma vaga, no qual ele será
+redirecionado para a visualização completa da vaga (Tela 6) onde ele
+tem a opção de visualizar o perfil da empresa.
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+Caso ele opte por seguir em perfil da empresa (Tela 10) ele terá um
+descritivo da empresa contratante e outras vagas postadas por essa
+empresa.
+
+Em qualquer momento o usuario pode clicar no titulo da pagina (Raccoon)
+para voltar a tela inicial (Tela 4)
+
+![Exemplo de fluxo de usuario](img/fluxoDeUsuario.pdf)
 
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+Hospedagem ainda não realizada.
 
 > **Links Úteis**:
 >
