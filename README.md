@@ -10,7 +10,7 @@ O presente trabalho consiste na criação de uma ferramenta web de divulgação 
 
 ## Integrantes
 
-*Bruno Martins dos Santos
+* Bruno Martins dos Santos
 * Elpidio Lomeu Junior
 * Pedro Gouvêa Sangi Rocha
 * Pietro Emmanuel Ferreira do Vale
