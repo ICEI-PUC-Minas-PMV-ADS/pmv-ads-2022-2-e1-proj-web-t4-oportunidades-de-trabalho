@@ -1,13 +1,10 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Em um mundo cada vez mais tecnológico e conectado, o profissional de TI se torna cada vez mais necessário nas empresas e o mercado demonstra a valorização desse profissional. Segundo a Associação das Empresas de Tecnologia da Infor-mação e Comunicação (TIC) e de Tecnologias Digitais (Brasscom) (2021), a deman-da por profissionais de TI pode chegar até 797 mil profissionais até o ano de 2025. O mesmo estudo também aponta que a média de salário desses profissionais é de R$5.028,00 – 2,5 vezes maior que a média de salários de outras profissões.
+O profissional contemporâneo tem, no entanto, o dever de se manter atualizado e qualificado para atender as demandas das empresas em um setor que passa por constantes mudanças e inovações. No entanto, embora a qualificação tenha sido facilitada com a existência de cursos de capacitação e certificação à distância, o de-safio atual consiste em determinar quais são as ferramentas e tecnologias mais de-mandadas pelo mercado em cada momento para que o profissional busque tal qua-lificação. 
+São muitas as fontes de dados a respeito de quais habilidades são necessárias em cada carreira e, por vezes, essas fontes se mostram contraditórias. Por exemplo, em artigo publicado pela UniAteneu (2022), “Áreas da TI como segurança da infor-mação, business intelligence, big data, data analytics, mobile, computação em nu-vem e infraestrutura possuem alguns dos profissionais mais requisitados (...)”, en-quanto em matéria da Bússola (2021) “Entre as demandas identificadas pela asso-ciação está a de desenvolvedores, principalmente em nichos como Java, Full Stack, UX, Design Thinking e Agile.”
+Assim, é necessário que haja uma ferramenta que não apenas faça a conexão entre os profissionais que estão disponíveis para oportunidades de trabalho e em-presas com contratações em aberto, mas também faça a síntese dos dados das habi-lidades e conhecimentos mais demandados pelo mercado em cada momento e en-tregue aos profissionais essa informação de maneira simplificada.
 
-## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
