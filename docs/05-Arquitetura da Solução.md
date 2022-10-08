@@ -58,7 +58,7 @@ Uma breve descrição das tecnologias utilizadas em nossa solução.
 ## Fluxo de usuário
 
 A seguir será introduzido um fluxo de usuário simplificado para melhor entendimento
-de nossa solução, e por ultimo uma imagem com o fluxo completo.
+de nossa solução, e por ultimo uma imagem com o fluxo completo e o endereço do pdf.
 
 A imagem a seguir ilustra a o fluxo do usuário em nossa solução. Assim
 que o usuário entra na plataforma, ele é apresentado à tela inicial
@@ -101,8 +101,10 @@ empresa.
 Em qualquer momento o usuario pode clicar no titulo da pagina (Raccoon)
 para voltar a tela inicial (Tela 4)
 
-![Exemplo de fluxo de usuario](img/fluxoDeUsuario.pdf)
+![Exemplo de fluxo de usuario](img/fluxoDeUsuarioImagem.png)
 
+O fluxo completo em pdf poderá ser encontrado em (img/fluxoDeUsuario.pdf)
+Para uma melhor leitura.
 
 ## Hospedagem
 
