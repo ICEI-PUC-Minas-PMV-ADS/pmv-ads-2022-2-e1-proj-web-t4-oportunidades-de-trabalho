@@ -49,7 +49,16 @@ Apresenta uma descrição completa da vaga em questão, habilidades requeridas/d
 
 ![tela_6 vaga X](https://user-images.githubusercontent.com/111669748/194727852-4e0d4fb2-a0a0-48bc-af36-0fa97bf8257e.png)
 
+## Tela - Resumo Geral
+ Apresenta os cargos e habilidades mais requisitas pelas empresas cadastradas no site.
+ 
+ ![resumo geral tela 7](https://user-images.githubusercontent.com/111669748/194728451-e9775217-6f79-46b9-a999-9986d7916bfe.png)
 
+## Tela - Descrição de Skill
+
+Apresenta detalhes da habilidade em questão, além de mostrar quais vagas a solicitaram e uma sugestão de onde se especializar nessa habilidade.
+
+![Descrição de Skill tela 8](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t4-oportunidades-de-trabalho/blob/b6d092049056171c72bea86f90868eb9dc4ffb40/docs/img/tela_8.png)
 
 
 
