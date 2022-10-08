@@ -60,7 +60,7 @@ A equipe está organizada da seguinte maneira:
 
 ### **Processo**
 
-Para botar o Scrum em prática no projeto fizemos uso do Trello, e estruturamos o projeto usando as seguintes listas:
+Para botar o Scrum em prática no projeto foi feito uso do Trello, e o projeto foi estruturado usando as seguintes listas:
 
 - **Recursos:** Uma lista que armazena os templates de cada estágio das tarefas, facilitando a criação de novas tarefas dentro de um padrão já preestabelecido. O objetivo é permitir a cópia destes templates para agilizar a criação de novos cartões.
 
