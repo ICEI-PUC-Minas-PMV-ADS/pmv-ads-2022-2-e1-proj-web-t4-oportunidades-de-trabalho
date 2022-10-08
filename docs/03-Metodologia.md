@@ -1,11 +1,12 @@
+# **Metodologia**
 
-# Metodologia
+<span style="color:gold"><strong>Pré-requisitos: </strong><a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
+A metodologia nada mais é que o conjunto de normas predefinidas que serão empregadas na elaboração do projeto. Além de também definir a princípio quais ferramentas serão usadas na elaboração do projeto do ínicio ao fim, e como a equipe se organizará e distribuirá as tarefas no decorrer do mesmo.
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+<br>
 
-## Controle de Versão
+## **Controle de Versão**
 
 A ferramenta de controle de versão adotada no projeto foi o
 [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
@@ -27,51 +28,73 @@ etiquetas:
 - `feature`: uma nova funcionalidade precisa ser introduzida
 
 Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
+O controle de versão adotado no projeto foi usando o [git](https://git-scm.com/), e como principal ferramenta facilitadora para o versionamento foi usado o GitHub.
 
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
+<br>
 
-## Gerenciamento de Projeto
+## **Gerenciamento de Projeto**
 
-### Divisão de Papéis
+<br>
 
-Apresente a divisão de papéis entre os membros do grupo.
+### **Divisão de Papéis**
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+A equipe optou pelo Scrum como a principal metodologia ágil que será usada na gestão e construção do projeto.
 
-### Processo
+A equipe está organizada da seguinte maneira:
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+<ul>
+<li><strong>Scrum Master:</strong> Elpidio Lomeu Junior</li>
+<li><strong>Product Owner:</strong> Pedro Gouvêa Sangi Rocha</li>
+<li><strong>Equipe de Desenvolvimento e Design:</strong></li>
+<ul>
+  <li>Bruno Martins dos Santos</li>
+  <li>Pietro Emmanuel Ferreira do Vale</li>
+  <li>Vitor Hugo Silva Carvalho</li>
+</ul>
+<li><strong>Equipe de Design:</strong></li>
+<ul>
+   <li>Shinji Matsumoto Fernandes</li>
+</ul></ul>
 
-### Ferramentas
+<br>
 
-As ferramentas empregadas no projeto são:
+### **Processo**
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+Para botar o Scrum em prática no projeto fizemos uso do Trello, e estruturamos o projeto usando as seguintes listas:
 
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
+- **Recursos:** Uma lista que armazena os templates de cada estágio das tarefas, facilitando a criação de novas tarefas dentro de um padrão já preestabelecido. O objetivo é permitir a cópia destes templates para agilizar a criação de novos cartões.
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+- **Backlog:** recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
+
+- **Sprint:** Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.
+
+- **Doing:** Quando uma tarefa tiver sido iniciada, ela é movida para cá.
+
+- **Testing:** Checagem de Qualidade. Quando as tarefas são concluídas, eles são movidas para o “CQ”. No final da semana, eu revejo essa lista para garantir que tudo saiu perfeito.
+
+- **Done:** nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
+
+<br>
+
+### **Ferramentas**
+
+As principais ferramentas empregadas no projeto são:
+
+- [Trello](https://trello.com/) (Gerenciamento do Projeto)
+- [Discord](https://discord.gg) (Ferramenta de comunicação)
+- [Whatsapp](https://www.whatsapp.com/?lang=pt_br) (Ferramenta de comunicação)
+- [Marvelapp](https://marvelapp.com/) (Ferramentas de desenho de tela)
+- [Autocad](https://www.autodesk.com.br/education/home) (Ferramentas de desenho de tela)
+- [Visual Studio Code](https://code.visualstudio.com/) (Edição de código)
+- [GitHub](https://github.com/) (Hospedagem de código-fonte e VCS)
+- [Git](https://git-scm.com/) (Versionamento de código)
+- [GitHub Pages](https://pages.github.com/) (Hospedagem do Projeto em Nuvem)
+- [Heroku](https://www.heroku.com/) (Hospedagem do Projeto em Nuvem)
+
+  <br>
+
+O [Visual Studio Code](https://code.visualstudio.com/), o editor de código, foi escolhido porque ele possui uma integração com o [GitHub](https://github.com/) para realizar o versionamento de código.
+
+As ferramentas de comunicação utilizadas, [Whatsapp](https://www.whatsapp.com/?lang=pt_br) por ser uma ferramenta que o grupo já domina, usado para discussões mais breves, e o [Discord](https://discord.gg) para reuniões semanais com o grupo em canais de voz, além de compartilhamento de arquivos relacionados ao projeto, e discussões em geral que sejam mais longas.
+
+Por fim, para criar os diagramas foi usado o Autocad para realizar um breve esboço, e posteriormente foi realizada a criação dos wireframes, com uma maior estilização no [Marvelapp](https://marvelapp.com/), por ser um software com versão gratuita, que permite a edição de um mesmo arquivo por um grupo de pessoas simultaneamente.
