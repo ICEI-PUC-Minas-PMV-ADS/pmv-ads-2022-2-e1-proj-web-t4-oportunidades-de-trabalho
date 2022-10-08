@@ -60,5 +60,11 @@ Apresenta detalhes da habilidade em questão, além de mostrar quais vagas a sol
 
 ![Descrição de Skill tela 8](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t4-oportunidades-de-trabalho/blob/b6d092049056171c72bea86f90868eb9dc4ffb40/docs/img/tela_8.png)
 
+## Tela - Descrição de Cargo
+
+Apresenta detalhes do cargo em questão, além de mostrar quais habilidades são essenciais, vagas em aberto e empresas que procuram esse cargo.
+
+![descrição de cargo tela 9](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t4-oportunidades-de-trabalho/blob/b6d092049056171c72bea86f90868eb9dc4ffb40/docs/img/tela_9.png)
+
 
 
