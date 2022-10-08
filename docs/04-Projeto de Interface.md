@@ -33,5 +33,12 @@ Apresenta uma lista de vagas com um resumo da descrição e habilidades requerid
 
 ![lista de vagas tela 5](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t4-oportunidades-de-trabalho/blob/9770190531526104165977ece998ef7f06cc82f6/docs/img/tela_5.png)
 
+## Tela - Detalhes de Vaga
+Apresenta uma descrição completa da vaga em questão, habilidades requeridas/diferenciais e um meio de se candidatar a vaga.
+
+![tela_6 vaga X](https://user-images.githubusercontent.com/111669748/194727852-4e0d4fb2-a0a0-48bc-af36-0fa97bf8257e.png)
+
+
+
 
 
