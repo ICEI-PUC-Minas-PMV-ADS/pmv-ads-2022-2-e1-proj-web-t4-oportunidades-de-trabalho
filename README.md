@@ -1,23 +1,25 @@
-# TÍTULO DO PROJETO
+# PORTAL DE DESENVOLVIMENTO PROFISSIONAL
 
-`CURSO`
+`TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de Aplicação Web Front-End - Turma 04 - 2022/2`
 
-`SEMESTRE`
+`Eixo 1`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O presente trabalho consiste na criação de uma ferramenta web de divulgação de vagas de trabalho que faça a síntese das informações sobre as habilidades e co-nhecimentos mais demandados no mercado de TI e retorne essas informações aos usuários de forma gratuita e intuitiva.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+*Bruno Martins dos Santos
+* Elpidio Lomeu Junior
+* Pedro Gouvêa Sangi Rocha
+* Pietro Emmanuel Ferreira do Vale
+* Shinji Matsumoto Fernandes
+* Vitor Hugo Silva Carvalho
 
 ## Orientador
 
-* Nome completo do professor 1
+* Sandra Maria Silveira
 
 ## Instruções de utilização
 
