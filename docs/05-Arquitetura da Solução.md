@@ -103,7 +103,7 @@ para voltar a tela inicial (Tela 4)
 
 ![Exemplo de fluxo de usuario](img/fluxoDeUsuarioImagem.png)
 
-O fluxo completo em pdf poderá ser encontrado em (img/fluxoDeUsuario.pdf)
+O fluxo completo em pdf poderá ser encontrado em ![fluxo de usuario em pdf](img/fluxoDeUsuario.pdf)
 Para uma melhor leitura.
 
 ## Hospedagem
