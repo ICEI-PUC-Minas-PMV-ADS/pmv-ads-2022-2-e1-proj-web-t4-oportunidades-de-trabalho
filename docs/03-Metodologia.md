@@ -31,7 +31,7 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 O controle de versão adotado no projeto foi usando o [git](https://git-scm.com/), e como principal ferramenta facilitadora para o versionamento foi usado o GitHub.
 
 
-![vcs](https://user-images.githubusercontent.com/107289791/194731996-b76c77b3-f0f0-4cf0-a11d-ec60897f6356.png)
+![vcs](https://user-images.githubusercontent.com/107289791/194760999-fb4e8939-7c80-498d-902b-5b280e54dd91.png)
 <p align="center">Figura 1 - Diagrama representativo de versionamento de código com branchs.</p>
 
 <br>
