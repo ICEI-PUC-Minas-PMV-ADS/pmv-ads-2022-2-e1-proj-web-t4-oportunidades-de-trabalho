@@ -17,7 +17,7 @@ As telas do site são apresentadas em detalhes nos itens que se seguem e apresen
 
 <b>Cabeçalho</b> - local onde são dispostos elementos fixos de identidade (logo) e navegação principal do site (menu da aplicação);
 
-<b>Conteúdo</b> - local onde é exibido o contéudo da tela; 
+<b>Conteúdo</b> - local onde é apresentado o contéudo da tela exibida; 
 
 <b>Rodapé</b> - apresenta os elementos de navegação secundária, além de dados e detalhes sobre o site; 
 
