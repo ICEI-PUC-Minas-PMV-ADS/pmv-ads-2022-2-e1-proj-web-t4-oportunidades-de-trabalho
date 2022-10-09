@@ -30,6 +30,10 @@ etiquetas:
 Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
 O controle de versão adotado no projeto foi usando o [git](https://git-scm.com/), e como principal ferramenta facilitadora para o versionamento foi usado o GitHub.
 
+
+![vcs](https://user-images.githubusercontent.com/107289791/194731996-b76c77b3-f0f0-4cf0-a11d-ec60897f6356.png)
+<p align="center">Figura 1 - Diagrama representativo de versionamento de código com branchs.</p>
+
 <br>
 
 ## **Gerenciamento de Projeto**
@@ -58,6 +62,7 @@ A equipe está organizada da seguinte maneira:
 
 <br>
 
+
 ### **Processo**
 
 Para botar o Scrum em prática no projeto foi feito uso do Trello, e o projeto foi estruturado usando as seguintes listas:
@@ -75,6 +80,23 @@ Para botar o Scrum em prática no projeto foi feito uso do Trello, e o projeto f
 - **Done:** nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
 
 <br>
+
+Segue uma imagem ilustrativa de como o Trello foi usado com Scrum, e com um quadro baseado no Kanban.
+
+![trello](https://user-images.githubusercontent.com/107289791/194732094-64030d68-4f32-4375-9961-f4fe3cb2bc49.png)
+
+<p align="center">Figura 2 - Tela do Kanban utilizada pelo Grupo.</p>
+
+
+<br>
+
+A tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:
+
+- Documentação
+- Desenvolvimento 
+- Infraestrutura
+- Testes
+- Gerência de Projetos.
 
 ### **Ferramentas**
 
