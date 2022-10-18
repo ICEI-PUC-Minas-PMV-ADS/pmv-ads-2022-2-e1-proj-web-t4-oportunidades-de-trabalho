@@ -65,7 +65,7 @@ A equipe está organizada da seguinte maneira:
 
 ### **Processo**
 
-Para botar o Scrum em prática no projeto foi feito uso do Trello, e o projeto foi estruturado usando as seguintes listas:
+O grupo utilizou o Trello afim de organizar e gerenciar o desenvolvimento do projeto utilizando a metodologia Scrum. O projeto foi estruturado usando as seguintes listas:
 
 - **Recursos:** Uma lista que armazena os templates de cada estágio das tarefas, facilitando a criação de novas tarefas dentro de um padrão já preestabelecido. O objetivo é permitir a cópia destes templates para agilizar a criação de novos cartões.
 
@@ -115,7 +115,7 @@ As principais ferramentas empregadas no projeto são:
 
   <br>
 
-O [Visual Studio Code](https://code.visualstudio.com/), o editor de código, foi escolhido porque ele possui uma integração com o [GitHub](https://github.com/) para realizar o versionamento de código.
+O [Visual Studio Code](https://code.visualstudio.com/), o editor de código, foi escolhido porquê ele possui uma integração com o [GitHub](https://github.com/) para realizar o versionamento de código.
 
 As ferramentas de comunicação utilizadas, [Whatsapp](https://www.whatsapp.com/?lang=pt_br) por ser uma ferramenta que o grupo já domina, usado para discussões mais breves, e o [Discord](https://discord.gg) para reuniões semanais com o grupo em canais de voz, além de compartilhamento de arquivos relacionados ao projeto, e discussões em geral que sejam mais longas.
 
