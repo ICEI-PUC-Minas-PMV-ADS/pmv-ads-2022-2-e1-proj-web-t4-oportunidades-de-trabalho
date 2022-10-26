@@ -1,0 +1,29 @@
+
+#telalogin{
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#btncad{
+    margin: 15px;
+}
+.card{
+
+    width: 400px;
+    height: 500px;
+    padding: 50px;
+    box-shadow: 1px 5px 30px rgb(150, 150, 150);
+    border-radius: 30px;
+}
+
+hr{background-color:rgb(150, 150, 150);
+}
+
+#msgError{
+    text-align: center;
+    color:red;
+    background-color: #ffbbbb;
+    display:none;
+
+}
