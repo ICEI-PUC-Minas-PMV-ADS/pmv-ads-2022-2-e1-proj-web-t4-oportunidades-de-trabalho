@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raccon Jobs</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="./tela2cadastro.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    
+    <style>      
+.form-control:focus {
+    border-color: #cccccc;
+    outline: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  form{
+    border-radius: 30px;
+    box-shadow: 1px 5px 30px rgb(150, 150, 150);
+    border-width: 50px;
+  
+  }
+  
+    </style>
+    
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand mt-2 mt-lg-0" href="#">
+            <img src="../img/raccoon.svg" height="50" alt="MDB Logo" loading="lazy" /> Raccoon Jobs
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Ver vagas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Habilidades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Cargos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sou empresa</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container" id="telacadastro"> 
+        <!-- COMECE SEU CODIGO AQUI  (OBS: RETIRE A CLASS CONTAINER SE NECESSARIO PARA ALINHA O CONTEUDO DA SUA FORMA)-->
+        <!-- Extremamente recomendavel utilizar  "row" do bootstrap na hora de fazer sua parte.-->
+        <form  class="p-sm-5" >
+            <h2 class="text-center" >Cadastre-se </h2>
+            <div class="form-group">
+            
+                <label for="nome" id="labelNome" >Nome</label>
+                <input type="text"id="nome" class="form-control"  placeholder="Nome">
+              </div>
+            <div class="form-group">
+                <label for="email" id="labelEmail" >Email</label>
+                <input type="email" id="email" class="form-control" class="required"  placeholder="Informe seu email">
+              </div>
+            <div class="form-group">
+                <label for="cnpj" id="labelCnpj">Insira o CNPJ de sua empresa </label>
+                <input type="text" id="cnpj" class="form-control" maxlength="14" class="required"  placeholder="xx.xxx.xxx/xxxx-xx">
+              
+            </div>
+            <div class="form-group">
+                <label for="senha" id="labelSenha">Senha</label>
+              <input type="password" id="senha" class="form-control" class="required" placeholder="******">
+             
+            </div>
+            <div class="form-group">
+                <label for=senhaConfirm id="labelSenhaConf">Confirme sua senha</label>
+              <input type="password" class="form-control" id="senhaConf"   placeholder="******">
+              
+            </div>
+            <br>
+            <div>
+                <button type="button" id="btncadastrar" class="btn btn-outline-success btn-lg btn-block">Cadastrar</button>
+            </div>
+
+
+          </form>
+    </div>
+
+    <footer class="text-center text-lg-start bg-light text-muted">
+        <section>
+            <hr>
+            <div class="container text-center text-md-start mt-2">
+                <div class="row mt-3">
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-gem me-3"></i>Raccoon jobs
+                        </h6>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                        </p>
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Links úteis
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Vagas</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Habilidades</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Cargos</a>
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            Raccon_Jobs@hotmail.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> + 55 (xx) xxxxx xxxx</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
