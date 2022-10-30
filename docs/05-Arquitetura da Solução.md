@@ -25,7 +25,8 @@ A solução implementada conta com os seguintes módulos:
  - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador (Heroku). 
  - **Bootstrap** - CSS framework gratuito open-source com o objetivo de gerar designs responsivos entre mobile/web 
 
-
+## Data Model
+![Data Modeling](img/data_model.png)
 ## Tecnologias utilizadas
 
 Uma breve descrição das tecnologias utilizadas em nossa solução.
