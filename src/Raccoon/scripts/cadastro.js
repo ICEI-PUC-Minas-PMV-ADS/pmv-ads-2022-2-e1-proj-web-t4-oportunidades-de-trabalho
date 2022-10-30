@@ -171,7 +171,7 @@ function cadastrar() {
         senhaCad: senha.value
       }
     )
-    window.location.href = "tela1login.html"
+    window.location.href = "../Raccoon/login.html"
 
     localStorage.setItem("listaUser", JSON.stringify(listaUser))
     localStorage.setItem("EmpresaUser", JSON.stringify(EmpresaUser))

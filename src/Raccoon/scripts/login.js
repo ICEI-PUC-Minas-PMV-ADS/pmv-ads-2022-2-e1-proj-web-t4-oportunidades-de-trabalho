@@ -1,7 +1,7 @@
 
 //redirecionar ao clicar no botao cadastrar
 function cadastrar() {
-    window.location.href = "tela2cadastro.html"
+    window.location.href = "../Raccoon/cadastro.html"
 
 }
 
@@ -82,7 +82,7 @@ function entrar() {
     if (email.value == userValid.email && senha.value == userValid.senha) {
 
         alert("Bem vindo :)")
-        window.location.href = "/Raccon/home.html"
+        window.location.href = "../Raccoon/home.html"
 
     } else {
         alert("Email ou senha incorretos")
