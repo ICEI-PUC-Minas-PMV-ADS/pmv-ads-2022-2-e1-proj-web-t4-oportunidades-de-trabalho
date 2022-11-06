@@ -4,9 +4,9 @@ export function gerarHabilidades(Habilidades, MaxPills=null, colSize=4) {
   for (let vl in Habilidades) {
     if (vl < MaxPills || !MaxPills) {
       if (vl % 2 == 0) {
-        div += `<p id="skill-${vl}" class="col-sm-${colSize} rounded-pill bg-warning">${Habilidades[vl].nome} </p>`
+        div += `<p id="skill-${vl}" class="col-sm-${colSize} rounded-pill bg-warning"><a href='./habilidade.html?id=${Habilidades[vl].id}' class="text-dark">${Habilidades[vl].nome}</a></p>`
       } else {
-        div += `<p id="skill-${vl}" class="col-sm-${colSize} rounded-pill bg-info">${Habilidades[vl].nome}</p>`
+        div += `<p id="skill-${vl}" class="col-sm-${colSize} rounded-pill bg-info"><a href='./habilidade.html?id=${Habilidades[vl].id}' class="text-dark">${Habilidades[vl].nome}</a></p>`
       }
     }
   }
@@ -50,13 +50,19 @@ export function gerarCardsVagas(vagas, maxVagas, colSize = { sm: 12, md: 12, lg:
       div += `
         <div class='row col-sm-${colSize['sm']} col-md-${colSize['md']} col-lg-${colSize['lg']} align-items-center bg-light mt-2'>
           <div class="ratio ratio-1x1 col-sm-4">
-            <img src="${empresa.logo_link}" class="img-fluid rounded align-items-center" alt="LogoDaEmpresa">
+            <a href='./empresa.html?id=${vagas[vl].empresa_id}'>
+              <img src="${empresa.logo_link}" class="img-fluid rounded align-items-center" alt="LogoDaEmpresa">
+            </a>
           </div>
           <div class="col-sm-8">
             <div class="row ">
-              <p id="vaga-nome" class="col-sm-12 text-left text-black mt-2"><strong>${vagas[vl].vaga_nome ? vagas[vl].vaga_nome : JSON.parse(localStorage.getItem('Cargos')).find(obj => obj.id === vagas[vl].cargo_id).nome}</strong></p>
-              <p id="empresa-data" class="col-sm-12 text-left">${empresa.nome} - <small>De: ${dataSimplificada(vagas[vl].data_cadastro)} - Até: ${dataSimplificada(vagas[vl].data_exp)}</small></p>
-              <p id="descricao" class="col-sm-12 text-left">${reduzirTexto(vagas[vl].descricao, 100)}</p>
+              <a href='./vaga.html?id=${vagas[vl].id}' class="text-dark">
+                <p id="vaga-nome" class="col-sm-12 text-left text-black mt-2"><strong>${vagas[vl].vaga_nome ? vagas[vl].vaga_nome : JSON.parse(localStorage.getItem('Cargos')).find(obj => obj.id === vagas[vl].cargo_id).nome}</strong></p>
+              </a>
+              <p id="empresa-data" class="col-sm-12 text-left"><a href='./empresa.html?id=${vagas[vl].empresa_id}'>${empresa.nome}</a> - <small>De: ${dataSimplificada(vagas[vl].data_cadastro)} - Até: ${dataSimplificada(vagas[vl].data_exp)}</small></p>
+              <a href='./vaga.html?id=${vagas[vl].id}' class="text-dark">
+                <p id="descricao" class="col-sm-12 text-left">${reduzirTexto(vagas[vl].descricao, 100)}</p>
+              </a>
               <div class="col-sm-12 row text-center">
                 ${gerarHabilidades(habilidades, 3, 4)}
               </div>
