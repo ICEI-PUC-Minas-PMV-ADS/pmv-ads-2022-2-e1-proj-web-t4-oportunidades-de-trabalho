@@ -23,12 +23,10 @@ function entrar() {
     //VARIAVEIS
 
     let email = document.getElementById("email")
-    let emailLabel = document.getElementById("emailLabel")
-
     let senha = document.getElementById("senha")
-    let senhaLabel = document.getElementById("senhaLabel")
 
-    let listaUser = []
+    let EmpresaUser = []
+    let empresas = JSON.parse(localStorage.getItem("Empresas"))
 
     let userValid = {
         nome: "",
@@ -41,35 +39,18 @@ function entrar() {
 
     //Verifica os dados informados e assim realiza a inclusão dos dados na lista da variavel userValid
 
-    listaUser = JSON.parse(localStorage.getItem("listaUser"))
+    EmpresaUser = JSON.parse(localStorage.getItem("EmpresaUser"))
 
-    for (let index = 0; index < listaUser.length; index++) {
-        if (email.value == listaUser[index].emailCad && senha.value == listaUser[index].senhaCad) {
+    for (let index = 0; index < EmpresaUser.length; index++) {
+        if (email.value == EmpresaUser[index].login && senha.value == EmpresaUser[index].password) {
             userValid = {
-                nome: listaUser[index].nomeCad,
-                email: listaUser[index].emailCad,
-                cnpj: listaUser[index].cnpjCad,
-                senha: listaUser[index].senhaCad,
+                nome: empresas[index].nome,
+                email: EmpresaUser[index].login,
+                cnpj: empresas[index].cnpj,
+                senha: EmpresaUser[index].password,
             }
         }
     }
-
-    // listaUser.forEach((item) => {
-    //     if(email.value == item.emailCad && senha.value == item.senhaCad){
-
-
-    //         userValid = {
-    //             nome: item.nomeCad,
-    //             email: item.emailCad,
-    //             cnpj: item.cnpjCad,
-    //             senha: item.senhaCad
-    //         }
-
-    //     }
-
-    // })
-    //-------------------------------------------------------------------------------------------------------------------
-
 
     // Validaçoes dos dados e comparação com local.storage
     if (email.value.length == [] && senha.value.length == []) {
@@ -82,7 +63,8 @@ function entrar() {
     if (email.value == userValid.email && senha.value == userValid.senha) {
 
         alert("Bem vindo :)")
-        window.location.href = "../Raccoon/home.html"
+       window.location.href = "../Raccoon/home.html"
+       console.log(userValid)
 
     } else {
         alert("Email ou senha incorretos")

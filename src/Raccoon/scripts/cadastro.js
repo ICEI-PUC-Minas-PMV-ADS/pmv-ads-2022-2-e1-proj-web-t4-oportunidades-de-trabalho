@@ -152,7 +152,7 @@ function cadastrar() {
     for (let index = 0; index < 1; index++) {
       EmpresaUser.push(
         {
-          id: `${listaUser.length + 1}`,
+          id: (EmpresaUser.length + 1),
           empresa_id: "",
           login: email.value,
           password: senha.value
