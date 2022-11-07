@@ -12,11 +12,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./scripts/generateDummyData.js"></script>
     <script type="module" src="./scripts/utils.js"></script>
-    <script type="module" src="./scripts/empresa.js"></script>
+    <script type="module" src="./scripts/empresaUser.js"></script>
     
 </head>
 
-<body>
+<body>  
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand mt-2 mt-lg-0" href="./home.html">
             <img src="../img/raccoon.svg" height="50" loading="lazy" /> Raccoon Jobs
@@ -44,7 +44,7 @@
         </div>
     </nav>
 
-    <div class="container">
+    <div class="container" id="main">
         <div class="mt-2 bg-light">
             <div class="row my-2 ml-1">
                 <div class="col-sm-2">
@@ -67,7 +67,9 @@
                 <div class="col-sm-12">
                     <div class="row justify-content-around">
                         <div class="col-sm-3"></div>
-                        <button type="button" class="btn btn-warning badge-pill btn-md col-sm-2 mt-4"><strong>Nova Vaga</strong></button>
+                        <a href="./criar_vaga.html" class="btn btn-warning badge-pill btn-md col-sm-2 mt-4">
+                            <strong>Nova Vaga</strong>
+                        </a>
                         <div class="col-sm-3"></div>
                     </div>
                 </div>
@@ -75,23 +77,12 @@
         </div>
     </div>
 
-    <footer class="text-center text-lg-start bg-light text-muted">
+    <footer id="footer" class="text-center text-lg-start bg-light text-muted">
         <div class="text-center p-4 bg-light">
         © 2021 Copyright:
         <a class="fw-bold" href="#">Trash Panda</a>
         </div>
     </footer>
-
-    <script>
-        window.onload = (event) => {
-            //esse codigo é temporario enquanto não adicionamos os links.
-            const urlParams = new URLSearchParams(window.location.search);
-            const id = urlParams.get('id')
-            if(!id){
-                window.location.replace('?id=1');
-            }
-        }
-    </script>
 </body>
 
 </html>
