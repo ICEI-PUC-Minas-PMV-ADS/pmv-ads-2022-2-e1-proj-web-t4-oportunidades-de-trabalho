@@ -198,12 +198,12 @@ $("#criarVagaForm").submit(function (e) {
 
 Nesta pagina, a empresa terá a oportunidade de se registrar em nosso site para postar vagas.
 
-### 4.1. Requisitos Funcionais atendidos:
+### 5.1. Requisitos Funcionais atendidos:
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RF-006|O site deve permitir cadastro de usuário (Empresa) | ALTA  |
 
-### 4.2. Artefatos da funcionalidade (RF-006):
+### 5.2. Artefatos da funcionalidade (RF-006):
 
 * cadastro.html
 * cadastro.js
