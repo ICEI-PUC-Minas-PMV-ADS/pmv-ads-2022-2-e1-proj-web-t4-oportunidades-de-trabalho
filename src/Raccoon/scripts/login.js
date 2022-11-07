@@ -42,12 +42,11 @@ function entrar() {
     EmpresaUser = JSON.parse(localStorage.getItem("EmpresaUser"))
 
     for (let index = 0; index < EmpresaUser.length; index++) {
-        if (email.value == EmpresaUser[index].login && senha.value == EmpresaUser[index].password) {
+        if (email.value == EmpresaUser[index].login && senha.value.hashCode() == EmpresaUser[index].password) {
             userValid = {
-                nome: empresas[index].nome,
                 email: EmpresaUser[index].login,
-                cnpj: empresas[index].cnpj,
                 senha: EmpresaUser[index].password,
+                empresa_id: EmpresaUser[index].empresa_id
             }
         }
     }
@@ -59,12 +58,10 @@ function entrar() {
         return false
     }
 
-
-    if (email.value == userValid.email && senha.value == userValid.senha) {
-
+    if (email.value == userValid.email && senha.value.hashCode() == userValid.senha) {
+        localStorage.setItem('userValid', JSON.stringify(userValid))
         alert("Bem vindo :)")
-       window.location.href = "../Raccoon/home.html"
-       console.log(userValid)
+        window.location.href = `../Raccoon/empresaUser.html?id=${userValid.empresa_id}`
 
     } else {
         alert("Email ou senha incorretos")
@@ -76,3 +73,16 @@ function entrar() {
 document.getElementById("btnlogin").onclick = entrar
 
 //-------------------------------------------------------------------------------------------------------------------
+
+//Hash (isso não deveria ficar na visão do usuario assim, mas como esse website não possui backend, paciencia.)
+String.prototype.hashCode = function() {
+    var hash = 0,
+      i, chr;
+    if (this.length === 0) return hash;
+    for (i = 0; i < this.length; i++) {
+      chr = this.charCodeAt(i);
+      hash = ((hash << 5) - hash) + chr;
+      hash |= 0; // Convert to 32bit integer
+    }
+    return hash;
+}
