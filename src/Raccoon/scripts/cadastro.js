@@ -148,20 +148,35 @@ function cadastrar() {
 
     let listaUser = JSON.parse(localStorage.getItem("listaUser") || '[]')
     let EmpresaUser = JSON.parse(localStorage.getItem("EmpresaUser") || '[]')
+    let empresas = JSON.parse(localStorage.getItem("Empresas") || '[]')
+    let contato = JSON.parse(localStorage.getItem("Contato") || '[]')
 
-    for (let index = 0; index < 1; index++) {
-      EmpresaUser.push(
-        {
-          id: (EmpresaUser.length + 1),
-          empresa_id: "",
-          login: email.value,
-          password: senha.value
-        }
-      )
-    }
-    console.log(EmpresaUser)
-    console.log(listaUser)
-
+    EmpresaUser.push(
+      {
+        id: (EmpresaUser.length + 1),
+        empresa_id: (empresas.length + 1),
+        login: email.value,
+        password: senha.value.hashCode()
+      }
+    )
+    empresas.push({
+      'id': (empresas.length + 1),
+      'vagas_id': [],
+      'nome': nome.value, 
+      'descricao': 'Essa empresa não colocou sua descrição ainda', 
+      'valores': [], 
+      'data_cadastro': new Date(), 
+      'cnpj': cnpj.value, 
+      'area': '',
+      'logo_link': '../img/raccoon.svg',
+      'contato_id': (contato.length + 1)
+    })
+    contato.push({
+      'id': contato.length +1, 
+      'email': '',
+      'linkedin': '',
+      'sede': ''     
+    })
     //------------------------------------------------------------
     listaUser.push(
       {
@@ -175,6 +190,8 @@ function cadastrar() {
 
     localStorage.setItem("listaUser", JSON.stringify(listaUser))
     localStorage.setItem("EmpresaUser", JSON.stringify(EmpresaUser))
+    localStorage.setItem("Empresas", JSON.stringify(empresas))
+    localStorage.setItem("Contato", JSON.stringify(contato))
 
     alert("Cadastrado com sucesso")
 
@@ -205,4 +222,15 @@ function formatarCNPJ(e) {
   e.target.value = v;
 }
 //-------------------------------------------------------------------------------------------------------------
-
+//Hash (isso não deveria ficar na visão do usuario assim, mas como esse website não possui backend, paciencia.)
+String.prototype.hashCode = function() {
+  var hash = 0,
+    i, chr;
+  if (this.length === 0) return hash;
+  for (i = 0; i < this.length; i++) {
+    chr = this.charCodeAt(i);
+    hash = ((hash << 5) - hash) + chr;
+    hash |= 0; // Convert to 32bit integer
+  }
+  return hash;
+}
