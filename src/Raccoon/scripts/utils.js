@@ -1,3 +1,29 @@
+export function toast(message) {
+  console.log()
+  for (let vl in message) {
+    Toastify({
+      text: Object.values(message[vl]),
+      duration: 3000,
+      style: {
+        background: Object.keys(message[vl]) == 'Sucesso' ? "linear-gradient(to right, #00b09b, #96c93d)" : "linear-gradient(to bottom right, #FF4950, #FFC9DC)",
+      },
+    }).showToast();
+  }
+}
+
+export function verificarUsuario() {
+  const user = pegarUsuario()
+  const EmpresaUser = pegarEmpresaUsuario()
+  if(user && EmpresaUser){
+    for (let index = 0; index < EmpresaUser.length; index++) {
+      if (user.email == EmpresaUser[index].login && user.senha == EmpresaUser[index].password) {
+        return EmpresaUser[index].empresa_id
+      }
+    }
+  }
+  return false
+}
+
 // Gera rounded-pills de habilidades, (objeto de habilidades, numero maximo de pills, tamanho da coluna) 
 export function gerarHabilidades(Habilidades, MaxPills=null, colSize=4) {
   let div = ''
@@ -25,21 +51,59 @@ export const pegarParametrosUrl = (parameter) => { return new URLSearchParams(wi
 //Eu poderia generalizar essas funções para ser uma unica, 
 //Mas ai eu teria que pedir o parametro do local storage a ser usado ex: Empresas
 //E isso retiraria a praticidade que eu quero gerar.
+export const pegarEmpresaUsuario =() => {return JSON.parse(localStorage.getItem('EmpresaUser'))}
+export const pegarUsuario =() => {return JSON.parse(localStorage.getItem('userValid'))}
+
 export function pegarEmpresas({ id = null, arrayIds = null }) {
-  if (!arrayIds) {
+  if (id) {
     return JSON.parse(localStorage.getItem('Empresas')).find(obj => obj.id === parseInt(id))
-  } else {
+  } else if(arrayIds) {
     return JSON.parse(localStorage.getItem('Empresas')).filter(obj => arrayIds.includes(obj.id))
+  }
+  else{
+    return JSON.parse(localStorage.getItem('Empresas'))
   }
 }
 export function pegarVagas({ id = null, arrayIds = null }) {
-  if (!arrayIds) {
+  if (id) {
     return JSON.parse(localStorage.getItem('Vagas')).find(obj => obj.id === parseInt(id))
-  } else {
+  } else if(arrayIds) {
     return JSON.parse(localStorage.getItem('Vagas')).filter(obj => arrayIds.includes(obj.id))
   }
+  else{
+    return JSON.parse(localStorage.getItem('Vagas'))
+  }
 }
-
+export function pegarHabilidades({ id = null, arrayIds = null }) {
+  if (id) {
+    return JSON.parse(localStorage.getItem('Habilidades')).find(obj => obj.id === parseInt(id))
+  } else if(arrayIds) {
+    return JSON.parse(localStorage.getItem('Habilidades')).filter(obj => arrayIds.includes(obj.id))
+  }
+  else{
+    return JSON.parse(localStorage.getItem('Habilidades'))
+  }
+}
+export function pegarSenioridade({ id = null, arrayIds = null }) {
+  if (id) {
+    return JSON.parse(localStorage.getItem('Senioridade')).find(obj => obj.id === parseInt(id))
+  } else if(arrayIds) {
+    return JSON.parse(localStorage.getItem('Senioridade')).filter(obj => arrayIds.includes(obj.id))
+  }
+  else{
+    return JSON.parse(localStorage.getItem('Senioridade'))
+  }
+}
+export function pegarCargo({ id = null, arrayIds = null }) {
+  if (id) {
+    return JSON.parse(localStorage.getItem('Cargos')).find(obj => obj.id === parseInt(id))
+  } else if(arrayIds) {
+    return JSON.parse(localStorage.getItem('Cargos')).filter(obj => arrayIds.includes(obj.id))
+  }
+  else{
+    return JSON.parse(localStorage.getItem('Cargos'))
+  }
+}
 //Gera o card das vagas para uma melhor padronização e redução de codigo.
 export function gerarCardsVagas(vagas, maxVagas, colSize = { sm: 12, md: 12, lg: 6 }) {
   let div = ''
