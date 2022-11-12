@@ -192,7 +192,7 @@ $("#criarVagaForm").submit(function (e) {
     3. Clicar em Nova vaga
     4. Preencher formulario de vaga
     
-## 5. Cadastro de empresa (RF-006)
+## 5. Cadastro de empresa (RF-014)
 
 ![Vaga](img/cadastro.png)
 
@@ -201,9 +201,9 @@ Nesta pagina, a empresa terá a oportunidade de se registrar em nosso site para 
 ### 5.1. Requisitos Funcionais atendidos:
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-006|O site deve permitir cadastro de usuário (Empresa) | ALTA  |
+|RF-014| O site deve permitir cadastro de usuário (profissionais e empresas) | Baixa  |
 
-### 5.2. Artefatos da funcionalidade (RF-006):
+### 5.2. Artefatos da funcionalidade (RF-014):
 
 * cadastro.html
 * cadastro.js
@@ -266,7 +266,7 @@ Nesta pagina, a empresa terá a oportunidade de se registrar em nosso site para 
 }
 ```
 
-### 5.3. Instruções para acesso e verificação (RF-006):
+### 5.3. Instruções para acesso e verificação (RF-014):
     1. Acessar a home page ./home.html
     2. Clicar em Sou Empresa 
     3. Clicar em Cadastre-se
