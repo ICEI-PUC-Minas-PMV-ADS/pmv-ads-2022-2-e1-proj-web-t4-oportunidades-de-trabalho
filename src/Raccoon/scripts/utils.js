@@ -65,13 +65,14 @@ export function pegarEmpresas({ id = null, arrayIds = null }) {
   }
 }
 export function pegarVagas({ id = null, arrayIds = null }) {
+  let now = new Date().getTime()
   if (id) {
-    return JSON.parse(localStorage.getItem('Vagas')).find(obj => obj.id === parseInt(id))
+    return JSON.parse(localStorage.getItem('Vagas')).find(obj => obj.id === parseInt(id) && new Date(obj.data_exp).getTime() > now)
   } else if(arrayIds) {
-    return JSON.parse(localStorage.getItem('Vagas')).filter(obj => arrayIds.includes(obj.id))
+    return JSON.parse(localStorage.getItem('Vagas')).filter(obj => arrayIds.includes(obj.id) && new Date(obj.data_exp).getTime() > now)
   }
   else{
-    return JSON.parse(localStorage.getItem('Vagas'))
+    return JSON.parse(localStorage.getItem('Vagas')).filter(obj => new Date(obj.data_exp).getTime() > now)
   }
 }
 export function pegarHabilidades({ id = null, arrayIds = null }) {
