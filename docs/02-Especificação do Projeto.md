@@ -93,18 +93,18 @@ O escopo do projeto é definido por meio dos requisitos funcionais e não funcio
 |RF-004|Ao clicar em uma vaga da lista o site deve permitir ao usuário (profissional) visualizar o texto completo da vaga com todos os detalhes da publicação e se candidatar às vagas postadas     | ALTA |
 |RF-005|O site deve permitir ao usuário (empresas) postar vagas   | ALTA |
 |RF-006|O site deve permitir cadastro de usuário (Empresa)     | ALTA  |
-|RF-007|O site deve permitir adicionar, para cada vaga, uma imagem correspondente ao assunto apresentado     | Média  |
-|RF-008|O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar uma vaga/oportunidade    | Média  |
-|RF-009|O site deve permitir ao usuário (empresas) visualizar quem se candidatou às vagas     | Média  |
-|RF-010|O site deve permitir ao usuário (empresas) visualizar quem se candidatou às vagas    | Média  |
-|RF-011|O site deve apresentar na página principal as opções de acesso às outras páginas: (procurar usuários)    | Baixa  |
-|RF-012|O site deve apresentar no topo as opções de login: profissional ou empresa     | Baixa  |
-|RF-013|Se o profissional clicar para se candidatar à vaga e não estiver logado, o site deve transferi-lo para pagina de cadastro / login     | Baixa  |
-|RF-014|O site deve possuir uma página de perfil para os usuários e empresas obtidas por meio de API     | Baixa  |
-|RF-015|O site deve permitir cadastro de usuário (profissionais)     | Baixa  |
-|RF-016|O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar um profissional específico que será informado na caixa de pesquisa.     | Baixa  |
-|RF-017|Na página de perfil do usuário o site deve permitir salvar as vagas candidatadas     | Baixa  |
-|RF-018|O site deve apresentar na página principal opção de acesso: cliente    | Baixa  |
+|RF-006|O site deve permitir adicionar, para cada vaga, uma imagem correspondente ao assunto apresentado     | Média  |
+|RF-007|O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar uma vaga/oportunidade    | Média  |
+|RF-008|O site deve permitir ao usuário (empresas) visualizar quem se candidatou às vagas     | Média  |
+|RF-009|O site deve permitir ao usuário (empresas) visualizar quem se candidatou às vagas    | Média  |
+|RF-010|O site deve apresentar na página principal as opções de acesso às outras páginas: (procurar usuários)    | Baixa  |
+|RF-011|O site deve apresentar no topo as opções de login: profissional ou empresa     | Baixa  |
+|RF-012|Se o profissional clicar para se candidatar à vaga e não estiver logado, o site deve transferi-lo para pagina de cadastro / login     | Baixa  |
+|RF-013|O site deve possuir uma página de perfil para os usuários e empresas obtidas por meio de API     | Baixa  |
+|RF-014|O site deve permitir cadastro de usuário (profissionais e empresas)     | Baixa  |
+|RF-015|O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar um profissional específico que será informado na caixa de pesquisa.     | Baixa  |
+|RF-016|Na página de perfil do usuário o site deve permitir salvar as vagas candidatadas     | Baixa  |
+|RF-017|O site deve apresentar na página principal opção de acesso: cliente    | Baixa  |
 
 
 
