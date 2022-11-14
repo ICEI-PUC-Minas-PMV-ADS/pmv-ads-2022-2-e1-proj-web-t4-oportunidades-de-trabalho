@@ -58,7 +58,7 @@ if (
         [
             { 'id': 1, 'vagas_id': [1], 'nome': 'Super Tech', 'descricao': 'O Super Tech atua como o líder do time de tecnologia da empresa. Para isso, é preciso ter sólido background técnico e soft skills voltadas para o bom relacionamento com pessoas dos mais diversos perfis.', 'valores': ['Comprometimento', 'Dedicação', 'Flexibilidade'], 'data_cadastro': new Date(1995, 11, 17), 'cnpj': '26.875.055/0001-39', 'area': 'Tecnologia', 'logo_link': 'https://i.ibb.co/Pt3Sbrw/unknown.png', 'contato_id': 1, },
             { 'id': 2, 'vagas_id': [2, 3], 'nome': 'Eletrosurf', 'descricao': 'A Eletrosurf é uma Empresa focada em soluções e serviços completos e personalizados de alto desempenho em componentes tecnológicos de TI para soluções em automação comercial.', 'valores': ['Crescimento', 'Interação'], 'data_cadastro': new Date(2022, 09, 01), 'cnpj': '45.409.785/0001-99', 'area': 'Aprendizado', 'logo_link': 'https://i.imgur.com/UsVCZjU.png', 'contato_id': 2, },
-            { 'id': 3, 'vagas_id': [1, 2, 3, 4, 5], 'nome': 'Progressus', 'descricao': 'O Progressus Central fornece uma interface de usuário e API da Web amigável para gerenciar controladores de rede Progressus, bem como serviços relacionados que podem ser adicionados às redes.', 'valores': ['Responsabilidade', 'Respeito', 'justiça'], 'data_cadastro': new Date(2005, 01, 05), 'cnpj': '36.229.559/0001-35', 'area': 'Compartilhamento', 'logo_link': 'https://i.imgur.com/yUhqDSw.png', 'contato_id': 3, }
+            { 'id': 3, 'vagas_id': [4, 5], 'nome': 'Progressus', 'descricao': 'O Progressus Central fornece uma interface de usuário e API da Web amigável para gerenciar controladores de rede Progressus, bem como serviços relacionados que podem ser adicionados às redes.', 'valores': ['Responsabilidade', 'Respeito', 'justiça'], 'data_cadastro': new Date(2005, 01, 05), 'cnpj': '36.229.559/0001-35', 'area': 'Compartilhamento', 'logo_link': 'https://i.imgur.com/yUhqDSw.png', 'contato_id': 3, }
         ]
     )
     )
@@ -88,7 +88,7 @@ if (
             {
                 'id': 3, 'empresa_id': 2, 'hab_essencial_id': [1, 2, 3, 4], 'hab_dif_id': [5], 'vaga_nome': 'Procura-se full stack dev',
                 'descricao': 'Mauris fermentum lectus justo, non sodales mi aliquam ac. Duis gravida quam dictum, aliquam ex id, gravida ante. Fusce rutrum, elit ut porta tempor, justo lorem iaculis neque, nec congue mi nulla quis urna. Morbi finibus quam mauris, in feugiat ante imperdiet sit amet. Fusce mattis elementum ipsum in finibus.',
-                'cargo_id': 3, 'salario': 'R$ 18000,00', 'data_exp': new Date(2022, 09, 01), 'data_cadastro': new Date(2022, 05, 25), 'candidaturas': 94, 'cargo_senioridade_id': 3,
+                'cargo_id': 3, 'salario': 'R$ 18000,00', 'data_exp': new Date(2023, 09, 01), 'data_cadastro': new Date(2022, 05, 25), 'candidaturas': 94, 'cargo_senioridade_id': 3,
             },
 
             {

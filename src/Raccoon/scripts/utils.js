@@ -1,5 +1,4 @@
 export function toast(message) {
-  console.log()
   for (let vl in message) {
     Toastify({
       text: Object.values(message[vl]),
