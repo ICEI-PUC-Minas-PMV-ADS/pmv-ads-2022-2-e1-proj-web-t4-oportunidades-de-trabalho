@@ -121,7 +121,7 @@ Nesta pagina, a empresa será capaz de criar uma nova vaga
 ### 4.1. Requisitos Funcionais atendidos:
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-004|Ao clicar em uma vaga da lista o site deve permitir ao usuário (profissional) visualizar o texto completo da vaga com todos os detalhes da publicação e se candidatar às vagas postadas     | ALTA |
+|RF-005| O site deve permitir ao usuário (empresas) postar vagas  | ALTA |
 
 ### 4.2. Artefatos da funcionalidade (RF-005):
 
@@ -186,7 +186,7 @@ $("#criarVagaForm").submit(function (e) {
 });
 ```
 
-### 4.3. Instruções para acesso e verificação (RF-004):
+### 4.3. Instruções para acesso e verificação (RF-005):
     1. Acessar a home page ./home.html
     2. Clicar em Sou Empresa e efetuar cadastro/login
     3. Clicar em Nova vaga
