@@ -92,7 +92,6 @@ O escopo do projeto é definido por meio dos requisitos funcionais e não funcio
 |RF-003|O site deve possuir uma página com a listagem das vagas postadas     | ALTA |
 |RF-004|Ao clicar em uma vaga da lista o site deve permitir ao usuário (profissional) visualizar o texto completo da vaga com todos os detalhes da publicação e se candidatar às vagas postadas     | ALTA |
 |RF-005|O site deve permitir ao usuário (empresas) postar vagas   | ALTA |
-|RF-006|O site deve permitir cadastro de usuário (Empresa)     | ALTA  |
 |RF-006|O site deve permitir adicionar, para cada vaga, uma imagem correspondente ao assunto apresentado     | Média  |
 |RF-007|O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar uma vaga/oportunidade    | Média  |
 |RF-008|O site deve permitir ao usuário (empresas) visualizar quem se candidatou às vagas     | Média  |
