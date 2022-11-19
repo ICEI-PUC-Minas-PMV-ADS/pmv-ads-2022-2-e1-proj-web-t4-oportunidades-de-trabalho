@@ -14,7 +14,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand mt-2 mt-lg-0" href="#">
+        <a class="navbar-brand mt-2 mt-lg-0" href="./home.html">
             <img src="../img/raccoon.svg" height="50" loading="lazy" /> Raccoon Jobs
         </a>
 
@@ -25,16 +25,16 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Ver vagas</a>
+                    <a class="nav-link" href="./vagas_lista.html">Ver vagas</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Habilidades</a>
+                    <a class="nav-link" href="./habilidade.html">Habilidades</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Cargos</a>
+                    <a class="nav-link" href="./cargo.html">Cargos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Sou empresa</a>
+                    <a class="nav-link" href="./login.html">Sou empresa</a>
                 </li>
             </ul>
         </div>
@@ -83,7 +83,10 @@
         function filterText() {
             definirListaVagas(JSON.parse(localStorage.getItem('Vagas')).filter(obj => obj.vaga_nome.toUpperCase().includes($('#textInput').val().toUpperCase())))
         }
-        const clearFilter = () => { localStorage.setItem('filterHab', []), definirListaVagas(JSON.parse(localStorage.getItem('Vagas'))) }
+        const clearFilter = () => {
+            localStorage.setItem('filterHab', []), definirListaVagas(JSON.parse(localStorage.getItem('Vagas')))
+            window.location.reload()
+        }
         function habsToPill(habs, max, col) {
             let div = ''
             for (vl in habs) {
