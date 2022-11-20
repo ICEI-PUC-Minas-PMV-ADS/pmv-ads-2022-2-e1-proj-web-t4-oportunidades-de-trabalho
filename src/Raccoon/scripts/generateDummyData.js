@@ -9,11 +9,11 @@ if (
     ) {
     localStorage.setItem('Links', JSON.stringify(
         [
-            { 'id': 1, 'link': 'www.google.com' },
-            { 'id': 2, 'link': 'www.trello.com.com' },
-            { 'id': 3, 'link': 'www.discord.com' },
-            { 'id': 4, 'link': 'www.youtube.com' },
-            { 'id': 5, 'link': 'www.onepieceex.com' },
+            { 'id': 1, 'link': 'www.jetbrains.com' },
+            { 'id': 2, 'link': 'www.udemy.com' },
+            { 'id': 3, 'link': 'www.freecodecamp.org' },
+            { 'id': 4, 'link': 'www.codecademy.com' },
+            { 'id': 5, 'link': 'www.turing.com' },
 
         ]
     )
