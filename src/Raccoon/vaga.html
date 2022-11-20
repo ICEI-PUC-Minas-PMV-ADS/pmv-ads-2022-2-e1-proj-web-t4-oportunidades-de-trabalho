@@ -12,6 +12,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./scripts/generateDummyData.js"></script>
     <script type="module" src="./scripts/utils.js" ></script>
+    <script type="module" src="./scripts/vaga.js" ></script>
 </head>
 
 <body>
@@ -33,7 +34,7 @@
         </div>
     </nav>
 
-    <div class="container">
+    <div class="container" id="main">
         <!-- NOME DA EMPRESA.-->
         <div class="mt-2">
             <div class="col bg-dark">
@@ -128,179 +129,6 @@
         <a class="fw-bold" href="#">Trash Panda</a>
         </div>
     </footer>
-    <script>
-        window.onload = (event) => {
-            //esse codigo é temporario enquanto não adicionamos os links.
-            const urlParams = new URLSearchParams(window.location.search);
-            const id = urlParams.get('id')
-            if(!id){
-                window.location.replace('?id=1');
-            }
-        }
-    </script>
-
-    <script>
-
-    const fullDateString = (date) => {let dt = new Date(date); return `${dt.getDate()}/${dt.getMonth()+1}/${dt.getFullYear()}`; }
-    function habsToPill(habs, max, col){
-            let div = ''
-            for(vl in habs){
-                if(vl < max){
-                    if(vl % 2 == 0){
-                        div += `<p id="skill-${vl}" class="col-sm-${col} rounded-pill bg-warning">${habs[vl].nome} </p>`
-                    }else{
-                        div += `<p id="skill-${vl}" class="col-sm-${col} rounded-pill bg-info">${habs[vl].nome}</p>`
-                    }
-                }
-            }
-            return div
-        }
-    const urlParams = new URLSearchParams(window.location.search); 
-
-    const id = urlParams.get('id') 
-
-    let todasEmpresas = JSON.parse(localStorage.getItem('Empresas'))
-    let empresaEncontrada = todasEmpresas.find(Empresa => Empresa.id === 2);
-    
-
-    let vaga = JSON.parse(localStorage.getItem('Vagas')).find(obj => obj.id === parseInt(id));
-    let empresa = JSON.parse(localStorage.getItem('Empresas')).find(obj => obj.id ===  vaga.empresa_id)
-    let contato = JSON.parse(localStorage.getItem('Contato')).find(obj => obj.id ===  empresa.contato_id)        
-    let hab_ess = JSON.parse(localStorage.getItem('Habilidades')).filter(obj => vaga.hab_essencial_id.includes(obj.id))
-    let hab_dif = JSON.parse(localStorage.getItem('Habilidades')).filter(obj => vaga.hab_dif_id.includes(obj.id))
-  
-    if (id) { 
-        document.getElementById("empresaTitulo").innerHTML = `${empresa.nome } Contrata:`
-        document.getElementById("empresaTitulo2").innerHTML = empresa.nome
-        document.getElementById("cargoTitulo").innerHTML = vaga.vaga_nome
-        document.getElementById("dataCadastro").innerHTML = fullDateString( vaga.data_cadastro)
-        document.getElementById("candidaturaPrazo").innerHTML =  fullDateString(vaga.data_exp)
-        document.getElementById("candidaturaN").innerHTML = vaga.candidaturas
-        document.getElementById("vagaDescricao").innerHTML = vaga.descricao
-        document.getElementById("e-mail").innerHTML = contato.email
-        document.getElementById("linkedin").innerHTML= contato.linkedin
-        document.getElementById("e-mail").src = contato.email
-        document.getElementById("linkedin").src = contato.linkedin
-        document.getElementById("logoEmpresa").src = empresa.logo_link
-        document.getElementById("logoEmpresa2").src = empresa.logo_link
-        document.getElementById("hab_ess").innerHTML = habsToPill(hab_ess,10,2)
-        document.getElementById("hab_dif").innerHTML = habsToPill(hab_dif,10,2)
-        }
-    </script>
-
-    <script>
-        // <![CDATA[  <-- For SVG support
-        if ('WebSocket' in window) {
-            (function () {
-                function refreshCSS() {
-                    var sheets = [].slice.call(document.getElementsByTagName("link"));
-                    var head = document.getElementsByTagName("head")[0];
-                    for (var i = 0; i < sheets.length; ++i) {
-                        var elem = sheets[i];
-                        var parent = elem.parentElement || head;
-                        parent.removeChild(elem);
-                        var rel = elem.rel;
-                        if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-                            var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-                            elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-                        }
-                        parent.appendChild(elem);
-                    }
-                }
-                var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-                var address = protocol + window.location.host + window.location.pathname + '/ws';
-                var socket = new WebSocket(address);
-                socket.onmessage = function (msg) {
-                    if (msg.data == 'reload') window.location.reload();
-                    else if (msg.data == 'refreshcss') refreshCSS();
-                };
-                if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-                    console.log('Live reload enabled.');
-                    sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-                }
-            })();
-        }
-        else {
-            console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-        }
-	// ]]>
-    </script>
-    <!-- Code injected by live-server -->
-    <script>
-        // <![CDATA[  <-- For SVG support
-        if ('WebSocket' in window) {
-            (function () {
-                function refreshCSS() {
-                    var sheets = [].slice.call(document.getElementsByTagName("link"));
-                    var head = document.getElementsByTagName("head")[0];
-                    for (var i = 0; i < sheets.length; ++i) {
-                        var elem = sheets[i];
-                        var parent = elem.parentElement || head;
-                        parent.removeChild(elem);
-                        var rel = elem.rel;
-                        if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-                            var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-                            elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-                        }
-                        parent.appendChild(elem);
-                    }
-                }
-                var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-                var address = protocol + window.location.host + window.location.pathname + '/ws';
-                var socket = new WebSocket(address);
-                socket.onmessage = function (msg) {
-                    if (msg.data == 'reload') window.location.reload();
-                    else if (msg.data == 'refreshcss') refreshCSS();
-                };
-                if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-                    console.log('Live reload enabled.');
-                    sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-                }
-            })();
-        }
-        else {
-            console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-        }
-	// ]]>
-    </script>
-<!-- Code injected by live-server -->
-<script>
-	// <![CDATA[  <-- For SVG support
-	if ('WebSocket' in window) {
-		(function () {
-			function refreshCSS() {
-				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[0];
-				for (var i = 0; i < sheets.length; ++i) {
-					var elem = sheets[i];
-					var parent = elem.parentElement || head;
-					parent.removeChild(elem);
-					var rel = elem.rel;
-					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-					}
-					parent.appendChild(elem);
-				}
-			}
-			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-			var address = protocol + window.location.host + window.location.pathname + '/ws';
-			var socket = new WebSocket(address);
-			socket.onmessage = function (msg) {
-				if (msg.data == 'reload') window.location.reload();
-				else if (msg.data == 'refreshcss') refreshCSS();
-			};
-			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-				console.log('Live reload enabled.');
-				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-			}
-		})();
-	}
-	else {
-		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-	}
-	// ]]>
-</script>
 </body>
 
 </html>
