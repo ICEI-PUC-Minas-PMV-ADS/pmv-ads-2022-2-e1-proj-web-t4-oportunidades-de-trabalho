@@ -12,12 +12,11 @@ function filterHab(id) {
     generateList(vg)
 
 }
-function filterText() {
-    generateList(JSON.parse(localStorage.getItem('Vagas')).filter(obj => obj.vaga_nome.toUpperCase().includes($('#textInput').val().toUpperCase())))
-}
-
 function generateList(vagas) {
     let pageIndex = parseInt(pegarParametrosUrl('page'))
+    if(!pageIndex){
+        pageIndex=1
+    }
     let lastPage = Math.ceil(vagas.length / 6)
     let pages = ''
     if (vagas.length >= 6) {
@@ -94,4 +93,3 @@ for (let vl in listaHabs) {
 
 window.filterHab = filterHab;
 window.clearFilter = clearFilter
-//window.filterText = filterText
