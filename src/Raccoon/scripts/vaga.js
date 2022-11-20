@@ -11,7 +11,7 @@ if (!idParam) {
     let contato = pegarContato({id:empresa.contato_id})
     let hab_ess = pegarHabilidades({arrayIds:vaga.hab_essencial_id}) 
     let hab_dif = pegarHabilidades({arrayIds:vaga.hab_dif_id})  
-    console.log(contato)
+    
     document.getElementById("empresaTitulo").innerHTML = `${empresa.nome} Contrata:`
     document.getElementById("empresaTitulo2").innerHTML = empresa.nome
     document.getElementById("cargoTitulo").innerHTML = vaga.vaga_nome
