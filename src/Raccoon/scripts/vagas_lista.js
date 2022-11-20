@@ -1,12 +1,11 @@
 import { pegarVagas, pegarParametrosUrl, gerarCardsVagas, pegarHabilidades } from "./utils.js";
 
-let listaVagas = pegarVagas({})
-generateList(listaVagas)
+filterHab()
 
 function filterHab(id) {
     localStorage.getItem('filterHab') ? localStorage.setItem('filterHab', [id, ...localStorage.getItem('filterHab').split(',')]) : localStorage.setItem('filterHab', [id])
     let vg = pegarVagas({})
-    if(localStorage.getItem('filterHab')){
+    if (localStorage.getItem('filterHab')) {
         vg = JSON.parse(localStorage.getItem('Vagas')).filter(obj => obj.hab_essencial_id.some(item => localStorage.getItem('filterHab').split(',').includes(String(item))))
     }
     vg = vg.filter(obj => obj.vaga_nome.toUpperCase().includes($('#textInput').val().toUpperCase()))
@@ -21,17 +20,23 @@ function generateList(vagas) {
     let pageIndex = parseInt(pegarParametrosUrl('page'))
     let lastPage = Math.ceil(vagas.length / 6)
     let pages = ''
-    console.log(vagas.length, vagas.length > 6)
-    console.log(lastPage)
     if (vagas.length >= 6) {
         for (let i = 1; i <= lastPage; i++) {
             if (i > 9 || (pageIndex - 5) + i > lastPage) {
                 break;
             }
             if (pageIndex - 10 > 1) {
-                pages += `<li class="page-item"><a class="page-link" href="./vagas_lista.html?page=${(pageIndex - 5) + i}">${(pageIndex - 5) + i}</a></li>`
+                if((pageIndex - 5) + i == pageIndex){
+                    pages += `<li class="page-itemborder border-primary bg-light"><a class="page-link border border-primary bg-light" href="./vagas_lista.html?page=${(pageIndex - 5) + i}">${(pageIndex - 5) + i}</a></li>`
+                }else{
+                    pages += `<li class="page-item bordered border"><a class="page-link" href="./vagas_lista.html?page=${(pageIndex - 5) + i}">${(pageIndex - 5) + i}</a></li>`
+                }
             } else {
-                pages += `<li class="page-item"><a class="page-link" href="./vagas_lista.html?page=${i}">${i}</a></li>`
+                if(i == pageIndex){
+                    pages += `<li class="page-item border border-primary bg-light"><a class="page-link border border-primary bg-light" href="./vagas_lista.html?page=${i}">${i}</a></li>`
+                }else{
+                    pages += `<li class="page-item border"><a class="page-link" href="./vagas_lista.html?page=${i}">${i}</a></li>`
+                }
             }
         }
         if (pageIndex - 10 > 1) {
@@ -62,12 +67,12 @@ function generateList(vagas) {
     `)
         }
     }
-    $('#lista_vagas').html(gerarCardsVagas(vagas.slice(pageIndex*6 - 6,(pageIndex*6))))
+    $('#lista_vagas').html(gerarCardsVagas(vagas.slice(pageIndex * 6 - 6, (pageIndex * 6))))
 
-    if(pageIndex > lastPage && vagas.length > 1){
+    if (pageIndex > lastPage && vagas.length > 1) {
         $('#lista_vagas').html('Está pagina não possui vagas, por favor volte a pagina 1')
     }
-    if(vagas.length == 0){
+    if (vagas.length == 0) {
         $('#paginationList').html(``)
         $('#lista_vagas').html('Não existem vagas no momento, tente alterar seus filtros.')
     }
