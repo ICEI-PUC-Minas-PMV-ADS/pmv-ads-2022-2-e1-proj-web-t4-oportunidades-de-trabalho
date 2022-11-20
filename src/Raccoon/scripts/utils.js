@@ -138,3 +138,30 @@ export function gerarCardsVagas(vagas, maxVagas, colSize = { sm: 12, md: 12, lg:
   }
   return div
 }
+
+
+//set SouEmpresa
+
+(function () {
+  const empresa = verificarUsuario()
+  if(!empresa){
+    $('#navBar').append('<a class="nav-link" href="./login.html">Sou empresa</a>')
+  }else{
+    $('#navBar').append(`
+    <li class="nav-item">        
+      <a class="nav-link" href="./criar_vaga.html">Criar vaga</a>
+    </li>
+    <li class="nav-item">        
+      <a class="nav-link" href="./empresaUser.html?id=${empresa}">Perfil da empresa</a>
+    </li>
+    <li class="nav-item">        
+      <button onclick="(function () {
+        localStorage.setItem('userValid',JSON.stringify({}));
+        window.location.reload()
+      })();" class="nav-link btn btn-link">Desconectar</button>
+    </li>
+    `)
+  }
+})();
+
+//
