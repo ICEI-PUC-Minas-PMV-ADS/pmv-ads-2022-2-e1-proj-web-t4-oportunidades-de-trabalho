@@ -104,6 +104,16 @@ export function pegarCargo({ id = null, arrayIds = null }) {
     return JSON.parse(localStorage.getItem('Cargos'))
   }
 }
+export function pegarContato({ id = null, arrayIds = null }) {
+  if (id) {
+    return JSON.parse(localStorage.getItem('Contato')).find(obj => obj.id === parseInt(id))
+  } else if(arrayIds) {
+    return JSON.parse(localStorage.getItem('Contato')).filter(obj => arrayIds.includes(obj.id))
+  }
+  else{
+    return JSON.parse(localStorage.getItem('Contato'))
+  }
+}
 //Gera o card das vagas para uma melhor padronização e redução de codigo.
 export function gerarCardsVagas(vagas, maxVagas, colSize = { sm: 12, md: 12, lg: 6 }) {
   let div = ''
