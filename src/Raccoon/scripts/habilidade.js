@@ -18,8 +18,6 @@ for (let item of ondeSeEspecializar) {
   );
 }
 
-console.log(ondeSeEspecializar);
-//document.querySelector('').innerHTML = habilidades.nome;
 document.querySelector('#skill').innerHTML = habilidades.nome;
 document.querySelector('#skill-descript').innerHTML = habilidades.descricao;
 
@@ -40,3 +38,7 @@ document.querySelector('#diferencial-last-30-days').innerHTML = gerarCardsVagas(
   vagasDiferenciais,
   2,
 );
+
+document.querySelector('#essNumber').innerHTML = `Apareceu como essencial em ${vagasEssenciais.length} vagas nos últimos 30 dias.`
+document.querySelector('#difNumber').innerHTML = `Apareceu como diferencial em ${vagasDiferenciais.length} vagas nos últimos 30 dias.`
+
