@@ -10,6 +10,7 @@ Os planejamentos dos testes a serem realizados serão descritos abaixo de acordo
 
 - Testes de responsividade: Será realizado atráves ferramentas online e manualmente pelos desenvolvedores.
 
+Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Especificação do Projeto </a></span> para melhor entendimento dos requisitos que serão trabalhados a seguir.
 
 # Testes de Ponta a ponta
 |ID    | Descrição do teste  | Categoria |
@@ -18,14 +19,14 @@ Os planejamentos dos testes a serem realizados serão descritos abaixo de acordo
 |RF-002|  | Teste de ponta a ponta | 
 |RF-003|  | Teste de ponta a ponta | 
 |RF-004|  | Teste de ponta a ponta | 
-|RF-005|  | Teste de ponta a ponta | 
-|RF-014|  | Teste de ponta a ponta | 
+|RF-005| É possível criar uma nova vaga seguindo todo o processo necessario? | Teste de ponta a ponta | 
+|RF-013| É possível para uma empresa se cadastrar e efetuar login? | Teste de ponta a ponta | 
 
 # Testes de Campos
 ID    | Descrição do teste  | Categoria |
 |------|-----------------------------------------|----|
 |RF-005|  | Teste de campos | 
-|RF-014|  | Teste de campos | 
+|RF-013|  | Teste de campos | 
 
 # Testes de Navegabilidade
 |ID    | Descrição do teste  | Categoria |
@@ -35,7 +36,7 @@ ID    | Descrição do teste  | Categoria |
 |RF-003|  | Teste de navegabilidade | 
 |RF-004|  | Teste de navegabilidade | 
 |RF-005|  | Teste de navegabilidade | 
-|RF-014|  | Teste de navegabilidade | 
+|RF-013|  | Teste de navegabilidade | 
 
 
 # Testes de Responsividade
@@ -46,7 +47,7 @@ ID    | Descrição do teste  | Categoria |
 |RF-003|  | Teste de responsividade | 
 |RF-004|  | Teste de responsividade | 
 |RF-005|  | Teste de responsividade | 
-|RF-014|  | Teste de responsividade | 
+|RF-013|  | Teste de responsividade | 
 
 
 # Referencias
