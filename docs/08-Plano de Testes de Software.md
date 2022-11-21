@@ -1,5 +1,55 @@
 # Plano de Testes de Software
 
+Os planejamentos dos testes a serem realizados serão descritos abaixo de acordo com suas respectivas categorias.
+
+- Testes de ponta a ponta: Será realizado testes do ponto de vista do usuario final
+
+- Testes de campos: Será realizado os testes dos campos de grande importancia para a aplicação de forma manual e também com ferramentas de testes em JS, seguindo normas padrão de regras de negocio.
+
+- Testes de navegabilidade: Será realizado atráves ferramentas onlines e manualmente pelos desenvolvedores.
+
+- Testes de responsividade: Será realizado atráves ferramentas onlines e manualmente pelos desenvolvedores.
+
+
+# Testes de Ponta a ponta
+|ID    | Descrição do teste  | Categoria |
+|------|-----------------------------------------|----|
+|RF-001|  | Teste de ponta a ponta | 
+|RF-002|  | Teste de ponta a ponta | 
+|RF-003|  | Teste de ponta a ponta | 
+|RF-004|  | Teste de ponta a ponta | 
+|RF-005|  | Teste de ponta a ponta | 
+|RF-014|  | Teste de ponta a ponta | 
+
+# Testes de Campos
+ID    | Descrição do teste  | Categoria |
+|------|-----------------------------------------|----|
+|RF-005|  | Teste de campos | 
+|RF-014|  | Teste de campos | 
+
+# Testes de Navegabilidade
+|ID    | Descrição do teste  | Categoria |
+|------|-----------------------------------------|----|
+|RF-001|  | Teste de navegabilidade | 
+|RF-002|  | Teste de navegabilidade | 
+|RF-003|  | Teste de navegabilidade | 
+|RF-004|  | Teste de navegabilidade | 
+|RF-005|  | Teste de navegabilidade | 
+|RF-014|  | Teste de navegabilidade | 
+
+
+# Testes de Responsividade
+|ID    | Descrição do teste  | Categoria |
+|------|-----------------------------------------|----|
+|RF-001|  | Teste de responsividade | 
+|RF-002|  | Teste de responsividade | 
+|RF-003|  | Teste de responsividade | 
+|RF-004|  | Teste de responsividade | 
+|RF-005|  | Teste de responsividade | 
+|RF-014|  | Teste de responsividade | 
+
+
+
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
 
 Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
