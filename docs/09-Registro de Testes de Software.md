@@ -18,8 +18,8 @@ Gravidade
 |CT-02 <br> RF-02|  | | |
 |CT-03 <br> RF-03| Verificar se a página "lista de vagas" está acessível e interativa. |  |  |
 |CT-04 <br> RF-04|  | | | 
-|CT-05 <br> RF-05| É possível criar uma nova vaga seguindo todo o processo necessario? |  |  |
-|CT-06 <br> RF-13| É possível para uma empresa se cadastrar e efetuar login? | | |
+|CT-05 <br> RF-05| É possível criar uma nova vaga seguindo todo o processo necessario? | Todos os passos foram executados com êxito | Sucesso |
+|CT-06 <br> RF-13| É possível para uma empresa se cadastrar e efetuar login? | Todos os passos foram executados com êxito | Sucesso |
 
 # Testes de Campos simplificado
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
