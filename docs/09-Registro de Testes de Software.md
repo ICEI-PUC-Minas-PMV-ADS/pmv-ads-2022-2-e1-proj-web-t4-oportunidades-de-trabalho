@@ -14,137 +14,137 @@ Gravidade
 # Testes de Ponta a ponta simplificado
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|RF-001|  | | | 
-|RF-002|  | | |
-|RF-003| Verificar se a página "lista de vagas" está acessível e interativa. |  |  |
-|RF-004|  | | | 
-|RF-005| É possível criar uma nova vaga seguindo todo o processo necessario? |  |  |
-|RF-013| É possível para uma empresa se cadastrar e efetuar login? | | |
+|CT-01 <br> RF-01|  | | | 
+|CT-02 <br> RF-02|  | | |
+|CT-03 <br> RF-03| Verificar se a página "lista de vagas" está acessível e interativa. |  |  |
+|CT-04 <br> RF-04|  | | | 
+|CT-05 <br> RF-05| É possível criar uma nova vaga seguindo todo o processo necessario? |  |  |
+|CT-06 <br> RF-13| É possível para uma empresa se cadastrar e efetuar login? | | |
 
 # Testes de Campos simplificado
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|RF-005|  |  | | 
-|RF-013|  |  | |
+|CT-05 <br> RF-05|  |  | | 
+|CT-06 <br> RF-13|  |  | |
 
 # Testes de Navegabilidade simplificado
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|RF-001| É possivel navegar por todos os links da pagina? | |  |
+|CT-01 <br> RF-01| É possivel navegar por todos os links da pagina? | |  |
 || Todos os links direcionam para o caminho correto?  | |  |
-|RF-002| É possivel navegar por todos os links da pagina? |  |  |
+|CT-02 <br> RF-02| É possivel navegar por todos os links da pagina? |  |  |
 || Todos os links direcionam para o caminho correto?  |  |  |
-|RF-003| É possivel navegar por todos os links da pagina? |  |  |
+|CT-03 <br> RF-03| É possivel navegar por todos os links da pagina? |  |  |
 || Todos os links direcionam para o caminho correto?  |  |  |
-|RF-004| É possivel navegar por todos os links da pagina? |  |  |
+|CT-04 <br> RF-04| É possivel navegar por todos os links da pagina? |  |  |
 || Todos os links direcionam para o caminho correto?  | |  |
-|RF-005| É possivel navegar por todos os links da pagina? |  |  |
+|CT-05 <br> RF-05| É possivel navegar por todos os links da pagina? |  |  |
 || Todos os links direcionam para o caminho correto?  |  |  |
-|RF-013| É possivel navegar por todos os links da pagina? |  |  |
+|CT-06 <br> RF-13| É possivel navegar por todos os links da pagina? |  |  |
 || Todos os links direcionam para o caminho correto?  |  | |
 
 
 # Testes de Responsividade simplificado
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|RF-001| A pagina é responsiva para desktop, tablet e smartphone? |  |  |
-|RF-002| A pagina é responsiva para desktop, tablet e smartphone? |  |  |
-|RF-003| A pagina é responsiva para desktop, tablet e smartphone? |  |  |
-|RF-004| A pagina é responsiva para desktop, tablet e smartphone? |  |  |
-|RF-005| A pagina é responsiva para desktop, tablet e smartphone? |  |  |
-|RF-013| A pagina é responsiva para desktop, tablet e smartphone? |  |  |
+|CT-01 <br> RF-01| A pagina é responsiva para desktop, tablet e smartphone? |  |  |
+|CT-02 <br> RF-02| A pagina é responsiva para desktop, tablet e smartphone? |  |  |
+|CT-03 <br> RF-03| A pagina é responsiva para desktop, tablet e smartphone? |  |  |
+|CT-04 <br> RF-04| A pagina é responsiva para desktop, tablet e smartphone? |  |  |
+|CT-05 <br> RF-05| A pagina é responsiva para desktop, tablet e smartphone? |  |  |
+|CT-06 <br> RF-13| A pagina é responsiva para desktop, tablet e smartphone? |  |  |
 
 
 # Testes de Ponta a ponta Completos
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|RF-001|  | | | 
+|CT-01 <br> RF-01|  | | | 
 
 //Testes e imagens aqui.
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|RF-002|  | | | 
+|CT-02 <br> RF-02|  | | | 
 
 //Testes e imagens aqui.
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|RF-003| Verificar se a página "lista de vagas" está acessível e interativa. |  |  |
+|CT-03 <br> RF-03| Verificar se a página "lista de vagas" está acessível e interativa. |  |  |
 
 //Testes e imagens aqui.
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|RF-004|  | | | 
+|CT-04 <br> RF-04|  | | | 
 
 //Testes e imagens aqui.
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|RF-005| É possível criar uma nova vaga seguindo todo o processo necessario? |  |  |
+|CT-05 <br> RF-05| É possível criar uma nova vaga seguindo todo o processo necessario? |  |  |
 
 //Testes e imagens aqui.
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|RF-013| É possível para uma empresa se cadastrar e efetuar login? | | |
+|CT-06 <br> RF-13| É possível para uma empresa se cadastrar e efetuar login? | | |
 
 //Testes e imagens aqui.
 
 # Testes de Campos completos
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|RF-005|  |  | | 
+|CT-05 <br> RF-05|  |  | | 
 
 //Testes e imagens aqui.
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|RF-013|  |  | |
+|CT-06 <br> RF-13|  |  | |
 
 //Testes e imagens aqui.
 
 # Testes de Navegabilidade completos
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|RF-001| É possivel navegar por todos os links da pagina? | |  |
+|CT-01 <br> RF-01| É possivel navegar por todos os links da pagina? | |  |
 || Todos os links direcionam para o caminho correto?  | |  |
 
 //Testes e imagens aqui.
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|RF-002| É possivel navegar por todos os links da pagina? |  |  |
+|CT-02 <br> RF-02| É possivel navegar por todos os links da pagina? |  |  |
 || Todos os links direcionam para o caminho correto?  |  |  |
 
 //Testes e imagens aqui.
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|RF-003| É possivel navegar por todos os links da pagina? |  |  |
+|CT-03 <br> RF-03| É possivel navegar por todos os links da pagina? |  |  |
 || Todos os links direcionam para o caminho correto?  |  |  |
 
 //Testes e imagens aqui.
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|RF-004| É possivel navegar por todos os links da pagina? |  |  |
+|CT-04 <br> RF-04| É possivel navegar por todos os links da pagina? |  |  |
 || Todos os links direcionam para o caminho correto?  | |  |
 
 //Testes e imagens aqui.
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|RF-005| É possivel navegar por todos os links da pagina? |  |  |
+|CT-05 <br> RF-05| É possivel navegar por todos os links da pagina? |  |  |
 || Todos os links direcionam para o caminho correto?  |  | 
 |
 //Testes e imagens aqui.
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|RF-013| É possivel navegar por todos os links da pagina? |  |  |
+|CT-06 <br> RF-13| É possivel navegar por todos os links da pagina? |  |  |
 || Todos os links direcionam para o caminho correto?  |  | |
 
 //Testes e imagens aqui.
@@ -152,42 +152,42 @@ Gravidade
 # Testes de Navegabilidade completo
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|RF-001| É possivel navegar por todos os links da pagina? | |  |
+|CT-01 <br> RF-01| É possivel navegar por todos os links da pagina? | |  |
 || Todos os links direcionam para o caminho correto?  | |  |
 
 //Testes e imagens aqui.
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|RF-002| É possivel navegar por todos os links da pagina? |  |  |
+|CT-02 <br> RF-02| É possivel navegar por todos os links da pagina? |  |  |
 || Todos os links direcionam para o caminho correto?  |  |  |
 
 //Testes e imagens aqui.
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|RF-003| É possivel navegar por todos os links da pagina? |  |  |
+|CT-03 <br> RF-03| É possivel navegar por todos os links da pagina? |  |  |
 || Todos os links direcionam para o caminho correto?  |  |  |
 
 //Testes e imagens aqui.
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|RF-004| É possivel navegar por todos os links da pagina? |  |  |
+|CT-04 <br> RF-04| É possivel navegar por todos os links da pagina? |  |  |
 || Todos os links direcionam para o caminho correto?  | |  |
 
 //Testes e imagens aqui.
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|RF-005| É possivel navegar por todos os links da pagina? |  |  |
+|CT-05 <br> RF-05| É possivel navegar por todos os links da pagina? |  |  |
 || Todos os links direcionam para o caminho correto?  |  |  |
 
 //Testes e imagens aqui.
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|RF-013| É possivel navegar por todos os links da pagina? |  |  |
+|CT-06 <br> RF-13| É possivel navegar por todos os links da pagina? |  |  |
 || Todos os links direcionam para o caminho correto?  |  | |
 
 //Testes e imagens aqui.
