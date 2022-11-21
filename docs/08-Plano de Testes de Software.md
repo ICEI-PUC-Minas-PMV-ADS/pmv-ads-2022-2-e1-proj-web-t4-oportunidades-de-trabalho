@@ -49,6 +49,7 @@ ID    | Descrição do teste  | Categoria |
 |RF-014|  | Teste de responsividade | 
 
 
+# Referencias
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
 
