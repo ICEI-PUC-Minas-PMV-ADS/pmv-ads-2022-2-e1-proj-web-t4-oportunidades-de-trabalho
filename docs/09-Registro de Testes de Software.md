@@ -87,20 +87,20 @@ Gravidade
 
 1. Acessar a pagina inicial e clicar em "Sou Empresa"
 
-![Pagina inicial](img/Registro_de_testes/CT-05-empresa.png)
+![Pagina inicial](img/Registro_de_testes/CT-05/CT-05-empresa.png)
 
 2. Efetuar login
 
-![Login](img/Registro_de_testes/CT-05-login.png)
+![Login](img/Registro_de_testes/CT-05/CT-05-login.png)
 
 3. Clicar em Nova Vaga
 
-![Nova Vaga ](img/Registro_de_testes/CT-05-novaVaga.png)
+![Nova Vaga ](img/Registro_de_testes/CT-05/CT-05-novaVaga.png)
 
 4. Preencher formulario e enviar
 
-![Criar Vaga](img/Registro_de_testes/CT-05-criarVaga.png)
-![Vaga](img/Registro_de_testes/CT-05-vaga.png)
+![Criar Vaga](img/Registro_de_testes/CT-05/CT-05-criarVaga.png)
+![Vaga](img/Registro_de_testes/CT-05/CT-05-vaga.png)
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
