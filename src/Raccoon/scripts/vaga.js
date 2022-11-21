@@ -1,4 +1,4 @@
-import { pegarParametrosUrl, gerarHabilidades, dataSimplificada, pegarVagas, pegarEmpresas, pegarContato, pegarHabilidades } from "./utils.js";
+import { pegarParametrosUrl, gerarHabilidades, dataSimplificada, pegarVagas, pegarEmpresas, pegarContato, pegarHabilidades, pegarCargo, pegarSenioridade } from "./utils.js";
 
 const idParam = pegarParametrosUrl('id')
 
@@ -15,9 +15,12 @@ if (!idParam) {
     document.getElementById("empresaTitulo").innerHTML = `${empresa.nome} Contrata:`
     document.getElementById("empresaTitulo2").innerHTML = empresa.nome
     document.getElementById("cargoTitulo").innerHTML = vaga.vaga_nome
-    document.getElementById("dataCadastro").innerHTML = dataSimplificada(vaga.data_cadastro)
-    document.getElementById("candidaturaPrazo").innerHTML = dataSimplificada(vaga.data_exp)
-    document.getElementById("candidaturaN").innerHTML = vaga.candidaturas
+    document.getElementById("cargo").innerHTML = `<strong>Cargo:</strong> ${pegarCargo({id:vaga.cargo_id}).nome}`
+    document.getElementById("senioridade").innerHTML = `<strong>Senioridade:</strong> ${pegarSenioridade({id:vaga.cargo_senioridade_id}).nome}`
+    document.getElementById("salario").innerHTML = `<strong>Salario:</strong> ${vaga.salario}`
+    document.getElementById("dataCadastro").innerHTML = `<strong>Data de Cadastro da vaga:</strong> ${dataSimplificada(vaga.data_cadastro)}`
+    document.getElementById("candidaturaPrazo").innerHTML = `<strong>Prazo de candidatura:</strong> ${dataSimplificada(vaga.data_exp)}` 
+    document.getElementById("candidaturaN").innerHTML =  `<strong>N de Candidatos:</strong> ${vaga.candidaturas}`
     document.getElementById("vagaDescricao").innerHTML = vaga.descricao
     document.getElementById("e-mail").innerHTML = contato.email
     document.getElementById("linkedin").innerHTML = contato.linkedin

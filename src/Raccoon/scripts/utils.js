@@ -121,27 +121,33 @@ export function gerarCardsVagas(vagas, maxVagas, colSize = { sm: 12, md: 12, lg:
     if (vl < maxVagas || !maxVagas) {
       let empresa = pegarEmpresas({ id: vagas[vl].empresa_id })
       let habilidades = JSON.parse(localStorage.getItem('Habilidades')).filter(obj => vagas[vl].hab_essencial_id.includes(obj.id))
+      let cargo = pegarCargo({id:vagas[vl].cargo_id})
+      let senioridade = pegarSenioridade({id:vagas[vl].cargo_senioridade_id})
       div += `
-        <div class='row col-sm-${colSize['sm']} col-md-${colSize['md']} col-lg-${colSize['lg']} align-items-center bg-light mt-2'>
+        <div class='border row col-sm-${colSize['sm']} col-md-${colSize['md']} col-lg-${colSize['lg']} align-items-center bg-light mt-2'>
           <div class="ratio ratio-1x1 col-sm-4">
             <a href='./empresa.html?id=${vagas[vl].empresa_id}'>
               <img src="${empresa.logo_link}" class="img-fluid rounded align-items-center" alt="LogoDaEmpresa">
             </a>
+            <p class="col-sm-12 text-center"><strong>Salário:${vagas[vl].salario}</strong></p>
           </div>
           <div class="col-sm-8">
             <div class="row ">
               <a href='./vaga.html?id=${vagas[vl].id}' class="text-dark">
                 <p id="vaga-nome" class="col-sm-12 text-left text-black mt-2"><strong>${vagas[vl].vaga_nome ? vagas[vl].vaga_nome : JSON.parse(localStorage.getItem('Cargos')).find(obj => obj.id === vagas[vl].cargo_id).nome}</strong></p>
               </a>
-              <p id="empresa-data" class="col-sm-12 text-left"><a href='./empresa.html?id=${vagas[vl].empresa_id}'>${empresa.nome}</a> - <small>De: ${dataSimplificada(vagas[vl].data_cadastro)} - Até: ${dataSimplificada(vagas[vl].data_exp)}</small></p>
+              <p class="col-sm-12 text-left">${cargo.nome} - ${senioridade.nome}</p>
               <a href='./vaga.html?id=${vagas[vl].id}' class="text-dark">
-                <p id="descricao" class="col-sm-12 text-left">${reduzirTexto(vagas[vl].descricao, 100)}</p>
+              <p id="descricao" class="col-sm-12 text-left mb-0">${reduzirTexto(vagas[vl].descricao, 100)}</p>
               </a>
+              <hr class="col-sm-8">
+              <p id="empresa-data" class="col-sm-12 text-left"><a href='./empresa.html?id=${vagas[vl].empresa_id}'>${empresa.nome}</a> - <small>De: ${dataSimplificada(vagas[vl].data_cadastro)} - Até: ${dataSimplificada(vagas[vl].data_exp)}</small></p>
               <div class="col-sm-12 row text-center">
                 ${gerarHabilidades(habilidades, 3, 4)}
               </div>
             </div>
           </div>
+          
         </div>
       `
     }
