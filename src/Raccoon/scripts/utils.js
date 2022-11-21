@@ -129,7 +129,7 @@ export function gerarCardsVagas(vagas, maxVagas, colSize = { sm: 12, md: 12, lg:
             <a href='./empresa.html?id=${vagas[vl].empresa_id}'>
               <img src="${empresa.logo_link}" class="img-fluid rounded align-items-center" alt="LogoDaEmpresa">
             </a>
-            <p class="col-sm-12 text-center"><strong>Salário:${vagas[vl].salario}</strong></p>
+            <p class="col-sm-12 text-center"><strong>Salário: R$${vagas[vl].salario}</strong></p>
           </div>
           <div class="col-sm-8">
             <div class="row ">

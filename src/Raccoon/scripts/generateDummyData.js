@@ -76,31 +76,31 @@ if (
                 'id': 1, 'empresa_id': 1, 'hab_essencial_id': [1, 2], 'hab_dif_id': [3], 'vaga_nome': 'Contratamos Front-end dev',
                 'descricao':
                     `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel venenatis ante. Curabitur ullamcorper at dui nec blandit. Donec convallis fermentum sodales. Donec ultricies sapien a elit volutpat, eu hendrerit mi lacinia. Mauris tristique imperdiet justo, id mollis sem interdum et.`,
-                'cargo_id': 1, 'salario': 'R$ 4500,00', 'data_exp': new Date(2022, 11, 20), 'data_cadastro': new Date(2022, 08, 17), 'candidaturas': 10, 'cargo_senioridade_id': 1,
+                'cargo_id': 1, 'salario': 4500.00, 'data_exp': new Date(2022, 12, 25), 'data_cadastro': new Date(2022, 08, 17), 'candidaturas': 10, 'cargo_senioridade_id': 1,
             },
 
             {
                 'id': 2, 'empresa_id': 2, 'hab_essencial_id': [3, 4], 'hab_dif_id': [1], 'vaga_nome': 'A procura de analista de dados',
                 'descricao': 'Cras dignissim interdum tellus, in pretium ipsum facilisis quis. Aenean vitae sapien dignissim, cursus nisi sit amet, ullamcorper sem. Donec sagittis vestibulum nisl, a tempor eros egestas ac. Sed mollis laoreet sapien id elementum. Nulla id dolor ac sapien convallis dictum sit amet sit amet nibh.',
-                'cargo_id': 2, 'salario': 'R$ 6200,00', 'data_exp': new Date(2023, 01, 15), 'data_cadastro': new Date(2022, 09, 20), 'candidaturas': 37, 'cargo_senioridade_id': 2,
+                'cargo_id': 2, 'salario': 6200.00, 'data_exp': new Date(2023, 01, 15), 'data_cadastro': new Date(2022, 09, 20), 'candidaturas': 37, 'cargo_senioridade_id': 2,
             },
 
             {
                 'id': 3, 'empresa_id': 2, 'hab_essencial_id': [1, 2, 3, 4], 'hab_dif_id': [5], 'vaga_nome': 'Procura-se full stack dev',
                 'descricao': 'Mauris fermentum lectus justo, non sodales mi aliquam ac. Duis gravida quam dictum, aliquam ex id, gravida ante. Fusce rutrum, elit ut porta tempor, justo lorem iaculis neque, nec congue mi nulla quis urna. Morbi finibus quam mauris, in feugiat ante imperdiet sit amet. Fusce mattis elementum ipsum in finibus.',
-                'cargo_id': 3, 'salario': 'R$ 18000,00', 'data_exp': new Date(2023, 09, 01), 'data_cadastro': new Date(2022, 05, 25), 'candidaturas': 94, 'cargo_senioridade_id': 3,
+                'cargo_id': 3, 'salario': 18000.00, 'data_exp': new Date(2023, 09, 01), 'data_cadastro': new Date(2022, 05, 25), 'candidaturas': 94, 'cargo_senioridade_id': 3,
             },
 
             {
                 'id': 4, 'empresa_id': 3, 'hab_essencial_id': [5, 1], 'hab_dif_id': [2, 3], 'vaga_nome': '',
                 'descricao': 'Donec id libero feugiat, rutrum sapien non, convallis velit. Sed dapibus rutrum neque, sed auctor odio lacinia porta. Aenean gravida, tortor quis tempor euismod, felis augue euismod augue, at varius orci dolor id orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi ultricies tempor erat ',
-                'cargo_id': 4, 'salario': 'R$ 3200,00', 'data_exp': new Date(2022, 12, 17), 'data_cadastro': new Date(2022, 01, 03), 'candidaturas': 2, 'cargo_senioridade_id': 1,
+                'cargo_id': 4, 'salario': 3200.00, 'data_exp': new Date(2022, 12, 17), 'data_cadastro': new Date(2022, 01, 03), 'candidaturas': 2, 'cargo_senioridade_id': 1,
             },
 
             {
                 'id': 5, 'empresa_id': 3, 'hab_essencial_id': [2, 4], 'hab_dif_id': [1, 5], 'vaga_nome': '',
                 'descricao': 'VestiVestibulum vitae mauris leo. Donec facilisis auctor lectus, at hendrerit neque ultricies quis. Donec venenatis mollis est sit amet pretium. Vestibulum tincidunt nec leo sed laoreet. Sed molestie magna nec leo sagittis venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec sed purus sagittis,Vestibulum vitae mauris leo. Donec facilisis auctor lectus, at hendrerit neque ultricies quis. Donec venenatis mollis est sit amet pretium. Vestibulum tincidunt nec leo sed laoreet. Sed molestie magna nec leo sagittis venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec sed purus sagittis,bulum vitae mauris leo. Donec facilisis auctor lectus, at hendrerit neque ultricies quis. Donec venenatis mollis est sit amet pretium. Vestibulum tincidunt nec leo sed laoreet. Sed molestie magna nec leo sagittis venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec sed purus sagittis,',
-                'cargo_id': 5, 'salario': 'R$ 9000,00', 'data_exp': new Date(2021, 11, 17), 'data_cadastro': new Date(2021, 05, 20), 'candidaturas': 225, 'cargo_senioridade_id': 2,
+                'cargo_id': 5, 'salario': 9000.00, 'data_exp': new Date(2021, 11, 17), 'data_cadastro': new Date(2021, 05, 20), 'candidaturas': 225, 'cargo_senioridade_id': 2,
             },
         ]
     )

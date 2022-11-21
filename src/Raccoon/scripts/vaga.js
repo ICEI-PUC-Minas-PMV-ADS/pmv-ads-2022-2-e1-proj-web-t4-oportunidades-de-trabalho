@@ -17,7 +17,7 @@ if (!idParam) {
     document.getElementById("cargoTitulo").innerHTML = vaga.vaga_nome
     document.getElementById("cargo").innerHTML = `<strong>Cargo:</strong> ${pegarCargo({id:vaga.cargo_id}).nome}`
     document.getElementById("senioridade").innerHTML = `<strong>Senioridade:</strong> ${pegarSenioridade({id:vaga.cargo_senioridade_id}).nome}`
-    document.getElementById("salario").innerHTML = `<strong>Salario:</strong> ${vaga.salario}`
+    document.getElementById("salario").innerHTML = `<strong>Salario:</strong> R$ ${vaga.salario}`
     document.getElementById("dataCadastro").innerHTML = `<strong>Data de Cadastro da vaga:</strong> ${dataSimplificada(vaga.data_cadastro)}`
     document.getElementById("candidaturaPrazo").innerHTML = `<strong>Prazo de candidatura:</strong> ${dataSimplificada(vaga.data_exp)}` 
     document.getElementById("candidaturaN").innerHTML =  `<strong>N de Candidatos:</strong> ${vaga.candidaturas}`
