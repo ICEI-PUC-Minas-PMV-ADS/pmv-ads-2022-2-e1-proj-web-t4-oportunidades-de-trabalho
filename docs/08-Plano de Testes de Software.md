@@ -13,14 +13,14 @@ Os planejamentos dos testes a serem realizados serão descritos abaixo de acordo
 Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Especificação do Projeto </a></span> para melhor entendimento dos requisitos que serão trabalhados a seguir.
 
 # Testes de Ponta a ponta
-|ID    | Descrição do teste  | Passos | Critérios de Êxito | Categoria     |
-|------|---------------------|--------|--------------------|--------------|
-|CT-01 <br> RF-01|                   |<ul><li>1</li></ul> | <ul><li>1</li></ul>  | Teste de ponta a ponta | 
-|CT-02 <br> RF-02| |<ul><li>1</li></ul> | <ul><li>1</li></ul>  | Teste de ponta a ponta | 
-|CT-03 <br> RF-03| Verificar se a página "lista de vagas" está acessível e interativa. |<ol><li>Informar o endereço do site ao navegador.</li><li>Acessar a página inicial.</li><li>Clicar no botão "Ver Vagas" na página principal ou na nav bar.</li><li>Acessar a página "Lista de Vagas".</li></ol> | <ul><li>A página deve apresentar uma lista de vagas postadas pelas empresas cadastradas no site.</li><li>A página deve apresentar uma barra de pesquisa funcional que procura pelo título da vaga.</li><li>deve ser possível clicar em alguma vaga para redirecionar e visualizar os detalhes da vaga correspondente.</li></ul>  | Teste de ponta a ponta | 
-|CT-04 <br> RF-04| |<ul><li>1</li></ul> | <ul><li>1</li></ul>  | Teste de ponta a ponta | 
-|CT-05 <br> RF-05|É possível criar uma nova vaga seguindo todo o processo necessario? |<ul><li>1</li></ul> | <ul><li>1</li></ul>  | Teste de ponta a ponta | 
-|CT-06 <br> RF-13|É possível para uma empresa se cadastrar e efetuar login? |<ul><li>1</li></ul> | <ul><li>1</li></ul>  | Teste de ponta a ponta | 
+|ID    | Descrição do teste  | Passos | Critérios de Êxito |
+|------|---------------------|--------|--------------------|
+|CT-01 <br> RF-01|                   |<ul><li>1</li></ul> | <ul><li>1</li></ul>  
+|CT-02 <br> RF-02| |<ul><li>1</li></ul> | <ul><li>1</li></ul>  
+|CT-03 <br> RF-03| Verificar se a página "lista de vagas" está acessível e interativa. |<ol><li>Informar o endereço do site ao navegador.</li><li>Acessar a página inicial.</li><li>Clicar no botão "Ver Vagas" na página principal ou na nav bar.</li><li>Acessar a página "Lista de Vagas".</li></ol> | <ul><li>A página deve apresentar uma lista de vagas postadas pelas empresas cadastradas no site.</li><li>A página deve apresentar uma barra de pesquisa funcional que procura pelo título da vaga.</li><li>deve ser possível clicar em alguma vaga para redirecionar e visualizar os detalhes da vaga correspondente.</li></ul>  
+|CT-04 <br> RF-04| |<ul><li>1</li></ul> | <ul><li>1</li></ul> 
+|CT-05 <br> RF-05|É possível criar uma nova vaga seguindo todo o processo necessário? |<ol><li>Acessar a pagina inicial</li><li>Clicar em "Sou Empresa" e efetuar login</li><li>Clicar em Nova Vaga</li><li>Preencher formulario e enviar</li></ol> | <ul><li>Conseguir acessar todas as paginas pela propria aplicação</li><li>Criar uma vaga com sucesso ao preencher o formulario</li><li>A nova vaga aparecer na lista de vagas da empresa </li></ul>  | 
+|CT-06 <br> RF-13|É possível para uma empresa se cadastrar e efetuar login? |<ol><li>Acessar a pagina inicial</li><li>Clicar em "Sou Empresa"</li><li>Clicar em Cadaste-se</li><li>Efetuar cadastro com sucesso ao preencher informações</li><li>Ser redirecionado para a pagina da sua empresa</li></ol> | <ul><li>Conseguir acessar todas as paginas pela propria aplicação</li> <li>Conseguir se cadastrar com sucesso ao preencher informações</li> <li>Ser redirecionado com sucesso para a pagina da empresa</li></ul>  | 
 
 # Testes de Campos
 ID    | Descrição do teste | Passos | Critérios de Êxito  | Categoria |
