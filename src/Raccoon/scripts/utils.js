@@ -29,7 +29,7 @@ export function gerarHabilidades(Habilidades, MaxPills=null, colSize=4) {
   for (let vl in Habilidades) {
     if (vl < MaxPills || !MaxPills) {
       if (vl % 2 == 0) {
-        div += `<p id="skill-${vl}" class="col-sm-${colSize} rounded-pill bg-warning"><a hre  f='./habilidade.html?id=${Habilidades[vl].id}' class="text-dark">${Habilidades[vl].nome}</a></p>`
+        div += `<p id="skill-${vl}" class="col-sm-${colSize} rounded-pill bg-warning"><a href='./habilidade.html?id=${Habilidades[vl].id}' class="text-dark">${Habilidades[vl].nome}</a></p>`
       } else {
         div += `<p id="skill-${vl}" class="col-sm-${colSize} rounded-pill bg-info"><a href='./habilidade.html?id=${Habilidades[vl].id}' class="text-dark">${Habilidades[vl].nome}</a></p>`
       }
