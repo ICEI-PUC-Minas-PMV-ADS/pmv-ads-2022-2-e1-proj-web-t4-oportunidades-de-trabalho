@@ -17,7 +17,7 @@ Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Esp
 |------|-----------------------------------------|----|
 |RF-001|  | Teste de ponta a ponta | 
 |RF-002|  | Teste de ponta a ponta | 
-|RF-003|  | Teste de ponta a ponta | 
+|RF-003| Verificar se a página "lista de vagas" está acessível e interativa. | Teste de ponta a ponta | 
 |RF-004|  | Teste de ponta a ponta | 
 |RF-005| É possível criar uma nova vaga seguindo todo o processo necessario? | Teste de ponta a ponta | 
 |RF-013| É possível para uma empresa se cadastrar e efetuar login? | Teste de ponta a ponta | 
