@@ -13,47 +13,47 @@ Os planejamentos dos testes a serem realizados serão descritos abaixo de acordo
 Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Especificação do Projeto </a></span> para melhor entendimento dos requisitos que serão trabalhados a seguir.
 
 # Testes de Ponta a ponta
-|ID    | Descrição do teste  | Categoria |
-|------|-----------------------------------------|----|
-|RF-001|  | Teste de ponta a ponta | 
-|RF-002|  | Teste de ponta a ponta | 
-|RF-003| Verificar se a página "lista de vagas" está acessível e interativa. | Teste de ponta a ponta | 
-|RF-004|  | Teste de ponta a ponta | 
-|RF-005| É possível criar uma nova vaga seguindo todo o processo necessario? | Teste de ponta a ponta | 
-|RF-013| É possível para uma empresa se cadastrar e efetuar login? | Teste de ponta a ponta | 
+|ID    | Descrição do teste  | Passos | Critérios de Êxito | Categoria     |
+|------|---------------------|--------|--------------------|--------------|
+|CT-01 <br> RF-01|                   |<ul><li>1</li></ul> | <ul><li>1</li></ul>  | Teste de ponta a ponta | 
+|CT-02 <br> RF-02| |<ul><li>1</li></ul> | <ul><li>1</li></ul>  | Teste de ponta a ponta | 
+|CT-03 <br> RF-03| Verificar se a página "lista de vagas" está acessível e interativa. |<ul><li>1</li></ul> | <ul><li>1</li></ul>  | Teste de ponta a ponta | 
+|CT-04 <br> RF-04| |<ul><li>1</li></ul> | <ul><li>1</li></ul>  | Teste de ponta a ponta | 
+|CT-05 <br> RF-05|É possível criar uma nova vaga seguindo todo o processo necessario? |<ul><li>1</li></ul> | <ul><li>1</li></ul>  | Teste de ponta a ponta | 
+|CT-06 <br> RF-13|É possível para uma empresa se cadastrar e efetuar login? |<ul><li>1</li></ul> | <ul><li>1</li></ul>  | Teste de ponta a ponta | 
 
 # Testes de Campos
-ID    | Descrição do teste  | Categoria |
-|------|-----------------------------------------|----|
-|RF-005|  | Teste de campos | 
-|RF-013|  | Teste de campos | 
+ID    | Descrição do teste  | Passos | Critérios de Êxito   | Categoria |
+|------|--------------------|--------|----------------------|-----------|
+|CT-05 <br> RF-05| | | | Teste de campos | 
+|CT-06 <br> RF-13| | | | Teste de campos | 
 
 # Testes de Navegabilidade
 |ID    | Descrição do teste  | Categoria |
 |------|-----------------------------------------|----|
-|RF-001| É possivel navegar por todos os links da pagina? | Teste de navegabilidade | 
+|CT-01 <br> RF-01| É possivel navegar por todos os links da pagina? | Teste de navegabilidade | 
 || Todos os links direcionam para o caminho correto?  || 
-|RF-002| É possivel navegar por todos os links da pagina? | Teste de navegabilidade | 
+|CT-02 <br> RF-02| É possivel navegar por todos os links da pagina? | Teste de navegabilidade | 
 || Todos os links direcionam para o caminho correto?  |  | 
-|RF-003| É possivel navegar por todos os links da pagina? | Teste de navegabilidade | 
+|CT-03 <br> RF-03| É possivel navegar por todos os links da pagina? | Teste de navegabilidade | 
 || Todos os links direcionam para o caminho correto?  |  | 
-|RF-004| É possivel navegar por todos os links da pagina? | Teste de navegabilidade | 
+|CT-04 <br> RF-04| É possivel navegar por todos os links da pagina? | Teste de navegabilidade | 
 || Todos os links direcionam para o caminho correto?  | | 
-|RF-005| É possivel navegar por todos os links da pagina? | Teste de navegabilidade | 
+|CT-05 <br> RF-05| É possivel navegar por todos os links da pagina? | Teste de navegabilidade | 
 || Todos os links direcionam para o caminho correto?  |  | 
-|RF-013| É possivel navegar por todos os links da pagina? | Teste de navegabilidade | 
+|CT-06 <br> RF-13| É possivel navegar por todos os links da pagina? | Teste de navegabilidade | 
 || Todos os links direcionam para o caminho correto?  |  | 
 
 
 # Testes de Responsividade
 |ID    | Descrição do teste  | Categoria |
 |------|-----------------------------------------|----|
-|RF-001| A pagina é responsiva para desktop, tablet e smartphone? | Teste de responsividade | 
-|RF-002| A pagina é responsiva para desktop, tablet e smartphone? | Teste de responsividade | 
-|RF-003| A pagina é responsiva para desktop, tablet e smartphone? | Teste de responsividade | 
-|RF-004| A pagina é responsiva para desktop, tablet e smartphone? | Teste de responsividade | 
-|RF-005| A pagina é responsiva para desktop, tablet e smartphone? | Teste de responsividade | 
-|RF-013| A pagina é responsiva para desktop, tablet e smartphone? | Teste de responsividade | 
+|CT-01 <br> RF-01| A pagina é responsiva para desktop, tablet e smartphone? | Teste de responsividade | 
+|CT-02 <br> RF-02| A pagina é responsiva para desktop, tablet e smartphone? | Teste de responsividade | 
+|CT-03 <br> RF-03| A pagina é responsiva para desktop, tablet e smartphone? | Teste de responsividade | 
+|CT-04 <br> RF-04| A pagina é responsiva para desktop, tablet e smartphone? | Teste de responsividade | 
+|CT-05 <br> RF-05| A pagina é responsiva para desktop, tablet e smartphone? | Teste de responsividade | 
+|CT-06 <br> RF-13| A pagina é responsiva para desktop, tablet e smartphone? | Teste de responsividade | 
 
 
 # Referencias
