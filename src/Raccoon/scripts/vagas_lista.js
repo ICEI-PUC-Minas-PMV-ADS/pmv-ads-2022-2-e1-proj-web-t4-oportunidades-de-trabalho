@@ -3,14 +3,14 @@ import { pegarVagas, pegarParametrosUrl, gerarCardsVagas, pegarHabilidades } fro
 filterHab()
 
 function filterHab(id) {
+    let now = new Date().getTime()
     localStorage.getItem('filterHab') ? localStorage.setItem('filterHab', [id, ...localStorage.getItem('filterHab').split(',')]) : localStorage.setItem('filterHab', [id])
     let vg = pegarVagas({})
     if (localStorage.getItem('filterHab')) {
-        vg = JSON.parse(localStorage.getItem('Vagas')).filter(obj => obj.hab_essencial_id.some(item => localStorage.getItem('filterHab').split(',').includes(String(item))))
+        vg = JSON.parse(localStorage.getItem('Vagas')).filter(obj => obj.hab_essencial_id.some(item => localStorage.getItem('filterHab').split(',').includes(String(item))) && new Date(obj.data_exp).getTime() > now)
     }
-    vg = vg.filter(obj => obj.vaga_nome.toUpperCase().includes($('#textInput').val().toUpperCase()))
+    vg = vg.filter(obj => obj.vaga_nome.toUpperCase().includes($('#textInput').val().toUpperCase()) && new Date(obj.data_exp).getTime() > now)
     generateList(vg)
-
 }
 function generateList(vagas) {
     let pageIndex = parseInt(pegarParametrosUrl('page'))
