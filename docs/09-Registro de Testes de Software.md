@@ -106,7 +106,26 @@ Gravidade
 |------|---------------------|-------------------------|----------|
 |CT-06 <br> RF-13| É possível para uma empresa se cadastrar e efetuar login? | Todos os passos foram executados com êxito | Sucesso |
 
-//Testes e imagens aqui.
+
+1. Acessar a pagina inicial e clicar em "Sou Empresa"
+
+![Pagina inicial](img/Registro_de_testes/CT-05/CT-06-empresa.png)
+
+2. Clicar em Cadaste-se
+
+![Cadastre-se](img/Registro_de_testes/CT-06/CT-06-cadastrese.png)
+
+3. Efetuar cadastro com sucesso ao preencher informações
+
+![Registro](img/Registro_de_testes/CT-06/CT-06-registro.png)
+
+4. Efetuar login
+
+![Login](img/Registro_de_testes/CT-06/CT-06-login.png)
+
+5. Ser redirecionado para a pagina da sua empresa
+
+![Perfil](img/Registro_de_testes/CT-06/CT-06-logado.png)
 
 # Testes de Campos completos
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
