@@ -87,20 +87,20 @@ Gravidade
 
 1. Acessar a pagina inicial e clicar em "Sou Empresa"
 
-![Pagina inicial](img/Registro_de_testes/CT-05/CT-05-empresa.png)
+![Pagina inicial](img/registro_de_testes/ct-05/CT-05-empresa.png)
 
 2. Efetuar login
 
-![Login](img/Registro_de_testes/CT-05/CT-05-login.png)
+![Login](img/registro_de_testes/ct-05/CT-05-login.png)
 
 3. Clicar em Nova Vaga
 
-![Nova Vaga ](img/Registro_de_testes/CT-05/CT-05-novaVaga.png)
+![Nova Vaga ](img/registro_de_testes/ct-05/CT-05-novaVaga.png)
 
 4. Preencher formulario e enviar
 
-![Criar Vaga](img/Registro_de_testes/CT-05/CT-05-criarVaga.png)
-![Vaga](img/Registro_de_testes/CT-05/CT-05-vaga.png)
+![Criar Vaga](img/registro_de_testes/ct-05/CT-05-criarVaga.png)
+![Vaga](img/registro_de_testes/ct-05/CT-05-vaga.png)
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
@@ -109,23 +109,23 @@ Gravidade
 
 1. Acessar a pagina inicial e clicar em "Sou Empresa"
 
-![Pagina inicial](img/Registro_de_testes/CT-05/CT-06-empresa.png)
+![Pagina inicial](img/registro_de_testes/ct-06/CT-06-empresa.png)
 
 2. Clicar em Cadaste-se
 
-![Cadastre-se](img/Registro_de_testes/CT-06/CT-06-cadastrese.png)
+![Cadastre-se](img/registro_de_testes/ct-06/CT-06-cadastrese.png)
 
 3. Efetuar cadastro com sucesso ao preencher informações
 
-![Registro](img/Registro_de_testes/CT-06/CT-06-registro.png)
+![Registro](img/registro_de_testes/ct-06/CT-06-registro.png)
 
 4. Efetuar login
 
-![Login](img/Registro_de_testes/CT-06/CT-06-login.png)
+![Login](img/registro_de_testes/ct-06/CT-06-login.png)
 
 5. Ser redirecionado para a pagina da sua empresa
 
-![Perfil](img/Registro_de_testes/CT-06/CT-06-logado.png)
+![Perfil](img/registro_de_testes/ct-06/CT-06-logado.png)
 
 # Testes de Campos completos
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
