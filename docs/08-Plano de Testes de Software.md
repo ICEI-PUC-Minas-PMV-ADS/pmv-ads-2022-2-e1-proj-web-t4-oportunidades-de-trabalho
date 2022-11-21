@@ -31,23 +31,29 @@ ID    | Descrição do teste  | Categoria |
 # Testes de Navegabilidade
 |ID    | Descrição do teste  | Categoria |
 |------|-----------------------------------------|----|
-|RF-001|  | Teste de navegabilidade | 
-|RF-002|  | Teste de navegabilidade | 
-|RF-003|  | Teste de navegabilidade | 
-|RF-004|  | Teste de navegabilidade | 
-|RF-005|  | Teste de navegabilidade | 
-|RF-013|  | Teste de navegabilidade | 
+|RF-001| É possivel navegar por todos os links da pagina? | Teste de navegabilidade | 
+|| Todos os links direcionam para o caminho correto?  || 
+|RF-002| É possivel navegar por todos os links da pagina? | Teste de navegabilidade | 
+|| Todos os links direcionam para o caminho correto?  |  | 
+|RF-003| É possivel navegar por todos os links da pagina? | Teste de navegabilidade | 
+|| Todos os links direcionam para o caminho correto?  |  | 
+|RF-004| É possivel navegar por todos os links da pagina? | Teste de navegabilidade | 
+|| Todos os links direcionam para o caminho correto?  | | 
+|RF-005| É possivel navegar por todos os links da pagina? | Teste de navegabilidade | 
+|| Todos os links direcionam para o caminho correto?  |  | 
+|RF-013| É possivel navegar por todos os links da pagina? | Teste de navegabilidade | 
+|| Todos os links direcionam para o caminho correto?  |  | 
 
 
 # Testes de Responsividade
 |ID    | Descrição do teste  | Categoria |
 |------|-----------------------------------------|----|
-|RF-001|  | Teste de responsividade | 
-|RF-002|  | Teste de responsividade | 
-|RF-003|  | Teste de responsividade | 
-|RF-004|  | Teste de responsividade | 
-|RF-005|  | Teste de responsividade | 
-|RF-013|  | Teste de responsividade | 
+|RF-001| A pagina é responsiva para desktop, tablet e smartphone? | Teste de responsividade | 
+|RF-002| A pagina é responsiva para desktop, tablet e smartphone? | Teste de responsividade | 
+|RF-003| A pagina é responsiva para desktop, tablet e smartphone? | Teste de responsividade | 
+|RF-004| A pagina é responsiva para desktop, tablet e smartphone? | Teste de responsividade | 
+|RF-005| A pagina é responsiva para desktop, tablet e smartphone? | Teste de responsividade | 
+|RF-013| A pagina é responsiva para desktop, tablet e smartphone? | Teste de responsividade | 
 
 
 # Referencias
