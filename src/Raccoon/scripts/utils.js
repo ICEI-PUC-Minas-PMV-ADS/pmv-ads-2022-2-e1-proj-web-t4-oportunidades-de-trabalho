@@ -29,7 +29,7 @@ export function gerarHabilidades(Habilidades, MaxPills=null, colSize=4) {
   for (let vl in Habilidades) {
     if (vl < MaxPills || !MaxPills) {
       if (vl % 2 == 0) {
-        div += `<p id="skill-${vl}" class="col-sm-${colSize} rounded-pill bg-warning"><a href='./habilidade.html?id=${Habilidades[vl].id}' class="text-dark">${Habilidades[vl].nome}</a></p>`
+        div += `<p id="skill-${vl}" class="col-sm-${colSize} rounded-pill bg-warning"><a hre  f='./habilidade.html?id=${Habilidades[vl].id}' class="text-dark">${Habilidades[vl].nome}</a></p>`
       } else {
         div += `<p id="skill-${vl}" class="col-sm-${colSize} rounded-pill bg-info"><a href='./habilidade.html?id=${Habilidades[vl].id}' class="text-dark">${Habilidades[vl].nome}</a></p>`
       }
@@ -143,7 +143,7 @@ export function gerarCardsVagas(vagas, maxVagas, colSize = { sm: 12, md: 12, lg:
               <hr class="col-sm-8">
               <p id="empresa-data" class="col-sm-12 text-left"><a href='./empresa.html?id=${vagas[vl].empresa_id}'>${empresa.nome}</a> - <small>De: ${dataSimplificada(vagas[vl].data_cadastro)} - Até: ${dataSimplificada(vagas[vl].data_exp)}</small></p>
               <div class="col-sm-12 row text-center">
-                ${gerarHabilidades(habilidades, 3, 4)}
+                ${gerarHabilidades(habilidades, 4, 6)}
               </div>
             </div>
           </div>
