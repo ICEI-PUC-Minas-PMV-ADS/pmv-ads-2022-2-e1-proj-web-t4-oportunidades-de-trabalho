@@ -4,11 +4,11 @@ Os planejamentos dos testes a serem realizados serão descritos abaixo de acordo
 
 - Testes de ponta a ponta: Será realizado testes do ponto de vista do usuario final
 
-- Testes de campos: Será realizado os testes dos campos de grande importancia para a aplicação de forma manual e também com ferramentas de testes em JS, seguindo normas padrão de regras de negocio.
+- Testes de campos: Será realizado os testes dos campos de grande importancia para a aplicação de forma manual e também com ferramentas de testes em JS, seguindo normas padrão e regras de negocio.
 
-- Testes de navegabilidade: Será realizado atráves ferramentas onlines e manualmente pelos desenvolvedores.
+- Testes de navegabilidade: Será realizado atráves ferramentas online e manualmente pelos desenvolvedores.
 
-- Testes de responsividade: Será realizado atráves ferramentas onlines e manualmente pelos desenvolvedores.
+- Testes de responsividade: Será realizado atráves ferramentas online e manualmente pelos desenvolvedores.
 
 
 # Testes de Ponta a ponta
