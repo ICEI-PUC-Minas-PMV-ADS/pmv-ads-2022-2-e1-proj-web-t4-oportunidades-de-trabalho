@@ -1,6 +1,6 @@
 # Registro de Testes de Software
 
-Os resultados obtidos seguindo o <span style="color:red"><a href="Plano de Testes de Software.md"> Plano de Testes de Software </a></span> serão descritos a seguir
+Os resultados obtidos seguindo o <span style="color:red"><a href="08-Plano de Testes de Software.md"> Plano de Testes de Software </a></span> serão descritos a seguir
 
 Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Especificação do Projeto </a></span> para melhor entendimento dos requisitos que serão trabalhados a seguir.
 
