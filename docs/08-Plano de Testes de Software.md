@@ -13,7 +13,7 @@ Os planejamentos dos testes a serem realizados serão descritos abaixo de acordo
 Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Especificação do Projeto </a></span> para melhor entendimento dos requisitos que serão trabalhados a seguir.
 
 # Testes de Ponta a ponta
-|ID    | Descrição do teste  | Passos | Critérios de Êxito |
+|ID    | Descrição do teste  | Passos | Resultado esperado |
 |------|---------------------|--------|--------------------|
 |CT-01 <br> RF-01|                   |<ul><li>1</li></ul> | <ul><li>1</li></ul>  
 |CT-02 <br> RF-02| |<ul><li>1</li></ul> | <ul><li>1</li></ul>  
@@ -23,13 +23,13 @@ Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Esp
 |CT-06 <br> RF-13|É possível para uma empresa se cadastrar e efetuar login? |<ol><li>Acessar a pagina inicial e clicar em "Sou Empresa"</li><li>Clicar em Cadaste-se</li><li>Efetuar cadastro com sucesso ao preencher informações</li><li>Efetuar login</li><li>Ser redirecionado para a pagina da sua empresa</li></ol> | <ul><li>Conseguir acessar todas as paginas pela propria aplicação</li> <li>Conseguir se cadastrar com sucesso ao preencher informações</li> <li>Ser redirecionado com sucesso para a pagina da empresa</li></ul>  | 
 
 # Testes de Campos
-ID    | Descrição do teste | Passos | Critérios de Êxito  | Categoria |
+ID    | Descrição do teste | Passos | Resultado esperado  | Categoria |
 |-----|--------------------|--------|---------------------|-----------|
 |CT-05 <br> RF-05| | | | Teste de campos | 
 |CT-06 <br> RF-13| | | | Teste de campos | 
 
 # Testes de Navegabilidade
-|ID    | Descrição do teste | Passos | Critérios de Êxito  | Categoria |
+|ID    | Descrição do teste | Passos | Resultado esperado  | Categoria |
 |------|--------------------|---------|--------------------|-----------|
 |CT-01 <br> RF-01| É possivel navegar por todos os links da pagina? | | | Teste de navegabilidade | 
 || Todos os links direcionam para o caminho correto? | | | | 
@@ -46,7 +46,7 @@ ID    | Descrição do teste | Passos | Critérios de Êxito  | Categoria |
 
 
 # Testes de Responsividade
-|ID    | Descrição do teste | Passos | Critérios de Êxito  | Categoria |
+|ID    | Descrição do teste | Passos | Resultado esperado  | Categoria |
 |------|---------------------|-------|-------------|----|
 |CT-01 <br> RF-01| A pagina é responsiva para desktop, tablet e smartphone? ||| Teste de responsividade | 
 |CT-02 <br> RF-02| A pagina é responsiva para desktop, tablet e smartphone? ||| Teste de responsividade | 
