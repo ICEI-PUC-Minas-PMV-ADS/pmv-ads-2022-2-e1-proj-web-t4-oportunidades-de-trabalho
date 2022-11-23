@@ -75,14 +75,44 @@ Gravidade
 
 Acessando pela home page e clicando no botão "ver vagas":
 
+![homepage](img/registro_de_testes/ct-03/home-ver-vagas.png)
 
-//Testes e imagens aqui.
+Acessando a página "Lista de Vagas"
+
+![listadevagas](img/registro_de_testes/ct-03/page-ver-vagas.png)
+
+
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-04 <br> RF-04|  | | | 
+|CT-04 <br> RF-07|Verificar se a barra de pesquisa e o filtro da página "lista de vagas" estão funcionando corretamente| A barra de pesquisa funcionou perfeitamente retornando resultado esperados do teste, assim como o filtro por categoria. |Sucesso | 
 
-//Testes e imagens aqui.
+Registro CT-04 
+
+Objetivo: Testar barra de busca; 
+
+Pesquisar: front 
+
+Saída esperada: Vaga de desenvolvedor Front End pela Super Tech
+
+![barra de pesquisa](img/registro_de_testes/ct-04/ct-04-barra-de-pesquisa.png)
+
+Objetivo: Testar barra de busca
+
+Pesquisar : psicologo 
+
+Saída esperada: Não existem vagas no momento, tente alterar seus filtros.
+
+![barra de pesquisa2](img/registro_de_testes/ct-04/teste-failed-psicologo.png)
+
+Objetivo: Testar filtro de categoria 
+
+Filtrar por: React 
+
+Saída esperada : Vaga de desenvolvedor back-end pela Progressus
+
+![filtro](img/registro_de_testes/ct-04/ct-04-filtro-de-habilidade.png)
+
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
