@@ -13,47 +13,200 @@ Os planejamentos dos testes a serem realizados serão descritos abaixo de acordo
 Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Especificação do Projeto </a></span> para melhor entendimento dos requisitos que serão trabalhados a seguir.
 
 # Testes de Ponta a ponta
-|ID    | Descrição do teste  | Passos | Resultado esperado |
-|------|---------------------|--------|--------------------|
-|CT-01 <br> RF-01|                   |<ul><li>1</li></ul> | <ul><li>1</li></ul>  
-|CT-02 <br> RF-02| |<ul><li>1</li></ul> | <ul><li>1</li></ul>  
-|CT-03 <br> RF-03| Verificar se a página "lista de vagas" está acessível e interativa. |<ol><li>Informar o endereço do site ao navegador.</li><li>Acessar a página inicial.</li><li>Clicar no botão "Ver Vagas" na página principal ou na nav bar.</li><li>Acessar a página "Lista de Vagas".</li></ol> | <ul><li>A página deve apresentar uma lista de vagas postadas pelas empresas cadastradas no site, uma imagem de destaque da vaga e um breve resumo da descrição e habilidades da vaga. </li></ul>  
-|CT-04 <br> RF-07| Verificar se a barra de pesquisa e o filtro estão funcionando corretamente  |<ol><li> Clicar no botão "Ver Vagas" na página principal ou na nav bar</li><li>Acessar a página "Lista de Vagas"</li><li>Realizar alguma busca na barra de pesquisa e/ou usar o filtro para buscar por alguma habilidade.</li></ol> | <ul><li>A página deve mostrar ao usuário resultados da sua busca baseado nos títulos das vagas</li><li>A página deve filtrar as vagas pelas habilidades que o usuário selecionou </li></ul> 
-|CT-05 <br> RF-05|É possível criar uma nova vaga seguindo todo o processo necessário? |<ol><li>Acessar a pagina inicial e clicar em "Sou Empresa"</li><li>Efetuar login</li><li>Clicar em Nova Vaga</li><li>Preencher formulario e enviar</li></ol> | <ul><li>Conseguir acessar todas as paginas pela propria aplicação</li><li>Criar uma vaga com sucesso ao preencher o formulario</li><li>A nova vaga aparecer na lista de vagas da empresa </li></ul>  | 
-|CT-06 <br> RF-13|É possível para uma empresa se cadastrar e efetuar login? |<ol><li>Acessar a pagina inicial e clicar em "Sou Empresa"</li><li>Clicar em Cadaste-se</li><li>Efetuar cadastro com sucesso ao preencher informações</li><li>Efetuar login</li><li>Ser redirecionado para a pagina da sua empresa</li></ol> | <ul><li>Conseguir acessar todas as paginas pela propria aplicação</li> <li>Conseguir se cadastrar com sucesso ao preencher informações</li> <li>Ser redirecionado com sucesso para a pagina da empresa</li></ul>  | 
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados | RF-001 O site deve apresentar na página principal deve mostrar uma apresentação da ferramenta |
+|Descrição do teste | X |
+|Passos | <ol><li>X</li></ol> |
+| Resultado esperado | X |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados | RF-002 O site deve apresentar na página principal as opções de acesso às outras páginas: (lista de vagas) |
+|Descrição do teste | X |
+|Passos | <ol><li>X</li></ol> |
+| Resultado esperado | X |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados | RF-003 O site deve possuir uma página com a listagem das vagas postadas |
+|Descrição do teste | Verificar se a página "lista de vagas" está acessível e interativa. |
+|Passos | <ol><li>Informar o endereço do site ao navegador.</li><li>Acessar a página inicial.</li><li>Clicar no botão "Ver Vagas" na página principal ou na nav bar.</li><li>Acessar a página "Lista de Vagas".</li></ol> |
+| Resultado esperado | <ul><li>A página deve apresentar uma lista de vagas postadas pelas empresas cadastradas no site, uma imagem de destaque da vaga e um breve resumo da descrição e habilidades da vaga. </li></ul>   |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados |RF-007  O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar uma vaga/oportunidade |
+|Descrição do teste | Verificar se a barra de pesquisa e o filtro estão funcionando corretamente. |
+|Passos | <ol><li> Clicar no botão "Ver Vagas" na página principal ou na nav bar</li><li>Acessar a página "Lista de Vagas"</li><li>Realizar alguma busca na barra de pesquisa e/ou usar o filtro para buscar por alguma habilidade.</li></ol> |
+| Resultado esperado | <ul><li>A página deve mostrar ao usuário resultados da sua busca baseado nos títulos das vagas</li><li>A página deve filtrar as vagas pelas habilidades que o usuário selecionou </li></ul>  |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados | RF-004 O site deve apresentar na página principal as opções de acesso às outras páginas: (lista de vagas) |
+|Descrição do teste | X |
+|Passos | <ol><li>X</li></ol> |
+| Resultado esperado | X |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados | RF-005 O site deve permitir ao usuário (empresas) postar vagas |
+|Descrição do teste | É possível criar uma nova vaga seguindo todo o processo necessário? |
+|Passos | <ol><li>Acessar a pagina inicial e clicar em "Sou Empresa"</li><li>Efetuar login</li><li>Clicar em Nova Vaga</li><li>Preencher formulario e enviar</li></ol> |
+| Resultado esperado | <ul><li>Conseguir acessar todas as paginas pela propria aplicação</li><li>Criar uma vaga com sucesso ao preencher o formulario</li><li>A nova vaga aparecer na lista de vagas da empresa </li></ul> |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados | RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
+|Descrição do teste | É possível para uma empresa se cadastrar e efetuar login? |
+|Passos | <ol><li>Acessar a pagina inicial e clicar em "Sou Empresa"</li><li>Clicar em Cadaste-se</li><li>Efetuar cadastro com sucesso ao preencher informações</li><li>Efetuar login</li><li>Ser redirecionado para a pagina da sua empresa</li></ol> |
+| Resultado esperado | <ul><li>Conseguir acessar todas as paginas pela propria aplicação</li> <li>Conseguir se cadastrar com sucesso ao preencher informações</li> <li>Ser redirecionado com sucesso para a pagina da empresa</li></ul> |
 
 # Testes de Campos
-ID    | Descrição do teste | Passos | Resultado esperado  | Categoria |
-|-----|--------------------|--------|---------------------|-----------|
-|CT-05 <br> RF-05| | | | Teste de campos | 
-|CT-06 <br> RF-13| | | | Teste de campos | 
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados |RF-005 O site deve permitir ao usuário (empresas) postar vagas |
+|Descrição do teste | X |
+|Passos | <ol><li>X</li></ol> |
+| Resultado esperado | X |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados |RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
+|Descrição do teste | X |
+|Passos | <ol><li>X</li></ol> |
+| Resultado esperado | X |
 
 # Testes de Navegabilidade
-|ID    | Descrição do teste | Passos | Resultado esperado  | Categoria |
-|------|--------------------|---------|--------------------|-----------|
-|CT-01 <br> RF-01| É possivel navegar por todos os links da pagina? | | | Teste de navegabilidade | 
-|| Todos os links direcionam para o caminho correto? | | | | 
-|CT-02 <br> RF-02| É possivel navegar por todos os links da pagina? ||| Teste de navegabilidade | 
-|| Todos os links direcionam para o caminho correto?  |||  | 
-|CT-03 <br> RF-03| É possivel navegar por todos os links da pagina? ||| Teste de navegabilidade | 
-|| Todos os links direcionam para o caminho correto? || |  | 
-|CT-04 <br> RF-04| É possivel navegar por todos os links da pagina? ||| Teste de navegabilidade | 
-|| Todos os links direcionam para o caminho correto?  ||| | 
-|CT-05 <br> RF-05| É possivel navegar por todos os links da pagina? ||| Teste de navegabilidade | 
-|| Todos os links direcionam para o caminho correto?  |||  | 
-|CT-06 <br> RF-13| É possivel navegar por todos os links da pagina? ||| Teste de navegabilidade | 
-|| Todos os links direcionam para o caminho correto?  |||| 
 
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados | RF-001 O site deve apresentar na página principal deve mostrar uma apresentação da ferramenta |
+|Descrição do teste | É possivel navegar por todos os links da pagina? |
+|Passos | <ol><li>X</li></ol> |
+| Resultado esperado | X |
+
+ ID | CT-? |
+|------|---------------------|
+| Requisitos Associados | RF-001 O site deve apresentar na página principal deve mostrar uma apresentação da ferramenta |
+|Descrição do teste |Todos os links direcionam para o caminho correto? |
+|Passos | <ol><li>X</li></ol> |
+| Resultado esperado | X |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados | RF-002 O site deve apresentar na página principal as opções de acesso às outras páginas: (lista de vagas) |
+|Descrição do teste | É possivel navegar por todos os links da pagina? |
+|Passos | <ol><li>X</li></ol> |
+| Resultado esperado | X |
+
+ ID | CT-? |
+|------|---------------------|
+| Requisitos Associados | RF-002 O site deve apresentar na página principal as opções de acesso às outras páginas: (lista de vagas) |
+|Descrição do teste |Todos os links direcionam para o caminho correto? |
+|Passos | <ol><li>X</li></ol> |
+| Resultado esperado | X |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados | RF-003 O site deve possuir uma página com a listagem das vagas postadas |
+|Descrição do teste | É possivel navegar por todos os links da pagina? |
+|Passos | <ol><li>X</li></ol> |
+| Resultado esperado | X |
+
+ ID | CT-? |
+|------|---------------------|
+| Requisitos Associados | RF-003 O site deve possuir uma página com a listagem das vagas postadas |
+|Descrição do teste |Todos os links direcionam para o caminho correto? |
+|Passos | <ol><li>X</li></ol> |
+| Resultado esperado | X |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados | RF-004 Ao clicar em uma vaga da lista o site deve permitir ao usuário (profissional) visualizar o texto completo da vaga com todos os detalhes da publicação e se candidatar às vagas postadas |
+|Descrição do teste | É possivel navegar por todos os links da pagina? |
+|Passos | <ol><li>X</li></ol> |
+| Resultado esperado | X |
+
+ ID | CT-? |
+|------|---------------------|
+| Requisitos Associados | RF-004 Ao clicar em uma vaga da lista o site deve permitir ao usuário (profissional) visualizar o texto completo da vaga com todos os detalhes da publicação e se candidatar às vagas postadas |
+|Descrição do teste |Todos os links direcionam para o caminho correto? |
+|Passos | <ol><li>X</li></ol> |
+| Resultado esperado | X |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados | RF-005 O site deve permitir ao usuário (empresas) postar vagas |
+|Descrição do teste | É possivel navegar por todos os links da pagina? |
+|Passos | <ol><li>X</li></ol> |
+| Resultado esperado | X |
+
+ ID | CT-? |
+|------|---------------------|
+| Requisitos Associados | RF-005 O site deve permitir ao usuário (empresas) postar vagas |
+|Descrição do teste |Todos os links direcionam para o caminho correto? |
+|Passos | <ol><li>X</li></ol> |
+| Resultado esperado | X |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados | RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
+|Descrição do teste | É possivel navegar por todos os links da pagina? |
+|Passos | <ol><li>X</li></ol> |
+| Resultado esperado | X |
+
+ ID | CT-? |
+|------|---------------------|
+| Requisitos Associados | RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
+|Descrição do teste |Todos os links direcionam para o caminho correto? |
+|Passos | <ol><li>X</li></ol> |
+| Resultado esperado | X |
 
 # Testes de Responsividade
-|ID    | Descrição do teste | Passos | Resultado esperado  | Categoria |
-|------|---------------------|-------|-------------|----|
-|CT-01 <br> RF-01| A pagina é responsiva para desktop, tablet e smartphone? ||| Teste de responsividade | 
-|CT-02 <br> RF-02| A pagina é responsiva para desktop, tablet e smartphone? ||| Teste de responsividade | 
-|CT-03 <br> RF-03| A pagina é responsiva para desktop, tablet e smartphone? ||| Teste de responsividade | 
-|CT-04 <br> RF-04| A pagina é responsiva para desktop, tablet e smartphone? ||| Teste de responsividade | 
-|CT-05 <br> RF-05| A pagina é responsiva para desktop, tablet e smartphone? ||| Teste de responsividade | 
-|CT-06 <br> RF-13| A pagina é responsiva para desktop, tablet e smartphone? ||| Teste de responsividade | 
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados | RF-001 O site deve apresentar na página principal deve mostrar uma apresentação da ferramenta |
+|Descrição do teste | A pagina é responsiva para desktop, tablet e smartphone? |
+|Passos | <ol><li>X</li></ol> |
+| Resultado esperado | X |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados | RF-002 O site deve apresentar na página principal as opções de acesso às outras páginas: (lista de vagas) |
+|Descrição do teste | A pagina é responsiva para desktop, tablet e smartphone? |
+|Passos | <ol><li>X</li></ol> |
+| Resultado esperado | X |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados | RF-003 O site deve possuir uma página com a listagem das vagas postadas |
+|Descrição do teste | A pagina é responsiva para desktop, tablet e smartphone? |
+|Passos | <ol><li>X</li></ol> |
+| Resultado esperado | X |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados | RF-004 Ao clicar em uma vaga da lista o site deve permitir ao usuário (profissional) visualizar o texto completo da vaga com todos os detalhes da publicação e se candidatar às vagas postadas |
+|Descrição do teste | A pagina é responsiva para desktop, tablet e smartphone? |
+|Passos | <ol><li>X</li></ol> |
+| Resultado esperado | X |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados | RF-005 O site deve permitir ao usuário (empresas) postar vagas |
+|Descrição do teste | A pagina é responsiva para desktop, tablet e smartphone? |
+|Passos | <ol><li>X</li></ol> |
+| Resultado esperado | X |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados | RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
+|Descrição do teste | A pagina é responsiva para desktop, tablet e smartphone? |
+|Passos | <ol><li>X</li></ol> |
+| Resultado esperado | X |
 
 
 # Referencias
