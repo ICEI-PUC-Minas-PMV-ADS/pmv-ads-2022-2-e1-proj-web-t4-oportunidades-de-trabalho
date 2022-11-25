@@ -12,6 +12,9 @@ Os planejamentos dos testes a serem realizados serão descritos abaixo de acordo
 
 Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Especificação do Projeto </a></span> para melhor entendimento dos requisitos que serão trabalhados a seguir.
 
+É de extrema importancia limpar seu local storage associado a nossa pagina para a execução correta do software (obs: Limpar apenas o local storage de nossa pagina para evitar perder suas informações de outros sites)
+<hr>
+
 # Testes de Ponta a ponta
 | ID | CT-? |
 |------|---------------------|
@@ -138,6 +141,8 @@ Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Esp
 |Descrição do teste | Deve ser impossível efetuar login seguindo os passos e inserindo um email invalido e uma senha valida |
 |Passos | <ol><li>Acessar a pagina inicial</li><li>Clicar em "Sou Empresa"</li><li>Inserir:<ol><li>Email: eletro@gmail.com</li><li>Senha: !eletrosurf123</li></ol></li><li>Clicar em entrar</li> </ol> |
 | Resultado esperado |  Erro ao efetuar login com descritivos do erro |
+
+<hr>
 
 # Testes de Campos
 
@@ -379,6 +384,8 @@ Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Esp
 |Passos | <ol><li>Acessar Sou Empresa</li> <li> Clicar em Cadastre-se </li> <li> Completar campos do formulario com informações validas</li> <li>Clicar em Cadastrar</li> <li>Efetuar login</li> <li>Comparar valores inseridos com os exibidos</li></ol> |
 | Resultado esperado | Todos os valores devem estar de acordo |
 
+<hr>
+
 # Testes de Navegabilidade
 
 | ID | CT-? |
@@ -465,6 +472,8 @@ Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Esp
 |Passos | <ol><li>X</li></ol> |
 | Resultado esperado | X |
 
+<hr>
+
 # Testes de Responsividade
 
 | ID | CT-? |
@@ -509,6 +518,7 @@ Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Esp
 |Passos | <ol><li>X</li></ol> |
 | Resultado esperado | X |
 
+<hr>
 
 # Referencias
 
