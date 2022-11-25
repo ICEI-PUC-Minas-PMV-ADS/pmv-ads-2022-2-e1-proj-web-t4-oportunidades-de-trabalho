@@ -80,10 +80,137 @@ Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Esp
 
 | ID | CT-? |
 |------|---------------------|
+| Requisitos Associados |RF-005 O site deve permitir ao usuário (empresas) postar vagas. |
+|Descrição do teste | Deve ser possível inserir um nome na vaga com quaisquer caracteres, números ou caracteres especiais. |
+|Passos | <ol><li>Executar cadastro e login.</li> <li> Clicar em Nova Vaga </li> <li>Escrever em "Nome da vaga": aaAA11!@#$%¨¨&*()_{}[] </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Criar Vaga</li></ol> |
+| Resultado esperado | Redirecionamento para pagina de perfil da empresa e apresentação da nova vaga no perfil |
+
+| ID | CT-? |
+|------|---------------------|
 | Requisitos Associados |RF-005 O site deve permitir ao usuário (empresas) postar vagas |
-|Descrição do teste | X |
-|Passos | <ol><li>X</li></ol> |
-| Resultado esperado | X |
+|Descrição do teste | Deve ser impossível criar um vaga sem nome |
+|Passos | <ol><li>Executar cadastro e login.</li> <li> Clicar em Nova Vaga </li> <li> Manter campo "Nome da vaga" em branco </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Criar Vaga</li></ol> |
+| Resultado esperado | Erro ao criar vaga com descritivo de qual campo está incorreto |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados |RF-005 O site deve permitir ao usuário (empresas) postar vagas |
+|Descrição do teste | Deve ser possível selecionar uma ou mais habilidades essenciais |
+|Passos | <ol><li>Executar cadastro e login.</li> <li> Clicar em Nova Vaga </li> <li> No campo "Habilidades essenciais" selecionar: [JavaScript, HTML, REACT] </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Criar Vaga</li></ol> |
+| Resultado esperado | Redirecionamento para pagina de perfil da empresa e apresentação da nova vaga no perfil |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados |RF-005 O site deve permitir ao usuário (empresas) postar vagas |
+|Descrição do teste | Deve ser impossível criar uma vaga sem habilidades essenciais |
+|Passos | <ol><li>Executar cadastro e login.</li> <li> Clicar em Nova Vaga </li> <li> No campo "Habilidades essenciais" manter em branco </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Criar Vaga</li></ol> |
+| Resultado esperado | Erro ao criar vaga com descritivo de qual campo está incorreto |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados |RF-005 O site deve permitir ao usuário (empresas) postar vagas |
+|Descrição do teste | Deve ser possível selecionar uma ou mais habilidades diferenciais |
+|Passos | <ol><li>Executar cadastro e login.</li> <li> Clicar em Nova Vaga </li> <li> No campo "Habilidades diferenciais" selecionar: [Golang, Python] </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Criar Vaga</li></ol> |
+| Resultado esperado | Redirecionamento para pagina de perfil da empresa e apresentação da nova vaga no perfil |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados |RF-005 O site deve permitir ao usuário (empresas) postar vagas |
+|Descrição do teste | Deve ser possível criar uma vaga sem habilidades diferenciais |
+|Passos | <ol><li>Executar cadastro e login.</li> <li> Clicar em Nova Vaga </li> <li> No campo "Habilidades diferenciais" manter em branco </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Criar Vaga</li></ol> |
+| Resultado esperado | Redirecionamento para pagina de perfil da empresa e apresentação da nova vaga no perfil |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados |RF-005 O site deve permitir ao usuário (empresas) postar vagas |
+|Descrição do teste | Deve ser possível selecionar uma senioridade |
+|Passos | <ol><li>Executar cadastro e login.</li> <li> Clicar em Nova Vaga </li> <li>Em "Senioridade" selecionar: "Pleno" </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Criar Vaga</li></ol> |
+| Resultado esperado | Redirecionamento para pagina de perfil da empresa e apresentação da nova vaga no perfil |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados |RF-005 O site deve permitir ao usuário (empresas) postar vagas |
+|Descrição do teste | Deve ser impossível criar uma vaga sem senioridade |
+|Passos | <ol><li>Executar cadastro e login.</li> <li> Clicar em Nova Vaga </li> <li>Em "Senioridade" manter em branco </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Criar Vaga</li></ol> |
+| Resultado esperado | Erro ao criar vaga com descritivo de qual campo está incorreto |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados |RF-005 O site deve permitir ao usuário (empresas) postar vagas |
+|Descrição do teste | Deve ser possível selecionar um cargo |
+|Passos | <ol><li>Executar cadastro e login.</li> <li> Clicar em Nova Vaga </li> <li>No campo "Cargo" selecionar: "Desenvolvedor Front-end" </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Criar Vaga</li></ol> |
+| Resultado esperado | Redirecionamento para pagina de perfil da empresa e apresentação da nova vaga no perfil |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados |RF-005 O site deve permitir ao usuário (empresas) postar vagas |
+|Descrição do teste | Deve ser impossível criar uma vaga sem cargo |
+|Passos | <ol><li>Executar cadastro e login.</li> <li> Clicar em Nova Vaga </li> <li>No campo "Cargo" manter em branco </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Criar Vaga</li></ol> |
+| Resultado esperado | Erro ao criar vaga com descritivo de qual campo está incorreto |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados |RF-005 O site deve permitir ao usuário (empresas) postar vagas |
+|Descrição do teste | Deve ser possível definir um salario para a vaga |
+|Passos | <ol><li>Executar cadastro e login.</li> <li> Clicar em Nova Vaga </li> <li>No campo "Salario" digitar: 9500 </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Criar Vaga</li></ol> |
+| Resultado esperado | Redirecionamento para pagina de perfil da empresa e apresentação da nova vaga no perfil |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados |RF-005 O site deve permitir ao usuário (empresas) postar vagas |
+|Descrição do teste | Deve ser impossível criar uma vaga sem salario |
+|Passos | <ol><li>Executar cadastro e login.</li> <li> Clicar em Nova Vaga </li> <li>No campo "Salario" deixar em branco </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Criar Vaga</li></ol> |
+| Resultado esperado | Erro ao criar vaga com descritivo de qual campo está incorreto |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados |RF-005 O site deve permitir ao usuário (empresas) postar vagas |
+|Descrição do teste | Deve ser possível definir um data para expiração da a vaga |
+|Passos | <ol><li>Executar cadastro e login.</li> <li> Clicar em Nova Vaga </li> <li>No campo "Data final da vaga" selecionar: 01/01/2023 </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Criar Vaga</li></ol> |
+| Resultado esperado | Redirecionamento para pagina de perfil da empresa e apresentação da nova vaga no perfil |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados |RF-005 O site deve permitir ao usuário (empresas) postar vagas |
+|Descrição do teste | Deve ser impossível criar uma vaga com data para expiração da vaga anterior ao dia atual |
+|Passos | <ol><li>Executar cadastro e login.</li> <li> Clicar em Nova Vaga </li> <li>No campo "Data final da vaga" selecionar: 01/01/2022 </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Criar Vaga</li></ol> |
+| Resultado esperado | Erro ao criar vaga com descritivo de qual campo está incorreto |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados |RF-005 O site deve permitir ao usuário (empresas) postar vagas |
+|Descrição do teste | Deve ser impossível criar uma vaga sem data de expiração |
+|Passos | <ol><li>Executar cadastro e login.</li> <li> Clicar em Nova Vaga </li> <li>No campo "Data final da vaga" manter em branco </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Criar Vaga</li></ol> |
+| Resultado esperado | Erro ao criar vaga com descritivo de qual campo está incorreto |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados |RF-005 O site deve permitir ao usuário (empresas) postar vagas |
+|Descrição do teste | Deve ser possível definir uma descrição para a vaga com quaisquer caracteres, numeros ou caracteres especiais |
+|Passos | <ol><li>Executar cadastro e login.</li> <li> Clicar em Nova Vaga </li> <li>Escrever em "Descrição da vaga": aaAA11!@#$%¨¨&*()_{}[] </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Criar Vaga</li></ol> |
+| Resultado esperado | Redirecionamento para pagina de perfil da empresa e apresentação da nova vaga no perfil |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados |RF-005 O site deve permitir ao usuário (empresas) postar vagas |
+|Descrição do teste | Deve ser possível criar uma vaga sem descrição |
+|Passos | <ol><li>Executar cadastro e login.</li> <li> Clicar em Nova Vaga </li> <li>Em "Descrição da vaga" manter em branco </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Criar Vaga</li></ol> |
+| Resultado esperado | Redirecionamento para pagina de perfil da empresa e apresentação da nova vaga no perfil |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados |RF-005 O site deve permitir ao usuário (empresas) postar vagas |
+|Descrição do teste | Ao criar uma vaga, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario |
+|Passos | <ol><li>Executar cadastro e login.</li> <li> Clicar em Nova Vaga </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Criar Vaga</li> <li>Comparar valores inseridos com os exibidos</li></ol> |
+| Resultado esperado | Todos os valores devem estar de acordo |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados |RF-005 O site deve permitir ao usuário (empresas) postar vagas |
+|Descrição do teste | Ao criar uma vaga, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario e devem ser verificadas através de javascript |
+|Passos | <ol><li>Executar cadastro e login.</li> <li> Clicar em Nova Vaga </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Criar Vaga</li> <li>Comparar valores inseridos com os exibidos</li></ol> |
+| Resultado esperado | Todos os valores devem estar de acordo |
+
 
 | ID | CT-? |
 |------|---------------------|
