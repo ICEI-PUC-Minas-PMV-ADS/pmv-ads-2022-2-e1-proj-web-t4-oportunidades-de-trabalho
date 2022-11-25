@@ -12,6 +12,8 @@ Os planejamentos dos testes a serem realizados serão descritos abaixo de acordo
 
 Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Especificação do Projeto </a></span> para melhor entendimento dos requisitos que serão trabalhados a seguir.
 
+<hr>
+
 # Testes de Ponta a ponta
 | ID | CT-? |
 |------|---------------------|
@@ -75,6 +77,8 @@ Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Esp
 |Descrição do teste | É possível para uma empresa se cadastrar e efetuar login? |
 |Passos | <ol><li>Acessar a pagina inicial e clicar em "Sou Empresa"</li><li>Clicar em Cadaste-se</li><li>Efetuar cadastro com sucesso ao preencher informações</li><li>Efetuar login</li><li>Ser redirecionado para a pagina da sua empresa</li></ol> |
 | Resultado esperado | <ul><li>Conseguir acessar todas as paginas pela propria aplicação</li> <li>Conseguir se cadastrar com sucesso ao preencher informações</li> <li>Ser redirecionado com sucesso para a pagina da empresa</li></ul> |
+
+<hr>
 
 # Testes de Campos
 
@@ -219,6 +223,8 @@ Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Esp
 |Passos | <ol><li>X</li></ol> |
 | Resultado esperado | X |
 
+<hr>
+
 # Testes de Navegabilidade
 
 | ID | CT-? |
@@ -305,6 +311,8 @@ Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Esp
 |Passos | <ol><li>X</li></ol> |
 | Resultado esperado | X |
 
+<hr>
+
 # Testes de Responsividade
 
 | ID | CT-? |
@@ -349,6 +357,7 @@ Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Esp
 |Passos | <ol><li>X</li></ol> |
 | Resultado esperado | X |
 
+<hr>
 
 # Referencias
 
