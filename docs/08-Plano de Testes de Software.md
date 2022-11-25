@@ -211,13 +211,111 @@ Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Esp
 |Passos | <ol><li>Executar cadastro e login.</li> <li> Clicar em Nova Vaga </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Criar Vaga</li> <li>Comparar valores inseridos com os exibidos</li></ol> |
 | Resultado esperado | Todos os valores devem estar de acordo |
 
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados |RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
+|Descrição do teste | Deve ser possível inserir um nome para a empresa com quaisquer caracteres, números ou caracteres especiais. |
+|Passos | <ol><li>Acessar Sou Empresa</li> <li> Clicar em Cadastre-se </li> <li>Escrever em "Nome da Empresa": EmpresaTest123!@#$%¨¨&*()_{}[] </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Cadastrar</li> <li>Efetuar login com informações cadastradas</li></ol> |
+| Resultado esperado | Redirecionamento para a pagina de perfil da empresa |
 
 | ID | CT-? |
 |------|---------------------|
 | Requisitos Associados |RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
-|Descrição do teste | X |
-|Passos | <ol><li>X</li></ol> |
-| Resultado esperado | X |
+|Descrição do teste | Deve ser impossível se cadastrar sem inserir o nome da empresa |
+|Passos | <ol><li>Acessar Sou Empresa</li> <li> Clicar em Cadastre-se </li> <li>Em "Nome da Empresa" manter em branco </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Cadastrar</li> </ol> |
+| Resultado esperado | Erro ao cadastrar com informações do erro |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados |RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
+|Descrição do teste | Deve ser possível inserir um email valido para a empresa |
+|Passos | <ol><li>Acessar Sou Empresa</li> <li> Clicar em Cadastre-se </li> <li>Escrever em "Email": empresatest@gmail.com </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Cadastrar</li> <li>Efetuar login com informações cadastradas</li> </ol> |
+| Resultado esperado | Redirecionamento para a pagina de perfil da empresa |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados |RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
+|Descrição do teste | Deve ser impossível inserir um email invalido para a empresa |
+|Passos | <ol><li>Acessar Sou Empresa</li> <li> Clicar em Cadastre-se </li> <li>Escrever em "Email": empresatest!! </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Cadastrar</li> </ol> |
+| Resultado esperado | Erro ao cadastrar com informações do erro |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados |RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
+|Descrição do teste | Deve ser possível inserir um CNPJ valido para a empresa|
+|Passos | <ol><li>Acessar Sou Empresa</li> <li> Clicar em Cadastre-se </li> <li>Escrever em "CNPJ": 12.945.701/0001-82 </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Cadastrar</li> <li>Efetuar login com informações cadastradas</li> </ol> |
+| Resultado esperado | Redirecionamento para a pagina de perfil da empresa |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados |RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
+|Descrição do teste | Deve ser impossível inserir um CNPJ invalido para a empresa|
+|Passos | <ol><li>Acessar Sou Empresa</li> <li> Clicar em Cadastre-se </li> <li>Escrever em "CNPJ": 12.945.701 </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Cadastrar</li> </ol> |
+| Resultado esperado | Erro ao cadastrar com informações do erro |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados |RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
+|Descrição do teste | Deve ser impossível se cadastrar sem inserir um CNPJ|
+|Passos | <ol><li>Acessar Sou Empresa</li> <li> Clicar em Cadastre-se </li> <li>Em "CNPJ" manter em branco </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Cadastrar</li> </ol> |
+| Resultado esperado | Erro ao cadastrar com informações do erro |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados |RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
+|Descrição do teste | Deve ser possível se cadastrar inserindo uma senha de 6 ou mais caracteres e confirmando a senha|
+|Passos | <ol><li>Acessar Sou Empresa</li> <li> Clicar em Cadastre-se </li> <li>Escrever em "Senha" e "Confime sua senha": aA123! </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Cadastrar</li> <li>Efetuar login com informações cadastradas</li> </ol> |
+| Resultado esperado | Redirecionamento para a pagina de perfil da empresa |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados |RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
+|Descrição do teste | Deve ser impossível se cadastrar inserindo uma senha com menos de 6 caracteres |
+|Passos | <ol><li>Acessar Sou Empresa</li> <li> Clicar em Cadastre-se </li> <li>Escrever em "Senha" e "Confime sua senha": 12345 </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Cadastrar</li> </ol> |
+| Resultado esperado | Erro ao cadastrar com informações do erro |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados |RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
+|Descrição do teste | Deve ser impossível se cadastrar inserindo uma senha e um confime sua senha diferentes, mesmo que a senha seja valida |
+|Passos | <ol><li>Acessar Sou Empresa</li> <li> Clicar em Cadastre-se </li> <li>Escrever em "Senha": 123456 e em "Confime sua senha": 1234567 </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Cadastrar</li> </ol> |
+| Resultado esperado | Erro ao cadastrar com informações do erro |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados |RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
+|Descrição do teste | Deve ser impossível se cadastrar sem inserir uma senha |
+|Passos | <ol><li>Acessar Sou Empresa</li> <li> Clicar em Cadastre-se </li> <li>Em "Senha" e em "Confime sua senha": deixar em branco </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Cadastrar</li> </ol> |
+| Resultado esperado | Erro ao cadastrar com informações do erro |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados |RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
+|Descrição do teste | Deve ser impossível se cadastrar duas vezes com o mesmo Email |
+|Passos | <ol><li>Acessar Sou Empresa</li> <li> Clicar em Cadastre-se </li> <li> Cadastar com o email: empresarepetida@gmail.com </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Cadastrar</li> <li> Clicar em Cadastre-se </li> <li> Cadastar com o email: empresarepetida@gmail.com </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Cadastrar</li> </ol> |
+| Resultado esperado | Erro ao cadastrar com informações do erro |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados |RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
+|Descrição do teste | Deve ser impossível se cadastrar duas vezes com o mesmo Nome |
+|Passos | <ol><li>Acessar Sou Empresa</li> <li> Clicar em Cadastre-se </li> <li> Cadastar com o Nome: EmpresaRepetida </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Cadastrar</li> <li> Clicar em Cadastre-se </li> <li> Cadastar com o Nome: EmpresaRepetida </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Cadastrar</li> </ol> |
+| Resultado esperado | Erro ao cadastrar com informações do erro |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados |RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
+|Descrição do teste | Ao se cadastar, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario de cadastro |
+|Passos | <ol><li>Acessar Sou Empresa</li> <li> Clicar em Cadastre-se </li> <li> Completar campos do formulario com informações validas</li> <li>Clicar em Cadastrar</li> <li>Efetuar login</li> <li>Comparar valores inseridos com os exibidos</li></ol> |
+| Resultado esperado | Todos os valores que são exibidos ao usuario devem estar de acordo |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados |RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
+|Descrição do teste | Ao se cadastar, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario de cadastro e devem ser verificadas através de javascript |
+|Passos | <ol><li>Acessar Sou Empresa</li> <li> Clicar em Cadastre-se </li> <li> Completar campos do formulario com informações validas</li> <li>Clicar em Cadastrar</li> <li>Efetuar login</li> <li>Comparar valores inseridos com os exibidos</li></ol> |
+| Resultado esperado | Todos os valores devem estar de acordo |
+
 
 # Testes de Navegabilidade
 
