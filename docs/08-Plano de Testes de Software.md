@@ -36,10 +36,24 @@ Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Esp
 
 | ID | CT-? |
 |------|---------------------|
-| Requisitos Associados |RF-007  O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar uma vaga/oportunidade |
-|Descrição do teste | Verificar se a barra de pesquisa e o filtro estão funcionando corretamente. |
-|Passos | <ol><li> Clicar no botão "Ver Vagas" na página principal ou na nav bar</li><li>Acessar a página "Lista de Vagas"</li><li>Realizar alguma busca na barra de pesquisa e/ou usar o filtro para buscar por alguma habilidade.</li></ol> |
-| Resultado esperado | <ul><li>A página deve mostrar ao usuário resultados da sua busca baseado nos títulos das vagas</li><li>A página deve filtrar as vagas pelas habilidades que o usuário selecionou </li></ul>  |
+| Requisitos Associados | RF-003 O site deve possuir uma página com a listagem das vagas postadas; RF-007  O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar uma vaga/oportunidade |
+|Descrição do teste | Verificar se a barra de pesquisa está funcionando corretamente. |
+|Passos | <ol><li> Clicar no botão "Ver Vagas" na página principal ou na nav bar</li><li>Acessar a página "Lista de Vagas"</li><li>Pesquisar por "front" na barra de pesquisa.</li></ol> |
+| Resultado esperado | <ul><li>Vaga de desenvolvedor Front End pela Super Tech</li></ul>  |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados | RF-003 O site deve possuir uma página com a listagem das vagas postadas; RF-007  O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar uma vaga/oportunidade |
+|Descrição do teste | Verificar se a barra de pesquisa está funcionando corretamente. |
+|Passos | <ol><li> Clicar no botão "Ver Vagas" na página principal ou na nav bar</li><li>Acessar a página "Lista de Vagas"</li><li>Pesquisar por "psicologo" na barra de pesquisa.</li></ol> |
+| Resultado esperado | <ul><li>Uma lista vazia com a seguinte mensagem: Não existem vagas no momento, tente alterar seus filtros.</li></ul>  |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados | RF-003 O site deve possuir uma página com a listagem das vagas postadas; RF-007  O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar uma vaga/oportunidade |
+|Descrição do teste | Verificar se o filtro por categoria está funcionando corretamente. |
+|Passos | <ol><li> Clicar no botão "Ver Vagas" na página principal ou na nav bar</li><li>Acessar a página "Lista de Vagas"</li><li>Usar o filtro para buscar pela habilidade "React".</li></ol> |
+| Resultado esperado | <ul><li>Vaga de desenvolvedor back-end pela Progressus</li></ul>  |
 
 | ID | CT-? |
 |------|---------------------|
