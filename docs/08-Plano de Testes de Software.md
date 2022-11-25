@@ -12,6 +12,7 @@ Os planejamentos dos testes a serem realizados serão descritos abaixo de acordo
 
 Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Especificação do Projeto </a></span> para melhor entendimento dos requisitos que serão trabalhados a seguir.
 
+É de extrema importancia limpar seu local storage associado a nossa pagina para a execução correta do software (obs: Limpar apenas o local storage de nossa pagina para evitar perder suas informações de outros sites)
 <hr>
 
 # Testes de Ponta a ponta
@@ -34,28 +35,28 @@ Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Esp
 | Requisitos Associados | RF-003 O site deve possuir uma página com a listagem das vagas postadas |
 |Descrição do teste | Verificar se a página "lista de vagas" está acessível e interativa. |
 |Passos | <ol><li>Informar o endereço do site ao navegador.</li><li>Acessar a página inicial.</li><li>Clicar no botão "Ver Vagas" na página principal ou na nav bar.</li><li>Acessar a página "Lista de Vagas".</li></ol> |
-| Resultado esperado | <ul><li>A página deve apresentar uma lista de vagas postadas pelas empresas cadastradas no site, uma imagem de destaque da vaga e um breve resumo da descrição e habilidades da vaga. </li></ul>   |
+| Resultado esperado | A página deve apresentar uma lista de vagas postadas pelas empresas cadastradas no site, uma imagem de destaque da vaga e um breve resumo da descrição e habilidades da vaga.    |
 
 | ID | CT-? |
 |------|---------------------|
 | Requisitos Associados | RF-003 O site deve possuir uma página com a listagem das vagas postadas; RF-007  O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar uma vaga/oportunidade |
 |Descrição do teste | Verificar se a barra de pesquisa está funcionando corretamente. |
 |Passos | <ol><li> Clicar no botão "Ver Vagas" na página principal ou na nav bar</li><li>Acessar a página "Lista de Vagas"</li><li>Pesquisar por "front" na barra de pesquisa.</li></ol> |
-| Resultado esperado | <ul><li>Vaga de desenvolvedor Front End pela Super Tech</li></ul>  |
+| Resultado esperado | Vaga de desenvolvedor Front End pela Super Tech  |
 
 | ID | CT-? |
 |------|---------------------|
 | Requisitos Associados | RF-003 O site deve possuir uma página com a listagem das vagas postadas; RF-007  O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar uma vaga/oportunidade |
 |Descrição do teste | Verificar se a barra de pesquisa está funcionando corretamente. |
 |Passos | <ol><li> Clicar no botão "Ver Vagas" na página principal ou na nav bar</li><li>Acessar a página "Lista de Vagas"</li><li>Pesquisar por "psicologo" na barra de pesquisa.</li></ol> |
-| Resultado esperado | <ul><li>Uma lista vazia com a seguinte mensagem: Não existem vagas no momento, tente alterar seus filtros.</li></ul>  |
+| Resultado esperado | Uma lista vazia com a seguinte mensagem: Não existem vagas no momento, tente alterar seus filtros. |
 
 | ID | CT-? |
 |------|---------------------|
 | Requisitos Associados | RF-003 O site deve possuir uma página com a listagem das vagas postadas; RF-007  O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar uma vaga/oportunidade |
 |Descrição do teste | Verificar se o filtro por categoria está funcionando corretamente. |
 |Passos | <ol><li> Clicar no botão "Ver Vagas" na página principal ou na nav bar</li><li>Acessar a página "Lista de Vagas"</li><li>Usar o filtro para buscar pela habilidade "React".</li></ol> |
-| Resultado esperado | <ul><li>Vaga de desenvolvedor back-end pela Progressus</li></ul>  |
+| Resultado esperado | Vaga de desenvolvedor back-end pela Progressus  |
 
 | ID | CT-? |
 |------|---------------------|
@@ -67,16 +68,79 @@ Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Esp
 | ID | CT-? |
 |------|---------------------|
 | Requisitos Associados | RF-005 O site deve permitir ao usuário (empresas) postar vagas |
-|Descrição do teste | É possível criar uma nova vaga seguindo todo o processo necessário? |
-|Passos | <ol><li>Acessar a pagina inicial e clicar em "Sou Empresa"</li><li>Efetuar login</li><li>Clicar em Nova Vaga</li><li>Preencher formulario e enviar</li></ol> |
-| Resultado esperado | <ul><li>Conseguir acessar todas as paginas pela propria aplicação</li><li>Criar uma vaga com sucesso ao preencher o formulario</li><li>A nova vaga aparecer na lista de vagas da empresa </li></ul> |
+|Descrição do teste | Deve ser possível chegar a pagina de criação de vaga atráves da aplicação |
+|Passos | <ol><li>Acessar a pagina inicial e clicar em "Sou Empresa"</li><li>Efetuar login</li><li>Clicar em Nova Vaga</li></ol> |
+| Resultado esperado | Chegar a pagina de criação de vagas com sucesso |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados | RF-005 O site deve permitir ao usuário (empresas) postar vagas |
+|Descrição do teste | Deve ser possível criar uma nova vaga seguindo todo o processo com informações validas |
+|Passos | <ol><li>Acessar a pagina inicial e clicar em "Sou Empresa"</li><li>Efetuar login</li><li>Clicar em Nova Vaga</li><li>Preencher formulario com: <ol><li>Nome da vaga: Dev Front-end</li> <li>Habilidades essenciais: JavaScript</li> <li>Habilidades diferenciais: HTML</li><li>Senioridade:Junior</li><li>Cargo: Desenvolvedor Front-end</li><li>Salario: 2000</li> <li>Data final da vaga: 01/01/2023</li><li>Descrição: Nova vaga Front-end</li></ol></li><li>Clicar em Criar Vaga</li></ol> |
+| Resultado esperado | A nova vaga aparecer na lista de vagas da empresa com informações correspondentes ao preenchido |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados | RF-005 O site deve permitir ao usuário (empresas) postar vagas |
+|Descrição do teste | Deve ser impossível criar uma nova vaga seguindo todo o processo com todas as informações em branco |
+|Passos | <ol><li>Acessar a pagina inicial e clicar em "Sou Empresa"</li><li>Efetuar login</li><li>Clicar em Nova Vaga</li><li>Clicar em Criar Vaga</li></ol> |
+| Resultado esperado | Erro ao criar vaga com descritivo do erro |
 
 | ID | CT-? |
 |------|---------------------|
 | Requisitos Associados | RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
-|Descrição do teste | É possível para uma empresa se cadastrar e efetuar login? |
-|Passos | <ol><li>Acessar a pagina inicial e clicar em "Sou Empresa"</li><li>Clicar em Cadaste-se</li><li>Efetuar cadastro com sucesso ao preencher informações</li><li>Efetuar login</li><li>Ser redirecionado para a pagina da sua empresa</li></ol> |
-| Resultado esperado | <ul><li>Conseguir acessar todas as paginas pela propria aplicação</li> <li>Conseguir se cadastrar com sucesso ao preencher informações</li> <li>Ser redirecionado com sucesso para a pagina da empresa</li></ul> |
+|Descrição do teste | Deve ser possível acessar a pagina de login seguindo todo o processo pela aplicação |
+|Passos | <ol><li>Acessar a pagina inicial</li><li>Clicar em "Sou Empresa"</li></ol> |
+| Resultado esperado | Chegar a pagina de login com sucesso |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados | RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
+|Descrição do teste | Deve ser possível acessar a pagina de registro seguindo todo o processo pela aplicação |
+|Passos | <ol><li>Acessar a pagina inicial</li><li>Clicar em "Sou Empresa"</li> <li>Clicar em Cadastre-se</li></ol> |
+| Resultado esperado | Chegar a pagina de registro com sucesso |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados | RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
+|Descrição do teste | Deve ser possível se registrar com sucesso seguindo os passos e inserindo informações validas |
+|Passos | <ol><li>Acessar a pagina inicial</li><li>Clicar em "Sou Empresa"</li> <li>Clicar em Cadastre-se</li><li>Inserir:<ol><li>Nome da Empresa: EmpresaValida</li><li>Email: empresavalida@gmail.com</li><li>CNPJ: 12.945.701/0001-82</li><li>Senha: 123456</li> <li>Confirme sua senha: 123456</li></ol></li><li>Clicar em Cadastrar</li> <li>Efetuar login com informações registradas</li></ol> |
+| Resultado esperado | Ser redirecionado para a pagina da empresa com sucesso e com informações correspondentes |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados | RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
+|Descrição do teste | Deve ser impossível se registrar com todos os campos em branco |
+|Passos | <ol><li>Acessar a pagina inicial</li><li>Clicar em "Sou Empresa"</li> <li>Clicar em Cadastre-se</li><li>Clicar em Cadastrar</li> </ol> |
+| Resultado esperado | Erro ao se cadastrar com informativos sobre o erro |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados | RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
+|Descrição do teste | Deve ser possível efetuar login seguindo os passos e inserindo informações validas |
+|Passos | <ol><li>Acessar a pagina inicial</li><li>Clicar em "Sou Empresa"</li><li>Inserir:<ol><li>Email: eletrosurf@gmail.com</li><li>Senha: !eletrosurf123</li></ol></li><li>Clicar em entrar</li> </ol> |
+| Resultado esperado |  Ser redirecionado para a pagina da empresa com sucesso e com informações correspondentes |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados | RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
+|Descrição do teste | Deve ser impossível efetuar login com todos os campos em branco|
+|Passos | <ol><li>Acessar a pagina inicial</li><li>Clicar em "Sou Empresa"</li><li>Clicar em entrar</li></ol> |
+| Resultado esperado |  Erro ao efetuar login com descritivos do erro |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados | RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
+|Descrição do teste | Deve ser impossível efetuar login seguindo os passos e inserindo um email valido e uma senha invalida |
+|Passos | <ol><li>Acessar a pagina inicial</li><li>Clicar em "Sou Empresa"</li><li>Inserir:<ol><li>Email: eletrosurf@gmail.com</li><li>Senha: 123456</li></ol></li><li>Clicar em entrar</li> </ol> |
+| Resultado esperado |  Erro ao efetuar login com descritivos do erro |
+
+| ID | CT-? |
+|------|---------------------|
+| Requisitos Associados | RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
+|Descrição do teste | Deve ser impossível efetuar login seguindo os passos e inserindo um email invalido e uma senha valida |
+|Passos | <ol><li>Acessar a pagina inicial</li><li>Clicar em "Sou Empresa"</li><li>Inserir:<ol><li>Email: eletro@gmail.com</li><li>Senha: !eletrosurf123</li></ol></li><li>Clicar em entrar</li> </ol> |
+| Resultado esperado |  Erro ao efetuar login com descritivos do erro |
 
 <hr>
 
@@ -319,7 +383,6 @@ Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Esp
 |Descrição do teste | Ao se cadastar, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario de cadastro e devem ser verificadas através de javascript |
 |Passos | <ol><li>Acessar Sou Empresa</li> <li> Clicar em Cadastre-se </li> <li> Completar campos do formulario com informações validas</li> <li>Clicar em Cadastrar</li> <li>Efetuar login</li> <li>Comparar valores inseridos com os exibidos</li></ol> |
 | Resultado esperado | Todos os valores devem estar de acordo |
-
 
 <hr>
 
