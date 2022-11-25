@@ -65,7 +65,7 @@ if (
     localStorage.setItem('EmpresaUser', JSON.stringify(
         [
             { 'id': 1, 'empresa_id': 1, 'login': 'superTech@gmail.com', 'password': '123456' },
-            { 'id': 2, 'empresa_id': 2, 'login': 'pipoca@gmail.com', 'password': '122333444455555' },
+            { 'id': 2, 'empresa_id': 2, 'login': 'eletrosurf@gmail.com', 'password': -2006896600 },
             { 'id': 3, 'empresa_id': 3, 'login': 'naosei@hotmail.com', 'password': '999111222' },
         ]
     )
