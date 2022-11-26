@@ -312,15 +312,195 @@ Saída esperada : Vaga de desenvolvedor back-end pela Progressus
 
 # Testes de Campos completos
 
-|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
-|------|---------------------|-------------------------|----------|
-|CT-05 <br> RF-05|  |  | | 
-
-//Testes e imagens aqui.
+Os passos de Cadastro, Login e entrar em Nova vaga seram abordados nos testes de ponta a ponta, portanto essas etapas serão puladas para melhor compreensão dos testes.
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-06 <br> RF-13|  |  | |
+|CT-? <br> RF-05| Deve ser possível inserir um nome na vaga com quaisquer caracteres, números ou caracteres especiais. | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso com o nome: aaAA11!@#$%¨¨&*()_{}[] | Sucesso | 
+
+1. Escrever em "Nome da vaga": aaAA11!@#$%¨¨&*()_{}[]
+2. Completar outros campos do formulario com informações validas
+![Nome Valido](img/registro_de_testes/teste_de_campos/rf-005/nomeValido.png)
+
+3. Clicar em Criar Vaga
+
+![Nome Valido](img/registro_de_testes/teste_de_campos/rf-005/nomeValidoCriado.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-05| Deve ser impossível criar um vaga sem nome | Um erro foi exibido como esperado e não foi possível criar a vaga | Sucesso | 
+
+1. Manter campo "Nome da vaga" em branco
+2. Completar outros campos do formulario com informações validas
+3. Clicar em Criar Vaga
+![Nome Invalido](img/registro_de_testes/teste_de_campos/rf-005/nomeInvalido.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-05| Deve ser possível selecionar uma ou mais habilidades essenciais| O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso com as habilidades essenciais: Javascript, HTML, REACT | Sucesso | 
+
+1. No campo "Habilidades essenciais" selecionar: [JavaScript, HTML, REACT]
+2. Completar outros campos do formulario com informações validas
+![Habilidade Essencial Valida](img/registro_de_testes/teste_de_campos/rf-005/habilidadeEssencialValida.png)
+
+3. Clicar em Criar Vaga
+![Habilidade Essencial Valida Criada](img/registro_de_testes/teste_de_campos/rf-005/habilidadeEssencialValidaCriada.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-05| Deve ser impossível criar uma vaga sem habilidades essenciais| Um erro foi exibido como esperado e não foi possível criar a vaga | Sucesso | 
+
+1. Manter campo "Habilidades essenciais" em branco
+2. Completar outros campos do formulario com informações validas
+3. Clicar em Criar Vaga
+![Habilidade Essencial Invalido](img/registro_de_testes/teste_de_campos/rf-005/habilidadeEssencialInvalido.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-05| Deve ser possível selecionar uma ou mais habilidades diferenciais| O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso com as habilidades diferenciais: Golang e Python | Sucesso | 
+
+1. No campo "Habilidades diferenciais" selecionar: [Golang, Python]
+2. Completar outros campos do formulario com informações validas
+3. Clicar em Criar Vaga
+![Habilidade Diferencial Valida](img/registro_de_testes/teste_de_campos/rf-005/habilidadeDiferencialValida.png)
+4. Clicar no nome da vaga
+![Habilidade Diferencial Valida Criada](img/registro_de_testes/teste_de_campos/rf-005/habilidadeDiferencialValidaCriada.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-05| Deve ser possível criar uma vaga sem habilidades diferenciais| O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso sem habilidades difereiciais | Sucesso |
+
+1. No campo "Habilidades diferenciais" manter em branco
+2. Completar outros campos do formulario com informações validas
+3. Clicar em Criar Vaga
+![Habilidade Diferencial Valida Branco](img/registro_de_testes/teste_de_campos/rf-005/habilidadeDiferencialValidaBranco.png)
+4. Clicar no nome da vaga
+![Habilidade Diferencial Valida Criada Branco](img/registro_de_testes/teste_de_campos/rf-005/habilidadeDiferencialValidaCriadaBranco.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-05| Deve ser possível selecionar uma senioridade | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso | Sucesso | 
+
+1. No campo "Senioridade" selecionar: "Pleno"
+2. Completar outros campos do formulario com informações validas
+![Senioridade Valida](img/registro_de_testes/teste_de_campos/rf-005/senioridadeValida.png)
+
+3. Clicar em Criar Vaga
+![Senioridade Valida Criada](img/registro_de_testes/teste_de_campos/rf-005/senioridadeValidaCriada.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-05| Deve ser impossível criar uma vaga sem senioridade |  Um erro foi exibido como esperado e não foi possível criar a vaga | Sucesso | 
+
+1. No campo "Senioridade" deixar em branco
+2. Completar outros campos do formulario com informações validas
+3. Clicar em Criar Vaga
+![Senioridade Invalida](img/registro_de_testes/teste_de_campos/rf-005/senioridadeInvalida.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-05| Deve ser possível selecionar um cargo | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso | Sucesso |
+
+1. No campo "Cargo" selecionar: "Desenvolvedor Front-end"
+2. Completar outros campos do formulario com informações validas
+![Cargo Valida](img/registro_de_testes/teste_de_campos/rf-005/cargoValida.png)
+3. Clicar em Criar Vaga
+![Cargo Valida Criada](img/registro_de_testes/teste_de_campos/rf-005/cargoValidaCriada.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-05| Deve ser impossível criar uma vaga sem cargo | Um erro foi exibido como esperado e não foi possível criar a vaga | Sucesso | 
+
+1. No campo "Cargo" deixar em branco
+2. Completar outros campos do formulario com informações validas
+3. Clicar em Criar Vaga
+![Cargo Invalida](img/registro_de_testes/teste_de_campos/rf-005/cargoInvalida.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-05| Deve ser possível definir um salario para a vaga | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso | Sucesso |
+
+1. No campo "Salario" digitar: 9500
+2. Completar outros campos do formulario com informações validas
+![Salario Valida](img/registro_de_testes/teste_de_campos/rf-005/salarioValida.png)
+3. Clicar em Criar Vaga
+![Salario Valida Criada](img/registro_de_testes/teste_de_campos/rf-005/salarioValidaCriada.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-05| Deve ser impossível criar uma vaga sem salario | Um erro foi exibido como esperado e não foi possível criar a vaga | Sucesso | 
+
+1. No campo "Salario" deixar em branco
+2. Completar outros campos do formulario com informações validas
+3. Clicar em Criar Vaga
+![Salario Invalida](img/registro_de_testes/teste_de_campos/rf-005/salarioInvalida.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-05| Deve ser possível definir um salario para a vaga | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso | Sucesso |
+
+1. No campo "Data final da vaga" selecionar: 10/10/2023
+2. Completar outros campos do formulario com informações validas
+![Expire Valida](img/registro_de_testes/teste_de_campos/rf-005/expireValida.png)
+3. Clicar em Criar Vaga
+![Expire Valida Criada](img/registro_de_testes/teste_de_campos/rf-005/expireValidaCriada.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-05| Deve ser impossível criar uma vaga com data para expiração da vaga anterior ao dia atual | A vaga foi criada indevidamente, porém não aparece em nenhuma lista ou pagina | Baixa | 
+
+1. No campo "Data final da vaga" selecionar: 01/01/2022
+2. Completar outros campos do formulario com informações validas
+3. Clicar em Criar Vaga
+![Expire Invalida Old](img/registro_de_testes/teste_de_campos/rf-005/expireInvalidaOld.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-05| Deve ser impossível criar uma vaga sem data de expiração | Um erro foi exibido como esperado e não foi possível criar a vaga | Sucesso | 
+
+1. No campo "Data final da vaga" manter em branco
+2. Completar outros campos do formulario com informações validas
+3. Clicar em Criar Vaga
+![Expire Invalida](img/registro_de_testes/teste_de_campos/rf-005/expireInvalida.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-05| Deve ser possível definir uma descrição para a vaga com quaisquer caracteres, numeros ou caracteres especiais | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso | Sucesso |
+
+1. Escrever em "Descrição da vaga": aaAA11!@#$%¨¨&*()_{}[]
+2. Completar outros campos do formulario com informações validas
+![Descrição Valida](img/registro_de_testes/teste_de_campos/rf-005/descricaoValida.png)
+3. Clicar em Criar Vaga
+![Descrição Valida Criada](img/registro_de_testes/teste_de_campos/rf-005/descricaoValidaCriada.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-05| Deve ser possível criar uma vaga sem descrição | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso | Sucesso |
+
+1. Em "Descrição da vaga" manter em branco
+2. Completar outros campos do formulario com informações validas
+![Descrição Valida Branco](img/registro_de_testes/teste_de_campos/rf-005/descricaoValidaBranco.png)
+3. Clicar em Criar Vaga
+![Descrição Valida Branco](img/registro_de_testes/teste_de_campos/rf-005/descricaoValidaCriadaBranco.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-05| Ao criar uma vaga, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario | Todas as informações estavam de acordo com o criado | Sucesso |
+
+1. Completar campos com:
+<ol><li>Nome da vaga> TESTE1</li> <li>Habiilidades essenciais: HTML</li><li>Habilidades diferenciais: HTML</li><li>Senioridade: Senior</li><li>Cargo:Analista de Dados</li> <li>Salario: 11500</li><li>Data final da vaga: 05/05/2025</li> <li>Descrição da vaga: Testando campos</li></ol>
+
+2. Clicar em Criar Vaga
+
+![Vaga Valida](img/registro_de_testes/teste_de_campos/rf-005/vagaValida.png)
+
+3. Clicar no nome da vaga
+
+![Vaga Valida Criada](img/registro_de_testes/teste_de_campos/rf-005/vagaValidaCriada.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-05|Ao criar uma vaga, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario e devem ser verificadas através de javascript | fixme | fixme |
 
 //Testes e imagens aqui.
 
