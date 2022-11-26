@@ -17,10 +17,22 @@ Gravidade
 |CT-? <br> RF-001|  | | | 
 |CT-? <br> RF-002|  | | |
 |CT-? <br> RF-003| Verificar se a página "lista de vagas" está acessível e interativa. | A página se mostrou em pleno funcionamento, apresentando a lista de vagas adequadamente | Sucesso |
-|CT-? <br> RF-003;RF-007| Verificar se a barra de pesquisa encontra vagas validas corretamente. | A barra de pesquisa funcionou perfeitamente retornando resultado esperados do teste | Sucesso | 
-|CT-? <br> RF-003;RF-007| Verificar se a barra de pesquisa não exibe resultados ao efetuar uma pesquisa de uma vaga inexistente. | Verificar se a barra de pesquisa não exibe resultados ao efetuar uma pesquisa de uma vaga inexistente. | A barra de pesquisa funcionou perfeitamente retornando uma lista vazia, resultado esperado do teste | Sucesso | 
-|CT-? <br> RF-003;RF-007| Verificar se o filtro por categoria está encontra vagas validas corretamente. | O filtro por categoria funcionou perfeitamente retornando resultado esperados do teste | Sucesso | 
+|CT-? <br> RF-007| Verificar se a barra de pesquisa encontra vagas validas corretamente. | A barra de pesquisa funcionou perfeitamente retornando resultado esperados do teste | Sucesso | 
+|CT-? <br> RF-007| Verificar se a barra de pesquisa não exibe resultados ao efetuar uma pesquisa de uma vaga inexistente. | A barra de pesquisa funcionou perfeitamente retornando uma lista vazia, resultado esperado do teste | Sucesso | 
+|CT-? <br> RF-007| Verificar se o filtro por categoria está encontra vagas validas corretamente. | O filtro por categoria funcionou perfeitamente retornando resultado esperados do teste | Sucesso | 
+
+
 |CT-? <br> RF-005| Deve ser possível chegar a pagina de criação de vaga atráves da aplicação | A pagina foi exibida adequadamente e dinamicamente |  Sucesso |
+|CT-? <br> RF-005| Deve ser possível criar uma nova vaga seguindo todo o processo com informações validas | A vaga foi criada corretamente e exibida de acordo |  Sucesso |
+|CT-? <br> RF-005| Deve ser impossível criar uma nova vaga seguindo todo o processo com todas as informações em branco | Um erro foi exibido conforme o esperado e informando os campos que devem ser preenchidos |  Sucesso |
+|CT-? <br> RF-013| Deve ser possível acessar a pagina de login seguindo todo o processo pela aplicação | A pagina foi exibida adequadamente e dinamicamente |  Sucesso |
+|CT-? <br> RF-013| Deve ser possível acessar a pagina de registro seguindo todo o processo pela aplicação | A pagina foi exibida adequadamente e dinamicamente |  Sucesso |
+|CT-? <br> RF-013| Deve ser possível se registrar com sucesso seguindo os passos e inserindo informações validas | O cadastro foi efetuado com sucesso e pagina da empresa exibida |  Sucesso |
+|CT-? <br> RF-013| Deve ser impossível se registrar com todos os campos em branco | Um erro foi exibido como esperado e não foi possível efetuar o cadastro |  Sucesso |
+|CT-? <br> RF-013| Deve ser possível efetuar login seguindo os passos e inserindo informações validas | O login foi efetuado com sucesso e pagina da empresa foi exibida de acordo |  Sucesso |
+|CT-? <br> RF-013| Deve ser impossível efetuar login com todos os campos em branco | Um erro foi exibido como o esperado e não foi possível efetuar login |  Sucesso |
+|CT-? <br> RF-013| Deve ser impossível efetuar login seguindo os passos e inserindo um email valido e uma senha invalida | Um erro foi exibido como o esperado e não foi possível efetuar login |  Sucesso |
+|CT-? <br> RF-013| Deve ser impossível efetuar login seguindo os passos e inserindo um email invalido e uma senha valida | Um erro foi exibido como o esperado e não foi possível efetuar login |  Sucesso |
 
 
 # Testes de Campos simplificado
@@ -205,6 +217,7 @@ Saída esperada : Vaga de desenvolvedor back-end pela Progressus
 3. Clicar em Cadastre-se
 
 ![Cadastre-se](img/registro_de_testes/rf-013/cadastrese.png)
+![Registro](img/registro_de_testes/rf-013/registro.png)
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
@@ -286,7 +299,7 @@ Saída esperada : Vaga de desenvolvedor back-end pela Progressus
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-013| Deve ser impossível efetuar login seguindo os passos e inserindo um email valido e uma senha invalida | Um erro foi exibido como o esperado e não foi possível efetuar login | Sucesso |
+|CT-? <br> RF-013| Deve ser impossível efetuar login seguindo os passos e inserindo um email invalido e uma senha valida | Um erro foi exibido como o esperado e não foi possível efetuar login | Sucesso |
 
 1. Acessar a pagina inicial
 &
@@ -296,7 +309,7 @@ Saída esperada : Vaga de desenvolvedor back-end pela Progressus
 3. Inserir as informações de acordo:
 &
 4. Clicar em Entrar
-![Senha Incorreta](img/registro_de_testes/rf-013/emailIncorreto.png)
+![Email Incorreto](img/registro_de_testes/rf-013/emailIncorreto.png)
 
 
 # Testes de Campos completos
