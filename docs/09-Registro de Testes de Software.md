@@ -329,7 +329,7 @@ Saída esperada : Vaga de desenvolvedor back-end pela Progressus
 
 # Testes de Campos completos
 
-Os passos de Cadastro, Login e entrar em Nova vaga seram abordados nos testes de ponta a ponta, portanto essas etapas serão puladas para melhor compreensão dos testes.
+Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas etapas serão puladas para melhor compreensão dos testes.
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
@@ -518,6 +518,181 @@ Os passos de Cadastro, Login e entrar em Nova vaga seram abordados nos testes de
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
 |CT-? <br> RF-05|Ao criar uma vaga, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario e devem ser verificadas através de javascript | fixme | fixme |
+
+//Testes e imagens aqui.
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-013| Deve ser possível inserir um nome para a empresa com quaisquer caracteres, números ou caracteres especiais. | O cadastro foi efetuado com sucesso | Sucesso |
+
+1. Escrever em "Nome da Empresa": EmpresaTest123!@#$%¨¨&*()_{}[]
+
+2. Completar outros campos do formulario com informações validas
+
+![Nome Valida](img/registro_de_testes/teste_de_campos/rf-013/nomeValida.png)
+
+3. Efetuar login com informações cadastradas
+
+![Nome Valida Criada](img/registro_de_testes/teste_de_campos/rf-013/nomeValidaCriada.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-013| Deve ser impossível se cadastrar sem inserir o nome da empresa | Um erro aconteceu como o esperado  | Sucesso |
+
+1. Em "Nome da Empresa" manter em branco
+2. Completar outros campos do formulario com informações validas
+3. Clicar em Cadastrar
+
+![Nome Invalida](img/registro_de_testes/teste_de_campos/rf-013/nomeInvalida.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-013| 	Deve ser possível inserir um email valido para a empresa | O cadastro foi efetuado com sucesso | Sucesso |
+
+1. Escrever em "Email": empresatest@gmail.com
+
+2. Completar outros campos do formulario com informações validas
+
+![Email Valida](img/registro_de_testes/teste_de_campos/rf-013/emailValida.png)
+
+3. Efetuar login com informações cadastradas
+
+![Email Valida Criada](img/registro_de_testes/teste_de_campos/rf-013/emailValidaCriada.png)
+![Email Valida Criada 2](img/registro_de_testes/teste_de_campos/rf-013/emailValidaCriada2.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-013| Deve ser impossível inserir um email invalido para a empresa | Um erro aconteceu como o esperado  | Sucesso |
+
+1. Escrever em "Email": empresatest!!
+2. Completar outros campos do formulario com informações validas
+3. Clicar em Cadastrar
+
+![Email Invalida](img/registro_de_testes/teste_de_campos/rf-013/emailInvalida.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-013| Deve ser possível inserir um CNPJ valido para a empresa | O cadastro foi efetuado com sucesso | Sucesso |
+
+1. Escrever em "CNPJ": 12.945.701/0001-82
+
+2. Completar outros campos do formulario com informações validas
+
+![Cnpj Valida](img/registro_de_testes/teste_de_campos/rf-013/cnpjValida.png)
+
+3. Efetuar login com informações cadastradas
+
+![Cnpj Valida Criada](img/registro_de_testes/teste_de_campos/rf-013/cnpjValidaCriada.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-013| Deve ser impossível inserir um CNPJ invalido para a empresa | Um erro aconteceu como o esperado  | Sucesso |
+
+1. Escrever em "CNPJ": 12.945.701
+2. Completar outros campos do formulario com informações validas
+3. Clicar em Cadastrar
+
+![Cnpj Invalida](img/registro_de_testes/teste_de_campos/rf-013/cnpjInvalida.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-013| Deve ser impossível se cadastrar sem inserir um CNPJ | Um erro aconteceu como o esperado  | Sucesso |
+
+1. Em "CNPJ" manter em branco
+2. Completar outros campos do formulario com informações validas
+3. Clicar em Cadastrar
+
+![Cnpj Invalida Branco](img/registro_de_testes/teste_de_campos/rf-013/cnpjInvalidaBranco.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-013| Deve ser possível se cadastrar inserindo uma senha de 6 ou mais caracteres e confirmando a senha | O cadastro foi efetuado com sucesso | Sucesso |
+
+1. Escrever em "Senha" e "Confime sua senha": aA123!
+
+2. Completar outros campos do formulario com informações validas
+
+![Senha Valida](img/registro_de_testes/teste_de_campos/rf-013/senhaValida.png)
+
+3. Efetuar login com informações cadastradas
+
+![Senha Valida Criada](img/registro_de_testes/teste_de_campos/rf-013/senhaValidaCriada.png)
+![Senha Valida Criada 2](img/registro_de_testes/teste_de_campos/rf-013/senhaValidaCriada2.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-013| Deve ser impossível se cadastrar inserindo uma senha com menos de 6 caracteres | Um erro aconteceu como o esperado  | Sucesso |
+
+1. Escrever em "Senha" e "Confime sua senha": 12345
+2. Completar outros campos do formulario com informações validas
+3. Clicar em Cadastrar
+
+![Senha Invalida](img/registro_de_testes/teste_de_campos/rf-013/senhaInvalida.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-013| Deve ser impossível se cadastrar inserindo uma senha e um confime sua senha diferentes, mesmo que a senha seja valida | Um erro aconteceu como o esperado  | Sucesso |
+
+1. Escrever em "Senha": 123456 e em "Confime sua senha": 1234567
+2. Completar outros campos do formulario com informações validas
+3. Clicar em Cadastrar
+
+![Senha Invalida Diff](img/registro_de_testes/teste_de_campos/rf-013/senhaInvalidaDiff.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-013| Deve ser impossível se cadastrar sem inserir uma senha | Um erro aconteceu como o esperado  | Sucesso |
+
+1. Em "Senha" e em "Confime sua senha": deixar em branco
+2. Completar outros campos do formulario com informações validas
+3. Clicar em Cadastrar
+
+![Senha Invalida Branca](img/registro_de_testes/teste_de_campos/rf-013/senhaInvalidaBranca.png)
+![Senha Invalida Branca 1](img/registro_de_testes/teste_de_campos/rf-013/senhaInvalidaBranca1.png)
+![Senha Invalida Branca 2](img/registro_de_testes/teste_de_campos/rf-013/senhaInvalidaBranca2.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-013| Deve ser impossível se cadastrar duas vezes com o mesmo Email | O cadastro foi criado indevidamente na segunda tentativa | Grave |
+
+1. Cadastar com o email: empresarepetida@gmail.com
+2. Completar outros campos do formulario com informações validas
+3. Clicar em Cadastrar
+1. Cadastar novamente com o email: empresarepetida@gmail.com
+2. Completar outros campos do formulario com informações validas
+3. Clicar em Cadastrar
+
+![Cadastro Repetido](img/registro_de_testes/teste_de_campos/rf-013/cadastroRepetido.png.png)
+![Cadastro Repetido 2](img/registro_de_testes/teste_de_campos/rf-013/cadastroRepetido2.png.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-013| Deve ser impossível se cadastrar duas vezes com o mesmo Nome | O cadastro foi criado indevidamente na segunda tentativa | Media |
+
+1. Cadastar com o Nome: EmpresaRepetida
+2. Completar outros campos do formulario com informações validas
+3. Clicar em Cadastrar
+1. Cadastar com o Nome: EmpresaRepetida
+2. Completar outros campos do formulario com informações validas
+3. Clicar em Cadastrar
+
+![Cadastro Repetido Nome](img/registro_de_testes/teste_de_campos/rf-013/cadastroRepetidoNome.png.png)
+![Cadastro Repetido Nome2](img/registro_de_testes/teste_de_campos/rf-013/cadastroRepetidoNome2.png.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-013| Ao se cadastar, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario de cadastro | As informações estavam de acordo com as cadastradas | Sucesso |
+
+1. Completar campos com: <ol><li>Nome da Empresa: Empresa de testes</li><li>Email: emailtest@gmail.com</li><li>CNPJ: 54.564.864/894</li><li>Senha:!empresaTest123</li><li>Confirme sua senha:!empresaTest123</li></ol>
+2. Clicar em Cadastrar
+![Campos Valida](img/registro_de_testes/teste_de_campos/rf-013/camposValida.png)
+3. Efetuar login
+![Campos Valida Criada](img/registro_de_testes/teste_de_campos/rf-013/camposValidaCriada.png)
+![Campos Valida Criada](img/registro_de_testes/teste_de_campos/rf-013/camposValidaCriada2.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-013| Ao se cadastar, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario de cadastro e devem ser verificadas através de javascript | fixme | fixme |
 
 //Testes e imagens aqui.
 

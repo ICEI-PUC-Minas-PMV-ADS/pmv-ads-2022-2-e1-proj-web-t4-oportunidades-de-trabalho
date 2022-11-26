@@ -269,7 +269,7 @@ Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Esp
 |------|---------------------|
 | Requisitos Associados |RF-005 O site deve permitir ao usuário (empresas) postar vagas |
 |Descrição do teste | Ao criar uma vaga, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario |
-|Passos | <ol><li>Executar cadastro e login.</li> <li> Clicar em Nova Vaga </li> <li>Completar campos com: <ol><li>Nome da vaga> TESTE1</li> <li>Habiilidades essenciais: HTML</li><li>Habilidades diferenciais: HTML</li><li>Senioridade: Senior</li><li>Cargo:Analista de Dados</li> <li>Salario: 11500</li><li>Data final da vaga: 05/05/2025</li> <li>Descrição da vaga: Testando campos</li></ol></li> <li>Clicar em Criar Vaga</li> <li>Clicar no nome da vaga</li> <li>Comparar valores inseridos com os exibidos</li></ol> |
+|Passos | <ol><li>Executar cadastro e login.</li> <li> Clicar em Nova Vaga </li> <li>Completar campos com: <ol><li>Nome da vaga: TESTE1</li> <li>Habiilidades essenciais: HTML</li><li>Habilidades diferenciais: HTML</li><li>Senioridade: Senior</li><li>Cargo: Analista de Dados</li> <li>Salario: 11500</li><li>Data final da vaga: 05/05/2025</li> <li>Descrição da vaga: Testando campos</li></ol></li> <li>Clicar em Criar Vaga</li> <li>Clicar no nome da vaga</li> <li>Comparar valores inseridos com os exibidos</li></ol> |
 | Resultado esperado | Todos os valores devem estar de acordo |
 
 | ID | CT-? |
@@ -374,7 +374,7 @@ Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Esp
 |------|---------------------|
 | Requisitos Associados |RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
 |Descrição do teste | Ao se cadastar, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario de cadastro |
-|Passos | <ol><li>Acessar Sou Empresa</li> <li> Clicar em Cadastre-se </li> <li> Completar campos do formulario com informações validas</li> <li>Clicar em Cadastrar</li> <li>Efetuar login</li> <li>Comparar valores inseridos com os exibidos</li></ol> |
+|Passos | <ol><li>Acessar Sou Empresa</li> <li> Clicar em Cadastre-se </li> <li> Completar campos com: <ol><li>Nome da Empresa: Empresa de testes</li><li>Email: emailtest@gmail.com</li><li>CNPJ: 54.564.864/894</li><li>Senha:!empresaTest123</li><li>Confirme sua senha:!empresaTest123</li></ol></li> <li>Clicar em Cadastrar</li> <li>Efetuar login</li> <li>Comparar valores inseridos com os exibidos</li></ol> |
 | Resultado esperado | Todos os valores que são exibidos ao usuario devem estar de acordo |
 
 | ID | CT-? |
