@@ -6,9 +6,9 @@ Os planejamentos dos testes a serem realizados serão descritos abaixo de acordo
 
 - Testes de campos: Será realizado os testes dos campos de grande importancia para a aplicação de forma manual e também com ferramentas de testes em JS, seguindo normas padrão e regras de negocio.
 
-- Testes de navegabilidade: Será realizado atráves ferramentas online e manualmente pelos desenvolvedores.
+- Testes de navegabilidade: Será realizado atráves ferramentas online.
 
-- Testes de responsividade: Será realizado atráves ferramentas online e manualmente pelos desenvolvedores.
+- Testes de responsividade: Será realizado atráves ferramentas online.
 
 Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Especificação do Projeto </a></span> para melhor entendimento dos requisitos que serão trabalhados a seguir.
 
@@ -386,91 +386,49 @@ Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Esp
 
 <hr>
 
-# Testes de Navegabilidade
+# Testes de Navegabilidade <li></li>
 
-| ID | CT-? |
+| ID | CT-? | 
 |------|---------------------|
-| Requisitos Associados | RF-001 O site deve apresentar na página principal deve mostrar uma apresentação da ferramenta |
-|Descrição do teste | É possivel navegar por todos os links da pagina? |
-|Passos | <ol><li>X</li></ol> |
-| Resultado esperado | X |
+|Descrição do teste | Teste de navegabilidade da home.html |
+|Passos | <ol><li>Abrir: https://datayze.com/site-navigability-analyzer</li> <li>Inserir link da home.html </li></ol> |
+| Resultado esperado | Todos os links encontrados |
 
- ID | CT-? |
+| ID | CT-? | 
 |------|---------------------|
-| Requisitos Associados | RF-001 O site deve apresentar na página principal deve mostrar uma apresentação da ferramenta |
-|Descrição do teste |Todos os links direcionam para o caminho correto? |
-|Passos | <ol><li>X</li></ol> |
-| Resultado esperado | X |
+|Descrição do teste | Teste de navegabilidade da home.html |
+|Passos | <ol><li>Abrir: https://datayze.com/site-navigability-analyzer</li> <li>Inserir link da vaga.html com id </li></ol> |
+| Resultado esperado | Todos os links encontrados |
 
-| ID | CT-? |
+| ID | CT-? | 
 |------|---------------------|
-| Requisitos Associados | RF-002 O site deve apresentar na página principal as opções de acesso às outras páginas: (lista de vagas) |
-|Descrição do teste | É possivel navegar por todos os links da pagina? |
-|Passos | <ol><li>X</li></ol> |
-| Resultado esperado | X |
+|Descrição do teste | Teste de navegabilidade da home.html |
+|Passos | <ol><li>Abrir: https://datayze.com/site-navigability-analyzer</li> <li>Inserir link da vagas_lista.html </li></ol> |
+| Resultado esperado | Todos os links encontrados |
 
- ID | CT-? |
+| ID | CT-? | 
 |------|---------------------|
-| Requisitos Associados | RF-002 O site deve apresentar na página principal as opções de acesso às outras páginas: (lista de vagas) |
-|Descrição do teste |Todos os links direcionam para o caminho correto? |
-|Passos | <ol><li>X</li></ol> |
-| Resultado esperado | X |
+|Descrição do teste | Teste de navegabilidade da home.html |
+|Passos | <ol><li>Abrir: https://datayze.com/site-navigability-analyzer</li> <li>Inserir link do resumo.html </li></ol> |
+| Resultado esperado | Todos os links encontrados |
 
-| ID | CT-? |
+| ID | CT-? | 
 |------|---------------------|
-| Requisitos Associados | RF-003 O site deve possuir uma página com a listagem das vagas postadas |
-|Descrição do teste | É possivel navegar por todos os links da pagina? |
-|Passos | <ol><li>X</li></ol> |
-| Resultado esperado | X |
+|Descrição do teste | Teste de navegabilidade da home.html |
+|Passos | <ol><li>Abrir: https://datayze.com/site-navigability-analyzer</li> <li>Inserir link da habilidade.html com id </li></ol> |
+| Resultado esperado | Todos os links encontrados |
 
- ID | CT-? |
+| ID | CT-? | 
 |------|---------------------|
-| Requisitos Associados | RF-003 O site deve possuir uma página com a listagem das vagas postadas |
-|Descrição do teste |Todos os links direcionam para o caminho correto? |
-|Passos | <ol><li>X</li></ol> |
-| Resultado esperado | X |
+|Descrição do teste | Teste de navegabilidade da home.html |
+|Passos | <ol><li>Abrir: https://datayze.com/site-navigability-analyzer</li> <li>Inserir link da empresa.html com id </li></ol> |
+| Resultado esperado | Todos os links encontrados |
 
-| ID | CT-? |
+| ID | CT-? | 
 |------|---------------------|
-| Requisitos Associados | RF-004 Ao clicar em uma vaga da lista o site deve permitir ao usuário (profissional) visualizar o texto completo da vaga com todos os detalhes da publicação e se candidatar às vagas postadas |
-|Descrição do teste | É possivel navegar por todos os links da pagina? |
-|Passos | <ol><li>X</li></ol> |
-| Resultado esperado | X |
-
- ID | CT-? |
-|------|---------------------|
-| Requisitos Associados | RF-004 Ao clicar em uma vaga da lista o site deve permitir ao usuário (profissional) visualizar o texto completo da vaga com todos os detalhes da publicação e se candidatar às vagas postadas |
-|Descrição do teste |Todos os links direcionam para o caminho correto? |
-|Passos | <ol><li>X</li></ol> |
-| Resultado esperado | X |
-
-| ID | CT-? |
-|------|---------------------|
-| Requisitos Associados | RF-005 O site deve permitir ao usuário (empresas) postar vagas |
-|Descrição do teste | É possivel navegar por todos os links da pagina? |
-|Passos | <ol><li>X</li></ol> |
-| Resultado esperado | X |
-
- ID | CT-? |
-|------|---------------------|
-| Requisitos Associados | RF-005 O site deve permitir ao usuário (empresas) postar vagas |
-|Descrição do teste |Todos os links direcionam para o caminho correto? |
-|Passos | <ol><li>X</li></ol> |
-| Resultado esperado | X |
-
-| ID | CT-? |
-|------|---------------------|
-| Requisitos Associados | RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
-|Descrição do teste | É possivel navegar por todos os links da pagina? |
-|Passos | <ol><li>X</li></ol> |
-| Resultado esperado | X |
-
- ID | CT-? |
-|------|---------------------|
-| Requisitos Associados | RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
-|Descrição do teste |Todos os links direcionam para o caminho correto? |
-|Passos | <ol><li>X</li></ol> |
-| Resultado esperado | X |
+|Descrição do teste | Teste de navegabilidade da home.html |
+|Passos | <ol><li>Abrir: https://datayze.com/site-navigability-analyzer</li> <li>Inserir link do cargo.html com id </li></ol> |
+| Resultado esperado | Todos os links encontrados |
 
 <hr>
 
@@ -478,45 +436,63 @@ Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Esp
 
 | ID | CT-? |
 |------|---------------------|
-| Requisitos Associados | RF-001 O site deve apresentar na página principal deve mostrar uma apresentação da ferramenta |
-|Descrição do teste | A pagina é responsiva para desktop, tablet e smartphone? |
-|Passos | <ol><li>X</li></ol> |
-| Resultado esperado | X |
+|Descrição do teste | Teste de responsividade de home.html |
+|Passos | <ol><li>Abrir https://search.google.com/test/mobile-friendly</li> <li>Inserir o link de home.html</li></ol> |
+| Resultado esperado | A pagina deve receber resultado positivo para ser utilizado em dispositivos móveis |
 
 | ID | CT-? |
 |------|---------------------|
-| Requisitos Associados | RF-002 O site deve apresentar na página principal as opções de acesso às outras páginas: (lista de vagas) |
-|Descrição do teste | A pagina é responsiva para desktop, tablet e smartphone? |
-|Passos | <ol><li>X</li></ol> |
-| Resultado esperado | X |
+|Descrição do teste | Teste de responsividade de vagas_lista.html |
+|Passos | <ol><li>Abrir https://search.google.com/test/mobile-friendly</li> <li>Inserir o link de vagas_lista.html</li></ol> |
+| Resultado esperado | A pagina deve receber resultado positivo para ser utilizado em dispositivos móveis |
 
 | ID | CT-? |
 |------|---------------------|
-| Requisitos Associados | RF-003 O site deve possuir uma página com a listagem das vagas postadas |
-|Descrição do teste | A pagina é responsiva para desktop, tablet e smartphone? |
-|Passos | <ol><li>X</li></ol> |
-| Resultado esperado | X |
+|Descrição do teste | Teste de responsividade de vaga.html |
+|Passos | <ol><li>Abrir https://search.google.com/test/mobile-friendly</li> <li>Inserir o link de vaga.html com um id valido</li></ol> |
+| Resultado esperado | A pagina deve receber resultado positivo para ser utilizado em dispositivos móveis |
 
 | ID | CT-? |
 |------|---------------------|
-| Requisitos Associados | RF-004 Ao clicar em uma vaga da lista o site deve permitir ao usuário (profissional) visualizar o texto completo da vaga com todos os detalhes da publicação e se candidatar às vagas postadas |
-|Descrição do teste | A pagina é responsiva para desktop, tablet e smartphone? |
-|Passos | <ol><li>X</li></ol> |
-| Resultado esperado | X |
+|Descrição do teste | Teste de responsividade de resumo.html |
+|Passos | <ol><li>Abrir https://search.google.com/test/mobile-friendly</li> <li>Inserir o link de resumo.html</li></ol> |
+| Resultado esperado | A pagina deve receber resultado positivo para ser utilizado em dispositivos móveis |
 
 | ID | CT-? |
 |------|---------------------|
-| Requisitos Associados | RF-005 O site deve permitir ao usuário (empresas) postar vagas |
-|Descrição do teste | A pagina é responsiva para desktop, tablet e smartphone? |
-|Passos | <ol><li>X</li></ol> |
-| Resultado esperado | X |
+|Descrição do teste | Teste de responsividade de login.html |
+|Passos | <ol><li>Abrir https://search.google.com/test/mobile-friendly</li> <li>Inserir o link de login.html</li></ol> |
+| Resultado esperado | A pagina deve receber resultado positivo para ser utilizado em dispositivos móveis |
 
 | ID | CT-? |
 |------|---------------------|
-| Requisitos Associados | RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
-|Descrição do teste | A pagina é responsiva para desktop, tablet e smartphone? |
-|Passos | <ol><li>X</li></ol> |
-| Resultado esperado | X |
+|Descrição do teste | Teste de responsividade de habilidade.html |
+|Passos | <ol><li>Abrir https://search.google.com/test/mobile-friendly</li> <li>Inserir o link de habilidade.html com um id valido</li></ol> |
+| Resultado esperado | A pagina deve receber resultado positivo para ser utilizado em dispositivos móveis |
+
+| ID | CT-? |
+|------|---------------------|
+|Descrição do teste | Teste de responsividade de empresa.html |
+|Passos | <ol><li>Abrir https://search.google.com/test/mobile-friendly</li> <li>Inserir o link de empresa.html com um id valido</li></ol> |
+| Resultado esperado | A pagina deve receber resultado positivo para ser utilizado em dispositivos móveis |
+
+| ID | CT-? |
+|------|---------------------|
+|Descrição do teste | Teste de responsividade de criar_vaga.html |
+|Passos | <ol><li>Abrir https://search.google.com/test/mobile-friendly</li> <li>Inserir o link de criar_vaga.html</li></ol> |
+| Resultado esperado | A pagina deve receber resultado positivo para ser utilizado em dispositivos móveis |
+
+| ID | CT-? |
+|------|---------------------|
+|Descrição do teste | Teste de responsividade de cargo.html |
+|Passos | <ol><li>Abrir https://search.google.com/test/mobile-friendly</li> <li>Inserir o link de cargo.html com um id valido</li></ol> |
+| Resultado esperado | A pagina deve receber resultado positivo para ser utilizado em dispositivos móveis |
+
+| ID | CT-? |
+|------|---------------------|
+|Descrição do teste | Teste de responsividade de cadastro.html |
+|Passos | <ol><li>Abrir https://search.google.com/test/mobile-friendly</li> <li>Inserir o link de cadastro.html</li></ol> |
+| Resultado esperado | A pagina deve receber resultado positivo para ser utilizado em dispositivos móveis |
 
 <hr>
 
