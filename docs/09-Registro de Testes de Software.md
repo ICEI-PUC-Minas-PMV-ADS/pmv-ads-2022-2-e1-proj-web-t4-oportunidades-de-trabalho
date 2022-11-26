@@ -55,6 +55,25 @@ Gravidade
 |CT-? <br> RF-005| Deve ser possível criar uma vaga sem descrição | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso |  Sucesso |
 |CT-? <br> RF-005| Ao criar uma vaga, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario | Todas as informações estavam de acordo com o criado |  Sucesso |
 |CT-? <br> RF-005| Ao criar uma vaga, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario e devem ser verificadas através de javascript | fixme |  fixme |
+|CT-? <br> RF-013| Deve ser possível inserir um nome para a empresa com quaisquer caracteres, números ou caracteres especiais. | O cadastro foi efetuado com sucesso |  Sucesso |
+|CT-? <br> RF-013| Deve ser impossível se cadastrar sem inserir o nome da empresa | Um erro aconteceu como o esperado |  Sucesso |
+|CT-? <br> RF-013| Deve ser possível inserir um email valido para a empresa | O cadastro foi efetuado com sucesso |  Sucesso |
+|CT-? <br> RF-013| Deve ser impossível inserir um email invalido para a empresa | Um erro aconteceu como o esperado |  Sucesso |
+|CT-? <br> RF-013| Deve ser possível inserir um CNPJ valido para a empresa | O cadastro foi efetuado com sucesso	 |  Sucesso |
+|CT-? <br> RF-013| Deve ser impossível inserir um CNPJ invalido para a empresa | Um erro aconteceu como o esperado |  Sucesso |
+|CT-? <br> RF-013| Deve ser impossível se cadastrar sem inserir um CNPJ | Um erro aconteceu como o esperado |  Sucesso |
+|CT-? <br> RF-013| Deve ser possível se cadastrar inserindo uma senha de 6 ou mais caracteres e confirmando a senha | O cadastro foi efetuado com sucesso |  Sucesso |
+|CT-? <br> RF-013| Deve ser impossível se cadastrar inserindo uma senha com menos de 6 caracteres |Um erro aconteceu como o esperado |  Sucesso |
+|CT-? <br> RF-013| Deve ser impossível se cadastrar inserindo uma senha e um confime sua senha diferentes, mesmo que a senha seja valida | Um erro aconteceu como o esperado |  Sucesso |
+|CT-? <br> RF-013| Deve ser impossível se cadastrar duas vezes com o mesmo Email | O cadastro foi criado indevidamente na segunda tentativa |  Grave |
+|CT-? <br> RF-013| Deve ser impossível se cadastrar duas vezes com o mesmo Nome |O cadastro foi criado indevidamente na segunda tentativa |  Media |
+|CT-? <br> RF-013| Ao se cadastar, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario de cadastro | As informações estavam de acordo com as cadastradas |  Sucesso |
+|CT-? <br> RF-013| Ao se cadastar, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario de cadastro e devem ser verificadas através de javascript | fixme |  fixme |
+//Testes e imagens aqui.
+
+
+
+
 
 # Testes de Navegabilidade simplificado
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
@@ -557,8 +576,8 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 3. Efetuar login com informações cadastradas
 
-![Email Valida Criada](img/registro_de_testes/teste_de_campos/rf-013/emailValidaCriada.png)
-![Email Valida Criada 2](img/registro_de_testes/teste_de_campos/rf-013/emailValidaCriada2.png)
+![Email Valida Criada](img/registro_de_testes/teste_de_campos/rf-013/emailValidaCriado.png)
+![Email Valida Criada 2](img/registro_de_testes/teste_de_campos/rf-013/emailValidaCriado2.png)
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
@@ -579,6 +598,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 2. Completar outros campos do formulario com informações validas
 
 ![Cnpj Valida](img/registro_de_testes/teste_de_campos/rf-013/cnpjValida.png)
+                                                             cpnjValida.png
 
 3. Efetuar login com informações cadastradas
 
@@ -662,8 +682,8 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 2. Completar outros campos do formulario com informações validas
 3. Clicar em Cadastrar
 
-![Cadastro Repetido](img/registro_de_testes/teste_de_campos/rf-013/cadastroRepetido.png.png)
-![Cadastro Repetido 2](img/registro_de_testes/teste_de_campos/rf-013/cadastroRepetido2.png.png)
+![Cadastro Repetido](img/registro_de_testes/teste_de_campos/rf-013/cadastroRepetido.png)
+![Cadastro Repetido 2](img/registro_de_testes/teste_de_campos/rf-013/cadastroRepetido2.png)
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
@@ -676,8 +696,8 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 2. Completar outros campos do formulario com informações validas
 3. Clicar em Cadastrar
 
-![Cadastro Repetido Nome](img/registro_de_testes/teste_de_campos/rf-013/cadastroRepetidoNome.png.png)
-![Cadastro Repetido Nome2](img/registro_de_testes/teste_de_campos/rf-013/cadastroRepetidoNome2.png.png)
+![Cadastro Repetido Nome](img/registro_de_testes/teste_de_campos/rf-013/cadastroRepetidoNome.png)
+![Cadastro Repetido Nome2](img/registro_de_testes/teste_de_campos/rf-013/cadastroRepetidoNome2.png)
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
