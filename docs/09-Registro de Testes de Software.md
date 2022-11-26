@@ -36,8 +36,25 @@ Gravidade
 # Testes de Campos simplificado
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-05|  |  | | 
-|CT-? <br> RF-13|  |  | |
+|CT-? <br> RF-005| Deve ser possível inserir um nome na vaga com quaisquer caracteres, números ou caracteres especiais. | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso com o nome: aaAA11!@#$%¨¨&*()_{}[] |  Sucesso |
+|CT-? <br> RF-005| Deve ser impossível criar um vaga sem nome | Um erro foi exibido como esperado e não foi possível criar a vaga |  Sucesso |
+|CT-? <br> RF-005| Deve ser possível selecionar uma ou mais habilidades essenciais | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso com as habilidades essenciais: Javascript, HTML, REACT |  Sucesso |
+|CT-? <br> RF-005| Deve ser impossível criar uma vaga sem habilidades essenciais | Um erro foi exibido como esperado e não foi possível criar a vaga |  Sucesso |
+|CT-? <br> RF-005| Deve ser possível selecionar uma ou mais habilidades diferenciais | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso com as habilidades diferenciais: Golang e Python |  Sucesso |
+|CT-? <br> RF-005| Deve ser possível criar uma vaga sem habilidades diferenciais | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso sem habilidades difereiciais |  Sucesso |
+|CT-? <br> RF-005| Deve ser possível selecionar uma senioridade | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso |  Sucesso |
+|CT-? <br> RF-005| Deve ser impossível criar uma vaga sem senioridade | Um erro foi exibido como esperado e não foi possível criar a vaga |  Sucesso |
+|CT-? <br> RF-005| Deve ser possível selecionar um cargo | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso |  Sucesso |
+|CT-? <br> RF-005| Deve ser impossível criar uma vaga sem cargo | Um erro foi exibido como esperado e não foi possível criar a vaga |  Sucesso |
+|CT-? <br> RF-005| Deve ser possível definir um salario para a vaga | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso |  Sucesso |
+|CT-? <br> RF-005| Deve ser impossível criar uma vaga sem salario | Um erro foi exibido como esperado e não foi possível criar a vaga |  Sucesso |
+|CT-? <br> RF-005| Deve ser possível definir um salario para a vaga | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso |  Sucesso |
+|CT-? <br> RF-005| Deve ser impossível criar uma vaga com data para expiração da vaga anterior ao dia atual | A vaga foi criada indevidamente, porém não aparece em nenhuma lista ou pagina |  Baixa |
+|CT-? <br> RF-005| Deve ser impossível criar uma vaga sem data de expiração | Um erro foi exibido como esperado e não foi possível criar a vaga |  Sucesso |
+|CT-? <br> RF-005| Deve ser possível definir uma descrição para a vaga com quaisquer caracteres, numeros ou caracteres especiais | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso |  Sucesso |
+|CT-? <br> RF-005| Deve ser possível criar uma vaga sem descrição | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso |  Sucesso |
+|CT-? <br> RF-005| Ao criar uma vaga, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario | Todas as informações estavam de acordo com o criado |  Sucesso |
+|CT-? <br> RF-005| Ao criar uma vaga, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario e devem ser verificadas através de javascript | fixme |  fixme |
 
 # Testes de Navegabilidade simplificado
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
@@ -395,7 +412,7 @@ Os passos de Cadastro, Login e entrar em Nova vaga seram abordados nos testes de
 1. No campo "Senioridade" deixar em branco
 2. Completar outros campos do formulario com informações validas
 3. Clicar em Criar Vaga
-![Senioridade Invalida](img/registro_de_testes/teste_de_campos/rf-005/senioridadeInvalida.png)
+![Senioridade Invalida](img/registro_de_testes/teste_de_campos/rf-005/senioridadeInvalido.png)
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
@@ -433,7 +450,7 @@ Os passos de Cadastro, Login e entrar em Nova vaga seram abordados nos testes de
 1. No campo "Salario" deixar em branco
 2. Completar outros campos do formulario com informações validas
 3. Clicar em Criar Vaga
-![Salario Invalida](img/registro_de_testes/teste_de_campos/rf-005/salarioInvalida.png)
+![Salario Invalida](img/registro_de_testes/teste_de_campos/rf-005/salarioInvalid.png)
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
@@ -461,7 +478,7 @@ Os passos de Cadastro, Login e entrar em Nova vaga seram abordados nos testes de
 1. No campo "Data final da vaga" manter em branco
 2. Completar outros campos do formulario com informações validas
 3. Clicar em Criar Vaga
-![Expire Invalida](img/registro_de_testes/teste_de_campos/rf-005/expireInvalida.png)
+![Expire Invalida](img/registro_de_testes/teste_de_campos/rf-005/expireInvalido.png)
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
