@@ -14,78 +14,80 @@ Gravidade
 # Testes de Ponta a ponta simplificado
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-01 <br> RF-01|  | | | 
-|CT-02 <br> RF-02|  | | |
-|CT-03 <br> RF-03| Verificar se a página "lista de vagas" está acessível e interativa. | Todos os passos foram executados com êxito | Sucesso |
-|CT-04 <br> RF-07| Verificar se a barra de pesquisa e o filtro estão funcionando corretamente | Todos os passos foram executados com êxito | Sucesso | 
-|CT-05 <br> RF-05| É possível criar uma nova vaga seguindo todo o processo necessario? | Todos os passos foram executados com êxito | Sucesso |
-|CT-06 <br> RF-13| É possível para uma empresa se cadastrar e efetuar login? | Todos os passos foram executados com êxito | Sucesso |
+|CT-? <br> RF-001|  | | | 
+|CT-? <br> RF-002|  | | |
+|CT-? <br> RF-003| Verificar se a página "lista de vagas" está acessível e interativa. | A página se mostrou em pleno funcionamento, apresentando a lista de vagas adequadamente | Sucesso |
+|CT-? <br> RF-003;RF-007| Verificar se a barra de pesquisa encontra vagas validas corretamente. | A barra de pesquisa funcionou perfeitamente retornando resultado esperados do teste | Sucesso | 
+|CT-? <br> RF-003;RF-007| Verificar se a barra de pesquisa não exibe resultados ao efetuar uma pesquisa de uma vaga inexistente. | Verificar se a barra de pesquisa não exibe resultados ao efetuar uma pesquisa de uma vaga inexistente. | A barra de pesquisa funcionou perfeitamente retornando uma lista vazia, resultado esperado do teste | Sucesso | 
+|CT-? <br> RF-003;RF-007| Verificar se o filtro por categoria está encontra vagas validas corretamente. | O filtro por categoria funcionou perfeitamente retornando resultado esperados do teste | Sucesso | 
+|CT-? <br> RF-005| Deve ser possível chegar a pagina de criação de vaga atráves da aplicação | A pagina foi exibida adequadamente e dinamicamente |  Sucesso |
+
 
 # Testes de Campos simplificado
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-05 <br> RF-05|  |  | | 
-|CT-06 <br> RF-13|  |  | |
+|CT-? <br> RF-05|  |  | | 
+|CT-? <br> RF-13|  |  | |
 
 # Testes de Navegabilidade simplificado
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-01 <br> RF-01| É possivel navegar por todos os links da pagina? | |  |
+|CT-? <br> RF-01| É possivel navegar por todos os links da pagina? | |  |
 || Todos os links direcionam para o caminho correto?  | |  |
-|CT-02 <br> RF-02| É possivel navegar por todos os links da pagina? |  |  |
+|CT-? <br> RF-02| É possivel navegar por todos os links da pagina? |  |  |
 || Todos os links direcionam para o caminho correto?  |  |  |
-|CT-03 <br> RF-03| É possivel navegar por todos os links da pagina? |  |  |
+|CT-? <br> RF-03| É possivel navegar por todos os links da pagina? |  |  |
 || Todos os links direcionam para o caminho correto?  |  |  |
-|CT-04 <br> RF-04| É possivel navegar por todos os links da pagina? |  |  |
+|CT-? <br> RF-04| É possivel navegar por todos os links da pagina? |  |  |
 || Todos os links direcionam para o caminho correto?  | |  |
-|CT-05 <br> RF-05| É possivel navegar por todos os links da pagina? |  |  |
+|CT-? <br> RF-05| É possivel navegar por todos os links da pagina? |  |  |
 || Todos os links direcionam para o caminho correto?  |  |  |
-|CT-06 <br> RF-13| É possivel navegar por todos os links da pagina? |  |  |
+|CT-? <br> RF-13| É possivel navegar por todos os links da pagina? |  |  |
 || Todos os links direcionam para o caminho correto?  |  | |
 
 
 # Testes de Responsividade simplificado
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-01 <br> RF-01| A pagina é responsiva para desktop, tablet e smartphone? |  |  |
-|CT-02 <br> RF-02| A pagina é responsiva para desktop, tablet e smartphone? |  |  |
-|CT-03 <br> RF-03| A pagina é responsiva para desktop, tablet e smartphone? |  |  |
-|CT-04 <br> RF-04| A pagina é responsiva para desktop, tablet e smartphone? |  |  |
-|CT-05 <br> RF-05| A pagina é responsiva para desktop, tablet e smartphone? |  |  |
-|CT-06 <br> RF-13| A pagina é responsiva para desktop, tablet e smartphone? |  |  |
+|CT-? <br> RF-01| A pagina é responsiva para desktop, tablet e smartphone? |  |  |
+|CT-? <br> RF-02| A pagina é responsiva para desktop, tablet e smartphone? |  |  |
+|CT-? <br> RF-03| A pagina é responsiva para desktop, tablet e smartphone? |  |  |
+|CT-? <br> RF-04| A pagina é responsiva para desktop, tablet e smartphone? |  |  |
+|CT-? <br> RF-05| A pagina é responsiva para desktop, tablet e smartphone? |  |  |
+|CT-? <br> RF-13| A pagina é responsiva para desktop, tablet e smartphone? |  |  |
 
 
 # Testes de Ponta a ponta Completos
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-01 <br> RF-01|  | | | 
+|CT-? <br> RF-01|  | | | 
 
 //Testes e imagens aqui.
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-02 <br> RF-02|  | | | 
+|CT-? <br> RF-02|  | | | 
 
 //Testes e imagens aqui.
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-XX <br> RF-03| Verificar se a página "lista de vagas" está acessível e interativa. | A página se mostrou em pleno funcionamento, apresentando a lista de vagas adequadamente  | Sucesso |
+|CT-? <br> RF-03| Verificar se a página "lista de vagas" está acessível e interativa. | A página se mostrou em pleno funcionamento, apresentando a lista de vagas adequadamente  | Sucesso |
 
 Acessando pela home page e clicando no botão "ver vagas":
 
-![homepage](img/registro_de_testes/ct-03/home-ver-vagas.png)
+![homepage](img/registro_de_testes/rf-003/home-ver-vagas.png)
 
 Acessando a página "Lista de Vagas"
 
-![listadevagas](img/registro_de_testes/ct-03/page-ver-vagas.png)
+![listadevagas](img/registro_de_testes/rf-003/page-ver-vagas.png)
 
 
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-XX <br> RF-07|Verificar se a barra de pesquisa da página "lista de vagas" está funcionando corretamente| A barra de pesquisa funcionou perfeitamente retornando resultado esperados do teste |Sucesso | 
+|CT-? <br> RF-07| Verificar se a barra de pesquisa encontra vagas validas corretamente.| A barra de pesquisa funcionou perfeitamente retornando resultado esperados do teste |Sucesso | 
 
 Objetivo: Testar barra de busca; 
 
@@ -93,11 +95,11 @@ Pesquisar: front
 
 Saída esperada: Vaga de desenvolvedor Front End pela Super Tech
 
-![barra de pesquisa](img/registro_de_testes/ct-04/ct-04-barra-de-pesquisa.png)
+![barra de pesquisa](img/registro_de_testes/rf-007/barra-de-pesquisa.png)
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-XX <br> RF-07|Verificar se a barra de pesquisa da página "lista de vagas" está funcionando corretamente| A barra de pesquisa funcionou perfeitamente retornando resultado esperados do teste |Sucesso | 
+|CT-? <br> RF-07|Verificar se a barra de pesquisa não exibe resultados ao efetuar uma pesquisa de uma vaga inexistente. | A barra de pesquisa funcionou perfeitamente retornando uma lista vazia, resultado esperado do teste |Sucesso | 
 
 Objetivo: Testar barra de busca
 
@@ -105,12 +107,12 @@ Pesquisar : psicologo
 
 Saída esperada: Uma lista vazia com a seguinte mensagem: Não existem vagas no momento, tente alterar seus filtros.
 
-![barra de pesquisa2](img/registro_de_testes/ct-04/teste-failed-psicologo.png)
+![barra de pesquisa2](img/registro_de_testes/rf-007/teste-failed-psicologo.png)
 
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-XX <br> RF-07|Verificar se o filtro por categoria da página "lista de vagas" está funcionando corretamente| O filtro por categoria funcionou perfeitamente retornando resultado esperados do teste |Sucesso | 
+|CT-? <br> RF-07| Verificar se o filtro por categoria está encontra vagas validas corretamente. | O filtro por categoria funcionou perfeitamente retornando resultado esperados do teste |Sucesso | 
 
 Objetivo: Testar filtro de categoria 
 
@@ -118,56 +120,187 @@ Filtrar por: React
 
 Saída esperada : Vaga de desenvolvedor back-end pela Progressus
 
-![filtro](img/registro_de_testes/ct-04/ct-04-filtro-de-habilidade.png)
+![filtro](img/registro_de_testes/rf-007/filtro-de-habilidade.png)
 
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-05 <br> RF-05| É possível criar uma nova vaga seguindo todo o processo necessario? | Todos os passos foram executados com êxito |  Sucesso |
+|CT-? <br> RF-005| Deve ser possível chegar a pagina de criação de vaga atráves da aplicação | A pagina foi exibida adequadamente e dinamicamente |  Sucesso |
 
 1. Acessar a pagina inicial e clicar em "Sou Empresa"
 
-![Pagina inicial](img/registro_de_testes/ct-05/CT-05-empresa.png)
+![Pagina inicial](img/registro_de_testes/rf-005/home_empresa.png)
 
 2. Efetuar login
 
-![Login](img/registro_de_testes/ct-05/CT-05-login.png)
+![Login](img/registro_de_testes/rf-005/login.png)
 
 3. Clicar em Nova Vaga
 
-![Nova Vaga ](img/registro_de_testes/ct-05/CT-05-novaVaga.png)
+![Nova Vaga ](img/registro_de_testes/rf-005/novaVaga.png)
 
-4. Preencher formulario e enviar
-
-![Criar Vaga](img/registro_de_testes/ct-05/CT-05-criarVaga.png)
-![Vaga](img/registro_de_testes/ct-05/CT-05-vaga.png)
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-06 <br> RF-13| É possível para uma empresa se cadastrar e efetuar login? | Todos os passos foram executados com êxito | Sucesso |
-
+|CT-? <br> RF-005| Deve ser possível criar uma nova vaga seguindo todo o processo com informações validas | A vaga foi criada corretamente e exibida de acordo |  Sucesso |
 
 1. Acessar a pagina inicial e clicar em "Sou Empresa"
 
-![Pagina inicial](img/registro_de_testes/ct-06/CT-06-empresa.png)
+![Pagina inicial](img/registro_de_testes/rf-005/home_empresa.png)
 
-2. Clicar em Cadaste-se
+2. Efetuar login
 
-![Cadastre-se](img/registro_de_testes/ct-06/CT-06-cadastrese.png)
+![Login](img/registro_de_testes/rf-005/login.png)
 
-3. Efetuar cadastro com sucesso ao preencher informações
+3. Clicar em Nova Vaga
 
-![Registro](img/registro_de_testes/ct-06/CT-06-registro.png)
+![Nova Vaga ](img/registro_de_testes/rf-005/novaVaga.png)
 
-4. Efetuar login
+4. Preencher formulario com as informações:
+& 
+5. Clicar em Criar Vaga
 
-![Login](img/registro_de_testes/ct-06/CT-06-login.png)
+![Vaga valida ](img/registro_de_testes/rf-005/vagaValida.png)
+![Vaga valida Criada ](img/registro_de_testes/rf-005/vagaValidaCriada.png)
 
-5. Ser redirecionado para a pagina da sua empresa
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-005| Deve ser impossível criar uma nova vaga seguindo todo o processo com todas as informações em branco | Um erro foi exibido conforme o esperado e informando os campos que devem ser preenchidos |  Sucesso |
 
-![Perfil](img/registro_de_testes/ct-06/CT-06-logado.png)
+1. Acessar a pagina inicial e clicar em "Sou Empresa"
+
+![Pagina inicial](img/registro_de_testes/rf-005/home_empresa.png)
+
+2. Efetuar login
+
+![Login](img/registro_de_testes/rf-005/login.png)
+
+3. Clicar em Nova Vaga
+
+![Nova Vaga ](img/registro_de_testes/rf-005/novaVaga.png)
+
+4. Clicar em Criar Vaga
+
+![Vaga Invalida Criada ](img/registro_de_testes/rf-005/vagaInvalidaCriada.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-013|Deve ser possível acessar a pagina de login seguindo todo o processo pela aplicação | A pagina foi exibida adequadamente e dinamicamente |  Sucesso |
+
+1. Acessar a pagina inicial
+&
+2. Clicar em "Sou Empresa"
+![Pagina inicial](img/registro_de_testes/rf-013/home_empresa.png)
+![Login](img/registro_de_testes/rf-013/login.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-013| Deve ser possível acessar a pagina de registro seguindo todo o processo pela aplicação | A pagina foi exibida adequadamente e dinamicamente |  Sucesso |
+
+1. Acessar a pagina inicial
+&
+2. Clicar em "Sou Empresa"
+![Pagina inicial](img/registro_de_testes/rf-013/home_empresa.png)
+
+3. Clicar em Cadastre-se
+
+![Cadastre-se](img/registro_de_testes/rf-013/cadastrese.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-013| Deve ser possível se registrar com sucesso seguindo os passos e inserindo informações validas | O cadastro foi efetuado com sucesso e pagina da empresa exibida |  Sucesso |
+
+1. Acessar a pagina inicial
+&
+2. Clicar em "Sou Empresa"
+![Pagina inicial](img/registro_de_testes/rf-013/home_empresa.png)
+
+3. Clicar em Cadastre-se
+
+![Cadastre-se](img/registro_de_testes/rf-013/cadastrese.png)
+
+4. Inserir as informações
+&
+5. Clicar em Cadastrar
+![Registro Valido](img/registro_de_testes/rf-013/registroValido.png)
+
+6. Efetuar login com informações registradas
+![Login Valido](img/registro_de_testes/rf-013/loginValido.png)
+![Login Valido Perfil](img/registro_de_testes/rf-013/loginValidoPerfil.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-013| Deve ser impossível se registrar com todos os campos em branco | Um erro foi exibido como esperado e não foi possível efetuar o cadastro |  Sucesso |
+
+1. Acessar a pagina inicial
+&
+2. Clicar em "Sou Empresa"
+![Pagina inicial](img/registro_de_testes/rf-013/home_empresa.png)
+
+3. Clicar em Cadastre-se
+
+![Cadastre-se](img/registro_de_testes/rf-013/cadastrese.png)
+
+4. Clicar em Cadastrar
+![Registro Invalido](img/registro_de_testes/rf-013/registroInvalido.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-013| Deve ser possível efetuar login seguindo os passos e inserindo informações validas | O login foi efetuado com sucesso e pagina da empresa foi exibida de acordo |  Sucesso |
+
+1. Acessar a pagina inicial
+&
+2. Clicar em "Sou Empresa"
+![Pagina inicial](img/registro_de_testes/rf-013/home_empresa.png)
+
+3. Inserir as informações de acordo:
+&
+4. Clicar em Entrar
+![Login](img/registro_de_testes/rf-013/login.png)
+![Login Existente](img/registro_de_testes/rf-013/loginExistente.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-013| Deve ser impossível efetuar login com todos os campos em branco | Um erro foi exibido como o esperado e não foi possível efetuar login | Sucesso |
+
+1. Acessar a pagina inicial
+&
+2. Clicar em "Sou Empresa"
+![Pagina inicial](img/registro_de_testes/rf-013/home_empresa.png)
+3. Clicar em Entrar
+![Login Invalido](img/registro_de_testes/rf-013/loginInvalido.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-013| Deve ser impossível efetuar login seguindo os passos e inserindo um email valido e uma senha invalida | Um erro foi exibido como o esperado e não foi possível efetuar login | Sucesso |
+
+1. Acessar a pagina inicial
+&
+2. Clicar em "Sou Empresa"
+![Pagina inicial](img/registro_de_testes/rf-013/home_empresa.png)
+
+3. Inserir as informações de acordo:
+&
+4. Clicar em Entrar
+![Senha Incorreta](img/registro_de_testes/rf-013/senhaIncorreta.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-013| Deve ser impossível efetuar login seguindo os passos e inserindo um email valido e uma senha invalida | Um erro foi exibido como o esperado e não foi possível efetuar login | Sucesso |
+
+1. Acessar a pagina inicial
+&
+2. Clicar em "Sou Empresa"
+![Pagina inicial](img/registro_de_testes/rf-013/home_empresa.png)
+
+3. Inserir as informações de acordo:
+&
+4. Clicar em Entrar
+![Senha Incorreta](img/registro_de_testes/rf-013/emailIncorreto.png)
+
 
 # Testes de Campos completos
+
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
 |CT-05 <br> RF-05|  |  | | 

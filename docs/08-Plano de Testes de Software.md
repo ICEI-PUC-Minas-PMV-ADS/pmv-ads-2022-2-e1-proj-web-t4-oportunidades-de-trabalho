@@ -76,7 +76,7 @@ Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Esp
 |------|---------------------|
 | Requisitos Associados | RF-005 O site deve permitir ao usuário (empresas) postar vagas |
 |Descrição do teste | Deve ser possível criar uma nova vaga seguindo todo o processo com informações validas |
-|Passos | <ol><li>Acessar a pagina inicial e clicar em "Sou Empresa"</li><li>Efetuar login</li><li>Clicar em Nova Vaga</li><li>Preencher formulario com: <ol><li>Nome da vaga: Dev Front-end</li> <li>Habilidades essenciais: JavaScript</li> <li>Habilidades diferenciais: HTML</li><li>Senioridade:Junior</li><li>Cargo: Desenvolvedor Front-end</li><li>Salario: 2000</li> <li>Data final da vaga: 01/01/2023</li><li>Descrição: Nova vaga Front-end</li></ol></li><li>Clicar em Criar Vaga</li></ol> |
+|Passos | <ol><li>Acessar a pagina inicial e clicar em "Sou Empresa"</li><li>Efetuar login</li><li>Clicar em Nova Vaga</li><li>Preencher formulario com: <ol><li>Nome da vaga: Dev Front-end</li> <li>Habilidades essenciais: JavaScript</li> <li>Habilidades diferenciais: HTML</li><li>Senioridade: Junior</li><li>Cargo: Desenvolvedor Front-end</li><li>Salario: 2000</li> <li>Data final da vaga: 01/01/2023</li><li>Descrição: Nova vaga Front-end</li></ol></li><li>Clicar em Criar Vaga</li></ol> |
 | Resultado esperado | A nova vaga aparecer na lista de vagas da empresa com informações correspondentes ao preenchido |
 
 | ID | CT-? |
