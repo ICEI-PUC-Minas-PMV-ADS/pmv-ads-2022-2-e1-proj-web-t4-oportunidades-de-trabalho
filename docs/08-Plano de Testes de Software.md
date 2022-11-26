@@ -178,7 +178,7 @@ Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Esp
 |------|---------------------|
 | Requisitos Associados |RF-005 O site deve permitir ao usuário (empresas) postar vagas |
 |Descrição do teste | Deve ser possível selecionar uma ou mais habilidades diferenciais |
-|Passos | <ol><li>Executar cadastro e login.</li> <li> Clicar em Nova Vaga </li> <li> No campo "Habilidades diferenciais" selecionar: [Golang, Python] </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Criar Vaga</li></ol> |
+|Passos | <ol><li>Executar cadastro e login.</li> <li> Clicar em Nova Vaga </li> <li> No campo "Habilidades diferenciais" selecionar: [Golang, Python] </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Criar Vaga</li><li>Clicar no nome da vaga</li></ol> |
 | Resultado esperado | Redirecionamento para pagina de perfil da empresa e apresentação da nova vaga no perfil |
 
 | ID | CT-? |
@@ -234,7 +234,7 @@ Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Esp
 |------|---------------------|
 | Requisitos Associados |RF-005 O site deve permitir ao usuário (empresas) postar vagas |
 |Descrição do teste | Deve ser possível definir um data para expiração da a vaga |
-|Passos | <ol><li>Executar cadastro e login.</li> <li> Clicar em Nova Vaga </li> <li>No campo "Data final da vaga" selecionar: 01/01/2023 </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Criar Vaga</li></ol> |
+|Passos | <ol><li>Executar cadastro e login.</li> <li> Clicar em Nova Vaga </li> <li>No campo "Data final da vaga" selecionar: 10/10/2023 </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Criar Vaga</li></ol> |
 | Resultado esperado | Redirecionamento para pagina de perfil da empresa e apresentação da nova vaga no perfil |
 
 | ID | CT-? |
@@ -269,7 +269,7 @@ Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Esp
 |------|---------------------|
 | Requisitos Associados |RF-005 O site deve permitir ao usuário (empresas) postar vagas |
 |Descrição do teste | Ao criar uma vaga, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario |
-|Passos | <ol><li>Executar cadastro e login.</li> <li> Clicar em Nova Vaga </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Criar Vaga</li> <li>Comparar valores inseridos com os exibidos</li></ol> |
+|Passos | <ol><li>Executar cadastro e login.</li> <li> Clicar em Nova Vaga </li> <li>Completar campos com: <ol><li>Nome da vaga> TESTE1</li> <li>Habiilidades essenciais: HTML</li><li>Habilidades diferenciais: HTML</li><li>Senioridade: Senior</li><li>Cargo:Analista de Dados</li> <li>Salario: 11500</li><li>Data final da vaga: 05/05/2025</li> <li>Descrição da vaga: Testando campos</li></ol></li> <li>Clicar em Criar Vaga</li> <li>Clicar no nome da vaga</li> <li>Comparar valores inseridos com os exibidos</li></ol> |
 | Resultado esperado | Todos os valores devem estar de acordo |
 
 | ID | CT-? |
