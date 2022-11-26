@@ -45,7 +45,7 @@ function criarVaga(empresa_id) {
             'vaga_nome': $('#nome').val(),
             'descricao': $('#descricao').val(),
             'cargo_id': parseInt($('#cargo').val()),
-            'salario': `R$ ${$('#salario').val()}`,
+            'salario': $('#salario').val(),
             'data_exp': $('#expireDate').val(),
             'data_cadastro': new Date(),
             'candidaturas': 0,
