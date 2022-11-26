@@ -78,30 +78,27 @@ Gravidade
 # Testes de Navegabilidade simplificado
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-01| É possivel navegar por todos os links da pagina? | |  |
-|| Todos os links direcionam para o caminho correto?  | |  |
-|CT-? <br> RF-02| É possivel navegar por todos os links da pagina? |  |  |
-|| Todos os links direcionam para o caminho correto?  |  |  |
-|CT-? <br> RF-03| É possivel navegar por todos os links da pagina? |  |  |
-|| Todos os links direcionam para o caminho correto?  |  |  |
-|CT-? <br> RF-04| É possivel navegar por todos os links da pagina? |  |  |
-|| Todos os links direcionam para o caminho correto?  | |  |
-|CT-? <br> RF-05| É possivel navegar por todos os links da pagina? |  |  |
-|| Todos os links direcionam para o caminho correto?  |  |  |
-|CT-? <br> RF-13| É possivel navegar por todos os links da pagina? |  |  |
-|| Todos os links direcionam para o caminho correto?  |  | |
-
+|CT-?| Teste de navegabilidade da home.html | Todos os links encontrados | Sucesso |
+|CT-?| Teste de navegabilidade da vaga.html | Todos os links encontrados | Sucesso |
+|CT-?| Teste de navegabilidade da vagas_lista.html | Todos os links encontrados | Sucesso |
+|CT-?| Teste de navegabilidade da resumo.html | Todos os links encontrados | Sucesso |
+|CT-?| Teste de navegabilidade da habilidade.html | Todos os links encontrados | Sucesso |
+|CT-?| Teste de navegabilidade da empresa.html | Todos os links encontrados | Sucesso |
+|CT-?| Teste de navegabilidade da cargo.html | Todos os links encontrados | Sucesso |
 
 # Testes de Responsividade simplificado
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-01| A pagina é responsiva para desktop, tablet e smartphone? |  |  |
-|CT-? <br> RF-02| A pagina é responsiva para desktop, tablet e smartphone? |  |  |
-|CT-? <br> RF-03| A pagina é responsiva para desktop, tablet e smartphone? |  |  |
-|CT-? <br> RF-04| A pagina é responsiva para desktop, tablet e smartphone? |  |  |
-|CT-? <br> RF-05| A pagina é responsiva para desktop, tablet e smartphone? |  |  |
-|CT-? <br> RF-13| A pagina é responsiva para desktop, tablet e smartphone? |  |  |
-
+|CT-?| Teste de responsividade de home.html | Resultado positivo para dispositivos móveis | Sucesso |
+|CT-?| Teste de responsividade de vagas_lista.html | Resultado positivo para dispositivos móveis | Sucesso |
+|CT-?| Teste de responsividade de vaga.html | Resultado positivo para dispositivos móveis | Sucesso |
+|CT-?| Teste de responsividade de resumo.html | Resultado positivo para dispositivos móveis | Sucesso |
+|CT-?| Teste de responsividade de login.html | Resultado positivo para dispositivos móveis | Sucesso |
+|CT-?| Teste de responsividade de habilidade.html | Resultado positivo para dispositivos móveis | Sucesso |
+|CT-?| Teste de responsividade de empresa.html | Resultado positivo para dispositivos móveis | Sucesso |
+|CT-?| Teste de responsividade de criar_vaga.html | Resultado positivo para dispositivos móveis | Sucesso |
+|CT-?| Teste de responsividade de cargo.html | Resultado positivo para dispositivos móveis | Sucesso |
+|CT-?| Teste de responsividade de cadastro.html | Resultado positivo para dispositivos móveis | Sucesso |
 
 # Testes de Ponta a ponta Completos
 
@@ -716,92 +713,144 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 //Testes e imagens aqui.
 
-# Testes de Navegabilidade completos
-|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
-|------|---------------------|-------------------------|----------|
-|CT-01 <br> RF-01| É possivel navegar por todos os links da pagina? | |  |
-|| Todos os links direcionam para o caminho correto?  | |  |
-
-//Testes e imagens aqui.
-
-|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
-|------|---------------------|-------------------------|----------|
-|CT-02 <br> RF-02| É possivel navegar por todos os links da pagina? |  |  |
-|| Todos os links direcionam para o caminho correto?  |  |  |
-
-//Testes e imagens aqui.
-
-|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
-|------|---------------------|-------------------------|----------|
-|CT-03 <br> RF-03| É possivel navegar por todos os links da pagina? |  |  |
-|| Todos os links direcionam para o caminho correto?  |  |  |
-
-//Testes e imagens aqui.
-
-|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
-|------|---------------------|-------------------------|----------|
-|CT-04 <br> RF-04| É possivel navegar por todos os links da pagina? |  |  |
-|| Todos os links direcionam para o caminho correto?  | |  |
-
-//Testes e imagens aqui.
-
-|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
-|------|---------------------|-------------------------|----------|
-|CT-05 <br> RF-05| É possivel navegar por todos os links da pagina? |  |  |
-|| Todos os links direcionam para o caminho correto?  |  | 
-|
-//Testes e imagens aqui.
-
-|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
-|------|---------------------|-------------------------|----------|
-|CT-06 <br> RF-13| É possivel navegar por todos os links da pagina? |  |  |
-|| Todos os links direcionam para o caminho correto?  |  | |
-
-//Testes e imagens aqui.
-
 # Testes de Navegabilidade completo
-|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
-|------|---------------------|-------------------------|----------|
-|CT-01 <br> RF-01| É possivel navegar por todos os links da pagina? | |  |
-|| Todos os links direcionam para o caminho correto?  | |  |
-
-//Testes e imagens aqui.
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-02 <br> RF-02| É possivel navegar por todos os links da pagina? |  |  |
-|| Todos os links direcionam para o caminho correto?  |  |  |
+|CT-?| Teste de navegabilidade da home.html | Todos os links encontrados | Sucesso |
 
-//Testes e imagens aqui.
+<ol><li>Abrir: https://datayze.com/site-navigability-analyzer</li> <li>Inserir link da home.html </li></ol> |
 
-|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
-|------|---------------------|-------------------------|----------|
-|CT-03 <br> RF-03| É possivel navegar por todos os links da pagina? |  |  |
-|| Todos os links direcionam para o caminho correto?  |  |  |
-
-//Testes e imagens aqui.
+![Navegabilidade Home](img/registro_de_testes/teste_navegabilidade/home.png)
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-04 <br> RF-04| É possivel navegar por todos os links da pagina? |  |  |
-|| Todos os links direcionam para o caminho correto?  | |  |
+|CT-?| Teste de navegabilidade da vaga.html | Todos os links encontrados | Sucesso |
 
-//Testes e imagens aqui.
+<ol><li>Abrir: https://datayze.com/site-navigability-analyzer</li> <li>Inserir link da vaga.html com id </li></ol>
 
-|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
-|------|---------------------|-------------------------|----------|
-|CT-05 <br> RF-05| É possivel navegar por todos os links da pagina? |  |  |
-|| Todos os links direcionam para o caminho correto?  |  |  |
-
-//Testes e imagens aqui.
+![Navegabilidade Vaga](img/registro_de_testes/teste_navegabilidade/vaga.png)
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-06 <br> RF-13| É possivel navegar por todos os links da pagina? |  |  |
-|| Todos os links direcionam para o caminho correto?  |  | |
+|CT-?| Teste de navegabilidade da vagas_lista.html | Todos os links encontrados | Sucesso |
 
-//Testes e imagens aqui.
+<ol><li>Abrir: https://datayze.com/site-navigability-analyzer</li> <li>Inserir link da vagas_lista.html </li></ol>
 
+![Navegabilidade Vagas_lista](img/registro_de_testes/teste_navegabilidade/vagas_lista.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-?| Teste de navegabilidade da resumo.html | Todos os links encontrados | Sucesso |
+
+<ol><li>Abrir: https://datayze.com/site-navigability-analyzer</li> <li>Inserir link do resumo.html </li></ol>
+
+![Navegabilidade Resumo](img/registro_de_testes/teste_navegabilidade/resumo.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-?| Teste de navegabilidade da habilidade.html | Todos os links encontrados | Sucesso |
+
+<ol><li>Abrir: https://datayze.com/site-navigability-analyzer</li> <li>Inserir link da habilidade.html com id </li></ol>
+
+![Navegabilidade Habilidade](img/registro_de_testes/teste_navegabilidade/habilidade.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-?| Teste de navegabilidade da empresa.html | Todos os links encontrados | Sucesso |
+
+<ol><li>Abrir: https://datayze.com/site-navigability-analyzer</li> <li>Inserir link da empresa.html com id </li></ol>
+
+![Navegabilidade Empresa](img/registro_de_testes/teste_navegabilidade/empresa.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-?| Teste de navegabilidade da cargo.html | Todos os links encontrados | Sucesso |
+
+<ol><li>Abrir: https://datayze.com/site-navigability-analyzer</li> <li>Inserir link do cargo.html com id </li></ol>
+
+![Navegabilidade Cargo](img/registro_de_testes/teste_navegabilidade/cargo.png)
+
+# Testes de Responsividade completos
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-?| Teste de responsividade de home.html | Resultado positivo para dispositivos móveis | Sucesso |
+
+<ol><li>Abrir https://search.google.com/test/mobile-friendly</li> <li>Inserir o link de home.html</li></ol>
+
+![Responsividade Home](img/registro_de_testes/teste_responsividade/home.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-?| Teste de responsividade de vagas_lista.html | Resultado positivo para dispositivos móveis | Sucesso |
+
+<ol><li>Abrir https://search.google.com/test/mobile-friendly</li> <li>Inserir o link de vagas_lista.html</li></ol>
+
+![Responsividade vagas_lista](img/registro_de_testes/teste_responsividade/vagas_lista.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-?| Teste de responsividade de vaga.html | Resultado positivo para dispositivos móveis | Sucesso |
+
+<ol><li>Abrir https://search.google.com/test/mobile-friendly</li> <li>Inserir o link de vaga.html com um id valido</li></ol>
+
+![Responsividade vaga](img/registro_de_testes/teste_responsividade/vaga.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-?| Teste de responsividade de resumo.html | Resultado positivo para dispositivos móveis | Sucesso |
+
+<ol><li>Abrir https://search.google.com/test/mobile-friendly</li> <li>Inserir o link de resumo.html</li></ol>
+
+![Responsividade resumo](img/registro_de_testes/teste_responsividade/resumo.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-?| Teste de responsividade de login.html | Resultado positivo para dispositivos móveis | Sucesso |
+
+<ol><li>Abrir https://search.google.com/test/mobile-friendly</li> <li>Inserir o link de login.html</li></ol>
+
+![Responsividade login](img/registro_de_testes/teste_responsividade/login.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-?| Teste de responsividade de habilidade.html | Resultado positivo para dispositivos móveis | Sucesso |
+
+<ol><li>Abrir https://search.google.com/test/mobile-friendly</li> <li>Inserir o link de habilidade.html com um id valido</li></ol>
+
+![Responsividade habilidade](img/registro_de_testes/teste_responsividade/habilidade.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-?| Teste de responsividade de empresa.html | Resultado positivo para dispositivos móveis | Sucesso |
+
+<ol><li>Abrir https://search.google.com/test/mobile-friendly</li> <li>Inserir o link de empresa.html com um id valido</li></ol>
+
+![Responsividade empresa](img/registro_de_testes/teste_responsividade/empresa.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-?| Teste de responsividade de criar_vaga.html | Resultado positivo para dispositivos móveis | Sucesso |
+
+<ol><li>Abrir https://search.google.com/test/mobile-friendly</li> <li>Inserir o link de criar_vaga.html</li></ol>
+
+![Responsividade Criar_Vaga](img/registro_de_testes/teste_responsividade/criar_vaga.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-?| Teste de responsividade de cargo.html | Resultado positivo para dispositivos móveis | Sucesso |
+
+<ol><li>Abrir https://search.google.com/test/mobile-friendly</li> <li>Inserir o link de cargo.html com um id valido</li></ol>
+
+![Responsividade Cargo](img/registro_de_testes/teste_responsividade/cargo.png)
+
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-?| Teste de responsividade de cadastro.html | Resultado positivo para dispositivos móveis | Sucesso 
+
+<ol><li>Abrir https://search.google.com/test/mobile-friendly</li> <li>Inserir o link de cadastro.html</li></ol>|
+
+![Responsividade Cadastro](img/registro_de_testes/teste_responsividade/cadastro.png)
 
 # Referencias
 

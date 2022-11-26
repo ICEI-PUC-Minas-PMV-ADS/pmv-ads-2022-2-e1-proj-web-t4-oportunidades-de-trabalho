@@ -396,37 +396,37 @@ Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Esp
 
 | ID | CT-? | 
 |------|---------------------|
-|Descrição do teste | Teste de navegabilidade da home.html |
+|Descrição do teste | Teste de navegabilidade da vaga.html |
 |Passos | <ol><li>Abrir: https://datayze.com/site-navigability-analyzer</li> <li>Inserir link da vaga.html com id </li></ol> |
 | Resultado esperado | Todos os links encontrados |
 
 | ID | CT-? | 
 |------|---------------------|
-|Descrição do teste | Teste de navegabilidade da home.html |
+|Descrição do teste | Teste de navegabilidade da vagas_lista.html |
 |Passos | <ol><li>Abrir: https://datayze.com/site-navigability-analyzer</li> <li>Inserir link da vagas_lista.html </li></ol> |
 | Resultado esperado | Todos os links encontrados |
 
 | ID | CT-? | 
 |------|---------------------|
-|Descrição do teste | Teste de navegabilidade da home.html |
+|Descrição do teste | Teste de navegabilidade da resumo.html |
 |Passos | <ol><li>Abrir: https://datayze.com/site-navigability-analyzer</li> <li>Inserir link do resumo.html </li></ol> |
 | Resultado esperado | Todos os links encontrados |
 
 | ID | CT-? | 
 |------|---------------------|
-|Descrição do teste | Teste de navegabilidade da home.html |
+|Descrição do teste | Teste de navegabilidade da habilidade.html |
 |Passos | <ol><li>Abrir: https://datayze.com/site-navigability-analyzer</li> <li>Inserir link da habilidade.html com id </li></ol> |
 | Resultado esperado | Todos os links encontrados |
 
 | ID | CT-? | 
 |------|---------------------|
-|Descrição do teste | Teste de navegabilidade da home.html |
+|Descrição do teste | Teste de navegabilidade da empresa.html |
 |Passos | <ol><li>Abrir: https://datayze.com/site-navigability-analyzer</li> <li>Inserir link da empresa.html com id </li></ol> |
 | Resultado esperado | Todos os links encontrados |
 
 | ID | CT-? | 
 |------|---------------------|
-|Descrição do teste | Teste de navegabilidade da home.html |
+|Descrição do teste | Teste de navegabilidade da cargo.html |
 |Passos | <ol><li>Abrir: https://datayze.com/site-navigability-analyzer</li> <li>Inserir link do cargo.html com id </li></ol> |
 | Resultado esperado | Todos os links encontrados |
 
