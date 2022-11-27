@@ -18,8 +18,8 @@ Gravidade
 |CT-? <br> RF-002|  | | |
 |CT-? <br> RF-003| Verificar se a página "lista de vagas" está acessível e interativa. | A página se mostrou em pleno funcionamento, apresentando a lista de vagas adequadamente | Sucesso |
 |CT-? <br> RF-007| Verificar se a barra de pesquisa encontra vagas validas corretamente. | A barra de pesquisa funcionou perfeitamente retornando resultado esperados do teste | Sucesso | 
-|CT-? <br> RF-007| Verificar se a barra de pesquisa não exibe resultados ao efetuar uma pesquisa de uma vaga inexistente. | A barra de pesquisa funcionou perfeitamente retornando uma lista vazia, resultado esperado do teste | Sucesso | 
-|CT-? <br> RF-007| Verificar se o filtro por categoria está encontra vagas validas corretamente. | O filtro por categoria funcionou perfeitamente retornando resultado esperados do teste | Sucesso | 
+|CT-? <br> RF-007| Verificar se a barra de pesquisa não exibe resultados ao efetuar uma pesquisa de vaga inexistente. | A barra de pesquisa funcionou perfeitamente retornando uma lista vazia, resultado esperado do teste | Sucesso | 
+|CT-? <br> RF-007| Verificar se o filtro por categoria está encontrando vagas validas corretamente. | O filtro por categoria funcionou perfeitamente retornando resultado esperados do teste | Sucesso | 
 |CT-? <br> RF-005| Deve ser possível chegar a pagina de criação de vaga atráves da aplicação | A pagina foi exibida adequadamente e dinamicamente |  Sucesso |
 |CT-? <br> RF-005| Deve ser possível criar uma nova vaga seguindo todo o processo com informações validas | A vaga foi criada corretamente e exibida de acordo |  Sucesso |
 |CT-? <br> RF-005| Deve ser impossível criar uma nova vaga seguindo todo o processo com todas as informações em branco | Um erro foi exibido conforme o esperado e informando os campos que devem ser preenchidos |  Sucesso |
@@ -142,7 +142,7 @@ Saída esperada: Vaga de desenvolvedor Front End pela Super Tech
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-07|Verificar se a barra de pesquisa não exibe resultados ao efetuar uma pesquisa de uma vaga inexistente. | A barra de pesquisa funcionou perfeitamente retornando uma lista vazia, resultado esperado do teste |Sucesso | 
+|CT-? <br> RF-07|Verificar se a barra de pesquisa não exibe resultados ao efetuar uma pesquisa de vaga inexistente. | A barra de pesquisa funcionou perfeitamente retornando uma lista vazia, resultado esperado do teste |Sucesso | 
 
 Objetivo: Testar barra de busca
 
@@ -155,7 +155,7 @@ Saída esperada: Uma lista vazia com a seguinte mensagem: Não existem vagas no 
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-07| Verificar se o filtro por categoria está encontra vagas validas corretamente. | O filtro por categoria funcionou perfeitamente retornando resultado esperados do teste |Sucesso | 
+|CT-? <br> RF-07| Verificar se o filtro por categoria está encontrando vagas validas corretamente. | O filtro por categoria funcionou perfeitamente retornando resultado esperados do teste |Sucesso | 
 
 Objetivo: Testar filtro de categoria 
 
