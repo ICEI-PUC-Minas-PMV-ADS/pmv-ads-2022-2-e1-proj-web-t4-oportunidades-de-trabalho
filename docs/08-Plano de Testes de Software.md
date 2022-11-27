@@ -40,21 +40,21 @@ Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Esp
 | ID | CT-? |
 |------|---------------------|
 | Requisitos Associados | RF-003 O site deve possuir uma página com a listagem das vagas postadas; RF-007  O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar uma vaga/oportunidade |
-|Descrição do teste | Verificar se a barra de pesquisa está funcionando corretamente. |
+|Descrição do teste | Verificar se a barra de pesquisa encontra vagas validas corretamente. |
 |Passos | <ol><li> Clicar no botão "Ver Vagas" na página principal ou na nav bar</li><li>Acessar a página "Lista de Vagas"</li><li>Pesquisar por "front" na barra de pesquisa.</li></ol> |
 | Resultado esperado | Vaga de desenvolvedor Front End pela Super Tech  |
 
 | ID | CT-? |
 |------|---------------------|
 | Requisitos Associados | RF-003 O site deve possuir uma página com a listagem das vagas postadas; RF-007  O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar uma vaga/oportunidade |
-|Descrição do teste | Verificar se a barra de pesquisa está funcionando corretamente. |
+|Descrição do teste | Verificar se a barra de pesquisa não exibe resultados ao efetuar uma pesquisa de vaga inexistente. |
 |Passos | <ol><li> Clicar no botão "Ver Vagas" na página principal ou na nav bar</li><li>Acessar a página "Lista de Vagas"</li><li>Pesquisar por "psicologo" na barra de pesquisa.</li></ol> |
 | Resultado esperado | Uma lista vazia com a seguinte mensagem: Não existem vagas no momento, tente alterar seus filtros. |
 
 | ID | CT-? |
 |------|---------------------|
 | Requisitos Associados | RF-003 O site deve possuir uma página com a listagem das vagas postadas; RF-007  O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar uma vaga/oportunidade |
-|Descrição do teste | Verificar se o filtro por categoria está funcionando corretamente. |
+|Descrição do teste | Verificar se o filtro por categoria está encontrando vagas validas corretamente. |
 |Passos | <ol><li> Clicar no botão "Ver Vagas" na página principal ou na nav bar</li><li>Acessar a página "Lista de Vagas"</li><li>Usar o filtro para buscar pela habilidade "React".</li></ol> |
 | Resultado esperado | Vaga de desenvolvedor back-end pela Progressus  |
 
