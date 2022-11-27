@@ -60,17 +60,17 @@ Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Esp
 
 | ID | CT-? |
 |------|---------------------|
-| Requisitos Associados | RF-004 O site deve apresentar na página principal as opções de acesso às outras páginas: (lista de vagas) |
-|Descrição do teste | X |
-|Passos | <ol><li>X</li></ol> |
-| Resultado esperado | X |
+| Requisitos Associados | RF-004 Ao clicar em uma vaga da lista o site deve permitir ao usuário (profissional) visualizar o texto completo da vaga com todos os detalhes da publicação e se candidatar às vagas postadas |
+|Descrição do teste | Deve ser possível chegar a página da vaga de interesse por meio da aplicação,realizando a requisição clicar, e acessando a página com o endpoint adequado a mesma. |
+|Passos | <ol><li>Informar o endereço do site no navegador.</li><li>Acessar a página inicial</li><li>Clicar no título em negrito de uma das "Últimas Vagas".</li><li>Acessar a página da vaga em questão.</li><li>Ter acesso a informações referentes a vaga de interesse.</li><li>Poder se candidatar a vaga.</li></ol> |
+| Resultado esperado | Ser redirecionado para a vaga de interesse, e ter acesso a informações referentes a mesma, e meios de contatar a empresa para a aplicação da vaga. |
 
 | ID | CT-? |
 |------|---------------------|
 | Requisitos Associados | RF-005 O site deve permitir ao usuário (empresas) postar vagas |
 |Descrição do teste | Deve ser possível chegar a pagina de criação de vaga atráves da aplicação |
 |Passos | <ol><li>Acessar a pagina inicial e clicar em "Sou Empresa"</li><li>Efetuar login</li><li>Clicar em Nova Vaga</li></ol> |
-| Resultado esperado | Chegar a pagina de criação de vagas com sucesso |
+| Resultado esperado | Chegar a página de criação de vagas com sucesso |
 
 | ID | CT-? |
 |------|---------------------|
