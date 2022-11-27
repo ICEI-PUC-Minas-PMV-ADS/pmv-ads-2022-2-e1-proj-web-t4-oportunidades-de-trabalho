@@ -17,6 +17,7 @@ Gravidade
 |CT-? <br> RF-001|  | | | 
 |CT-? <br> RF-002|  | | |
 |CT-? <br> RF-003| Verificar se a página "lista de vagas" está acessível e interativa. | A página se mostrou em pleno funcionamento, apresentando a lista de vagas adequadamente | Sucesso |
+|CT-? <br> RF-004| Deve ser possível chegar a página da vaga de interesse por meio da aplicação,realizando a requisição ao clicar, e acessando a página com possibilidade de candidatura | A página se mostrou operação parcial, sendo possível acessar a página da vaga, e ter acesso as informações referentes a mesma, mas não há meio para a candidatura da vaga implementado. | Grave |
 |CT-? <br> RF-007| Verificar se a barra de pesquisa encontra vagas validas corretamente. | A barra de pesquisa funcionou perfeitamente retornando resultado esperados do teste | Sucesso | 
 |CT-? <br> RF-007| Verificar se a barra de pesquisa não exibe resultados ao efetuar uma pesquisa de vaga inexistente. | A barra de pesquisa funcionou perfeitamente retornando uma lista vazia, resultado esperado do teste | Sucesso | 
 |CT-? <br> RF-007| Verificar se o filtro por categoria está encontrando vagas validas corretamente. | O filtro por categoria funcionou perfeitamente retornando resultado esperados do teste | Sucesso | 
@@ -116,9 +117,7 @@ Gravidade
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-03| Verificar se a página "lista de vagas" está acessível e interativa. | A página se mostrou em pleno funcionamento, apresentando a lista de vagas adequadamente  | Sucesso |
-
-Acessando pela home page e clicando no botão "ver vagas":
+|CT-? <br> RF-03| Deve ser possível chegar a página da vaga de interesse por meio da aplicação,realizando a requisição clicar, e acessando a página com o endpoint adequado a mesma. | Ser redirecionado para a vaga de interesse, e ter acesso a informações referentes a mesma, e meios de contatar a empresa para a aplicação da vaga.  | Grave |
 
 ![homepage](img/registro_de_testes/rf-003/home-ver-vagas.png)
 
@@ -126,6 +125,29 @@ Acessando a página "Lista de Vagas"
 
 ![listadevagas](img/registro_de_testes/rf-003/page-ver-vagas.png)
 
+|ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
+|------|---------------------|-------------------------|----------|
+|CT-? <br> RF-04| Deve ser possível chegar a página da vaga de interesse por meio da aplicação, realizando a requisição ao clicar, e acessando a página da vaga com as informações referentes a mesma, com meios de contatar a empresa para a aplicação da vaga. | A página se mostrou operação parcial, sendo possível acessar a página da vaga, e ter acesso as informações referentes a mesma, mas não há meio para a candidatura da vaga implementado.  | Grave |
+
+1. Informar o endereço do site no navegador.
+
+2. Acessar a "página inicial".
+
+![image](https://user-images.githubusercontent.com/107289791/204161358-10c50d94-2808-4aff-923b-243345e40907.png)
+
+3. Clicar no título em negrito de uma das "Últimas Vagas".
+
+![img1](https://user-images.githubusercontent.com/107289791/204161386-ff45de60-c8a8-4ad7-b0e6-a6e0ea064d45.png)
+
+4. Acessar a página da vaga em questão.
+
+![img2](https://user-images.githubusercontent.com/107289791/204161402-902daa39-f436-4709-a6e5-c22e247aeb10.png)
+
+5. Ter acesso a informações referentes a vaga de interesse.
+
+6. Poder se candidatar a vaga
+
+![img3](https://user-images.githubusercontent.com/107289791/204161422-377a99fe-5942-44f4-ab46-baed3fe8881c.png)
 
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
