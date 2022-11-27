@@ -11,113 +11,121 @@ Gravidade
 - Media: Ação recomendada para melhora da qualidade do software
 - Baixa: Ação não obrigatória mas que melhoraria a qualidade do software
 
+<hr>
+
 # Testes de Ponta a ponta simplificado
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-001|  | | | 
-|CT-? <br> RF-002|  | | |
-|CT-? <br> RF-003| Verificar se a página "lista de vagas" está acessível e interativa. | A página se mostrou em pleno funcionamento, apresentando a lista de vagas adequadamente | Sucesso |
-|CT-? <br> RF-004| Deve ser possível chegar a página da vaga de interesse por meio da aplicação,realizando a requisição ao clicar, e acessando a página com possibilidade de candidatura | A página se mostrou operação parcial, sendo possível acessar a página da vaga, e ter acesso as informações referentes a mesma, mas não há meio para a candidatura da vaga implementado. | Grave |
-|CT-? <br> RF-007| Verificar se a barra de pesquisa encontra vagas validas corretamente. | A barra de pesquisa funcionou perfeitamente retornando resultado esperados do teste | Sucesso | 
-|CT-? <br> RF-007| Verificar se a barra de pesquisa não exibe resultados ao efetuar uma pesquisa de vaga inexistente. | A barra de pesquisa funcionou perfeitamente retornando uma lista vazia, resultado esperado do teste | Sucesso | 
-|CT-? <br> RF-007| Verificar se o filtro por categoria está encontrando vagas validas corretamente. | O filtro por categoria funcionou perfeitamente retornando resultado esperados do teste | Sucesso | 
-|CT-? <br> RF-005| Deve ser possível chegar a pagina de criação de vaga atráves da aplicação | A pagina foi exibida adequadamente e dinamicamente |  Sucesso |
-|CT-? <br> RF-005| Deve ser possível criar uma nova vaga seguindo todo o processo com informações validas | A vaga foi criada corretamente e exibida de acordo |  Sucesso |
-|CT-? <br> RF-005| Deve ser impossível criar uma nova vaga seguindo todo o processo com todas as informações em branco | Um erro foi exibido conforme o esperado e informando os campos que devem ser preenchidos |  Sucesso |
-|CT-? <br> RF-013| Deve ser possível acessar a pagina de login seguindo todo o processo pela aplicação | A pagina foi exibida adequadamente e dinamicamente |  Sucesso |
-|CT-? <br> RF-013| Deve ser possível acessar a pagina de registro seguindo todo o processo pela aplicação | A pagina foi exibida adequadamente e dinamicamente |  Sucesso |
-|CT-? <br> RF-013| Deve ser possível se registrar com sucesso seguindo os passos e inserindo informações validas | O cadastro foi efetuado com sucesso e pagina da empresa exibida |  Sucesso |
-|CT-? <br> RF-013| Deve ser impossível se registrar com todos os campos em branco | Um erro foi exibido como esperado e não foi possível efetuar o cadastro |  Sucesso |
-|CT-? <br> RF-013| Deve ser possível efetuar login seguindo os passos e inserindo informações validas | O login foi efetuado com sucesso e pagina da empresa foi exibida de acordo |  Sucesso |
-|CT-? <br> RF-013| Deve ser impossível efetuar login com todos os campos em branco | Um erro foi exibido como o esperado e não foi possível efetuar login |  Sucesso |
-|CT-? <br> RF-013| Deve ser impossível efetuar login seguindo os passos e inserindo um email valido e uma senha invalida | Um erro foi exibido como o esperado e não foi possível efetuar login |  Sucesso |
-|CT-? <br> RF-013| Deve ser impossível efetuar login seguindo os passos e inserindo um email invalido e uma senha valida | Um erro foi exibido como o esperado e não foi possível efetuar login |  Sucesso |
+|CT-1 <br> RF-001|  | | | 
+|CT-2 <br> RF-002|  | | |
+|CT-3 <br> RF-003| Verificar se a página "lista de vagas" está acessível e interativa. | A página se mostrou em pleno funcionamento, apresentando a lista de vagas adequadamente | Sucesso |
+|CT-4 <br> RF-004| Deve ser possível chegar a página da vaga de interesse por meio da aplicação,realizando a requisição ao clicar, e acessando a página com possibilidade de candidatura | A página se mostrou operação parcial, sendo possível acessar a página da vaga, e ter acesso as informações referentes a mesma, mas não há meio para a candidatura da vaga implementado. | Grave |
+|CT-5 <br> RF-007| Verificar se a barra de pesquisa encontra vagas validas corretamente. | A barra de pesquisa funcionou perfeitamente retornando resultado esperados do teste | Sucesso | 
+|CT-6 <br> RF-007| Verificar se a barra de pesquisa não exibe resultados ao efetuar uma pesquisa de vaga inexistente. | A barra de pesquisa funcionou perfeitamente retornando uma lista vazia, resultado esperado do teste | Sucesso | 
+|CT-7 <br> RF-007| Verificar se o filtro por categoria está encontrando vagas validas corretamente. | O filtro por categoria funcionou perfeitamente retornando resultado esperados do teste | Sucesso | 
+|CT-8 <br> RF-005| Deve ser possível chegar a pagina de criação de vaga atráves da aplicação | A pagina foi exibida adequadamente e dinamicamente |  Sucesso |
+|CT-9 <br> RF-005| Deve ser possível criar uma nova vaga seguindo todo o processo com informações validas | A vaga foi criada corretamente e exibida de acordo |  Sucesso |
+|CT-10 <br> RF-005| Deve ser impossível criar uma nova vaga seguindo todo o processo com todas as informações em branco | Um erro foi exibido conforme o esperado e informando os campos que devem ser preenchidos |  Sucesso |
+|CT-11 <br> RF-013| Deve ser possível acessar a pagina de login seguindo todo o processo pela aplicação | A pagina foi exibida adequadamente e dinamicamente |  Sucesso |
+|CT-12 <br> RF-013| Deve ser possível acessar a pagina de registro seguindo todo o processo pela aplicação | A pagina foi exibida adequadamente e dinamicamente |  Sucesso |
+|CT-13 <br> RF-013| Deve ser possível se registrar com sucesso seguindo os passos e inserindo informações validas | O cadastro foi efetuado com sucesso e pagina da empresa exibida |  Sucesso |
+|CT-14 <br> RF-013| Deve ser impossível se registrar com todos os campos em branco | Um erro foi exibido como esperado e não foi possível efetuar o cadastro |  Sucesso |
+|CT-15 <br> RF-013| Deve ser possível efetuar login seguindo os passos e inserindo informações validas | O login foi efetuado com sucesso e pagina da empresa foi exibida de acordo |  Sucesso |
+|CT-16 <br> RF-013| Deve ser impossível efetuar login com todos os campos em branco | Um erro foi exibido como o esperado e não foi possível efetuar login |  Sucesso |
+|CT-17 <br> RF-013| Deve ser impossível efetuar login seguindo os passos e inserindo um email valido e uma senha invalida | Um erro foi exibido como o esperado e não foi possível efetuar login |  Sucesso |
+|CT-18 <br> RF-013| Deve ser impossível efetuar login seguindo os passos e inserindo um email invalido e uma senha valida | Um erro foi exibido como o esperado e não foi possível efetuar login |  Sucesso |
 
+<hr>
 
 # Testes de Campos simplificado
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-005| Deve ser possível inserir um nome na vaga com quaisquer caracteres, números ou caracteres especiais. | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso com o nome: aaAA11!@#$%¨¨&*()_{}[] |  Sucesso |
-|CT-? <br> RF-005| Deve ser impossível criar um vaga sem nome | Um erro foi exibido como esperado e não foi possível criar a vaga |  Sucesso |
-|CT-? <br> RF-005| Deve ser possível selecionar uma ou mais habilidades essenciais | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso com as habilidades essenciais: Javascript, HTML, REACT |  Sucesso |
-|CT-? <br> RF-005| Deve ser impossível criar uma vaga sem habilidades essenciais | Um erro foi exibido como esperado e não foi possível criar a vaga |  Sucesso |
-|CT-? <br> RF-005| Deve ser possível selecionar uma ou mais habilidades diferenciais | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso com as habilidades diferenciais: Golang e Python |  Sucesso |
-|CT-? <br> RF-005| Deve ser possível criar uma vaga sem habilidades diferenciais | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso sem habilidades difereiciais |  Sucesso |
-|CT-? <br> RF-005| Deve ser possível selecionar uma senioridade | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso |  Sucesso |
-|CT-? <br> RF-005| Deve ser impossível criar uma vaga sem senioridade | Um erro foi exibido como esperado e não foi possível criar a vaga |  Sucesso |
-|CT-? <br> RF-005| Deve ser possível selecionar um cargo | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso |  Sucesso |
-|CT-? <br> RF-005| Deve ser impossível criar uma vaga sem cargo | Um erro foi exibido como esperado e não foi possível criar a vaga |  Sucesso |
-|CT-? <br> RF-005| Deve ser possível definir um salario para a vaga | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso |  Sucesso |
-|CT-? <br> RF-005| Deve ser impossível criar uma vaga sem salario | Um erro foi exibido como esperado e não foi possível criar a vaga |  Sucesso |
-|CT-? <br> RF-005| Deve ser possível definir um salario para a vaga | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso |  Sucesso |
-|CT-? <br> RF-005| Deve ser impossível criar uma vaga com data para expiração da vaga anterior ao dia atual | A vaga foi criada indevidamente, porém não aparece em nenhuma lista ou pagina |  Baixa |
-|CT-? <br> RF-005| Deve ser impossível criar uma vaga sem data de expiração | Um erro foi exibido como esperado e não foi possível criar a vaga |  Sucesso |
-|CT-? <br> RF-005| Deve ser possível definir uma descrição para a vaga com quaisquer caracteres, numeros ou caracteres especiais | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso |  Sucesso |
-|CT-? <br> RF-005| Deve ser possível criar uma vaga sem descrição | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso |  Sucesso |
-|CT-? <br> RF-005| Ao criar uma vaga, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario | Todas as informações estavam de acordo com o criado |  Sucesso |
-|CT-? <br> RF-005| Ao criar uma vaga, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario e devem ser verificadas através de javascript | fixme |  fixme |
-|CT-? <br> RF-013| Deve ser possível inserir um nome para a empresa com quaisquer caracteres, números ou caracteres especiais. | O cadastro foi efetuado com sucesso |  Sucesso |
-|CT-? <br> RF-013| Deve ser impossível se cadastrar sem inserir o nome da empresa | Um erro aconteceu como o esperado |  Sucesso |
-|CT-? <br> RF-013| Deve ser possível inserir um email valido para a empresa | O cadastro foi efetuado com sucesso |  Sucesso |
-|CT-? <br> RF-013| Deve ser impossível inserir um email invalido para a empresa | Um erro aconteceu como o esperado |  Sucesso |
-|CT-? <br> RF-013| Deve ser possível inserir um CNPJ valido para a empresa | O cadastro foi efetuado com sucesso	 |  Sucesso |
-|CT-? <br> RF-013| Deve ser impossível inserir um CNPJ invalido para a empresa | Um erro aconteceu como o esperado |  Sucesso |
-|CT-? <br> RF-013| Deve ser impossível se cadastrar sem inserir um CNPJ | Um erro aconteceu como o esperado |  Sucesso |
-|CT-? <br> RF-013| Deve ser possível se cadastrar inserindo uma senha de 6 ou mais caracteres e confirmando a senha | O cadastro foi efetuado com sucesso |  Sucesso |
-|CT-? <br> RF-013| Deve ser impossível se cadastrar inserindo uma senha com menos de 6 caracteres |Um erro aconteceu como o esperado |  Sucesso |
-|CT-? <br> RF-013| Deve ser impossível se cadastrar inserindo uma senha e um confime sua senha diferentes, mesmo que a senha seja valida | Um erro aconteceu como o esperado |  Sucesso |
-|CT-? <br> RF-013| Deve ser impossível se cadastrar duas vezes com o mesmo Email | O cadastro foi criado indevidamente na segunda tentativa |  Grave |
-|CT-? <br> RF-013| Deve ser impossível se cadastrar duas vezes com o mesmo Nome |O cadastro foi criado indevidamente na segunda tentativa |  Media |
-|CT-? <br> RF-013| Ao se cadastar, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario de cadastro | As informações estavam de acordo com as cadastradas |  Sucesso |
-|CT-? <br> RF-013| Ao se cadastar, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario de cadastro e devem ser verificadas através de javascript | fixme |  fixme |
+|CT-19 <br> RF-005| Deve ser possível inserir um nome na vaga com quaisquer caracteres, números ou caracteres especiais. | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso com o nome: aaAA11!@#$%¨¨&*()_{}[] |  Sucesso |
+|CT-20 <br> RF-005| Deve ser impossível criar um vaga sem nome | Um erro foi exibido como esperado e não foi possível criar a vaga |  Sucesso |
+|CT-21 <br> RF-005| Deve ser possível selecionar uma ou mais habilidades essenciais | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso com as habilidades essenciais: Javascript, HTML, REACT |  Sucesso |
+|CT-22 <br> RF-005| Deve ser impossível criar uma vaga sem habilidades essenciais | Um erro foi exibido como esperado e não foi possível criar a vaga |  Sucesso |
+|CT-23 <br> RF-005| Deve ser possível selecionar uma ou mais habilidades diferenciais | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso com as habilidades diferenciais: Golang e Python |  Sucesso |
+|CT-24 <br> RF-005| Deve ser possível criar uma vaga sem habilidades diferenciais | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso sem habilidades difereiciais |  Sucesso |
+|CT-25 <br> RF-005| Deve ser possível selecionar uma senioridade | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso |  Sucesso |
+|CT-26 <br> RF-005| Deve ser impossível criar uma vaga sem senioridade | Um erro foi exibido como esperado e não foi possível criar a vaga |  Sucesso |
+|CT-27 <br> RF-005| Deve ser possível selecionar um cargo | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso |  Sucesso |
+|CT-28 <br> RF-005| Deve ser impossível criar uma vaga sem cargo | Um erro foi exibido como esperado e não foi possível criar a vaga |  Sucesso |
+|CT-29 <br> RF-005| Deve ser possível definir um salario para a vaga | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso |  Sucesso |
+|CT-30 <br> RF-005| Deve ser impossível criar uma vaga sem salario | Um erro foi exibido como esperado e não foi possível criar a vaga |  Sucesso |
+|CT-31 <br> RF-005| Deve ser possível definir um salario para a vaga | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso |  Sucesso |
+|CT-32 <br> RF-005| Deve ser impossível criar uma vaga com data para expiração da vaga anterior ao dia atual | A vaga foi criada indevidamente, porém não aparece em nenhuma lista ou pagina |  Baixa |
+|CT-33 <br> RF-005| Deve ser impossível criar uma vaga sem data de expiração | Um erro foi exibido como esperado e não foi possível criar a vaga |  Sucesso |
+|CT-34 <br> RF-005| Deve ser possível definir uma descrição para a vaga com quaisquer caracteres, numeros ou caracteres especiais | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso |  Sucesso |
+|CT-35 <br> RF-005| Deve ser possível criar uma vaga sem descrição | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso |  Sucesso |
+|CT-36 <br> RF-005| Ao criar uma vaga, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario | Todas as informações estavam de acordo com o criado |  Sucesso |
+|CT-37 <br> RF-005| Ao criar uma vaga, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario e devem ser verificadas através de javascript | fixme |  fixme |
+|CT-38 <br> RF-013| Deve ser possível inserir um nome para a empresa com quaisquer caracteres, números ou caracteres especiais. | O cadastro foi efetuado com sucesso |  Sucesso |
+|CT-39 <br> RF-013| Deve ser impossível se cadastrar sem inserir o nome da empresa | Um erro aconteceu como o esperado |  Sucesso |
+|CT-40 <br> RF-013| Deve ser possível inserir um email valido para a empresa | O cadastro foi efetuado com sucesso |  Sucesso |
+|CT-41 <br> RF-013| Deve ser impossível inserir um email invalido para a empresa | Um erro aconteceu como o esperado |  Sucesso |
+|CT-42 <br> RF-013| Deve ser possível inserir um CNPJ valido para a empresa | O cadastro foi efetuado com sucesso	 |  Sucesso |
+|CT-43 <br> RF-013| Deve ser impossível inserir um CNPJ invalido para a empresa | Um erro aconteceu como o esperado |  Sucesso |
+|CT-44 <br> RF-013| Deve ser impossível se cadastrar sem inserir um CNPJ | Um erro aconteceu como o esperado |  Sucesso |
+|CT-45 <br> RF-013| Deve ser possível se cadastrar inserindo uma senha de 6 ou mais caracteres e confirmando a senha | O cadastro foi efetuado com sucesso |  Sucesso |
+|CT-46 <br> RF-013| Deve ser impossível se cadastrar inserindo uma senha com menos de 6 caracteres |Um erro aconteceu como o esperado |  Sucesso |
+|CT-47 <br> RF-013| Deve ser impossível se cadastrar inserindo uma senha e um confime sua senha diferentes, mesmo que a senha seja valida | Um erro aconteceu como o esperado |  Sucesso |
+|CT-48 <br> RF-013| Deve ser impossível se cadastrar sem inserir uma senha | Um erro aconteceu como o esperado  | Sucesso |
+|CT-49 <br> RF-013| Deve ser impossível se cadastrar duas vezes com o mesmo Email | O cadastro foi criado indevidamente na segunda tentativa |  Grave |
+|CT-50 <br> RF-013| Deve ser impossível se cadastrar duas vezes com o mesmo Nome |O cadastro foi criado indevidamente na segunda tentativa |  Media |
+|CT-51 <br> RF-013| Ao se cadastar, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario de cadastro | As informações estavam de acordo com as cadastradas |  Sucesso |
+|CT-52 <br> RF-013| Ao se cadastar, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario de cadastro e devem ser verificadas através de javascript | fixme |  fixme |
 //Testes e imagens aqui.
 
-
-
-
+<hr>
 
 # Testes de Navegabilidade simplificado
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-?| Teste de navegabilidade da home.html | Todos os links encontrados | Sucesso |
-|CT-?| Teste de navegabilidade da vaga.html | Todos os links encontrados | Sucesso |
-|CT-?| Teste de navegabilidade da vagas_lista.html | Todos os links encontrados | Sucesso |
-|CT-?| Teste de navegabilidade da resumo.html | Todos os links encontrados | Sucesso |
-|CT-?| Teste de navegabilidade da habilidade.html | Todos os links encontrados | Sucesso |
-|CT-?| Teste de navegabilidade da empresa.html | Todos os links encontrados | Sucesso |
-|CT-?| Teste de navegabilidade da cargo.html | Todos os links encontrados | Sucesso |
+|CT-53| Teste de navegabilidade da home.html | Todos os links encontrados | Sucesso |
+|CT-54| Teste de navegabilidade da vaga.html | Todos os links encontrados | Sucesso |
+|CT-55| Teste de navegabilidade da vagas_lista.html | Todos os links encontrados | Sucesso |
+|CT-56| Teste de navegabilidade da resumo.html | Todos os links encontrados | Sucesso |
+|CT-57| Teste de navegabilidade da habilidade.html | Todos os links encontrados | Sucesso |
+|CT-58| Teste de navegabilidade da empresa.html | Todos os links encontrados | Sucesso |
+|CT-59| Teste de navegabilidade da cargo.html | Todos os links encontrados | Sucesso |
+
+<hr>
 
 # Testes de Responsividade simplificado
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-?| Teste de responsividade de home.html | Resultado positivo para dispositivos móveis | Sucesso |
-|CT-?| Teste de responsividade de vagas_lista.html | Resultado positivo para dispositivos móveis | Sucesso |
-|CT-?| Teste de responsividade de vaga.html | Resultado positivo para dispositivos móveis | Sucesso |
-|CT-?| Teste de responsividade de resumo.html | Resultado positivo para dispositivos móveis | Sucesso |
-|CT-?| Teste de responsividade de login.html | Resultado positivo para dispositivos móveis | Sucesso |
-|CT-?| Teste de responsividade de habilidade.html | Resultado positivo para dispositivos móveis | Sucesso |
-|CT-?| Teste de responsividade de empresa.html | Resultado positivo para dispositivos móveis | Sucesso |
-|CT-?| Teste de responsividade de criar_vaga.html | Resultado positivo para dispositivos móveis | Sucesso |
-|CT-?| Teste de responsividade de cargo.html | Resultado positivo para dispositivos móveis | Sucesso |
-|CT-?| Teste de responsividade de cadastro.html | Resultado positivo para dispositivos móveis | Sucesso |
+|CT-60| Teste de responsividade de home.html | Resultado positivo para dispositivos móveis | Sucesso |
+|CT-61| Teste de responsividade de vagas_lista.html | Resultado positivo para dispositivos móveis | Sucesso |
+|CT-62| Teste de responsividade de vaga.html | Resultado positivo para dispositivos móveis | Sucesso |
+|CT-63| Teste de responsividade de resumo.html | Resultado positivo para dispositivos móveis | Sucesso |
+|CT-64| Teste de responsividade de login.html | Resultado positivo para dispositivos móveis | Sucesso |
+|CT-65| Teste de responsividade de habilidade.html | Resultado positivo para dispositivos móveis | Sucesso |
+|CT-66| Teste de responsividade de empresa.html | Resultado positivo para dispositivos móveis | Sucesso |
+|CT-67| Teste de responsividade de criar_vaga.html | Resultado positivo para dispositivos móveis | Sucesso |
+|CT-68| Teste de responsividade de cargo.html | Resultado positivo para dispositivos móveis | Sucesso |
+|CT-69| Teste de responsividade de cadastro.html | Resultado positivo para dispositivos móveis | Sucesso |
+
+<hr>
 
 # Testes de Ponta a ponta Completos
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-01|  | | | 
+|CT-1 <br> RF-001|  | | | 
 
 //Testes e imagens aqui.
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-02|  | | | 
+|CT-2 <br> RF-002|  | | | 
 
 //Testes e imagens aqui.
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-03| Deve ser possível chegar a página da vaga de interesse por meio da aplicação,realizando a requisição clicar, e acessando a página com o endpoint adequado a mesma. | Ser redirecionado para a vaga de interesse, e ter acesso a informações referentes a mesma, e meios de contatar a empresa para a aplicação da vaga.  | Grave |
+|CT-3 <br> RF-003| Verificar se a página "lista de vagas" está acessível e interativa. | A página se mostrou em pleno funcionamento, apresentando a lista de vagas adequadamente  | Sucesso |
+
+Acessando pela home page e clicando no botão "ver vagas":
 
 ![homepage](img/registro_de_testes/rf-003/home-ver-vagas.png)
 
@@ -127,7 +135,7 @@ Acessando a página "Lista de Vagas"
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-04| Deve ser possível chegar a página da vaga de interesse por meio da aplicação, realizando a requisição ao clicar, e acessando a página da vaga com as informações referentes a mesma, com meios de contatar a empresa para a aplicação da vaga. | A página se mostrou operação parcial, sendo possível acessar a página da vaga, e ter acesso as informações referentes a mesma, mas não há meio para a candidatura da vaga implementado.  | Grave |
+|CT-4 <br> RF-004| Deve ser possível chegar a página da vaga de interesse por meio da aplicação, realizando a requisição ao clicar, e acessando a página da vaga com as informações referentes a mesma, com meios de contatar a empresa para a aplicação da vaga. | A página se mostrou operação parcial, sendo possível acessar a página da vaga, e ter acesso as informações referentes a mesma, mas não há meio para a candidatura da vaga implementado.  | Grave |
 
 1. Informar o endereço do site no navegador.
 
@@ -152,7 +160,7 @@ Acessando a página "Lista de Vagas"
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-07| Verificar se a barra de pesquisa encontra vagas validas corretamente.| A barra de pesquisa funcionou perfeitamente retornando resultado esperados do teste |Sucesso | 
+|CT-5 <br> RF-007| Verificar se a barra de pesquisa encontra vagas validas corretamente.| A barra de pesquisa funcionou perfeitamente retornando resultado esperados do teste |Sucesso | 
 
 Objetivo: Testar barra de busca; 
 
@@ -164,7 +172,7 @@ Saída esperada: Vaga de desenvolvedor Front End pela Super Tech
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-07|Verificar se a barra de pesquisa não exibe resultados ao efetuar uma pesquisa de vaga inexistente. | A barra de pesquisa funcionou perfeitamente retornando uma lista vazia, resultado esperado do teste |Sucesso | 
+|CT-6 <br> RF-007|Verificar se a barra de pesquisa não exibe resultados ao efetuar uma pesquisa de vaga inexistente. | A barra de pesquisa funcionou perfeitamente retornando uma lista vazia, resultado esperado do teste |Sucesso | 
 
 Objetivo: Testar barra de busca
 
@@ -177,7 +185,7 @@ Saída esperada: Uma lista vazia com a seguinte mensagem: Não existem vagas no 
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-07| Verificar se o filtro por categoria está encontrando vagas validas corretamente. | O filtro por categoria funcionou perfeitamente retornando resultado esperados do teste |Sucesso | 
+|CT-7 <br> RF-007| Verificar se o filtro por categoria está encontrando vagas validas corretamente. | O filtro por categoria funcionou perfeitamente retornando resultado esperados do teste |Sucesso | 
 
 Objetivo: Testar filtro de categoria 
 
@@ -190,7 +198,7 @@ Saída esperada : Vaga de desenvolvedor back-end pela Progressus
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-005| Deve ser possível chegar a pagina de criação de vaga atráves da aplicação | A pagina foi exibida adequadamente e dinamicamente |  Sucesso |
+|CT-8 <br> RF-005| Deve ser possível chegar a pagina de criação de vaga atráves da aplicação | A pagina foi exibida adequadamente e dinamicamente |  Sucesso |
 
 1. Acessar a pagina inicial e clicar em "Sou Empresa"
 
@@ -207,7 +215,7 @@ Saída esperada : Vaga de desenvolvedor back-end pela Progressus
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-005| Deve ser possível criar uma nova vaga seguindo todo o processo com informações validas | A vaga foi criada corretamente e exibida de acordo |  Sucesso |
+|CT-9 <br> RF-005| Deve ser possível criar uma nova vaga seguindo todo o processo com informações validas | A vaga foi criada corretamente e exibida de acordo |  Sucesso |
 
 1. Acessar a pagina inicial e clicar em "Sou Empresa"
 
@@ -230,7 +238,7 @@ Saída esperada : Vaga de desenvolvedor back-end pela Progressus
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-005| Deve ser impossível criar uma nova vaga seguindo todo o processo com todas as informações em branco | Um erro foi exibido conforme o esperado e informando os campos que devem ser preenchidos |  Sucesso |
+|CT-10 <br> RF-005| Deve ser impossível criar uma nova vaga seguindo todo o processo com todas as informações em branco | Um erro foi exibido conforme o esperado e informando os campos que devem ser preenchidos |  Sucesso |
 
 1. Acessar a pagina inicial e clicar em "Sou Empresa"
 
@@ -250,7 +258,7 @@ Saída esperada : Vaga de desenvolvedor back-end pela Progressus
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-013|Deve ser possível acessar a pagina de login seguindo todo o processo pela aplicação | A pagina foi exibida adequadamente e dinamicamente |  Sucesso |
+|CT-11 <br> RF-013|Deve ser possível acessar a pagina de login seguindo todo o processo pela aplicação | A pagina foi exibida adequadamente e dinamicamente |  Sucesso |
 
 1. Acessar a pagina inicial
 &
@@ -260,7 +268,7 @@ Saída esperada : Vaga de desenvolvedor back-end pela Progressus
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-013| Deve ser possível acessar a pagina de registro seguindo todo o processo pela aplicação | A pagina foi exibida adequadamente e dinamicamente |  Sucesso |
+|CT-12 <br> RF-013| Deve ser possível acessar a pagina de registro seguindo todo o processo pela aplicação | A pagina foi exibida adequadamente e dinamicamente |  Sucesso |
 
 1. Acessar a pagina inicial
 &
@@ -274,7 +282,7 @@ Saída esperada : Vaga de desenvolvedor back-end pela Progressus
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-013| Deve ser possível se registrar com sucesso seguindo os passos e inserindo informações validas | O cadastro foi efetuado com sucesso e pagina da empresa exibida |  Sucesso |
+|CT-13 <br> RF-013| Deve ser possível se registrar com sucesso seguindo os passos e inserindo informações validas | O cadastro foi efetuado com sucesso e pagina da empresa exibida |  Sucesso |
 
 1. Acessar a pagina inicial
 &
@@ -296,7 +304,7 @@ Saída esperada : Vaga de desenvolvedor back-end pela Progressus
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-013| Deve ser impossível se registrar com todos os campos em branco | Um erro foi exibido como esperado e não foi possível efetuar o cadastro |  Sucesso |
+|CT-14 <br> RF-013| Deve ser impossível se registrar com todos os campos em branco | Um erro foi exibido como esperado e não foi possível efetuar o cadastro |  Sucesso |
 
 1. Acessar a pagina inicial
 &
@@ -312,7 +320,7 @@ Saída esperada : Vaga de desenvolvedor back-end pela Progressus
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-013| Deve ser possível efetuar login seguindo os passos e inserindo informações validas | O login foi efetuado com sucesso e pagina da empresa foi exibida de acordo |  Sucesso |
+|CT-15 <br> RF-013| Deve ser possível efetuar login seguindo os passos e inserindo informações validas | O login foi efetuado com sucesso e pagina da empresa foi exibida de acordo |  Sucesso |
 
 1. Acessar a pagina inicial
 &
@@ -327,7 +335,7 @@ Saída esperada : Vaga de desenvolvedor back-end pela Progressus
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-013| Deve ser impossível efetuar login com todos os campos em branco | Um erro foi exibido como o esperado e não foi possível efetuar login | Sucesso |
+|CT-16 <br> RF-013| Deve ser impossível efetuar login com todos os campos em branco | Um erro foi exibido como o esperado e não foi possível efetuar login | Sucesso |
 
 1. Acessar a pagina inicial
 &
@@ -338,7 +346,7 @@ Saída esperada : Vaga de desenvolvedor back-end pela Progressus
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-013| Deve ser impossível efetuar login seguindo os passos e inserindo um email valido e uma senha invalida | Um erro foi exibido como o esperado e não foi possível efetuar login | Sucesso |
+|CT-17 <br> RF-013| Deve ser impossível efetuar login seguindo os passos e inserindo um email valido e uma senha invalida | Um erro foi exibido como o esperado e não foi possível efetuar login | Sucesso |
 
 1. Acessar a pagina inicial
 &
@@ -352,7 +360,7 @@ Saída esperada : Vaga de desenvolvedor back-end pela Progressus
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-013| Deve ser impossível efetuar login seguindo os passos e inserindo um email invalido e uma senha valida | Um erro foi exibido como o esperado e não foi possível efetuar login | Sucesso |
+|CT-18 <br> RF-013| Deve ser impossível efetuar login seguindo os passos e inserindo um email invalido e uma senha valida | Um erro foi exibido como o esperado e não foi possível efetuar login | Sucesso |
 
 1. Acessar a pagina inicial
 &
@@ -364,6 +372,7 @@ Saída esperada : Vaga de desenvolvedor back-end pela Progressus
 4. Clicar em Entrar
 ![Email Incorreto](img/registro_de_testes/rf-013/emailIncorreto.png)
 
+<hr>
 
 # Testes de Campos completos
 
@@ -371,7 +380,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-05| Deve ser possível inserir um nome na vaga com quaisquer caracteres, números ou caracteres especiais. | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso com o nome: aaAA11!@#$%¨¨&*()_{}[] | Sucesso | 
+|CT-19 <br> RF-005| Deve ser possível inserir um nome na vaga com quaisquer caracteres, números ou caracteres especiais. | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso com o nome: aaAA11!@#$%¨¨&*()_{}[] | Sucesso | 
 
 1. Escrever em "Nome da vaga": aaAA11!@#$%¨¨&*()_{}[]
 2. Completar outros campos do formulario com informações validas
@@ -383,7 +392,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-05| Deve ser impossível criar um vaga sem nome | Um erro foi exibido como esperado e não foi possível criar a vaga | Sucesso | 
+|CT-20 <br> RF-005| Deve ser impossível criar um vaga sem nome | Um erro foi exibido como esperado e não foi possível criar a vaga | Sucesso | 
 
 1. Manter campo "Nome da vaga" em branco
 2. Completar outros campos do formulario com informações validas
@@ -392,7 +401,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-05| Deve ser possível selecionar uma ou mais habilidades essenciais| O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso com as habilidades essenciais: Javascript, HTML, REACT | Sucesso | 
+|CT-21 <br> RF-005| Deve ser possível selecionar uma ou mais habilidades essenciais| O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso com as habilidades essenciais: Javascript, HTML, REACT | Sucesso | 
 
 1. No campo "Habilidades essenciais" selecionar: [JavaScript, HTML, REACT]
 2. Completar outros campos do formulario com informações validas
@@ -403,7 +412,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-05| Deve ser impossível criar uma vaga sem habilidades essenciais| Um erro foi exibido como esperado e não foi possível criar a vaga | Sucesso | 
+|CT-22 <br> RF-005| Deve ser impossível criar uma vaga sem habilidades essenciais| Um erro foi exibido como esperado e não foi possível criar a vaga | Sucesso | 
 
 1. Manter campo "Habilidades essenciais" em branco
 2. Completar outros campos do formulario com informações validas
@@ -412,7 +421,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-05| Deve ser possível selecionar uma ou mais habilidades diferenciais| O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso com as habilidades diferenciais: Golang e Python | Sucesso | 
+|CT-23 <br> RF-005| Deve ser possível selecionar uma ou mais habilidades diferenciais| O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso com as habilidades diferenciais: Golang e Python | Sucesso | 
 
 1. No campo "Habilidades diferenciais" selecionar: [Golang, Python]
 2. Completar outros campos do formulario com informações validas
@@ -423,7 +432,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-05| Deve ser possível criar uma vaga sem habilidades diferenciais| O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso sem habilidades difereiciais | Sucesso |
+|CT-24 <br> RF-005| Deve ser possível criar uma vaga sem habilidades diferenciais| O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso sem habilidades difereiciais | Sucesso |
 
 1. No campo "Habilidades diferenciais" manter em branco
 2. Completar outros campos do formulario com informações validas
@@ -434,7 +443,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-05| Deve ser possível selecionar uma senioridade | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso | Sucesso | 
+|CT-25 <br> RF-005| Deve ser possível selecionar uma senioridade | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso | Sucesso | 
 
 1. No campo "Senioridade" selecionar: "Pleno"
 2. Completar outros campos do formulario com informações validas
@@ -445,7 +454,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-05| Deve ser impossível criar uma vaga sem senioridade |  Um erro foi exibido como esperado e não foi possível criar a vaga | Sucesso | 
+|CT-26 <br> RF-005| Deve ser impossível criar uma vaga sem senioridade |  Um erro foi exibido como esperado e não foi possível criar a vaga | Sucesso | 
 
 1. No campo "Senioridade" deixar em branco
 2. Completar outros campos do formulario com informações validas
@@ -454,7 +463,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-05| Deve ser possível selecionar um cargo | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso | Sucesso |
+|CT-27 <br> RF-005| Deve ser possível selecionar um cargo | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso | Sucesso |
 
 1. No campo "Cargo" selecionar: "Desenvolvedor Front-end"
 2. Completar outros campos do formulario com informações validas
@@ -464,7 +473,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-05| Deve ser impossível criar uma vaga sem cargo | Um erro foi exibido como esperado e não foi possível criar a vaga | Sucesso | 
+|CT-28 <br> RF-005| Deve ser impossível criar uma vaga sem cargo | Um erro foi exibido como esperado e não foi possível criar a vaga | Sucesso | 
 
 1. No campo "Cargo" deixar em branco
 2. Completar outros campos do formulario com informações validas
@@ -473,7 +482,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-05| Deve ser possível definir um salario para a vaga | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso | Sucesso |
+|CT-29 <br> RF-005| Deve ser possível definir um salario para a vaga | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso | Sucesso |
 
 1. No campo "Salario" digitar: 9500
 2. Completar outros campos do formulario com informações validas
@@ -483,7 +492,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-05| Deve ser impossível criar uma vaga sem salario | Um erro foi exibido como esperado e não foi possível criar a vaga | Sucesso | 
+|CT-30 <br> RF-005| Deve ser impossível criar uma vaga sem salario | Um erro foi exibido como esperado e não foi possível criar a vaga | Sucesso | 
 
 1. No campo "Salario" deixar em branco
 2. Completar outros campos do formulario com informações validas
@@ -492,7 +501,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-05| Deve ser possível definir um salario para a vaga | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso | Sucesso |
+|CT-31 <br> RF-005| Deve ser possível definir um salario para a vaga | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso | Sucesso |
 
 1. No campo "Data final da vaga" selecionar: 10/10/2023
 2. Completar outros campos do formulario com informações validas
@@ -502,7 +511,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-05| Deve ser impossível criar uma vaga com data para expiração da vaga anterior ao dia atual | A vaga foi criada indevidamente, porém não aparece em nenhuma lista ou pagina | Baixa | 
+|CT-32 <br> RF-005| Deve ser impossível criar uma vaga com data para expiração da vaga anterior ao dia atual | A vaga foi criada indevidamente, porém não aparece em nenhuma lista ou pagina | Baixa | 
 
 1. No campo "Data final da vaga" selecionar: 01/01/2022
 2. Completar outros campos do formulario com informações validas
@@ -511,7 +520,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-05| Deve ser impossível criar uma vaga sem data de expiração | Um erro foi exibido como esperado e não foi possível criar a vaga | Sucesso | 
+|CT-33 <br> RF-005| Deve ser impossível criar uma vaga sem data de expiração | Um erro foi exibido como esperado e não foi possível criar a vaga | Sucesso | 
 
 1. No campo "Data final da vaga" manter em branco
 2. Completar outros campos do formulario com informações validas
@@ -520,7 +529,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-05| Deve ser possível definir uma descrição para a vaga com quaisquer caracteres, numeros ou caracteres especiais | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso | Sucesso |
+|CT-34 <br> RF-005| Deve ser possível definir uma descrição para a vaga com quaisquer caracteres, numeros ou caracteres especiais | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso | Sucesso |
 
 1. Escrever em "Descrição da vaga": aaAA11!@#$%¨¨&*()_{}[]
 2. Completar outros campos do formulario com informações validas
@@ -530,7 +539,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-05| Deve ser possível criar uma vaga sem descrição | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso | Sucesso |
+|CT-35 <br> RF-005| Deve ser possível criar uma vaga sem descrição | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso | Sucesso |
 
 1. Em "Descrição da vaga" manter em branco
 2. Completar outros campos do formulario com informações validas
@@ -540,7 +549,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-05| Ao criar uma vaga, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario | Todas as informações estavam de acordo com o criado | Sucesso |
+|CT-36 <br> RF-005| Ao criar uma vaga, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario | Todas as informações estavam de acordo com o criado | Sucesso |
 
 1. Completar campos com:
 <ol><li>Nome da vaga> TESTE1</li> <li>Habiilidades essenciais: HTML</li><li>Habilidades diferenciais: HTML</li><li>Senioridade: Senior</li><li>Cargo:Analista de Dados</li> <li>Salario: 11500</li><li>Data final da vaga: 05/05/2025</li> <li>Descrição da vaga: Testando campos</li></ol>
@@ -555,13 +564,13 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-05|Ao criar uma vaga, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario e devem ser verificadas através de javascript | fixme | fixme |
+|CT-37 <br> RF-005|Ao criar uma vaga, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario e devem ser verificadas através de javascript | fixme | fixme |
 
 //Testes e imagens aqui.
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-013| Deve ser possível inserir um nome para a empresa com quaisquer caracteres, números ou caracteres especiais. | O cadastro foi efetuado com sucesso | Sucesso |
+|CT-38 <br> RF-013| Deve ser possível inserir um nome para a empresa com quaisquer caracteres, números ou caracteres especiais. | O cadastro foi efetuado com sucesso | Sucesso |
 
 1. Escrever em "Nome da Empresa": EmpresaTest123!@#$%¨¨&*()_{}[]
 
@@ -575,7 +584,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-013| Deve ser impossível se cadastrar sem inserir o nome da empresa | Um erro aconteceu como o esperado  | Sucesso |
+|CT-39 <br> RF-013| Deve ser impossível se cadastrar sem inserir o nome da empresa | Um erro aconteceu como o esperado  | Sucesso |
 
 1. Em "Nome da Empresa" manter em branco
 2. Completar outros campos do formulario com informações validas
@@ -585,7 +594,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-013| 	Deve ser possível inserir um email valido para a empresa | O cadastro foi efetuado com sucesso | Sucesso |
+|CT-40 <br> RF-013| 	Deve ser possível inserir um email valido para a empresa | O cadastro foi efetuado com sucesso | Sucesso |
 
 1. Escrever em "Email": empresatest@gmail.com
 
@@ -600,7 +609,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-013| Deve ser impossível inserir um email invalido para a empresa | Um erro aconteceu como o esperado  | Sucesso |
+|CT-41 <br> RF-013| Deve ser impossível inserir um email invalido para a empresa | Um erro aconteceu como o esperado  | Sucesso |
 
 1. Escrever em "Email": empresatest!!
 2. Completar outros campos do formulario com informações validas
@@ -610,9 +619,9 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-013| Deve ser possível inserir um CNPJ valido para a empresa | O cadastro foi efetuado com sucesso | Sucesso |
+|CT-42 <br> RF-013| Deve ser possível inserir um CNPJ valido para a empresa | O cadastro foi efetuado com sucesso | Sucesso |
 
-1. Escrever em "CNPJ": 12.945.701/0001-82
+1. Escrever em "CNPJ": 12.945.701/182
 
 2. Completar outros campos do formulario com informações validas
 
@@ -625,7 +634,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-013| Deve ser impossível inserir um CNPJ invalido para a empresa | Um erro aconteceu como o esperado  | Sucesso |
+|CT-43 <br> RF-013| Deve ser impossível inserir um CNPJ invalido para a empresa | Um erro aconteceu como o esperado  | Sucesso |
 
 1. Escrever em "CNPJ": 12.945.701
 2. Completar outros campos do formulario com informações validas
@@ -635,7 +644,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-013| Deve ser impossível se cadastrar sem inserir um CNPJ | Um erro aconteceu como o esperado  | Sucesso |
+|CT-44 <br> RF-013| Deve ser impossível se cadastrar sem inserir um CNPJ | Um erro aconteceu como o esperado  | Sucesso |
 
 1. Em "CNPJ" manter em branco
 2. Completar outros campos do formulario com informações validas
@@ -645,7 +654,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-013| Deve ser possível se cadastrar inserindo uma senha de 6 ou mais caracteres e confirmando a senha | O cadastro foi efetuado com sucesso | Sucesso |
+|CT-45 <br> RF-013| Deve ser possível se cadastrar inserindo uma senha de 6 ou mais caracteres e confirmando a senha | O cadastro foi efetuado com sucesso | Sucesso |
 
 1. Escrever em "Senha" e "Confime sua senha": aA123!
 
@@ -660,7 +669,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-013| Deve ser impossível se cadastrar inserindo uma senha com menos de 6 caracteres | Um erro aconteceu como o esperado  | Sucesso |
+|CT-46 <br> RF-013| Deve ser impossível se cadastrar inserindo uma senha com menos de 6 caracteres | Um erro aconteceu como o esperado  | Sucesso |
 
 1. Escrever em "Senha" e "Confime sua senha": 12345
 2. Completar outros campos do formulario com informações validas
@@ -670,7 +679,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-013| Deve ser impossível se cadastrar inserindo uma senha e um confime sua senha diferentes, mesmo que a senha seja valida | Um erro aconteceu como o esperado  | Sucesso |
+|CT-47 <br> RF-013| Deve ser impossível se cadastrar inserindo uma senha e um confime sua senha diferentes, mesmo que a senha seja valida | Um erro aconteceu como o esperado  | Sucesso |
 
 1. Escrever em "Senha": 123456 e em "Confime sua senha": 1234567
 2. Completar outros campos do formulario com informações validas
@@ -680,7 +689,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-013| Deve ser impossível se cadastrar sem inserir uma senha | Um erro aconteceu como o esperado  | Sucesso |
+|CT-48 <br> RF-013| Deve ser impossível se cadastrar sem inserir uma senha | Um erro aconteceu como o esperado  | Sucesso |
 
 1. Em "Senha" e em "Confime sua senha": deixar em branco
 2. Completar outros campos do formulario com informações validas
@@ -692,7 +701,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-013| Deve ser impossível se cadastrar duas vezes com o mesmo Email | O cadastro foi criado indevidamente na segunda tentativa | Grave |
+|CT-49 <br> RF-013| Deve ser impossível se cadastrar duas vezes com o mesmo Email | O cadastro foi criado indevidamente na segunda tentativa | Grave |
 
 1. Cadastar com o email: empresarepetida@gmail.com
 2. Completar outros campos do formulario com informações validas
@@ -706,7 +715,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-013| Deve ser impossível se cadastrar duas vezes com o mesmo Nome | O cadastro foi criado indevidamente na segunda tentativa | Media |
+|CT-50 <br> RF-013| Deve ser impossível se cadastrar duas vezes com o mesmo Nome | O cadastro foi criado indevidamente na segunda tentativa | Media |
 
 1. Cadastar com o Nome: EmpresaRepetida
 2. Completar outros campos do formulario com informações validas
@@ -720,7 +729,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-013| Ao se cadastar, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario de cadastro | As informações estavam de acordo com as cadastradas | Sucesso |
+|CT-51 <br> RF-013| Ao se cadastar, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario de cadastro | As informações estavam de acordo com as cadastradas | Sucesso |
 
 1. Completar campos com: <ol><li>Nome da Empresa: Empresa de testes</li><li>Email: emailtest@gmail.com</li><li>CNPJ: 54.564.864/894</li><li>Senha:!empresaTest123</li><li>Confirme sua senha:!empresaTest123</li></ol>
 2. Clicar em Cadastrar
@@ -731,15 +740,17 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-? <br> RF-013| Ao se cadastar, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario de cadastro e devem ser verificadas através de javascript | fixme | fixme |
+|CT-52 <br> RF-013| Ao se cadastar, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario de cadastro e devem ser verificadas através de javascript | fixme | fixme |
 
 //Testes e imagens aqui.
+
+<hr>
 
 # Testes de Navegabilidade completo
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-?| Teste de navegabilidade da home.html | Todos os links encontrados | Sucesso |
+|CT-53| Teste de navegabilidade da home.html | Todos os links encontrados | Sucesso |
 
 <ol><li>Abrir: https://datayze.com/site-navigability-analyzer</li> <li>Inserir link da home.html </li></ol> |
 
@@ -747,7 +758,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-?| Teste de navegabilidade da vaga.html | Todos os links encontrados | Sucesso |
+|CT-54| Teste de navegabilidade da vaga.html | Todos os links encontrados | Sucesso |
 
 <ol><li>Abrir: https://datayze.com/site-navigability-analyzer</li> <li>Inserir link da vaga.html com id </li></ol>
 
@@ -755,7 +766,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-?| Teste de navegabilidade da vagas_lista.html | Todos os links encontrados | Sucesso |
+|CT-55| Teste de navegabilidade da vagas_lista.html | Todos os links encontrados | Sucesso |
 
 <ol><li>Abrir: https://datayze.com/site-navigability-analyzer</li> <li>Inserir link da vagas_lista.html </li></ol>
 
@@ -763,7 +774,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-?| Teste de navegabilidade da resumo.html | Todos os links encontrados | Sucesso |
+|CT-56| Teste de navegabilidade da resumo.html | Todos os links encontrados | Sucesso |
 
 <ol><li>Abrir: https://datayze.com/site-navigability-analyzer</li> <li>Inserir link do resumo.html </li></ol>
 
@@ -771,7 +782,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-?| Teste de navegabilidade da habilidade.html | Todos os links encontrados | Sucesso |
+|CT-57| Teste de navegabilidade da habilidade.html | Todos os links encontrados | Sucesso |
 
 <ol><li>Abrir: https://datayze.com/site-navigability-analyzer</li> <li>Inserir link da habilidade.html com id </li></ol>
 
@@ -779,7 +790,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-?| Teste de navegabilidade da empresa.html | Todos os links encontrados | Sucesso |
+|CT-58| Teste de navegabilidade da empresa.html | Todos os links encontrados | Sucesso |
 
 <ol><li>Abrir: https://datayze.com/site-navigability-analyzer</li> <li>Inserir link da empresa.html com id </li></ol>
 
@@ -787,16 +798,18 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-?| Teste de navegabilidade da cargo.html | Todos os links encontrados | Sucesso |
+|CT-59| Teste de navegabilidade da cargo.html | Todos os links encontrados | Sucesso |
 
 <ol><li>Abrir: https://datayze.com/site-navigability-analyzer</li> <li>Inserir link do cargo.html com id </li></ol>
 
 ![Navegabilidade Cargo](img/registro_de_testes/teste_navegabilidade/cargo.png)
 
+<hr>
+
 # Testes de Responsividade completos
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-?| Teste de responsividade de home.html | Resultado positivo para dispositivos móveis | Sucesso |
+|CT-60| Teste de responsividade de home.html | Resultado positivo para dispositivos móveis | Sucesso |
 
 <ol><li>Abrir https://search.google.com/test/mobile-friendly</li> <li>Inserir o link de home.html</li></ol>
 
@@ -804,15 +817,15 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-?| Teste de responsividade de vagas_lista.html | Resultado positivo para dispositivos móveis | Sucesso |
+|CT-61| Teste de responsividade de vagas_lista.html | Resultado positivo para dispositivos móveis | Sucesso |
 
 <ol><li>Abrir https://search.google.com/test/mobile-friendly</li> <li>Inserir o link de vagas_lista.html</li></ol>
 
-![Responsividade vagas_lista](img/registro_de_testes/teste_responsividade/vagas_lista.png)
+![Responsividade vagas_lista](img/registro_de_testes/teste_responsividade/lista_vagas.png)
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-?| Teste de responsividade de vaga.html | Resultado positivo para dispositivos móveis | Sucesso |
+|CT-62| Teste de responsividade de vaga.html | Resultado positivo para dispositivos móveis | Sucesso |
 
 <ol><li>Abrir https://search.google.com/test/mobile-friendly</li> <li>Inserir o link de vaga.html com um id valido</li></ol>
 
@@ -820,7 +833,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-?| Teste de responsividade de resumo.html | Resultado positivo para dispositivos móveis | Sucesso |
+|CT-63| Teste de responsividade de resumo.html | Resultado positivo para dispositivos móveis | Sucesso |
 
 <ol><li>Abrir https://search.google.com/test/mobile-friendly</li> <li>Inserir o link de resumo.html</li></ol>
 
@@ -828,7 +841,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-?| Teste de responsividade de login.html | Resultado positivo para dispositivos móveis | Sucesso |
+|CT-64| Teste de responsividade de login.html | Resultado positivo para dispositivos móveis | Sucesso |
 
 <ol><li>Abrir https://search.google.com/test/mobile-friendly</li> <li>Inserir o link de login.html</li></ol>
 
@@ -836,7 +849,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-?| Teste de responsividade de habilidade.html | Resultado positivo para dispositivos móveis | Sucesso |
+|CT-65| Teste de responsividade de habilidade.html | Resultado positivo para dispositivos móveis | Sucesso |
 
 <ol><li>Abrir https://search.google.com/test/mobile-friendly</li> <li>Inserir o link de habilidade.html com um id valido</li></ol>
 
@@ -844,7 +857,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-?| Teste de responsividade de empresa.html | Resultado positivo para dispositivos móveis | Sucesso |
+|CT-66| Teste de responsividade de empresa.html | Resultado positivo para dispositivos móveis | Sucesso |
 
 <ol><li>Abrir https://search.google.com/test/mobile-friendly</li> <li>Inserir o link de empresa.html com um id valido</li></ol>
 
@@ -852,7 +865,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-?| Teste de responsividade de criar_vaga.html | Resultado positivo para dispositivos móveis | Sucesso |
+|CT-67| Teste de responsividade de criar_vaga.html | Resultado positivo para dispositivos móveis | Sucesso |
 
 <ol><li>Abrir https://search.google.com/test/mobile-friendly</li> <li>Inserir o link de criar_vaga.html</li></ol>
 
@@ -860,7 +873,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-?| Teste de responsividade de cargo.html | Resultado positivo para dispositivos móveis | Sucesso |
+|CT-68| Teste de responsividade de cargo.html | Resultado positivo para dispositivos móveis | Sucesso |
 
 <ol><li>Abrir https://search.google.com/test/mobile-friendly</li> <li>Inserir o link de cargo.html com um id valido</li></ol>
 
@@ -868,11 +881,13 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-?| Teste de responsividade de cadastro.html | Resultado positivo para dispositivos móveis | Sucesso 
+|CT-69| Teste de responsividade de cadastro.html | Resultado positivo para dispositivos móveis | Sucesso 
 
 <ol><li>Abrir https://search.google.com/test/mobile-friendly</li> <li>Inserir o link de cadastro.html</li></ol>|
 
 ![Responsividade Cadastro](img/registro_de_testes/teste_responsividade/cadastro.png)
+
+<hr>
 
 # Referencias
 
