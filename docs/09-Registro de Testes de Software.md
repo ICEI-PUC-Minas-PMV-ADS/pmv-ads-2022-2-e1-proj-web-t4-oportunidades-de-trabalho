@@ -587,10 +587,10 @@ describe("Teste de Vagas", function () {
 
   describe("A Vaga foi criada com sucesso", function () {
     it("A vaga existe", function () {
-      assert(vaga, 'O CNPJ não está dentro do formato padrão de CNPJ');
+      assert(vaga, 'A vaga não foi encontrada');
     });
     it("A vaga foi associada a empresa com sucesso", function () {
-      assert(vaga.id == empresa.vagas_id[empresa.vagas_id.length-1], 'O CNPJ não está dentro do formato padrão de CNPJ');
+      assert(vaga.id == empresa.vagas_id[empresa.vagas_id.length-1], 'A vaga não existe ou não pertence a Empresa do plano de testes');
     });
   });
 
