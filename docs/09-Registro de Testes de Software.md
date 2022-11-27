@@ -58,7 +58,7 @@ Gravidade
 |CT-34 <br> RF-005| Deve ser possível definir uma descrição para a vaga com quaisquer caracteres, numeros ou caracteres especiais | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso |  Sucesso |
 |CT-35 <br> RF-005| Deve ser possível criar uma vaga sem descrição | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso |  Sucesso |
 |CT-36 <br> RF-005| Ao criar uma vaga, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario | Todas as informações estavam de acordo com o criado |  Sucesso |
-|CT-37 <br> RF-005| Ao criar uma vaga, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario e devem ser verificadas através de javascript | fixme |  fixme |
+|CT-37 <br> RF-005| Ao criar uma vaga, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario e devem ser verificadas através de javascript | As informações estavam de acordo com as cadastradas e todos os testes executaram com sucesso | Sucesso |
 |CT-38 <br> RF-013| Deve ser possível inserir um nome para a empresa com quaisquer caracteres, números ou caracteres especiais. | O cadastro foi efetuado com sucesso |  Sucesso |
 |CT-39 <br> RF-013| Deve ser impossível se cadastrar sem inserir o nome da empresa | Um erro aconteceu como o esperado |  Sucesso |
 |CT-40 <br> RF-013| Deve ser possível inserir um email valido para a empresa | O cadastro foi efetuado com sucesso |  Sucesso |
@@ -73,8 +73,7 @@ Gravidade
 |CT-49 <br> RF-013| Deve ser impossível se cadastrar duas vezes com o mesmo Email | O cadastro foi criado indevidamente na segunda tentativa |  Grave |
 |CT-50 <br> RF-013| Deve ser impossível se cadastrar duas vezes com o mesmo Nome |O cadastro foi criado indevidamente na segunda tentativa |  Media |
 |CT-51 <br> RF-013| Ao se cadastar, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario de cadastro | As informações estavam de acordo com as cadastradas |  Sucesso |
-|CT-52 <br> RF-013| Ao se cadastar, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario de cadastro e devem ser verificadas através de javascript | fixme |  fixme |
-//Testes e imagens aqui.
+|CT-52 <br> RF-013| Ao se cadastar, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario de cadastro e devem ser verificadas através de javascript | As informações estavam de acordo com as cadastradas e todos os testes executaram com sucesso | Sucesso |
 
 <hr>
 
@@ -564,9 +563,17 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-37 <br> RF-005|Ao criar uma vaga, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario e devem ser verificadas através de javascript | fixme | fixme |
+|CT-37 <br> RF-005|Ao criar uma vaga, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario e devem ser verificadas através de javascript | As informações estavam de acordo com as cadastradas e todos os testes executaram com sucesso | Sucesso |
 
-//Testes e imagens aqui.
+1. Completar campos com:
+<ol><li>Nome da vaga> TESTE1</li> <li>Habiilidades essenciais: HTML</li><li>Habilidades diferenciais: HTML</li><li>Senioridade: Senior</li><li>Cargo:Analista de Dados</li> <li>Salario: 11500</li><li>Data final da vaga: 05/05/2025</li> <li>Descrição da vaga: Testando campos</li></ol>
+
+2. Clicar em Criar Vaga
+
+![Vaga Valida](img/registro_de_testes/teste_de_campos/rf-005/vagaValida.png)
+
+3. Acessar '.src/tests.html'
+![Vaga Valida JS](img/registro_de_testes/teste_de_campos/rf-005/camposJS.png)
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
@@ -740,9 +747,15 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-52 <br> RF-013| Ao se cadastar, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario de cadastro e devem ser verificadas através de javascript | fixme | fixme |
+|CT-52 <br> RF-013| Ao se cadastar, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario de cadastro e devem ser verificadas através de javascript | As informações estavam de acordo com as cadastradas e todos os testes executaram com sucesso | Sucesso |
 
-//Testes e imagens aqui.
+1. Completar campos com: <ol><li>Nome da Empresa: Empresa de testes</li><li>Email: emailtest@gmail.com</li><li>CNPJ: 54.564.864/894</li><li>Senha:!empresaTest123</li><li>Confirme sua senha:!empresaTest123</li></ol>
+2. Clicar em Cadastrar
+![Campos Valida](img/registro_de_testes/teste_de_campos/rf-013/camposValida.png)
+
+3. Acessar '.src/tests.html
+
+![Campos Valida JS](img/registro_de_testes/teste_de_campos/rf-013/camposJS.png)
 
 <hr>
 

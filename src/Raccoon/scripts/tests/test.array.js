@@ -11,52 +11,11 @@ String.prototype.hashCode = function() {
   }
   return hash;
 }
-describe('Testes relacionados aos CT-? e CT-? e portanto só pode ser considerado após execução dos passos listados no plano de testes', function () {
+describe('Testes relacionados aos CT-37 e CT-52 e portanto só pode ser considerado após execução dos passos listados no plano de testes', function () {
   it('', function () {
     assert(1==1, '');
   });
  });
-
-describe('Teste de registro', function () {
-  const regexEmail = /^([a-z]){1,}([a-z0-9._-]){1,}([@]){1}([a-z]){2,}([.]){1}([a-z]){2,}([.]?){1}([a-z]?){2,}$/i
-  const regexCNPJ = /^([0-9]{3}\.?[0-9]{3}\.?[0-9]{3}\-?[0-9]{2}|[0-9]{2}\.?[0-9]{3}\.?[0-9]{3}\/?[0-9]{4}\-?[0-9]{2}|[0-9]{2}\.?[0-9]{3}\.?[0-9]{3}\/?[0-9]{3})$/
-  const user = JSON.parse(localStorage.getItem('EmpresaUser')).filter(obj => obj.login == 'emailtest@gmail.com')[0]
-  const empresa = JSON.parse(localStorage.getItem('Empresas')).filter(obj => obj.id == user.empresa_id)[0]
-
-  describe('Checando se o usuário  foi criado com sucesso', function () {
-    it('O Usuario foi criado com sucesso', function () {
-      assert(user, 'O usuario não existe');
-    });
-    it('A Empresa do usuario foi criada com sucesso', function () {
-      assert(empresa, 'O usuario não existe');
-    });
-  });
-
-  describe('Comparando informações de registro', function () {
-    it('O Login está igual ao plano de testes', function () {
-      assert(user.login == 'emailtest@gmail.com', 'O login está diferente do plano de testes');
-    });
-    it('A Senha está igual ao plano de testes', function () {
-      assert(user.password == '!empresaTest123'.hashCode(), 'A Senha está diferente do plano de testes');
-    });
-    it('O Nome da empresa está igual ao plano de testes', function () {
-      assert(empresa.nome == 'Empresa de testes', 'O nome da empresa está diferente do plano de testes');
-    });
-    it('O CNPJ da empresa está igual ao plano de testes', function () {
-      assert(empresa.cnpj == '54.564.864/894', 'O CNPJ da empresa está diferente do plano de testes');
-    });
-  });
-  describe('Verificando se regras de registro foram aplicadas corretamente', function () {
-    it('O email está dentro do formato padrão de email', function () {
-      assert(regexEmail.test(user.login), 'O email não está dentro do formato padrão de email xxx@xxx.com');
-    });
-    it('A CNPJ está dentro do formato padrão de CNPJ', function () {
-      assert(regexCNPJ.test(empresa.cnpj), 'O CNPJ não está dentro do formato padrão de CNPJ');
-    });
-    it('A senha do usuário está codificada, portanto não temos acesso a original para verificações', function () {
-    });
-  });
-});
 
 describe("Teste de Vagas", function () {
   const user = JSON.parse(localStorage.getItem('EmpresaUser')).filter(obj => obj.login == 'emailtest@gmail.com')[0]
@@ -103,4 +62,45 @@ describe("Teste de Vagas", function () {
     });
   });
 
+});
+
+describe('Teste de registro', function () {
+  const regexEmail = /^([a-z]){1,}([a-z0-9._-]){1,}([@]){1}([a-z]){2,}([.]){1}([a-z]){2,}([.]?){1}([a-z]?){2,}$/i
+  const regexCNPJ = /^([0-9]{3}\.?[0-9]{3}\.?[0-9]{3}\-?[0-9]{2}|[0-9]{2}\.?[0-9]{3}\.?[0-9]{3}\/?[0-9]{4}\-?[0-9]{2}|[0-9]{2}\.?[0-9]{3}\.?[0-9]{3}\/?[0-9]{3})$/
+  const user = JSON.parse(localStorage.getItem('EmpresaUser')).filter(obj => obj.login == 'emailtest@gmail.com')[0]
+  const empresa = JSON.parse(localStorage.getItem('Empresas')).filter(obj => obj.id == user.empresa_id)[0]
+
+  describe('Checando se o usuário  foi criado com sucesso', function () {
+    it('O Usuario foi criado com sucesso', function () {
+      assert(user, 'O usuario não existe');
+    });
+    it('A Empresa do usuario foi criada com sucesso', function () {
+      assert(empresa, 'O usuario não existe');
+    });
+  });
+
+  describe('Comparando informações de registro', function () {
+    it('O Login está igual ao plano de testes', function () {
+      assert(user.login == 'emailtest@gmail.com', 'O login está diferente do plano de testes');
+    });
+    it('A Senha está igual ao plano de testes', function () {
+      assert(user.password == '!empresaTest123'.hashCode(), 'A Senha está diferente do plano de testes');
+    });
+    it('O Nome da empresa está igual ao plano de testes', function () {
+      assert(empresa.nome == 'Empresa de testes', 'O nome da empresa está diferente do plano de testes');
+    });
+    it('O CNPJ da empresa está igual ao plano de testes', function () {
+      assert(empresa.cnpj == '54.564.864/894', 'O CNPJ da empresa está diferente do plano de testes');
+    });
+  });
+  describe('Verificando se regras de registro foram aplicadas corretamente', function () {
+    it('O email está dentro do formato padrão de email', function () {
+      assert(regexEmail.test(user.login), 'O email não está dentro do formato padrão de email xxx@xxx.com');
+    });
+    it('A CNPJ está dentro do formato padrão de CNPJ', function () {
+      assert(regexCNPJ.test(empresa.cnpj), 'O CNPJ não está dentro do formato padrão de CNPJ');
+    });
+    it('A senha do usuário está codificada, portanto não temos acesso a original para verificações', function () {
+    });
+  });
 });
