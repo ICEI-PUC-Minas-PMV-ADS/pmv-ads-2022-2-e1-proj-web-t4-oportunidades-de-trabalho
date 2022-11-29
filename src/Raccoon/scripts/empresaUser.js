@@ -24,5 +24,6 @@ if (paramId) {
     $('#empresaNome').html(empresa.nome)
     $('#empresaDataCadastro').html(`No site desde: ${dataSimplificada(empresa.data_cadastro)}`)
     $('#empresaLogo').attr("src", empresa.logo_link)
+    $('#update').attr("href", `./empresaUserUpdate.html?id=${empresa.id}`)
     vagasDaEmpresa.length > 0 ? $('#ultimasVagas').html(gerarCardsVagas(vagasDaEmpresa)) : $('#ultimasVagas').html('<p>Nenhuma vaga postada ainda</p>')
 }
