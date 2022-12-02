@@ -17,11 +17,12 @@ if (!paramId || !cargo) {
             let salario = 0;
             let vagas = todasVagas.filter(obj => obj.cargo_senioridade_id === senioridade[vl].id)
             for (let sl in vagas) {
-                salario += vagas[sl].salario
+                console.log(salario)
+                salario += parseInt(vagas[sl].salario)
             }
             if (salario / vagas.length) {
                 $('#mediaSalarial').append(`
-                    <h5 class="col-sm-12"><strong>${senioridade[vl].nome}:</strong> R$ ${salario / vagas.length}</h5>
+                    <h5 class="col-sm-12"><strong>${senioridade[vl].nome}:</strong> R$ ${Math.round(salario / vagas.length)}</h5>
                 `)
             }
         }
