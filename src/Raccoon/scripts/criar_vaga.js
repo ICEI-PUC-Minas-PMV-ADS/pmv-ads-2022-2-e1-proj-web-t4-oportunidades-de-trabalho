@@ -35,7 +35,7 @@ function criarVaga(empresa_id) {
         }
     }
     if (ErrorMsg.length == 0) {
-        let vagas = pegarVagas({})
+        let vagas = JSON.parse(localStorage.getItem('Vagas'))
         let empresas = pegarEmpresas({})
         const vaga = {
             'id': vagas.length + 1,
