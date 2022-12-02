@@ -1,3 +1,4 @@
+import { toast } from "./utils.js";
 var nome = document.getElementById("nome");
 var labelNome = document.getElementById("labelNome");
 var validNome
@@ -193,10 +194,10 @@ function cadastrar() {
     localStorage.setItem("Empresas", JSON.stringify(empresas))
     localStorage.setItem("Contato", JSON.stringify(contato))
 
-    alert("Cadastrado com sucesso")
+    toast([{'Sucesso':'Vaga criada com sucesso'}])
 
   } else {
-    alert("Preencha os campos corretamente")
+    toast([{'Error':'Preencha os campos corretamente'}])
   }
 }
 
