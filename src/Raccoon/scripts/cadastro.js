@@ -145,12 +145,28 @@ document.getElementById("senhaConf").onblur = validar_senhaConf
 //FUNCIONALIDADE CADASTRAR
 function cadastrar() {
 
+  let listaUser = JSON.parse(localStorage.getItem("listaUser") || '[]')
+  let EmpresaUser = JSON.parse(localStorage.getItem("EmpresaUser") || '[]')
+  let empresas = JSON.parse(localStorage.getItem("Empresas") || '[]')
+  let contato = JSON.parse(localStorage.getItem("Contato") || '[]')
+
+  for (let index = 0; index < empresas.length; index++) {
+    if (nome.value.toUpperCase() == empresas[index].nome.toUpperCase()) {
+        toast([{ 'Error': 'Já existe uma empresa com este nome' }])
+        return false
+      }
+    }
+  }
+  for (let index = 0; index < empresas.length; index++) {
+    if (email.value.toUpperCase() == EmpresaUser[index].login.toUpperCase()) {
+        toast([{ 'Error': 'Já existe uma empresa com este Email' }])
+        return false
+      }
+    }
+  
+
   if (validCnpj && validEmail && validNome && validSenha && validSenhaConf) {
 
-    let listaUser = JSON.parse(localStorage.getItem("listaUser") || '[]')
-    let EmpresaUser = JSON.parse(localStorage.getItem("EmpresaUser") || '[]')
-    let empresas = JSON.parse(localStorage.getItem("Empresas") || '[]')
-    let contato = JSON.parse(localStorage.getItem("Contato") || '[]')
 
     EmpresaUser.push(
       {
@@ -163,20 +179,20 @@ function cadastrar() {
     empresas.push({
       'id': (empresas.length + 1),
       'vagas_id': [],
-      'nome': nome.value, 
-      'descricao': 'Essa empresa não colocou sua descrição ainda', 
-      'valores': [], 
-      'data_cadastro': new Date(), 
-      'cnpj': cnpj.value, 
+      'nome': nome.value,
+      'descricao': 'Essa empresa não colocou sua descrição ainda',
+      'valores': [],
+      'data_cadastro': new Date(),
+      'cnpj': cnpj.value,
       'area': '',
       'logo_link': '../img/raccoon.svg',
       'contato_id': (contato.length + 1)
     })
     contato.push({
-      'id': contato.length +1, 
+      'id': contato.length + 1,
       'email': '',
       'linkedin': '',
-      'sede': ''     
+      'sede': ''
     })
     //------------------------------------------------------------
     listaUser.push(
@@ -194,12 +210,12 @@ function cadastrar() {
     localStorage.setItem("Empresas", JSON.stringify(empresas))
     localStorage.setItem("Contato", JSON.stringify(contato))
 
-    toast([{'Sucesso':'Vaga criada com sucesso'}])
+    toast([{ 'Sucesso': 'Vaga criada com sucesso' }])
 
   } else {
-    toast([{'Error':'Preencha os campos corretamente'}])
+    toast([{ 'Error': 'Preencha os campos corretamente' }])
   }
-}
+
 
 document.getElementById("btncadastrar").onclick = cadastrar
 //-----------------------------------------------------------------------------------------------------------
@@ -224,7 +240,7 @@ function formatarCNPJ(e) {
 }
 //-------------------------------------------------------------------------------------------------------------
 //Hash (isso não deveria ficar na visão do usuario assim, mas como esse website não possui backend, paciencia.)
-String.prototype.hashCode = function() {
+String.prototype.hashCode = function () {
   var hash = 0,
     i, chr;
   if (this.length === 0) return hash;
