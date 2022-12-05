@@ -14,7 +14,7 @@ const ondeSeEspecializar = JSON.parse(localStorage.getItem('Links')).filter(
 
 for (let item of ondeSeEspecializar) {
   $('#where-to-specialize').append(
-    `<a class="col-sm-6 text-decoration-none text-warning" href="https://${item.link}">${item.link}</a>`,
+    `<a class="col-sm-6 text-decoration-none text-primary" href="https://${item.link}">${item.link}</a>`,
   );
 }
 

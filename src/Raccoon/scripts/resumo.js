@@ -48,3 +48,12 @@ for(let vl in sortedCarg){
         </tr>`)
     }
 }
+
+$('#listaHabilidades').html = ''
+for(let vl in habilidades){
+    $('#listaHabilidades').append(`<a href="./habilidade.html?id=${habilidades[vl].id}">${habilidades[vl].nome}</a> || `)
+}
+$('#listaCargos').html = ''
+for(let vl in cargos){
+    $('#listaCargos').append(`<a href="./cargo.html?id=${cargos[vl].id}">${cargos[vl].nome}</a> || `)
+}
