@@ -150,22 +150,23 @@ function cadastrar() {
   let empresas = JSON.parse(localStorage.getItem("Empresas") || '[]')
   let contato = JSON.parse(localStorage.getItem("Contato") || '[]')
 
+  let noRepeat = true
+
   for (let index = 0; index < empresas.length; index++) {
     if (nome.value.toUpperCase() == empresas[index].nome.toUpperCase()) {
         toast([{ 'Error': 'Já existe uma empresa com este nome' }])
-        return false
-      }
-    }
-  }
-  for (let index = 0; index < empresas.length; index++) {
-    if (email.value.toUpperCase() == EmpresaUser[index].login.toUpperCase()) {
-        toast([{ 'Error': 'Já existe uma empresa com este Email' }])
-        return false
+        noRepeat = false
       }
     }
   
+  for (let index = 0; index < empresas.length; index++) {
+    if (email.value.toUpperCase() == EmpresaUser[index].login.toUpperCase()) {
+        toast([{ 'Error': 'Já existe uma empresa com este Email' }])
+        noRepeat = false
+      }
+    }
 
-  if (validCnpj && validEmail && validNome && validSenha && validSenhaConf) {
+  if (validCnpj && validEmail && validNome && validSenha && validSenhaConf && noRepeat) {
 
 
     EmpresaUser.push(
@@ -215,7 +216,7 @@ function cadastrar() {
   } else {
     toast([{ 'Error': 'Preencha os campos corretamente' }])
   }
-
+}
 
 document.getElementById("btncadastrar").onclick = cadastrar
 //-----------------------------------------------------------------------------------------------------------

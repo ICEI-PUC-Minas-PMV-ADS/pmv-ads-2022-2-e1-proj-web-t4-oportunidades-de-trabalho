@@ -17,7 +17,6 @@ if (!paramId || !cargo) {
             let salario = 0;
             let vagas = todasVagas.filter(obj => obj.cargo_senioridade_id === senioridade[vl].id)
             for (let sl in vagas) {
-                console.log(salario)
                 salario += parseInt(vagas[sl].salario)
             }
             if (salario / vagas.length) {
