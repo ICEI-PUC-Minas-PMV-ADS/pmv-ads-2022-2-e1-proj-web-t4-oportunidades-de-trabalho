@@ -6,11 +6,12 @@ if(!paramId || !empresas){
 }else{
     let now = new Date().getTime()
     let vagasEmpExp = JSON.parse(localStorage.getItem('Vagas')).filter(obj => obj.empresa_id === empresas.id && new Date(obj.data_exp).getTime() < now)
-    console.log(vagasEmpExp)
+    let vagasAbertas = pegarVagas({arrayIds:empresas.vagas_id})
     let virtudes = empresas.valores
     $('#empresa-data').html(`No site desde: ${dataSimplificada(empresas.data_cadastro)}`)
     $('#logoEmpresa').attr("src", empresas.logo_link)
     $('#nome-empresa').html(`<h3> <strong>${empresas.nome}</strong> </h3>`)
+    $('#vagasAbertas').html(gerarCardsVagas(vagasAbertas, 4))
     $('#vagasExpiradas').html(gerarCardsVagas(vagasEmpExp, 4))
     $('#empresaDesc').html(`${empresas.descricao}`)
     $('#valores').append(paraString(virtudes))

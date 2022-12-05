@@ -68,10 +68,10 @@ export function pegarVagas({ id = null, arrayIds = null }) {
   if (id) {
     return JSON.parse(localStorage.getItem('Vagas')).find(obj => obj.id === parseInt(id) && new Date(obj.data_exp).getTime() > now)
   } else if(arrayIds) {
-    return JSON.parse(localStorage.getItem('Vagas')).filter(obj => arrayIds.includes(obj.id) && new Date(obj.data_exp).getTime() > now)
+    return JSON.parse(localStorage.getItem('Vagas')).filter(obj => arrayIds.includes(obj.id) && new Date(obj.data_exp).getTime() > now).reverse()
   }
   else{
-    return JSON.parse(localStorage.getItem('Vagas')).filter(obj => new Date(obj.data_exp).getTime() > now)
+    return JSON.parse(localStorage.getItem('Vagas')).filter(obj => new Date(obj.data_exp).getTime() > now).reverse()
   }
 }
 export function pegarHabilidades({ id = null, arrayIds = null }) {
@@ -136,11 +136,11 @@ export function gerarCardsVagas(vagas, maxVagas, colSize = { sm: 12, md: 12, lg:
               <a href='./vaga.html?id=${vagas[vl].id}' class="text-dark">
                 <p id="vaga-nome" class="col-sm-12 text-left text-black mt-2"><strong>${vagas[vl].vaga_nome ? vagas[vl].vaga_nome : JSON.parse(localStorage.getItem('Cargos')).find(obj => obj.id === vagas[vl].cargo_id).nome}</strong></p>
               </a>
-              <p class="col-sm-12 text-left"><a class="text-dark" href="./cargo.html?id=${cargo.id}">${cargo.nome}</a> - ${senioridade.nome}</p>
+              <p class="col-sm-12 text-left"><a href="./cargo.html?id=${cargo.id}">${cargo.nome}</a> - ${senioridade.nome}</p>
               <a href='./vaga.html?id=${vagas[vl].id}' class="text-dark">
               <p id="descricao" class="col-sm-12 text-left mb-0">${reduzirTexto(vagas[vl].descricao, 100)}</p>
               </a>
-              <hr class="col-sm-8">
+              <hr class="col-sm-12">
               <p id="empresa-data" class="col-sm-12 text-left"><a href='./empresa.html?id=${vagas[vl].empresa_id}'>${empresa.nome}</a> - <small>De: ${dataSimplificada(vagas[vl].data_cadastro)} - Até: ${dataSimplificada(vagas[vl].data_exp)}</small></p>
               <div class="col-sm-12 row text-center">
                 ${gerarHabilidades(habilidades, 4, 6)}

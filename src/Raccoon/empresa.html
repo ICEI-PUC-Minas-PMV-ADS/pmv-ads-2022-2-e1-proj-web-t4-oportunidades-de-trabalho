@@ -36,11 +36,11 @@
     </nav>
 
     <div class="container" id="main">
-        <div class="row p-3 bg-dark text-white">
-            <h5>PERFIL DE EMPRESA:</h5>
-        </div>
-        <div class="col-md-12 mt-2 bg-light text-center">
-            <div class="row">
+        <div class="row">
+            <div class="row col-sm-12 p-3 bg-dark text-white">
+                <h5 class="col">PERFIL DE EMPRESA:</h5>
+            </div>
+            <div class="row col-sm-12 row mt-2 bg-light text-center">
                 <div class="col-sm-3 d-flex">
                     <img src="" id="logoEmpresa" class="img-fluid" height="50" alt="">
                 </div>
@@ -52,63 +52,36 @@
                     </div>
                 </div>
             </div>
+            <div class="col-sm-12 row p-3 bg-light text-black">
+                <h5 class="col-sm-12">DESCRIÇÃO:</h5>
+                <p id="empresaDesc" class="col-sm-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                    natus perferendis adipisci amet aut sint, vitae itaque vero dolorem omnis earum officiis, sit neque.
+                    Alias iusto minima repellendus sequi cupiditate?:</p>
+            </div>
+
+            <div class="row col-sm-12 p-3 bg-light text-black">
+                <h5 class="col-sm-12">VALORES:</h5>
+                <div class="col-sm-12" id="valores"> </div>
+            </div>
+
+            <div class="col-sm-12 row p-3 bg-light text-black">
+                <h5 class="col-sm-12">VAGAS EM ABERTO:</h5>
+                <div id="vagasAbertas" class="col-sm-12 row justify-content-around p-3 text-black">
+                </div>
+                <div class="row p-3 bg-light text-black">
+                    <h5 class="col-sm-12">CONTRATOU RECENTEMENTE:</h5>
+                    <div id="vagasExpiradas" class="col-sm-12 row justify-content-around p-3 text-black">
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="row p-3 bg-light text-black">
-            <p class="col-sm-12">DESCRIÇÃO:</p>
-            <p id="empresaDesc" class="col-sm-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-                natus perferendis adipisci amet aut sint, vitae itaque vero dolorem omnis earum officiis, sit neque.
-                Alias iusto minima repellendus sequi cupiditate?:</p>
+    </div>
+    <footer class="text-center text-lg-start bg-light text-muted">
+        <div class="text-center p-4 bg-light">
+            © 2021 Copyright:
+            <a class="fw-bold" href="#">Trash Panda</a>
         </div>
-
-        <div class="row p-3 bg-light text-black">
-            <h5 class="col-sm-12">VALORES:</h5>
-            <div class="col-sm-12" id="valores"> </div>
-
-            </div>
-            <div class="row p-3 bg-light text-black">
-                <p class="col-sm-12">CONTRATOU RECENTEMENTE:</p>
-                <div id="vagasExpiradas" class="row justify-content-around p-3 text-black">
-            </div>
-
-            </div>
-
-        </div>
-        <footer class="text-center text-lg-start bg-light text-muted">
-            <div class="text-center p-4 bg-light">
-                © 2021 Copyright:
-                <a class="fw-bold" href="#">Trash Panda</a>
-            </div>
-        </footer>
-        <!-- <script>
-            
-
-            window.onload = (event) => {
-                //esse codigo é temporario enquanto não adicionamos os links.
-                const urlParams = new URLSearchParams(window.location.search);
-                const id = urlParams.get('id')
-                if (!id) {
-                    window.location.replace('?id=1');
-                }
-            }
-            let empresas = JSON.parse(localStorage.getItem("Empresas"))
-            var virtudes = []
-            for (let index = 0; index < 3; index++) {
-                virtudes[index] = `${empresas[index].valores[index]}`;
-                $('#empresa-data').html(`No site desde: ${dataSimplificada(empresas[index].data_cadastro)}`)
-                $('#logoEmpresa').attr("src", empresas[index].logo_link)
-                $('#nome-empresa').html(`<h3> <strong>${empresas[index].nome}</strong> </h3>`)
-
-            }
-
-            function paraString(virtudes) {
-                
-                return `${virtudes[0]}<br>${virtudes[1]} <br>${virtudes[2]}`
-            }
-
-            document.getElementById('valores').innerHTML = paraString(virtudes)
-
-        </script> -->
+    </footer>
 </body>
 
 </html>

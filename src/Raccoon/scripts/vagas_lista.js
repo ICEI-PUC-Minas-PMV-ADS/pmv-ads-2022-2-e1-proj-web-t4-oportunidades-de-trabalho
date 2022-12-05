@@ -19,7 +19,7 @@ function generateList(vagas) {
     }
     let lastPage = Math.ceil(vagas.length / 6)
     let pages = ''
-    if (vagas.length >= 6) {
+    if (vagas.length > 6) {
         for (let i = 1; i <= lastPage; i++) {
             if (i > 9 || (pageIndex - 5) + i > lastPage) {
                 break;
@@ -70,6 +70,9 @@ function generateList(vagas) {
 
     if (pageIndex > lastPage && vagas.length > 1) {
         $('#lista_vagas').html('Está pagina não possui vagas, por favor volte a pagina 1')
+    }
+    if(vagas.length <= 6){
+        $('#paginationList').html(``)
     }
     if (vagas.length == 0) {
         $('#paginationList').html(``)

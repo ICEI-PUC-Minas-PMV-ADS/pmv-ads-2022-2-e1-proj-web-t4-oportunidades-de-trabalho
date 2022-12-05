@@ -28,7 +28,8 @@ if (!idParam) {
     document.getElementById("e-mail").src = contato.email
     document.getElementById("linkedin").src = contato.linkedin
     document.getElementById("logoEmpresa").src = empresa.logo_link
-    document.getElementById("logoEmpresa2").src = empresa.logo_link
+    document.getElementById("logoEmpresa2").src = empresa.logo_link 
+    document.getElementById("empresaLink").href = `./empresa.html?id=${empresa.id}`
     document.getElementById("hab_ess").innerHTML = gerarHabilidades(hab_ess, 10, 2)
     document.getElementById("hab_dif").innerHTML = gerarHabilidades(hab_dif, 10, 2)
 
