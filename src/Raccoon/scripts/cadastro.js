@@ -152,18 +152,18 @@ function cadastrar() {
 
   for (let index = 0; index < empresas.length; index++) {
     if (nome.value.toUpperCase() == empresas[index].nome.toUpperCase()) {
-        toast([{ 'Error': 'Já existe uma empresa com este nome' }])
-        return false
-      }
+      toast([{ 'Error': 'Já existe uma empresa com este nome' }])
+      return false
     }
   }
+
   for (let index = 0; index < empresas.length; index++) {
     if (email.value.toUpperCase() == EmpresaUser[index].login.toUpperCase()) {
-        toast([{ 'Error': 'Já existe uma empresa com este Email' }])
-        return false
-      }
+      toast([{ 'Error': 'Já existe uma empresa com este Email' }])
+      return false
     }
-  
+  }
+
 
   if (validCnpj && validEmail && validNome && validSenha && validSenhaConf) {
 
@@ -215,7 +215,7 @@ function cadastrar() {
   } else {
     toast([{ 'Error': 'Preencha os campos corretamente' }])
   }
-
+}
 
 document.getElementById("btncadastrar").onclick = cadastrar
 //-----------------------------------------------------------------------------------------------------------
