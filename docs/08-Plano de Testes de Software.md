@@ -82,7 +82,7 @@ Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Esp
 | ID | CT-10 |
 |------|---------------------|
 | Requisitos Associados | RF-005 O site deve permitir ao usuário (empresas) postar vagas |
-|Descrição do teste | Deve ser impossível criar uma nova vaga seguindo todo o processo com todas as informações em branco |
+|Descrição do teste | O site não deve permitir postar uma vaga com campos em branco |
 |Passos | <ol><li>Acessar a pagina inicial e clicar em "Sou Empresa"</li><li>Efetuar login</li><li>Clicar em Nova Vaga</li><li>Clicar em Criar Vaga</li></ol> |
 | Resultado esperado | Erro ao criar vaga com descritivo do erro |
 
