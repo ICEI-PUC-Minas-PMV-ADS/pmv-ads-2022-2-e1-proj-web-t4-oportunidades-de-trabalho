@@ -18,17 +18,17 @@ Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Esp
 # Testes de Ponta a ponta
 | ID | CT-1 |
 |------|---------------------|
-| Requisitos Associados | RF-001 O site deve apresentar na página principal deve mostrar uma apresentação da ferramenta |
-|Descrição do teste | X |
-|Passos | <ol><li>X</li></ol> |
-| Resultado esperado | X |
+| Requisitos Associados | RF-001 O site deve apresentar na página principal uma apresentação da ferramenta |
+|Descrição do teste | Verificar se a página "home" está acessível e interativa. |
+|Passos | <ol><li>Informar o endereço do site ao navegador.</li><li>Acessar a página inicial.</li></ol> |
+| Resultado esperado | A pagina inicial deve ser apresentada de forma dinamica e responsivamente |
 
 | ID | CT-2 |
 |------|---------------------|
 | Requisitos Associados | RF-002 O site deve apresentar na página principal as opções de acesso às outras páginas: (lista de vagas) |
-|Descrição do teste | X |
-|Passos | <ol><li>X</li></ol> |
-| Resultado esperado | X |
+|Descrição do teste | Verificar se pagina "home" possui links para outras áreas da aplicação e está acessível |
+|Passos | <ol><li>Informar o endereço do site ao navegador.</li><li>Acessar a página inicial.</li></ol> |
+| Resultado esperado | A pagina inicial deve apresentar opções de acesso a outras paginas importantes da aplicação |
 
 | ID | CT-3 |
 |------|---------------------|
@@ -110,7 +110,7 @@ Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Esp
 | ID | CT-14 |
 |------|---------------------|
 | Requisitos Associados | RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
-|Descrição do teste | Deve ser impossível se registrar com todos os campos em branco |
+|Descrição do teste | O site não deve permitir se registrar com todos os campos em branco |
 |Passos | <ol><li>Acessar a pagina inicial</li><li>Clicar em "Sou Empresa"</li> <li>Clicar em Cadastre-se</li><li>Clicar em Cadastrar</li> </ol> |
 | Resultado esperado | Erro ao se cadastrar com informativos sobre o erro |
 
@@ -124,21 +124,21 @@ Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Esp
 | ID | CT-16 |
 |------|---------------------|
 | Requisitos Associados | RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
-|Descrição do teste | Deve ser impossível efetuar login com todos os campos em branco|
+|Descrição do teste | O site não deve permitir efetuar login com todos os campos em branco|
 |Passos | <ol><li>Acessar a pagina inicial</li><li>Clicar em "Sou Empresa"</li><li>Clicar em entrar</li></ol> |
 | Resultado esperado |  Erro ao efetuar login com descritivos do erro |
 
 | ID | CT-17 |
 |------|---------------------|
 | Requisitos Associados | RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
-|Descrição do teste | Deve ser impossível efetuar login seguindo os passos e inserindo um email valido e uma senha invalida |
+|Descrição do teste | O site não deve permitir efetuar login seguindo os passos e inserindo um email valido e uma senha invalida |
 |Passos | <ol><li>Acessar a pagina inicial</li><li>Clicar em "Sou Empresa"</li><li>Inserir:<ol><li>Email: eletrosurf@gmail.com</li><li>Senha: 123456</li></ol></li><li>Clicar em entrar</li> </ol> |
 | Resultado esperado |  Erro ao efetuar login com descritivos do erro |
 
 | ID | CT-18 |
 |------|---------------------|
 | Requisitos Associados | RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
-|Descrição do teste | Deve ser impossível efetuar login seguindo os passos e inserindo um email invalido e uma senha valida |
+|Descrição do teste |  O site não deve permitir efetuar login seguindo os passos e inserindo um email invalido e uma senha valida |
 |Passos | <ol><li>Acessar a pagina inicial</li><li>Clicar em "Sou Empresa"</li><li>Inserir:<ol><li>Email: eletro@gmail.com</li><li>Senha: !eletrosurf123</li></ol></li><li>Clicar em entrar</li> </ol> |
 | Resultado esperado |  Erro ao efetuar login com descritivos do erro |
 
@@ -156,7 +156,7 @@ Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Esp
 | ID | CT-20 |
 |------|---------------------|
 | Requisitos Associados |RF-005 O site deve permitir ao usuário (empresas) postar vagas |
-|Descrição do teste | Deve ser impossível criar um vaga sem nome |
+|Descrição do teste |  O site não deve permitir criar um vaga sem nome |
 |Passos | <ol><li>Executar cadastro e login.</li> <li> Clicar em Nova Vaga </li> <li> Manter campo "Nome da vaga" em branco </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Criar Vaga</li></ol> |
 | Resultado esperado | Erro ao criar vaga com descritivo de qual campo está incorreto |
 
@@ -170,7 +170,7 @@ Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Esp
 | ID | CT-22 |
 |------|---------------------|
 | Requisitos Associados |RF-005 O site deve permitir ao usuário (empresas) postar vagas |
-|Descrição do teste | Deve ser impossível criar uma vaga sem habilidades essenciais |
+|Descrição do teste |  O site não deve permitir criar uma vaga sem habilidades essenciais |
 |Passos | <ol><li>Executar cadastro e login.</li> <li> Clicar em Nova Vaga </li> <li> No campo "Habilidades essenciais" manter em branco </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Criar Vaga</li></ol> |
 | Resultado esperado | Erro ao criar vaga com descritivo de qual campo está incorreto |
 
@@ -198,7 +198,7 @@ Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Esp
 | ID | CT-26 |
 |------|---------------------|
 | Requisitos Associados |RF-005 O site deve permitir ao usuário (empresas) postar vagas |
-|Descrição do teste | Deve ser impossível criar uma vaga sem senioridade |
+|Descrição do teste |  O site não deve permitir criar uma vaga sem senioridade |
 |Passos | <ol><li>Executar cadastro e login.</li> <li> Clicar em Nova Vaga </li> <li>Em "Senioridade" manter em branco </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Criar Vaga</li></ol> |
 | Resultado esperado | Erro ao criar vaga com descritivo de qual campo está incorreto |
 
@@ -212,7 +212,7 @@ Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Esp
 | ID | CT-28 |
 |------|---------------------|
 | Requisitos Associados |RF-005 O site deve permitir ao usuário (empresas) postar vagas |
-|Descrição do teste | Deve ser impossível criar uma vaga sem cargo |
+|Descrição do teste |  O site não deve permitir criar uma vaga sem cargo |
 |Passos | <ol><li>Executar cadastro e login.</li> <li> Clicar em Nova Vaga </li> <li>No campo "Cargo" manter em branco </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Criar Vaga</li></ol> |
 | Resultado esperado | Erro ao criar vaga com descritivo de qual campo está incorreto |
 
@@ -226,7 +226,7 @@ Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Esp
 | ID | CT-30 |
 |------|---------------------|
 | Requisitos Associados |RF-005 O site deve permitir ao usuário (empresas) postar vagas |
-|Descrição do teste | Deve ser impossível criar uma vaga sem salario |
+|Descrição do teste |  O site não deve permitir criar uma vaga sem salario |
 |Passos | <ol><li>Executar cadastro e login.</li> <li> Clicar em Nova Vaga </li> <li>No campo "Salario" deixar em branco </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Criar Vaga</li></ol> |
 | Resultado esperado | Erro ao criar vaga com descritivo de qual campo está incorreto |
 
@@ -240,14 +240,14 @@ Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Esp
 | ID | CT-32 |
 |------|---------------------|
 | Requisitos Associados |RF-005 O site deve permitir ao usuário (empresas) postar vagas |
-|Descrição do teste | Deve ser impossível criar uma vaga com data para expiração da vaga anterior ao dia atual |
+|Descrição do teste |  O site não deve permitir criar uma vaga com data para expiração da vaga anterior ao dia atual |
 |Passos | <ol><li>Executar cadastro e login.</li> <li> Clicar em Nova Vaga </li> <li>No campo "Data final da vaga" selecionar: 01/01/2022 </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Criar Vaga</li></ol> |
 | Resultado esperado | Erro ao criar vaga com descritivo de qual campo está incorreto |
 
 | ID | CT-33 |
 |------|---------------------|
 | Requisitos Associados |RF-005 O site deve permitir ao usuário (empresas) postar vagas |
-|Descrição do teste | Deve ser impossível criar uma vaga sem data de expiração |
+|Descrição do teste |  O site não deve permitir criar uma vaga sem data de expiração |
 |Passos | <ol><li>Executar cadastro e login.</li> <li> Clicar em Nova Vaga </li> <li>No campo "Data final da vaga" manter em branco </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Criar Vaga</li></ol> |
 | Resultado esperado | Erro ao criar vaga com descritivo de qual campo está incorreto |
 
@@ -289,7 +289,7 @@ Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Esp
 | ID | CT-39 |
 |------|---------------------|
 | Requisitos Associados |RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
-|Descrição do teste | Deve ser impossível se cadastrar sem inserir o nome da empresa |
+|Descrição do teste |  O site não deve permitir se cadastrar sem inserir o nome da empresa |
 |Passos | <ol><li>Acessar Sou Empresa</li> <li> Clicar em Cadastre-se </li> <li>Em "Nome da Empresa" manter em branco </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Cadastrar</li> </ol> |
 | Resultado esperado | Erro ao cadastrar com informações do erro |
 
@@ -303,7 +303,7 @@ Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Esp
 | ID | CT-41 |
 |------|---------------------|
 | Requisitos Associados |RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
-|Descrição do teste | Deve ser impossível inserir um email invalido para a empresa |
+|Descrição do teste |  O site não deve permitir inserir um email invalido para a empresa |
 |Passos | <ol><li>Acessar Sou Empresa</li> <li> Clicar em Cadastre-se </li> <li>Escrever em "Email": empresatest!! </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Cadastrar</li> </ol> |
 | Resultado esperado | Erro ao cadastrar com informações do erro |
 
@@ -317,14 +317,14 @@ Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Esp
 | ID | CT-43 |
 |------|---------------------|
 | Requisitos Associados |RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
-|Descrição do teste | Deve ser impossível inserir um CNPJ invalido para a empresa|
+|Descrição do teste |  O site não deve permitir inserir um CNPJ invalido para a empresa|
 |Passos | <ol><li>Acessar Sou Empresa</li> <li> Clicar em Cadastre-se </li> <li>Escrever em "CNPJ": 12.945.701 </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Cadastrar</li> </ol> |
 | Resultado esperado | Erro ao cadastrar com informações do erro |
 
 | ID | CT-44 |
 |------|---------------------|
 | Requisitos Associados |RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
-|Descrição do teste | Deve ser impossível se cadastrar sem inserir um CNPJ|
+|Descrição do teste |  O site não deve permitir se cadastrar sem inserir um CNPJ|
 |Passos | <ol><li>Acessar Sou Empresa</li> <li> Clicar em Cadastre-se </li> <li>Em "CNPJ" manter em branco </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Cadastrar</li> </ol> |
 | Resultado esperado | Erro ao cadastrar com informações do erro |
 
@@ -338,35 +338,35 @@ Consulte <span style="color:red"><a href="02-Especificação do Projeto.md"> Esp
 | ID | CT-46 |
 |------|---------------------|
 | Requisitos Associados |RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
-|Descrição do teste | Deve ser impossível se cadastrar inserindo uma senha com menos de 6 caracteres |
+|Descrição do teste |  O site não deve permitir se cadastrar inserindo uma senha com menos de 6 caracteres |
 |Passos | <ol><li>Acessar Sou Empresa</li> <li> Clicar em Cadastre-se </li> <li>Escrever em "Senha" e "Confime sua senha": 12345 </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Cadastrar</li> </ol> |
 | Resultado esperado | Erro ao cadastrar com informações do erro |
 
 | ID | CT-47 |
 |------|---------------------|
 | Requisitos Associados |RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
-|Descrição do teste | Deve ser impossível se cadastrar inserindo uma senha e um confime sua senha diferentes, mesmo que a senha seja valida |
+|Descrição do teste |  O site não deve permitir se cadastrar inserindo uma senha e um confime sua senha diferentes, mesmo que a senha seja valida |
 |Passos | <ol><li>Acessar Sou Empresa</li> <li> Clicar em Cadastre-se </li> <li>Escrever em "Senha": 123456 e em "Confime sua senha": 1234567 </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Cadastrar</li> </ol> |
 | Resultado esperado | Erro ao cadastrar com informações do erro |
 
 | ID | CT-48 |
 |------|---------------------|
 | Requisitos Associados |RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
-|Descrição do teste | Deve ser impossível se cadastrar sem inserir uma senha |
+|Descrição do teste |  O site não deve permitir se cadastrar sem inserir uma senha |
 |Passos | <ol><li>Acessar Sou Empresa</li> <li> Clicar em Cadastre-se </li> <li>Em "Senha" e em "Confime sua senha": deixar em branco </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Cadastrar</li> </ol> |
 | Resultado esperado | Erro ao cadastrar com informações do erro |
 
 | ID | CT-49 |
 |------|---------------------|
 | Requisitos Associados |RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
-|Descrição do teste | Deve ser impossível se cadastrar duas vezes com o mesmo Email |
+|Descrição do teste |  O site não deve permitir se cadastrar duas vezes com o mesmo Email |
 |Passos | <ol><li>Acessar Sou Empresa</li> <li> Clicar em Cadastre-se </li> <li> Cadastar com o email: empresarepetida@gmail.com </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Cadastrar</li> <li> Clicar em Cadastre-se </li> <li> Cadastar com o email: empresarepetida@gmail.com </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Cadastrar</li> </ol> |
 | Resultado esperado | Erro ao cadastrar com informações do erro |
 
 | ID | CT-50 |
 |------|---------------------|
 | Requisitos Associados |RF-013 O site deve permitir cadastro de usuário (profissionais e empresas) |
-|Descrição do teste | Deve ser impossível se cadastrar duas vezes com o mesmo Nome |
+|Descrição do teste |  O site não deve permitir se cadastrar duas vezes com o mesmo Nome |
 |Passos | <ol><li>Acessar Sou Empresa</li> <li> Clicar em Cadastre-se </li> <li> Cadastar com o Nome: EmpresaRepetida </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Cadastrar</li> <li> Clicar em Cadastre-se </li> <li> Cadastar com o Nome: EmpresaRepetida </li> <li> Completar outros campos do formulario com informações validas</li> <li>Clicar em Cadastrar</li> </ol> |
 | Resultado esperado | Erro ao cadastrar com informações do erro |
 

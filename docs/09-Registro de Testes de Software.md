@@ -16,8 +16,8 @@ Gravidade
 # Testes de Ponta a ponta simplificado
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-1 <br> RF-001|  | | | 
-|CT-2 <br> RF-002|  | | |
+|CT-1 <br> RF-001| Verificar se a página "home" está acessível e interativa. | A página se mostrou em pleno funcionamento e interativa | Sucesso | 
+|CT-2 <br> RF-002| Verificar se pagina "home" possui links para outras áreas da aplicação e está acessível | A página apresentou links para outras áreas e todos funcionais | Sucesso |
 |CT-3 <br> RF-003| Verificar se a página "lista de vagas" está acessível e interativa. | A página se mostrou em pleno funcionamento, apresentando a lista de vagas adequadamente | Sucesso |
 |CT-4 <br> RF-004| Deve ser possível chegar a página da vaga de interesse por meio da aplicação,realizando a requisição ao clicar, e acessando a página com possibilidade de candidatura | A página se mostrou operação parcial, sendo possível acessar a página da vaga, e ter acesso as informações referentes a mesma, mas não há meio para a candidatura da vaga implementado. | Grave |
 |CT-5 <br> RF-007| Verificar se a barra de pesquisa encontra vagas validas corretamente. | A barra de pesquisa funcionou perfeitamente retornando resultado esperados do teste | Sucesso | 
@@ -25,15 +25,15 @@ Gravidade
 |CT-7 <br> RF-007| Verificar se o filtro por categoria está encontrando vagas validas corretamente. | O filtro por categoria funcionou perfeitamente retornando resultado esperados do teste | Sucesso | 
 |CT-8 <br> RF-005| Deve ser possível chegar a pagina de criação de vaga atráves da aplicação | A pagina foi exibida adequadamente e dinamicamente |  Sucesso |
 |CT-9 <br> RF-005| Deve ser possível criar uma nova vaga seguindo todo o processo com informações validas | A vaga foi criada corretamente e exibida de acordo |  Sucesso |
-|CT-10 <br> RF-005| Deve ser impossível criar uma nova vaga seguindo todo o processo com todas as informações em branco | Um erro foi exibido conforme o esperado e informando os campos que devem ser preenchidos |  Sucesso |
+|CT-10 <br> RF-005| O site não deve permitir criar uma nova vaga seguindo todo o processo com todas as informações em branco | Um erro foi exibido conforme o esperado e informando os campos que devem ser preenchidos |  Sucesso |
 |CT-11 <br> RF-013| Deve ser possível acessar a pagina de login seguindo todo o processo pela aplicação | A pagina foi exibida adequadamente e dinamicamente |  Sucesso |
 |CT-12 <br> RF-013| Deve ser possível acessar a pagina de registro seguindo todo o processo pela aplicação | A pagina foi exibida adequadamente e dinamicamente |  Sucesso |
 |CT-13 <br> RF-013| Deve ser possível se registrar com sucesso seguindo os passos e inserindo informações validas | O cadastro foi efetuado com sucesso e pagina da empresa exibida |  Sucesso |
-|CT-14 <br> RF-013| Deve ser impossível se registrar com todos os campos em branco | Um erro foi exibido como esperado e não foi possível efetuar o cadastro |  Sucesso |
+|CT-14 <br> RF-013|  O site não deve permitir se registrar com todos os campos em branco | Um erro foi exibido como esperado e não foi possível efetuar o cadastro |  Sucesso |
 |CT-15 <br> RF-013| Deve ser possível efetuar login seguindo os passos e inserindo informações validas | O login foi efetuado com sucesso e pagina da empresa foi exibida de acordo |  Sucesso |
-|CT-16 <br> RF-013| Deve ser impossível efetuar login com todos os campos em branco | Um erro foi exibido como o esperado e não foi possível efetuar login |  Sucesso |
-|CT-17 <br> RF-013| Deve ser impossível efetuar login seguindo os passos e inserindo um email valido e uma senha invalida | Um erro foi exibido como o esperado e não foi possível efetuar login |  Sucesso |
-|CT-18 <br> RF-013| Deve ser impossível efetuar login seguindo os passos e inserindo um email invalido e uma senha valida | Um erro foi exibido como o esperado e não foi possível efetuar login |  Sucesso |
+|CT-16 <br> RF-013|  O site não deve permitir efetuar login com todos os campos em branco | Um erro foi exibido como o esperado e não foi possível efetuar login |  Sucesso |
+|CT-17 <br> RF-013|  O site não deve permitir efetuar login seguindo os passos e inserindo um email valido e uma senha invalida | Um erro foi exibido como o esperado e não foi possível efetuar login |  Sucesso |
+|CT-18 <br> RF-013|  O site não deve permitir efetuar login seguindo os passos e inserindo um email invalido e uma senha valida | Um erro foi exibido como o esperado e não foi possível efetuar login |  Sucesso |
 
 <hr>
 
@@ -41,37 +41,37 @@ Gravidade
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
 |CT-19 <br> RF-005| Deve ser possível inserir um nome na vaga com quaisquer caracteres, números ou caracteres especiais. | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso com o nome: aaAA11!@#$%¨¨&*()_{}[] |  Sucesso |
-|CT-20 <br> RF-005| Deve ser impossível criar um vaga sem nome | Um erro foi exibido como esperado e não foi possível criar a vaga |  Sucesso |
+|CT-20 <br> RF-005|  O site não deve permitir criar um vaga sem nome | Um erro foi exibido como esperado e não foi possível criar a vaga |  Sucesso |
 |CT-21 <br> RF-005| Deve ser possível selecionar uma ou mais habilidades essenciais | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso com as habilidades essenciais: Javascript, HTML, REACT |  Sucesso |
-|CT-22 <br> RF-005| Deve ser impossível criar uma vaga sem habilidades essenciais | Um erro foi exibido como esperado e não foi possível criar a vaga |  Sucesso |
+|CT-22 <br> RF-005|  O site não deve permitir criar uma vaga sem habilidades essenciais | Um erro foi exibido como esperado e não foi possível criar a vaga |  Sucesso |
 |CT-23 <br> RF-005| Deve ser possível selecionar uma ou mais habilidades diferenciais | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso com as habilidades diferenciais: Golang e Python |  Sucesso |
 |CT-24 <br> RF-005| Deve ser possível criar uma vaga sem habilidades diferenciais | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso sem habilidades difereiciais |  Sucesso |
 |CT-25 <br> RF-005| Deve ser possível selecionar uma senioridade | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso |  Sucesso |
-|CT-26 <br> RF-005| Deve ser impossível criar uma vaga sem senioridade | Um erro foi exibido como esperado e não foi possível criar a vaga |  Sucesso |
+|CT-26 <br> RF-005|  O site não deve permitir criar uma vaga sem senioridade | Um erro foi exibido como esperado e não foi possível criar a vaga |  Sucesso |
 |CT-27 <br> RF-005| Deve ser possível selecionar um cargo | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso |  Sucesso |
-|CT-28 <br> RF-005| Deve ser impossível criar uma vaga sem cargo | Um erro foi exibido como esperado e não foi possível criar a vaga |  Sucesso |
+|CT-28 <br> RF-005|  O site não deve permitir criar uma vaga sem cargo | Um erro foi exibido como esperado e não foi possível criar a vaga |  Sucesso |
 |CT-29 <br> RF-005| Deve ser possível definir um salario para a vaga | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso |  Sucesso |
-|CT-30 <br> RF-005| Deve ser impossível criar uma vaga sem salario | Um erro foi exibido como esperado e não foi possível criar a vaga |  Sucesso |
+|CT-30 <br> RF-005|  O site não deve permitir criar uma vaga sem salario | Um erro foi exibido como esperado e não foi possível criar a vaga |  Sucesso |
 |CT-31 <br> RF-005| Deve ser possível definir um salario para a vaga | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso |  Sucesso |
-|CT-32 <br> RF-005| Deve ser impossível criar uma vaga com data para expiração da vaga anterior ao dia atual | A vaga foi criada indevidamente, porém não aparece em nenhuma lista ou pagina |  Baixa |
-|CT-33 <br> RF-005| Deve ser impossível criar uma vaga sem data de expiração | Um erro foi exibido como esperado e não foi possível criar a vaga |  Sucesso |
+|CT-32 <br> RF-005|  O site não deve permitir criar uma vaga com data para expiração da vaga anterior ao dia atual | A vaga foi criada indevidamente, porém não aparece em nenhuma lista ou pagina |  Baixa |
+|CT-33 <br> RF-005|  O site não deve permitir criar uma vaga sem data de expiração | Um erro foi exibido como esperado e não foi possível criar a vaga |  Sucesso |
 |CT-34 <br> RF-005| Deve ser possível definir uma descrição para a vaga com quaisquer caracteres, numeros ou caracteres especiais | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso |  Sucesso |
 |CT-35 <br> RF-005| Deve ser possível criar uma vaga sem descrição | O redirecionamento para o perfil aconteceu e a vaga foi criada com sucesso |  Sucesso |
 |CT-36 <br> RF-005| Ao criar uma vaga, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario | Todas as informações estavam de acordo com o criado |  Sucesso |
 |CT-37 <br> RF-005| Ao criar uma vaga, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario e devem ser verificadas através de javascript | As informações estavam de acordo com as cadastradas e todos os testes executaram com sucesso | Sucesso |
 |CT-38 <br> RF-013| Deve ser possível inserir um nome para a empresa com quaisquer caracteres, números ou caracteres especiais. | O cadastro foi efetuado com sucesso |  Sucesso |
-|CT-39 <br> RF-013| Deve ser impossível se cadastrar sem inserir o nome da empresa | Um erro aconteceu como o esperado |  Sucesso |
+|CT-39 <br> RF-013|  O site não deve permitir se cadastrar sem inserir o nome da empresa | Um erro aconteceu como o esperado |  Sucesso |
 |CT-40 <br> RF-013| Deve ser possível inserir um email valido para a empresa | O cadastro foi efetuado com sucesso |  Sucesso |
-|CT-41 <br> RF-013| Deve ser impossível inserir um email invalido para a empresa | Um erro aconteceu como o esperado |  Sucesso |
+|CT-41 <br> RF-013|  O site não deve permitir inserir um email invalido para a empresa | Um erro aconteceu como o esperado |  Sucesso |
 |CT-42 <br> RF-013| Deve ser possível inserir um CNPJ valido para a empresa | O cadastro foi efetuado com sucesso	 |  Sucesso |
-|CT-43 <br> RF-013| Deve ser impossível inserir um CNPJ invalido para a empresa | Um erro aconteceu como o esperado |  Sucesso |
-|CT-44 <br> RF-013| Deve ser impossível se cadastrar sem inserir um CNPJ | Um erro aconteceu como o esperado |  Sucesso |
+|CT-43 <br> RF-013|  O site não deve permitir inserir um CNPJ invalido para a empresa | Um erro aconteceu como o esperado |  Sucesso |
+|CT-44 <br> RF-013|  O site não deve permitir se cadastrar sem inserir um CNPJ | Um erro aconteceu como o esperado |  Sucesso |
 |CT-45 <br> RF-013| Deve ser possível se cadastrar inserindo uma senha de 6 ou mais caracteres e confirmando a senha | O cadastro foi efetuado com sucesso |  Sucesso |
-|CT-46 <br> RF-013| Deve ser impossível se cadastrar inserindo uma senha com menos de 6 caracteres |Um erro aconteceu como o esperado |  Sucesso |
-|CT-47 <br> RF-013| Deve ser impossível se cadastrar inserindo uma senha e um confime sua senha diferentes, mesmo que a senha seja valida | Um erro aconteceu como o esperado |  Sucesso |
-|CT-48 <br> RF-013| Deve ser impossível se cadastrar sem inserir uma senha | Um erro aconteceu como o esperado  | Sucesso |
-|CT-49 <br> RF-013| Deve ser impossível se cadastrar duas vezes com o mesmo Email | O cadastro foi criado indevidamente na segunda tentativa |  Grave |
-|CT-50 <br> RF-013| Deve ser impossível se cadastrar duas vezes com o mesmo Nome |O cadastro foi criado indevidamente na segunda tentativa |  Media |
+|CT-46 <br> RF-013|  O site não deve permitir se cadastrar inserindo uma senha com menos de 6 caracteres |Um erro aconteceu como o esperado |  Sucesso |
+|CT-47 <br> RF-013|  O site não deve permitir se cadastrar inserindo uma senha e um confime sua senha diferentes, mesmo que a senha seja valida | Um erro aconteceu como o esperado |  Sucesso |
+|CT-48 <br> RF-013|  O site não deve permitir se cadastrar sem inserir uma senha | Um erro aconteceu como o esperado  | Sucesso |
+|CT-49 <br> RF-013|  O site não deve permitir se cadastrar duas vezes com o mesmo Email | O cadastro foi criado indevidamente na segunda tentativa |  Grave |
+|CT-50 <br> RF-013|  O site não deve permitir se cadastrar duas vezes com o mesmo Nome |O cadastro foi criado indevidamente na segunda tentativa |  Media |
 |CT-51 <br> RF-013| Ao se cadastar, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario de cadastro | As informações estavam de acordo com as cadastradas |  Sucesso |
 |CT-52 <br> RF-013| Ao se cadastar, todas as informações digitadas devem estar de acordo com os valores inseridos no formulario de cadastro e devem ser verificadas através de javascript | As informações estavam de acordo com as cadastradas e todos os testes executaram com sucesso | Sucesso |
 
@@ -110,15 +110,20 @@ Gravidade
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-1 <br> RF-001|  | | | 
+|CT-1 <br> RF-001| Verificar se a página "home" está acessível e interativa. | A página se mostrou em pleno funcionamento e interativa | Sucesso | 
 
-//Testes e imagens aqui.
+1. Informar o endereço do site ao navegador e acessar a página inicial.
+
+![image](https://user-images.githubusercontent.com/107289791/204161358-10c50d94-2808-4aff-923b-243345e40907.png)
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-2 <br> RF-002|  | | | 
+|CT-2 <br> RF-002| Verificar se pagina "home" possui links para outras áreas da aplicação e está acessível | A página apresentou links para outras áreas e todos funcionais | Sucesso |
 
-//Testes e imagens aqui.
+
+1. Informar o endereço do site ao navegador e acessar a página inicial.
+
+![image](https://user-images.githubusercontent.com/107289791/204161358-10c50d94-2808-4aff-923b-243345e40907.png)
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
@@ -237,7 +242,7 @@ Saída esperada : Vaga de desenvolvedor back-end pela Progressus
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-10 <br> RF-005| Deve ser impossível criar uma nova vaga seguindo todo o processo com todas as informações em branco | Um erro foi exibido conforme o esperado e informando os campos que devem ser preenchidos |  Sucesso |
+|CT-10 <br> RF-005|  O site não deve permitir criar uma nova vaga seguindo todo o processo com todas as informações em branco | Um erro foi exibido conforme o esperado e informando os campos que devem ser preenchidos |  Sucesso |
 
 1. Acessar a pagina inicial e clicar em "Sou Empresa"
 
@@ -303,7 +308,7 @@ Saída esperada : Vaga de desenvolvedor back-end pela Progressus
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-14 <br> RF-013| Deve ser impossível se registrar com todos os campos em branco | Um erro foi exibido como esperado e não foi possível efetuar o cadastro |  Sucesso |
+|CT-14 <br> RF-013|  O site não deve permitir se registrar com todos os campos em branco | Um erro foi exibido como esperado e não foi possível efetuar o cadastro |  Sucesso |
 
 1. Acessar a pagina inicial
 &
@@ -334,7 +339,7 @@ Saída esperada : Vaga de desenvolvedor back-end pela Progressus
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-16 <br> RF-013| Deve ser impossível efetuar login com todos os campos em branco | Um erro foi exibido como o esperado e não foi possível efetuar login | Sucesso |
+|CT-16 <br> RF-013|  O site não deve permitir efetuar login com todos os campos em branco | Um erro foi exibido como o esperado e não foi possível efetuar login | Sucesso |
 
 1. Acessar a pagina inicial
 &
@@ -345,7 +350,7 @@ Saída esperada : Vaga de desenvolvedor back-end pela Progressus
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-17 <br> RF-013| Deve ser impossível efetuar login seguindo os passos e inserindo um email valido e uma senha invalida | Um erro foi exibido como o esperado e não foi possível efetuar login | Sucesso |
+|CT-17 <br> RF-013|  O site não deve permitir efetuar login seguindo os passos e inserindo um email valido e uma senha invalida | Um erro foi exibido como o esperado e não foi possível efetuar login | Sucesso |
 
 1. Acessar a pagina inicial
 &
@@ -359,7 +364,7 @@ Saída esperada : Vaga de desenvolvedor back-end pela Progressus
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-18 <br> RF-013| Deve ser impossível efetuar login seguindo os passos e inserindo um email invalido e uma senha valida | Um erro foi exibido como o esperado e não foi possível efetuar login | Sucesso |
+|CT-18 <br> RF-013|  O site não deve permitir efetuar login seguindo os passos e inserindo um email invalido e uma senha valida | Um erro foi exibido como o esperado e não foi possível efetuar login | Sucesso |
 
 1. Acessar a pagina inicial
 &
@@ -391,7 +396,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-20 <br> RF-005| Deve ser impossível criar um vaga sem nome | Um erro foi exibido como esperado e não foi possível criar a vaga | Sucesso | 
+|CT-20 <br> RF-005|  O site não deve permitir criar um vaga sem nome | Um erro foi exibido como esperado e não foi possível criar a vaga | Sucesso | 
 
 1. Manter campo "Nome da vaga" em branco
 2. Completar outros campos do formulario com informações validas
@@ -411,7 +416,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-22 <br> RF-005| Deve ser impossível criar uma vaga sem habilidades essenciais| Um erro foi exibido como esperado e não foi possível criar a vaga | Sucesso | 
+|CT-22 <br> RF-005|  O site não deve permitir criar uma vaga sem habilidades essenciais| Um erro foi exibido como esperado e não foi possível criar a vaga | Sucesso | 
 
 1. Manter campo "Habilidades essenciais" em branco
 2. Completar outros campos do formulario com informações validas
@@ -453,7 +458,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-26 <br> RF-005| Deve ser impossível criar uma vaga sem senioridade |  Um erro foi exibido como esperado e não foi possível criar a vaga | Sucesso | 
+|CT-26 <br> RF-005|  O site não deve permitir criar uma vaga sem senioridade |  Um erro foi exibido como esperado e não foi possível criar a vaga | Sucesso | 
 
 1. No campo "Senioridade" deixar em branco
 2. Completar outros campos do formulario com informações validas
@@ -472,7 +477,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-28 <br> RF-005| Deve ser impossível criar uma vaga sem cargo | Um erro foi exibido como esperado e não foi possível criar a vaga | Sucesso | 
+|CT-28 <br> RF-005|  O site não deve permitir criar uma vaga sem cargo | Um erro foi exibido como esperado e não foi possível criar a vaga | Sucesso | 
 
 1. No campo "Cargo" deixar em branco
 2. Completar outros campos do formulario com informações validas
@@ -491,7 +496,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-30 <br> RF-005| Deve ser impossível criar uma vaga sem salario | Um erro foi exibido como esperado e não foi possível criar a vaga | Sucesso | 
+|CT-30 <br> RF-005|  O site não deve permitir criar uma vaga sem salario | Um erro foi exibido como esperado e não foi possível criar a vaga | Sucesso | 
 
 1. No campo "Salario" deixar em branco
 2. Completar outros campos do formulario com informações validas
@@ -510,7 +515,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-32 <br> RF-005| Deve ser impossível criar uma vaga com data para expiração da vaga anterior ao dia atual | A vaga foi criada indevidamente, porém não aparece em nenhuma lista ou pagina | Baixa | 
+|CT-32 <br> RF-005|  O site não deve permitir criar uma vaga com data para expiração da vaga anterior ao dia atual | A vaga foi criada indevidamente, porém não aparece em nenhuma lista ou pagina | Baixa | 
 
 1. No campo "Data final da vaga" selecionar: 01/01/2022
 2. Completar outros campos do formulario com informações validas
@@ -519,7 +524,7 @@ Os passos genéricos seram abordados nos testes de ponta a ponta, portanto essas
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-33 <br> RF-005| Deve ser impossível criar uma vaga sem data de expiração | Um erro foi exibido como esperado e não foi possível criar a vaga | Sucesso | 
+|CT-33 <br> RF-005|  O site não deve permitir criar uma vaga sem data de expiração | Um erro foi exibido como esperado e não foi possível criar a vaga | Sucesso | 
 
 1. No campo "Data final da vaga" manter em branco
 2. Completar outros campos do formulario com informações validas
@@ -641,7 +646,7 @@ describe("Teste de Vagas", function () {
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-39 <br> RF-013| Deve ser impossível se cadastrar sem inserir o nome da empresa | Um erro aconteceu como o esperado  | Sucesso |
+|CT-39 <br> RF-013|  O site não deve permitir se cadastrar sem inserir o nome da empresa | Um erro aconteceu como o esperado  | Sucesso |
 
 1. Em "Nome da Empresa" manter em branco
 2. Completar outros campos do formulario com informações validas
@@ -666,7 +671,7 @@ describe("Teste de Vagas", function () {
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-41 <br> RF-013| Deve ser impossível inserir um email invalido para a empresa | Um erro aconteceu como o esperado  | Sucesso |
+|CT-41 <br> RF-013|  O site não deve permitir inserir um email invalido para a empresa | Um erro aconteceu como o esperado  | Sucesso |
 
 1. Escrever em "Email": empresatest!!
 2. Completar outros campos do formulario com informações validas
@@ -691,7 +696,7 @@ describe("Teste de Vagas", function () {
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-43 <br> RF-013| Deve ser impossível inserir um CNPJ invalido para a empresa | Um erro aconteceu como o esperado  | Sucesso |
+|CT-43 <br> RF-013|  O site não deve permitir inserir um CNPJ invalido para a empresa | Um erro aconteceu como o esperado  | Sucesso |
 
 1. Escrever em "CNPJ": 12.945.701
 2. Completar outros campos do formulario com informações validas
@@ -701,7 +706,7 @@ describe("Teste de Vagas", function () {
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-44 <br> RF-013| Deve ser impossível se cadastrar sem inserir um CNPJ | Um erro aconteceu como o esperado  | Sucesso |
+|CT-44 <br> RF-013|  O site não deve permitir se cadastrar sem inserir um CNPJ | Um erro aconteceu como o esperado  | Sucesso |
 
 1. Em "CNPJ" manter em branco
 2. Completar outros campos do formulario com informações validas
@@ -726,7 +731,7 @@ describe("Teste de Vagas", function () {
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-46 <br> RF-013| Deve ser impossível se cadastrar inserindo uma senha com menos de 6 caracteres | Um erro aconteceu como o esperado  | Sucesso |
+|CT-46 <br> RF-013|  O site não deve permitir se cadastrar inserindo uma senha com menos de 6 caracteres | Um erro aconteceu como o esperado  | Sucesso |
 
 1. Escrever em "Senha" e "Confime sua senha": 12345
 2. Completar outros campos do formulario com informações validas
@@ -736,7 +741,7 @@ describe("Teste de Vagas", function () {
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-47 <br> RF-013| Deve ser impossível se cadastrar inserindo uma senha e um confime sua senha diferentes, mesmo que a senha seja valida | Um erro aconteceu como o esperado  | Sucesso |
+|CT-47 <br> RF-013|  O site não deve permitir se cadastrar inserindo uma senha e um confime sua senha diferentes, mesmo que a senha seja valida | Um erro aconteceu como o esperado  | Sucesso |
 
 1. Escrever em "Senha": 123456 e em "Confime sua senha": 1234567
 2. Completar outros campos do formulario com informações validas
@@ -746,7 +751,7 @@ describe("Teste de Vagas", function () {
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-48 <br> RF-013| Deve ser impossível se cadastrar sem inserir uma senha | Um erro aconteceu como o esperado  | Sucesso |
+|CT-48 <br> RF-013|  O site não deve permitir se cadastrar sem inserir uma senha | Um erro aconteceu como o esperado  | Sucesso |
 
 1. Em "Senha" e em "Confime sua senha": deixar em branco
 2. Completar outros campos do formulario com informações validas
@@ -758,7 +763,7 @@ describe("Teste de Vagas", function () {
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-49 <br> RF-013| Deve ser impossível se cadastrar duas vezes com o mesmo Email | O cadastro foi criado indevidamente na segunda tentativa | Grave |
+|CT-49 <br> RF-013|  O site não deve permitir se cadastrar duas vezes com o mesmo Email | O cadastro foi criado indevidamente na segunda tentativa | Grave |
 
 1. Cadastar com o email: empresarepetida@gmail.com
 2. Completar outros campos do formulario com informações validas
@@ -772,7 +777,7 @@ describe("Teste de Vagas", function () {
 
 |ID    | Descrição do teste  |  Descrição do resultado | Gravidade|
 |------|---------------------|-------------------------|----------|
-|CT-50 <br> RF-013| Deve ser impossível se cadastrar duas vezes com o mesmo Nome | O cadastro foi criado indevidamente na segunda tentativa | Media |
+|CT-50 <br> RF-013|  O site não deve permitir se cadastrar duas vezes com o mesmo Nome | O cadastro foi criado indevidamente na segunda tentativa | Media |
 
 1. Cadastar com o Nome: EmpresaRepetida
 2. Completar outros campos do formulario com informações validas
