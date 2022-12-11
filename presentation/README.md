@@ -1,7 +1,10 @@
 # Apresentação da Solução
 
-<a href="../docs/10-Apresentação do Projeto.md"> Orientações sobre os artefatos de apresentação do projeto</a>
+- Uma apresentação em slides contemplando os seguintes tópicos 
 
-Faça uma apresentação resumida de todo o projeto, desde a contextualização até a solução final desenvolvida, usando um pequeno vídeo.
+1. Contexto (Problema, Público-alvo);
+2. Requisitos;
+3. Solução Implementada (funcionalidades de software);
+4. Conclusão do processo da elaboração do projeto (pontos positivos, desafios, aprendizado).
 
-Faça o upload do arquivo de vídeo e dos slides usados na apresentação no formato PDF (caso tenha feito uso de slides).
+- E um breve video demonstrando a aplicação em funcionamento
