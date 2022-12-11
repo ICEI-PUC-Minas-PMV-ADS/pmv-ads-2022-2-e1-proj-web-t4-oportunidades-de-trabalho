@@ -23,7 +23,7 @@ O presente trabalho consiste na criação de uma ferramenta web de divulgação 
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Faça um clone do repositorio na branch "main" e inicie seu localserver na pasta root ou src
 
 # Documentação
 
