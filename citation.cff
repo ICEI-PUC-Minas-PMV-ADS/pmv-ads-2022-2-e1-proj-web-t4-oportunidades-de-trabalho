@@ -1,0 +1,22 @@
+message: Please cite this software using these metadata.
+title: Raccoon Jobs
+authors:
+
+  - family-names: Lomeu Junior
+    given-names: Elpidio
+  - family-names: Matsumoto Fernandes
+    given-names: Shinji
+  - family-names: Emmanuel Ferreira do Vale
+    given-names: Pietro
+  - name-suffix: Professora
+    affiliation: PUC Minas
+    family-names: Maria Silveira
+    given-names: Sandra
+keywords:
+  - Jobs
+  - Freelancer
+  - Portal
+
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t4-oportunidades-de-trabalho
+version: 1.0.0
+date-released: 2022-12-11
